@@ -3612,7 +3612,7 @@ $(function () {
 		if (!deputy.name) {
 			return;
 		}
-		var fbHtml = deputy.facebook ? '<a href="' + deputy.facebook + '" target="_blank"><img src="facebook.png"></a>' : '';
+		var fbHtml = deputy.facebook ? '<a href="' + deputy.facebook + '" target="_blank"><img src="img/facebook.png"></a>' : '';
 		$table.append(
 			'<tr>' + 
 				'<td style="width: 30px;">' + fbHtml + '</td>' +
