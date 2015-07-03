@@ -242,7 +242,7 @@
 	},
 	{
 		name: 'Мусій О.С.',
-		facebook: '',
+		facebook: 'https://www.facebook.com/oleh.musij',
 		tags: [
 			{
 				name: 'популист',
@@ -326,7 +326,7 @@
 	},
 	{
 		name: 'Співаковський О.В.',
-		facebook: '',
+		facebook: 'https://www.facebook.com/spivakovsky.alexander',
 		tags: [
 			{
 				name: 'популист',
@@ -362,7 +362,7 @@
 	},
 	{
 		name: 'Фірсов Є.П.',
-		facebook: '',
+		facebook: 'https://www.facebook.com/egor.firsov',
 		tags: [
 			{
 				name: 'популист',
@@ -590,7 +590,7 @@
 	},
 	{
 		name: 'Курячий М.П.',
-		facebook: '',
+		facebook: 'https://www.facebook.com/kuryachiy',
 		tags: [
 			{
 				name: 'популист',
@@ -686,7 +686,7 @@
 	},
 	{
 		name: 'Павелко А.В.',
-		facebook: '',
+		facebook: 'https://www.facebook.com/andriy.pavelko',
 		tags: [
 			{
 				name: 'популист',
@@ -782,7 +782,7 @@
 	},
 	{
 		name: 'Томенко М.В.',
-		facebook: '',
+		facebook: 'https://www.facebook.com/m.tomenko',
 		tags: [
 			{
 				name: 'популист',
@@ -1202,7 +1202,7 @@
 	},
 	{
 		name: 'Береза Ю.М.',
-		facebook: '',
+		facebook: 'https://www.facebook.com/yra.bereza',
 		tags: [
 			{
 				name: 'популист',
@@ -1238,7 +1238,7 @@
 	},
 	{
 		name: 'Геращенко А.Ю.',
-		facebook: '',
+		facebook: 'https://www.facebook.com/anton.gerashchenko.7',
 		tags: [
 			{
 				name: 'популист',
@@ -1310,7 +1310,7 @@
 	},
 	{
 		name: 'Княжицький М.Л.',
-		facebook: '',
+		facebook: 'https://www.facebook.com/mykolakn',
 		tags: [
 			{
 				name: 'популист',
@@ -1478,7 +1478,7 @@
 	},
 	{
 		name: 'Королевська Н.Ю.',
-		facebook: '',
+		facebook: 'https://www.facebook.com/Nataliya.Korolevska',
 		tags: [
 			{
 				name: 'популист',
@@ -1502,7 +1502,7 @@
 	},
 	{
 		name: 'Павленко Ю.О.',
-		facebook: '',
+		facebook: 'https://www.facebook.com/Yurij.Pavlenko',
 		tags: [
 			{
 				name: 'популист',
@@ -1574,7 +1574,7 @@
 	},
 	{
 		name: 'Вілкул О.Ю.',
-		facebook: '',
+		facebook: 'https://www.facebook.com/OleksandrVilkul',
 		tags: [
 			{
 				name: 'популист',
@@ -1622,7 +1622,7 @@
 	},
 	{
 		name: 'Мірошниченко Ю.Р.',
-		facebook: '',
+		facebook: 'https://www.facebook.com/umirosnicenko',
 		tags: [
 			{
 				name: 'популист',
@@ -1706,7 +1706,7 @@
 	},
 	{
 		name: 'Безбах Я.Я.',
-		facebook: '',
+		facebook: 'https://www.facebook.com/profile.php?id=100007266183649',
 		tags: [
 			{
 				name: 'популист',
@@ -1718,7 +1718,7 @@
 	},
 	{
 		name: 'Гройсман В.Б.',
-		facebook: '',
+		facebook: 'https://www.facebook.com/volodymyrgroysman',
 		tags: [
 			{
 				name: 'популист',
@@ -1778,7 +1778,7 @@
 	},
 	{
 		name: 'Парубій А.В.',
-		facebook: '',
+		facebook: 'https://www.facebook.com/andriy.parubiy',
 		tags: [
 			{
 				name: 'популист',
@@ -1814,7 +1814,7 @@
 	},
 	{
 		name: 'Береза Б.Ю.',
-		facebook: '',
+		facebook: 'https://www.facebook.com/borislav.bereza',
 		tags: [
 			{
 				name: 'популист',
@@ -1898,7 +1898,7 @@
 	},
 	{
 		name: 'Парасюк В.З.',
-		facebook: '',
+		facebook: 'https://www.facebook.com/v.parasyuk',
 		tags: [
 			{
 				name: 'популист',
@@ -1982,7 +1982,7 @@
 	},
 	{
 		name: 'Березюк О.Р.',
-		facebook: '',
+		facebook: 'https://www.facebook.com/oleg.bereziuk.77',
 		tags: [
 			{
 				name: 'популист',
@@ -2126,7 +2126,7 @@
 	},
 	{
 		name: 'Хомутиннік В.Ю.',
-		facebook: '',
+		facebook: 'https://www.facebook.com/profile.php?id=100009097881046',
 		tags: [
 			{
 				name: 'популист',
@@ -2306,7 +2306,7 @@
 	},
 	{
 		name: 'Ляшко О.В.',
-		facebook: '',
+		facebook: 'https://www.facebook.com/O.Liashko',
 		tags: [
 			{
 				name: 'популист',
@@ -2414,7 +2414,7 @@
 	},
 	{
 		name: 'Мосійчук І.В.',
-		facebook: '',
+		facebook: 'https://www.facebook.com/igor.mosijcuk',
 		tags: [
 			{
 				name: 'популист',
@@ -2474,7 +2474,7 @@
 	},
 	{
 		name: 'Литвин В.М.',
-		facebook: '',
+		facebook: 'https://www.facebook.com/vm.lytvyn',
 		tags: [
 			{
 				name: 'популист',
@@ -2558,7 +2558,7 @@
 	},
 	{
 		name: 'Поплавський М.М.',
-		facebook: '',
+		facebook: 'https://www.facebook.com/MMPoplavskiy',
 		tags: [
 			{
 				name: 'популист',
@@ -2630,7 +2630,7 @@
 	},
 	{
 		name: 'Кужель О.В.',
-		facebook: '',
+		facebook: 'https://www.facebook.com/abkuzhel',
 		tags: [
 			{
 				name: 'популист',
@@ -2642,7 +2642,7 @@
 	},
 	{
 		name: 'Немиря Г.М.',
-		facebook: '',
+		facebook: 'https://www.facebook.com/profile.php?id=100004412837426',
 		tags: [
 			{
 				name: 'популист',
@@ -2714,7 +2714,7 @@
 	},
 	{
 		name: 'Луценко І.В.',
-		facebook: '',
+		facebook: 'https://www.facebook.com/igor.lutsenko',
 		tags: [
 			{
 				name: 'популист',
@@ -2726,7 +2726,7 @@
 	},
 	{
 		name: 'Тимошенко Ю.В.',
-		facebook: '',
+		facebook: 'https://www.facebook.com/YuliaTymoshenko',
 		tags: [
 			{
 				name: 'популист',
@@ -3618,7 +3618,7 @@ $(function () {
 				'<td style="width: 30px;">' + fbHtml + '</td>' +
 				'<td style="width: 400px;">' + deputy.name + '</td>' +
 				'<td>' +
-					'<a href="' + deputy.tags[0].lawUrl + '" target="_blank">' +
+					'<a href="' + deputy.tags[0].lawUrl + '" target="_blank" style="display: block; margin-top: 5px;">' +
 						'<span class="label label-warning" data-toggle="tooltip" data-placement="left" title="' + deputy.tags[0].lawName + '">' + 
 							deputy.tags[0].name + 
 						'</span>' + 
@@ -3626,7 +3626,6 @@ $(function () {
 				'</td>' + 
 			'</tr>'
 		)
-		console.log(deputy);
 	});
 
 	// Bind tooltips
