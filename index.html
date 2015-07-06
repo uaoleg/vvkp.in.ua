@@ -1,26 +1,28 @@
-﻿<html>
+﻿<html ng-app="vvkpApp">
 	<head>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="/stylesheets/style.css">
 		<script defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
-		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.1/angular.min.js"></script>
+
 		<title>Универсальный предвыборный каталог депутатов</title>
 	</head>
-	<body>
+	<body ng-controller="DeputiesListCtrl">
 		<div style="text-align: right;">
 			<a class="github-button" href="https://github.com/uaoleg/vvkp.in.ua" data-style="mega" data-count-href="/uaoleg/vvkp.in.ua/stargazers" data-count-api="/repos/uaoleg/vvkp.in.ua#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star uaoleg/vvkp.in.ua on GitHub">Star</a>
 		</div>
 		<h1 style="text-align: center;">Универсальный предвыборный каталог депутатов</h1>
-		<br>
-		<table class="table table-striped js-deputies-table"></table>
-		<br>
+		<input type="text" type="text" ng-model="filterVal" class="filter" placeholder="Знайдiть свого героя"/>
+		<deputies-list class="dept-list"></deputies-list>
 		<hr>
 		<br>
 		<h3 style="background-image: url(img/logo.png); line-height: 60px; margin: 0; text-align: center;">
 			<a href="https://www.youtube.com/watch?v=1CLBANCVHTw" target="_blank" style="color: white; font-size: 42px; text-shadow: 2px 2px 4px black;">VVKP :-)</a>
 		</h3>
-		<script src="data.js"></script>		
+		<script src="javascript/app.js"></script>
+		<script src="javascript/directives.js"></script>
+		<script src="javascript/controllers.js"></script>
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

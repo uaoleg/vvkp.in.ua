@@ -1,0 +1,171 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'http-server', '-g' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.39
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'http-server', null ]
+6 verbose cache add name=undefined spec="http-server" args=["http-server",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'http-server',
+7 verbose parsed url   path: 'http-server',
+7 verbose parsed url   href: 'http-server' }
+8 silly lockFile ed608307-http-server http-server
+9 verbose lock http-server /home/puy/.npm/ed608307-http-server.lock
+10 silly lockFile ed608307-http-server http-server
+11 silly lockFile ed608307-http-server http-server
+12 verbose addNamed [ 'http-server', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 550353c6-http-server http-server@
+15 verbose lock http-server@ /home/puy/.npm/550353c6-http-server.lock
+16 silly addNameRange { name: 'http-server', range: '*', hasData: false }
+17 verbose request where is /http-server
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id f658a1ca58cc74db
+20 verbose url raw /http-server
+21 verbose url resolving [ 'https://registry.npmjs.org/', './http-server' ]
+22 verbose url resolved https://registry.npmjs.org/http-server
+23 verbose request where is https://registry.npmjs.org/http-server
+24 info trying registry request attempt 1 at 15:45:35
+25 http GET https://registry.npmjs.org/http-server
+26 http 200 https://registry.npmjs.org/http-server
+27 silly registry.get cb [ 200,
+27 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     etag: '"A2DL1FVD0MHCC216O10MEENQ8"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     'content-length': '44975',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     date: 'Mon, 06 Jul 2015 12:45:35 GMT',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '48',
+27 silly registry.get     connection: 'keep-alive',
+27 silly registry.get     'x-served-by': 'cache-lhr6327-LHR',
+27 silly registry.get     'x-cache': 'HIT',
+27 silly registry.get     'x-cache-hits': '1',
+27 silly registry.get     'x-timer': 'S1436186735.552322,VS0,VE1',
+27 silly registry.get     vary: 'Accept' } ]
+28 silly addNameRange number 2 { name: 'http-server', range: '*', hasData: true }
+29 silly addNameRange versions [ 'http-server',
+29 silly addNameRange   [ '0.1.0',
+29 silly addNameRange     '0.1.1',
+29 silly addNameRange     '0.1.3',
+29 silly addNameRange     '0.2.1',
+29 silly addNameRange     '0.2.2',
+29 silly addNameRange     '0.2.3',
+29 silly addNameRange     '0.2.4',
+29 silly addNameRange     '0.2.5',
+29 silly addNameRange     '0.2.6',
+29 silly addNameRange     '0.2.9',
+29 silly addNameRange     '0.3.0',
+29 silly addNameRange     '0.4.0',
+29 silly addNameRange     '0.4.1',
+29 silly addNameRange     '0.5.0',
+29 silly addNameRange     '0.5.1',
+29 silly addNameRange     '0.5.2',
+29 silly addNameRange     '0.5.3',
+29 silly addNameRange     '0.5.5',
+29 silly addNameRange     '0.6.0',
+29 silly addNameRange     '0.6.1',
+29 silly addNameRange     '0.7.0',
+29 silly addNameRange     '0.7.1',
+29 silly addNameRange     '0.7.2',
+29 silly addNameRange     '0.7.3',
+29 silly addNameRange     '0.7.4',
+29 silly addNameRange     '0.7.5',
+29 silly addNameRange     '0.8.0' ] ]
+30 verbose addNamed [ 'http-server', '0.8.0' ]
+31 verbose addNamed [ '0.8.0', '0.8.0' ]
+32 silly lockFile d5e3e4a2-http-server-0-8-0 http-server@0.8.0
+33 verbose lock http-server@0.8.0 /home/puy/.npm/d5e3e4a2-http-server-0-8-0.lock
+34 silly lockFile d5e3e4a2-http-server-0-8-0 http-server@0.8.0
+35 silly lockFile d5e3e4a2-http-server-0-8-0 http-server@0.8.0
+36 silly lockFile 550353c6-http-server http-server@
+37 silly lockFile 550353c6-http-server http-server@
+38 silly resolved [ { name: 'http-server',
+38 silly resolved     version: '0.8.0',
+38 silly resolved     description: 'A simple zero-configuration command-line http server',
+38 silly resolved     main: './lib/http-server',
+38 silly resolved     repository:
+38 silly resolved      { type: 'git',
+38 silly resolved        url: 'git://github.com/indexzero/http-server.git' },
+38 silly resolved     keywords: [ 'cli', 'command' ],
+38 silly resolved     scripts:
+38 silly resolved      { start: 'node ./bin/http-server',
+38 silly resolved        pretest: 'stylezero bin/ lib/ test',
+38 silly resolved        test: 'vows --spec --isolate' },
+38 silly resolved     contributors:
+38 silly resolved      [ [Object],
+38 silly resolved        [Object],
+38 silly resolved        [Object],
+38 silly resolved        [Object],
+38 silly resolved        [Object],
+38 silly resolved        [Object],
+38 silly resolved        [Object],
+38 silly resolved        [Object],
+38 silly resolved        [Object],
+38 silly resolved        [Object] ],
+38 silly resolved     dependencies:
+38 silly resolved      { colors: '1.0.3',
+38 silly resolved        optimist: '0.6.x',
+38 silly resolved        union: '~0.4.3',
+38 silly resolved        ecstatic: '~0.7.0',
+38 silly resolved        'http-proxy': '^1.8.1',
+38 silly resolved        portfinder: '0.4.x',
+38 silly resolved        opener: '~1.4.0',
+38 silly resolved        corser: '~2.0.0' },
+38 silly resolved     devDependencies: { vows: '0.7.x', request: '2.49.x', stylezero: '2.2.0' },
+38 silly resolved     bugs: { url: 'https://github.com/nodeapps/http-server/issues' },
+38 silly resolved     licenses: [ [Object] ],
+38 silly resolved     preferGlobal: 'true',
+38 silly resolved     bin: { 'http-server': './bin/http-server', hs: './bin/http-server' },
+38 silly resolved     readme: '# http-server: a command-line http server\n\n`http-server` is a simple, zero-configuration command-line http server.  It is powerful enough for production usage, but it\'s simple and hackable enough to be used for testing, local development, and learning.\n\n![](https://github.com/nodeapps/http-server/raw/master/screenshots/public.png)\n\n# Installing globally:\n\nInstallation via `npm`.  If you don\'t have `npm` yet:\n\n     curl https://npmjs.org/install.sh | sh\n\nOnce you have `npm`:\n\n     npm install http-server -g\n\nThis will install `http-server` globally so that it may be run from the command line.\n\n## Usage:\n\n     http-server [path] [options]\n\n`[path]` defaults to `./public` if the folder exists, and `./` otherwise.\n\n# Installing as a node app\n\n     mkdir myapp\n     cd myapp/\n     jitsu install http-server\n\n*If you do not have `jitsu` installed you can install it via `npm install jitsu -g`*\n\n## Usage\n\n### Starting http-server locally\n\n     node bin/http-server\n\n*Now you can visit http://localhost:8080 to view your server*\n\n### Deploy http-server to nodejitsu\n\n     jitsu deploy\n\n*You will now be prompted for a `subdomain` to deploy your application on*\n\n## Available Options:\n\n`-p` Port to use (defaults to 8080)\n\n`-a` Address to use (defaults to 0.0.0.0)\n\n`-d` Show directory listings (defaults to \'True\')\n\n`-i` Display autoIndex (defaults to \'True\')\n\n`-e` or `--ext` Default file extension if none supplied (defaults to \'html\')\n\n`-s` or `--silent` Suppress log messages from output\n\n`--cors` Enable CORS via the `Access-Control-Allow-Origin` header\n\n`-o` Open browser window after staring the server\n\n`-c` Set cache time (in seconds) for cache-control max-age header, e.g. -c10 for 10 seconds (defaults to \'3600\'). To disable caching, use -c-1.\n\n`-P` or `--proxy` Proxies all requests which can\'t be resolved locally to the given url. e.g.: -P http://someurl.com\n\n`-S` or `--ssl` Enable https.\n\n`-C` or `--cert` Path to ssl cert file (default: cert.pem).\n\n`-K` or `--key` Path to ssl key file (default: key.pem).\n\n`-r` or `--robots` Provide a /robots.txt (whose content defaults to \'User-agent: *\\nDisallow: /\')\n\n`-h` or `--help` Print this list and exit.\n',
+38 silly resolved     readmeFilename: 'README.md',
+38 silly resolved     homepage: 'https://github.com/indexzero/http-server',
+38 silly resolved     _id: 'http-server@0.8.0',
+38 silly resolved     _from: 'http-server@' } ]
+39 info install http-server@0.8.0 into /usr/lib
+40 info installOne http-server@0.8.0
+41 verbose lib/node_modules/http-server unbuild
+42 verbose tar unpack /home/puy/.npm/http-server/0.8.0/package.tgz
+43 silly lockFile c4aa20d2-usr-lib-node-modules-http-server tar:///usr/lib/node_modules/http-server
+44 verbose lock tar:///usr/lib/node_modules/http-server /home/puy/.npm/c4aa20d2-usr-lib-node-modules-http-server.lock
+45 silly lockFile 5751c0b0-pm-http-server-0-8-0-package-tgz tar:///home/puy/.npm/http-server/0.8.0/package.tgz
+46 verbose lock tar:///home/puy/.npm/http-server/0.8.0/package.tgz /home/puy/.npm/5751c0b0-pm-http-server-0-8-0-package-tgz.lock
+47 silly gunzTarPerm modes [ '775', '664' ]
+48 error Error: EACCES, mkdir '/usr/lib/node_modules/http-server'
+48 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/http-server']
+48 error   errno: 3,
+48 error   code: 'EACCES',
+48 error   path: '/usr/lib/node_modules/http-server',
+48 error   fstream_type: 'Directory',
+48 error   fstream_path: '/usr/lib/node_modules/http-server',
+48 error   fstream_class: 'DirWriter',
+48 error   fstream_stack:
+48 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+48 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+48 error      'Object.oncomplete (fs.js:108:15)' ] }
+49 error Please try running this command again as root/Administrator.
+50 error System Linux 3.13.0-55-generic
+51 error command "/usr/bin/node" "/usr/bin/npm" "install" "http-server" "-g"
+52 error cwd /home/puy/Documents/vvkp.in.ua
+53 error node -v v0.10.39
+54 error npm -v 1.4.28
+55 error path /usr/lib/node_modules/http-server
+56 error fstream_path /usr/lib/node_modules/http-server
+57 error fstream_type Directory
+58 error fstream_class DirWriter
+59 error code EACCES
+60 error errno 3
+61 error stack Error: EACCES, mkdir '/usr/lib/node_modules/http-server'
+62 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+62 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+62 error fstream_stack Object.oncomplete (fs.js:108:15)
+63 verbose exit [ 3, true ]
