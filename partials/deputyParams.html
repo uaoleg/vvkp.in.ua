@@ -1,0 +1,11 @@
+<div class="deputy-param" ng-repeat="dept in deputies | orderBy: 'name' | filter: filterVal">
+    <div class="facebook-icon-container">
+        <a href="{{::dept.facebook}}"
+           class="fb-link"
+           ng-if="dept.facebook.length"
+           target="_blank"><img src="img/facebook.png" alt="Facebook icon"/></a>
+    </div>
+    <div class="name">{{::dept.name}}</div>
+    <a href="{{::dept.tags[0].lawUrl}}" target="_blank" class="tag">{{::dept.tags[0].name}}</a>
+    <div class="party">{{::dept.party}}</div>
+</div>
