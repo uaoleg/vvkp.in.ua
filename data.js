@@ -72,8 +72,8 @@
 	},
 	{
 		name: 'Антонищак Андрій Федорович',
-		url: '',
-		picture: '',
+		url: 'http://itd.rada.gov.ua/mps/info/page/17983',
+		picture: 'http://static.rada.gov.ua/dep_img8/bp39.jpg',
 		facebook: 'https://www.facebook.com/profile.php?id=100007288305290',
 		tags: [
 			{
