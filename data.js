@@ -7,7 +7,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -28,7 +28,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100009322140452',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -49,7 +49,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -63,7 +63,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -77,7 +77,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100007288305290',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -91,7 +91,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100009067737697',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -126,7 +126,7 @@
 		facebook: 'https://www.facebook.com/vladatroshenko',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -140,7 +140,7 @@
 		facebook: 'https://www.facebook.com/alyona.babak',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -154,7 +154,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -168,7 +168,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -189,7 +189,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100008866600855',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -210,7 +210,7 @@
 		facebook: 'https://www.facebook.com/ViktorBaloga',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -238,7 +238,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -252,7 +252,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -266,7 +266,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100004441810055',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -280,7 +280,7 @@
 		facebook: 'https://www.facebook.com/t.batenko',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -301,7 +301,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100007266183649',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -315,7 +315,7 @@
 		facebook: 'https://www.facebook.com/borislav.bereza',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -329,7 +329,7 @@
 		facebook: 'https://www.facebook.com/yra.bereza',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -343,7 +343,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -357,7 +357,7 @@
 		facebook: 'https://www.facebook.com/oleg.bereziuk.77',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -385,7 +385,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -399,7 +399,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -413,7 +413,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100004831083336',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -455,7 +455,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -469,7 +469,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100006099828041',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -490,7 +490,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100009140976073',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -504,7 +504,7 @@
 		facebook: 'https://www.facebook.com/bublyk.svoboda',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -546,7 +546,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -560,7 +560,7 @@
 		facebook: 'https://www.facebook.com/vivmail',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -595,7 +595,7 @@
 		facebook: 'https://www.facebook.com/OleksandrVilkul',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -616,7 +616,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100008907132210',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -630,7 +630,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100001667276617',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -644,7 +644,7 @@
 		facebook: 'https://www.facebook.com/Dr.vovk',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -658,7 +658,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100002187041715',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -693,7 +693,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100008264370063',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -707,7 +707,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -721,7 +721,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -735,7 +735,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -763,7 +763,7 @@
 		facebook: 'https://www.facebook.com/anton.gerashchenko.7',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -805,7 +805,7 @@
 		facebook: 'https://www.facebook.com/mihaylo.holovko',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -819,7 +819,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100003798267049',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -854,7 +854,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100000968968654',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -868,7 +868,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100004995437158',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -882,7 +882,7 @@
 		facebook: 'https://www.facebook.com/andriy.gordeev',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -903,7 +903,7 @@
 		facebook: 'https://www.facebook.com/liliya.grynevych',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -924,7 +924,7 @@
 		facebook: 'https://www.facebook.com/volodymyrgroysman',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -938,7 +938,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100004086552851',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -952,7 +952,7 @@
 		facebook: 'https://www.facebook.com/igor.guz',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -966,7 +966,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -994,7 +994,7 @@
 		facebook: 'https://www.facebook.com/danchenko.oleksandr',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1008,7 +1008,7 @@
 		facebook: 'https://www.facebook.com/evgeniy.deidei',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1043,7 +1043,7 @@
 		facebook: 'https://www.facebook.com/vadym.denysenko.1',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1064,7 +1064,7 @@
 		facebook: 'https://www.facebook.com/derevyanko.yurii',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1078,7 +1078,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1106,7 +1106,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1120,7 +1120,7 @@
 		facebook: 'https://www.facebook.com/dzyublik',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1148,7 +1148,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1162,7 +1162,7 @@
 		facebook: 'https://www.facebook.com/shtabdmitrenko',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1190,7 +1190,7 @@
 		facebook: 'https://www.facebook.com/dmytro.dobrodomov',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1211,7 +1211,7 @@
 		facebook: 'https://www.facebook.com/oles.dovhiy',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1225,7 +1225,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1239,7 +1239,7 @@
 		facebook: 'https://www.facebook.com/DombrovskijOleksandr',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1253,7 +1253,7 @@
 		facebook: 'https://www.facebook.com/TetianaDonets',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1267,7 +1267,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100003400835731',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1288,7 +1288,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1309,7 +1309,7 @@
 		facebook: 'https://www.facebook.com/Dubnevych.Bogdan',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1323,7 +1323,7 @@
 		facebook: 'https://www.facebook.com/Dubnevych',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1372,7 +1372,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100002263895563',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1393,7 +1393,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1407,7 +1407,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1428,7 +1428,7 @@
 		facebook: 'https://www.facebook.com/aleksandr.zholobetskyy',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1470,7 +1470,7 @@
 		facebook: 'https://www.facebook.com/RomanZastavnyj',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1498,7 +1498,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100005282119011',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1533,7 +1533,7 @@
 		facebook: 'https://www.facebook.com/andriy.illenko',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1547,7 +1547,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1561,7 +1561,7 @@
 		facebook: 'https://www.facebook.com/mariya.ionova.9',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1582,7 +1582,7 @@
 		facebook: 'ttps://www.facebook.com/ishejkin',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1596,7 +1596,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1610,7 +1610,7 @@
 		facebook: 'https://www.facebook.com/m.kadykalo',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1624,7 +1624,7 @@
 		facebook: 'https://www.facebook.com/kaplins',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1645,7 +1645,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1659,7 +1659,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1673,7 +1673,7 @@
 		facebook: 'https://www.facebook.com/oleksij.kirichenko',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1722,7 +1722,7 @@
 		facebook: 'https://www.facebook.com/antonkisse',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1736,7 +1736,7 @@
 		facebook: 'https://www.facebook.com/kit.andriy.bogdanovych',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1771,7 +1771,7 @@
 		facebook: 'https://www.facebook.com/mykolakn',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1785,7 +1785,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1806,7 +1806,7 @@
 		facebook: 'https://www.facebook.com/oleksandr.mihalich',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1820,7 +1820,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1841,7 +1841,7 @@
 		facebook: 'https://www.facebook.com/leonidkozachenko',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1869,7 +1869,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1883,7 +1883,7 @@
 		facebook: 'https://www.facebook.com/olena.kondratiuk',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1918,7 +1918,7 @@
 		facebook: 'https://www.facebook.com/Nataliya.Korolevska',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1939,7 +1939,7 @@
 		facebook: 'https://www.facebook.com/vitaliy.korchik',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1953,7 +1953,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1967,7 +1967,7 @@
 		facebook: 'https://www.facebook.com/ic.kostenko',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -1981,7 +1981,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100007311643153',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2002,7 +2002,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2030,7 +2030,7 @@
 		facebook: 'https://www.facebook.com/vadim.krivohatko',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2044,7 +2044,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100008291649615',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2065,7 +2065,7 @@
 		facebook: 'https://www.facebook.com/ikrulko',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2079,7 +2079,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2100,7 +2100,7 @@
 		facebook: 'https://www.facebook.com/pages/Сергій-Кудлаєнко/875895792469983',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2114,7 +2114,7 @@
 		facebook: 'https://www.facebook.com/abkuzhel',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2128,7 +2128,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2163,7 +2163,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100001099433721',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2191,7 +2191,7 @@
 		facebook: 'https://www.facebook.com/kuryachiy',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2205,7 +2205,7 @@
 		facebook: 'https://www.facebook.com/t.kutovyi',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2226,7 +2226,7 @@
 		facebook: 'https://www.facebook.com/SergiyLobazyuk',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2261,7 +2261,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100007665035539',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2289,7 +2289,7 @@
 		facebook: 'https://www.facebook.com/Y.V.Levchenko',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2303,7 +2303,7 @@
 		facebook: 'https://www.facebook.com/elena.ledovskykh',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2317,7 +2317,7 @@
 		facebook: 'https://www.facebook.com/aleksey.lenskyy',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2331,7 +2331,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2352,7 +2352,7 @@
 		facebook: 'https://www.facebook.com/vm.lytvyn',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2366,7 +2366,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2380,7 +2380,7 @@
 		facebook: 'https://www.facebook.com/dmytro.linko',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2394,7 +2394,7 @@
 		facebook: 'https://www.facebook.com/georgiylogvinskiy',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2408,7 +2408,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2429,7 +2429,7 @@
 		facebook: 'https://www.facebook.com/dmytro.lubinets',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2443,7 +2443,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2457,7 +2457,7 @@
 		facebook: 'https://www.facebook.com/valeriy.lunchenko',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2471,7 +2471,7 @@
 		facebook: 'https://www.facebook.com/igor.lutsenko',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2513,7 +2513,7 @@
 		facebook: 'https://www.facebook.com/lyushniak.mykola',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2527,7 +2527,7 @@
 		facebook: 'https://www.facebook.com/O.Liashko',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2541,7 +2541,7 @@
 		facebook: 'https://www.facebook.com/rezina.diski',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2583,7 +2583,7 @@
 		facebook: 'https://www.facebook.com/S.V.Martyniak',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2597,7 +2597,7 @@
 		facebook: 'https://www.facebook.com/avmartovitskiy',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2611,7 +2611,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100006182508637',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2639,7 +2639,7 @@
 		facebook: 'https://www.facebook.com/sergey.matvienkov',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2674,7 +2674,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100008424758160',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2695,7 +2695,7 @@
 		facebook: 'https://www.facebook.com/roman.matsola',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2709,7 +2709,7 @@
 		facebook: 'https://www.facebook.com/oleg.medunitsya',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2723,7 +2723,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2737,7 +2737,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100005732172873',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2779,7 +2779,7 @@
 		facebook: 'https://www.facebook.com/umirosnicenko',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2793,7 +2793,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2814,7 +2814,7 @@
 		facebook: 'https://www.facebook.com/igor.molotok',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2835,7 +2835,7 @@
 		facebook: 'https://www.facebook.com/igor.mosijcuk',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2849,7 +2849,7 @@
 		facebook: 'https://www.facebook.com/yarmoskalenko',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2870,7 +2870,7 @@
 		facebook: 'https://www.facebook.com/oleh.musij',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2919,7 +2919,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100001261912525',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2933,7 +2933,7 @@
 		facebook: 'https://www.facebook.com/nemi.and',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2947,7 +2947,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100004412837426',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2982,7 +2982,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -2996,7 +2996,7 @@
 		facebook: 'https://www.facebook.com/novak.udar',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3017,7 +3017,7 @@
 		facebook: 'https://www.facebook.com/Z.Ognevich',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3066,7 +3066,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100001653971970',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3080,7 +3080,7 @@
 		facebook: 'https://www.facebook.com/osuhovskyi',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3094,7 +3094,7 @@
 		facebook: 'https://www.facebook.com/andriy.pavelko',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3108,7 +3108,7 @@
 		facebook: 'https://www.facebook.com/Yurij.Pavlenko',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3122,7 +3122,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3143,7 +3143,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3157,7 +3157,7 @@
 		facebook: 'https://www.facebook.com/Mykhailo.Papiyev',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3171,7 +3171,7 @@
 		facebook: 'https://www.facebook.com/v.parasyuk',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3185,7 +3185,7 @@
 		facebook: 'https://www.facebook.com/andriy.parubiy',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3206,7 +3206,7 @@
 		facebook: 'https://www.facebook.com/V.Packan',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3227,7 +3227,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100005252237317',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3276,7 +3276,7 @@
 		facebook: 'https://www.facebook.com/pober.ihor',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3290,7 +3290,7 @@
 		facebook: 'https://www.facebook.com/iryna.podolyak.5',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3304,7 +3304,7 @@
 		facebook: 'https://www.facebook.com/polyakovma',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3332,7 +3332,7 @@
 		facebook: 'https://www.facebook.com/MMPoplavskiy',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3346,7 +3346,7 @@
 		facebook: 'https://www.facebook.com/igor.popov.5283',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3367,7 +3367,7 @@
 		facebook: 'https://www.facebook.com/aleksandr.presman',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3381,7 +3381,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3416,7 +3416,7 @@
 		facebook: 'https://www.facebook.com/pages/Развадовский-Виктор/580332582102859',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3430,7 +3430,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100005670881659',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3444,7 +3444,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3458,7 +3458,7 @@
 		facebook: 'https://www.facebook.com/ivan.rybak.94',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3472,7 +3472,7 @@
 		facebook: 'https://www.facebook.com/s.v.rybalka',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3486,7 +3486,7 @@
 		facebook: 'https://www.facebook.com/ribchinski',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3507,7 +3507,7 @@
 		facebook: 'https://www.facebook.com/boryslav.rozenblat',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3521,7 +3521,7 @@
 		facebook: 'https://www.facebook.com/anna.romanova.58958',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3535,7 +3535,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3556,7 +3556,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3584,7 +3584,7 @@
 		facebook: 'https://www.facebook.com/petr.sabashuk',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3619,7 +3619,7 @@
 		facebook: 'https://www.facebook.com/sergey.sazhko.5',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3633,7 +3633,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3647,7 +3647,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100008142013904',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3682,7 +3682,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100003366903315',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3696,7 +3696,7 @@
 		facebook: 'https://www.facebook.com/silantievdenis',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3717,7 +3717,7 @@
 		facebook: 'https://www.facebook.com/irina.sysoenko',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3731,7 +3731,7 @@
 		facebook: 'https://www.facebook.com/SkorykNikolay',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3752,7 +3752,7 @@
 		facebook: 'https://www.facebook.com/serhii.skuratovskyi',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3780,7 +3780,7 @@
 		facebook: 'https://www.facebook.com/yuriy.solovey',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3794,7 +3794,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3808,7 +3808,7 @@
 		facebook: 'https://www.facebook.com/fgg.yyoykhg',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3836,7 +3836,7 @@
 		facebook: 'https://www.facebook.com/sochka.ol',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3850,7 +3850,7 @@
 		facebook: 'https://www.facebook.com/spivakovsky.alexander',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3871,7 +3871,7 @@
 		facebook: 'https://www.facebook.com/v.stashuk',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3885,7 +3885,7 @@
 		facebook: 'https://www.facebook.com/d.a.stetsenko',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3899,7 +3899,7 @@
 		facebook: 'https://www.facebook.com/dmytro.storozhuk.1',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3913,7 +3913,7 @@
 		facebook: 'https://www.facebook.com/o.suhoniako',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3927,7 +3927,7 @@
 		facebook: 'https://www.facebook.com/O.I.Suprunenko',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3941,7 +3941,7 @@
 		facebook: 'https://www.facebook.com/ir.suslova',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3962,7 +3962,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -3990,7 +3990,7 @@
 		facebook: 'https://www.facebook.com/YuliaTymoshenko',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -4004,7 +4004,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100006819228796',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -4025,7 +4025,7 @@
 		facebook: 'https://www.facebook.com/hrihoriy.timish',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -4046,7 +4046,7 @@
 		facebook: 'https://www.facebook.com/m.tomenko',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -4074,7 +4074,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -4088,7 +4088,7 @@
 		facebook: 'https://www.facebook.com/urbansky.alexandr',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -4102,7 +4102,7 @@
 		facebook: 'https://www.facebook.com/kostiantyn.usov',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -4116,7 +4116,7 @@
 		facebook: 'https://www.facebook.com/Faermark.Sergey',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -4130,7 +4130,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -4158,7 +4158,7 @@
 		facebook: 'https://www.facebook.com/egor.firsov',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -4186,7 +4186,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -4207,7 +4207,7 @@
 		facebook: 'https://www.facebook.com/m.khmil',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -4221,7 +4221,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100009097881046',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -4235,7 +4235,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100004331413559',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -4263,7 +4263,7 @@
 		facebook: 'https://www.facebook.com/profichok',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -4291,7 +4291,7 @@
 		facebook: 'https://www.facebook.com/dogrujol',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -4312,7 +4312,7 @@
 		facebook: 'https://www.facebook.com/shapovalov.y',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -4333,7 +4333,7 @@
 		facebook: 'https://www.facebook.com/shencev',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -4347,7 +4347,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -4361,7 +4361,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100008193793723',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -4375,7 +4375,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -4389,7 +4389,7 @@
 		facebook: '',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -4403,7 +4403,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=834764357',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -4417,7 +4417,7 @@
 		facebook: 'https://www.facebook.com/shpenov',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -4431,7 +4431,7 @@
 		facebook: 'https://www.facebook.com/igor.shurma',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -4452,7 +4452,7 @@
 		facebook: 'https://www.facebook.com/jurij.shukhevych',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -4473,7 +4473,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100000468266581',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -4487,7 +4487,7 @@
 		facebook: 'https://www.facebook.com/oksana.yurynets',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -4501,7 +4501,7 @@
 		facebook: 'https://www.facebook.com/pages/Юрчишин-Петро-Васильович/809477289111192',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -4515,7 +4515,7 @@
 		facebook: 'https://www.facebook.com/vasil.petrovich.yanitsky',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -4529,7 +4529,7 @@
 		facebook: 'https://www.facebook.com/yarinichkv',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
@@ -4550,7 +4550,7 @@
 		facebook: 'https://www.facebook.com/profile.php?id=100004074104054',
 		tags: [
 			{
-				name: 'популист',
+				name: 'популіст',
 				lawId: '1558-1',
 				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
 				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
