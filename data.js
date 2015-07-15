@@ -2926,40 +2926,11 @@
 			}
 		],
 	},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	{
-		name: 'Пацкан В.В.',
-		facebook: '',
+		name: 'Немировський Андрій Валентинович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/19058',
+		picture: 'http://static.rada.gov.ua/dep_img8/sp33.jpg',
+		facebook: 'https://www.facebook.com/nemi.and',
 		tags: [
 			{
 				name: 'популист',
@@ -2970,979 +2941,9 @@
 		],
 	},
 	{
-		name: 'Ревега О.В.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Рибчинський Є.Ю.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Розенблат Б.С.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Сабашук П.П.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Соловей Ю.І.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Співаковський О.В.',
-		facebook: 'https://www.facebook.com/spivakovsky.alexander',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Сугоняко О.Л.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Урбанський О.І.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Фірсов Є.П.',
-		facebook: 'https://www.facebook.com/egor.firsov',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Чекіта Г.Л.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Чубаров Р.А.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Юринець О.В.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Яніцький В.П.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Новак Н.В.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Павелко А.В.',
-		facebook: 'https://www.facebook.com/andriy.pavelko',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Палатний А.Л.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Петренко О.М.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Побер І.М.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Рибак І.П.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Романюк Р.С.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Сольвар Р.М.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Тіміш Г.І.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Томенко М.В.',
-		facebook: 'https://www.facebook.com/m.tomenko',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Усов К.Г.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Черненко О.М.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Шинькович А.В.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Юрик Т.З.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Юрчишин П.В.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Яриніч К.В.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Река А.О.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Сташук В.Ф.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Сторожук Д.А.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Фаєрмарк С.О.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Хміль М.М.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Шкварилюк В.В.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Поляков М.А.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Присяжнюк О.А.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Романовський О.В.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Сидорчук В.В.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Сочка О.О.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Стеценко Д.О.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Тимошенко Ю.В.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Унгурян П.Я.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Федорук М.Т.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Павленко Ю.О.',
-		facebook: 'https://www.facebook.com/Yurij.Pavlenko',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Папієв М.М.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Сажко С.М.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Солод Ю.В.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Шпенов Д.Ю.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Німченко В.І.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Павлов К.Ю.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Скорик М.Л.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Шенцев Д.О.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Шурма І.М.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Осуховський О.І.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Парубій А.В.',
-		facebook: 'https://www.facebook.com/andriy.parubiy',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Супруненко О.І.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Немировський А.В.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Парасюк В.З.',
-		facebook: 'https://www.facebook.com/v.parasyuk',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Суслова І.М.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Острікова Т.Г.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Семенуха Р.С.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Подоляк І.І.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Романова А.А.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Сисоєнко І.В.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Пресман О.С.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Хомутиннік В.Ю.',
-		facebook: 'https://www.facebook.com/profile.php?id=100009097881046',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Шкіря І.М.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Святаш Д.В.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Шипко А.Ф.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Яценко А.В.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Огнєвіч З.Л.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Рибалка С.В.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Скуратовський С.І.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Шухевич Ю.Р.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Попов І.В.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Силантьєв Д.О.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Развадовський В.Й.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Шаповалов Ю.А.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Поплавський М.М.',
-		facebook: 'https://www.facebook.com/MMPoplavskiy',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Фурсін І.Г.',
-		facebook: '',
-		tags: [
-			{
-				name: 'популист',
-				lawId: '1558-1',
-				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
-				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
-			}
-		],
-	},
-	{
-		name: 'Немиря Г.М.',
+		name: 'Немиря Григорій Михайлович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/8830',
+		picture: 'http://static.rada.gov.ua/dep_img8/but7.jpg',
 		facebook: 'https://www.facebook.com/profile.php?id=100004412837426',
 		tags: [
 			{
@@ -3954,7 +2955,30 @@
 		],
 	},
 	{
-		name: 'Тарасюк Б.І.',
+		name: 'Нестеренко Вадим Григорович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18123',
+		picture: 'http://static.rada.gov.ua/dep_img8/d38_1.jpg',
+		facebook: '',
+		tags: [],
+	},
+	{
+		name: 'Нечаєв Олександр Ігоревич',
+		url: 'http://itd.rada.gov.ua/mps/info/page/15725',
+		picture: 'http://static.rada.gov.ua/dep_img8/ob26.jpg',
+		facebook: '',
+		tags: [],
+	},
+	{
+		name: 'Ничипоренко Валентин Миколайович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/15830',
+		picture: 'http://static.rada.gov.ua/dep_img8/d199_1.jpg',
+		facebook: '',
+		tags: [],
+	},
+	{
+		name: 'Німченко Василь Іванович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18037',
+		picture: 'http://static.rada.gov.ua/dep_img8/ob25.jpg',
 		facebook: '',
 		tags: [
 			{
@@ -3966,7 +2990,135 @@
 		],
 	},
 	{
-		name: 'Шкрум А.І.',
+		name: 'Новак Наталія Василівна',
+		url: 'http://itd.rada.gov.ua/mps/info/page/13379',
+		picture: 'http://static.rada.gov.ua/dep_img8/bp16.jpg',
+		facebook: 'https://www.facebook.com/novak.udar',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Новинський Вадим Владиславович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/17108',
+		picture: 'http://static.rada.gov.ua/dep_img8/ob11.jpg',
+		facebook: '',
+		tags: [],
+	},
+	{
+		name: 'Огнєвіч Злата Леонідівна',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18040',
+		picture: 'http://static.rada.gov.ua/dep_img8/rp4.jpg',
+		facebook: 'https://www.facebook.com/Z.Ognevich',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Омельянович Денис Сергійович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/13562',
+		picture: 'http://static.rada.gov.ua/dep_img8/d49_1.jpg',
+		facebook: '',
+		tags: [],
+	},
+	{
+		name: 'Онищенко Олександр Романович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/15771',
+		picture: 'http://static.rada.gov.ua/dep_img8/d93_1.jpg',
+		facebook: 'https://www.facebook.com/aleksandr.onyshenko',
+		tags: [],
+	},
+	{
+		name: 'Онуфрик Богдан Семенович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/17982',
+		picture: 'http://static.rada.gov.ua/dep_img8/bp31.jpg',
+		facebook: 'https://www.facebook.com/profile.php?id=100002479181124',
+		tags: [],
+	},
+	{
+		name: 'Опанасенко Олександр Валерійович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18019',
+		picture: 'http://static.rada.gov.ua/dep_img8/sp20.jpg',
+		facebook: 'https://www.facebook.com/oleksandr.opanasenko',
+		tags: [],
+	},
+	{
+		name: 'Остапчук Віктор Миколайович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/15817',
+		picture: 'http://static.rada.gov.ua/dep_img8/d177_1.jpg',
+		facebook: '',
+		tags: [],
+	},
+	{
+		name: 'Острікова Тетяна Георгіївна',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18018',
+		picture: 'http://static.rada.gov.ua/dep_img8/sp19.jpg',
+		facebook: 'https://www.facebook.com/profile.php?id=100001653971970',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Осуховський Олег Іванович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/15806',
+		picture: 'http://static.rada.gov.ua/dep_img8/d152_1.jpg',
+		facebook: 'https://www.facebook.com/osuhovskyi',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Павелко Андрій Васильович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/15651',
+		picture: 'http://static.rada.gov.ua/dep_img8/bp33.jpg',
+		facebook: 'https://www.facebook.com/andriy.pavelko',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Павленко Юрій Олексійович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/5380',
+		picture: 'http://static.rada.gov.ua/dep_img8/ob24.jpg',
+		facebook: 'https://www.facebook.com/Yurij.Pavlenko',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Павлов Костянтин Юрійович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/15741',
+		picture: 'http://static.rada.gov.ua/dep_img8/d31_1.jpg',
 		facebook: '',
 		tags: [
 			{
@@ -3978,8 +3130,1424 @@
 		],
 	},
 	{
-		name: 'Тимошенко Ю.В.',
+		name: 'Паламарчук Микола Петрович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/15671',
+		picture: 'http://static.rada.gov.ua/dep_img8/bp36.jpg',
+		facebook: '',
+		tags: [],
+	},
+	{
+		name: 'Палатний Артур Леонідович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/15670',
+		picture: 'http://static.rada.gov.ua/dep_img8/bp24.jpg',
+		facebook: '',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Папієв Михайло Миколайович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/5464',
+		picture: 'http://static.rada.gov.ua/dep_img8/ob22.jpg',
+		facebook: 'https://www.facebook.com/Mykhailo.Papiyev',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Парасюк Володимир Зіновійович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18124',
+		picture: 'http://static.rada.gov.ua/dep_img8/d122_1.jpg',
+		facebook: 'https://www.facebook.com/v.parasyuk',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Парубій Андрій Володимирович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/11584',
+		picture: 'http://static.rada.gov.ua/dep_img8/nf4.jpg',
+		facebook: 'https://www.facebook.com/andriy.parubiy',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Пастух Тарас Тимофійович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18125',
+		picture: 'http://static.rada.gov.ua/dep_img8/d163_1.jpg',
+		facebook: 'https://www.facebook.com/taras.pastukh.35',
+		tags: [],
+	},
+	{
+		name: 'Пацкан Валерій Васильович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/15674',
+		picture: 'http://static.rada.gov.ua/dep_img8/bp38.jpg',
+		facebook: 'https://www.facebook.com/V.Packan',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Пашинський Сергій Володимирович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/8696',
+		picture: 'http://static.rada.gov.ua/dep_img8/nf12.jpg',
+		facebook: 'https://www.facebook.com/profile.php?id=100009285837723',
+		tags: [],
+	},
+	{
+		name: 'Петренко Олег Миколайович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18126',
+		picture: 'http://static.rada.gov.ua/dep_img8/d194_1.jpg',
+		facebook: 'https://www.facebook.com/profile.php?id=100005252237317',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Петьовка Василь Васильович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/11131',
+		picture: 'http://static.rada.gov.ua/dep_img8/d72_1.jpg',
+		facebook: '',
+		tags: [],
+	},
+	{
+		name: 'Пинзеник Віктор Михайлович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/862',
+		picture: 'http://static.rada.gov.ua/dep_img8/bp17.jpg',
+		facebook: '',
+		tags: [],
+	},
+	{
+		name: 'Пинзеник Павло Васильович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/8125',
+		picture: 'http://static.rada.gov.ua/dep_img8/nf49.jpg',
+		facebook: '',
+		tags: [],
+	},
+	{
+		name: 'Писаренко Валерій Володимирович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/8838',
+		picture: 'http://static.rada.gov.ua/dep_img8/d168_1.jpg',
+		facebook: 'https://www.facebook.com/vpysarenko',
+		tags: [],
+	},
+	{
+		name: 'Підлісецький Лев Теофілович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18025',
+		picture: 'http://static.rada.gov.ua/dep_img8/sp26.jpg',
+		facebook: 'https://www.facebook.com/pages/Лев-Підлісецький/160386883985403',
+		tags: [],
+	},
+	{
+		name: 'Побер Ігор Миколайович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/15680',
+		picture: 'http://static.rada.gov.ua/dep_img8/bp67.jpg',
+		facebook: 'https://www.facebook.com/pober.ihor',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Подоляк Ірина Ігорівна',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18127',
+		picture: 'http://static.rada.gov.ua/dep_img8/d116_1.jpg',
+		facebook: 'https://www.facebook.com/iryna.podolyak.5',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Поляков Максим Анатолійович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/17960',
+		picture: 'http://static.rada.gov.ua/dep_img8/nf39.jpg',
+		facebook: 'https://www.facebook.com/polyakovma',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Помазанов Андрій Віталійович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18164',
+		picture: 'http://static.rada.gov.ua/dep_img8/nf68.jpg',
+		facebook: '',
+		tags: [],
+	},
+	{
+		name: 'Пономарьов Олександр Сергійович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/15760',
+		picture: 'http://static.rada.gov.ua/dep_img8/d78_1.jpg',
+		facebook: '',
+		tags: [],
+	},
+	{
+		name: 'Поплавський Михайло Михайлович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/5422',
+		picture: 'http://static.rada.gov.ua/dep_img8/d101_1.jpg',
+		facebook: 'https://www.facebook.com/MMPoplavskiy',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Попов Ігор Володимирович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18042',
+		picture: 'http://static.rada.gov.ua/dep_img8/rp6.jpg',
+		facebook: 'https://www.facebook.com/igor.popov.5283',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Порошенко Олексій Петрович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18128',
+		picture: 'http://static.rada.gov.ua/dep_img8/d12_1.jpg',
+		facebook: 'https://www.facebook.com/oleksiy.poroshenko',
+		tags: [],
+	},
+	{
+		name: 'Пресман Олександр Семенович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/15800',
+		picture: 'http://static.rada.gov.ua/dep_img8/d139_1.jpg',
+		facebook: 'https://www.facebook.com/aleksandr.presman',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Присяжнюк Олександр Анатолійович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/11620',
+		picture: 'http://static.rada.gov.ua/dep_img8/nf53.jpg',
+		facebook: '',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Продан Оксана Петрівна',
+		url: 'http://itd.rada.gov.ua/mps/info/page/15667',
+		picture: 'http://static.rada.gov.ua/dep_img8/bp15.jpg',
+		facebook: 'https://www.facebook.com/oksana.prodan',
+		tags: [],
+	},
+	{
+		name: 'Пташник Вікторія Юріївна',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18022',
+		picture: 'http://static.rada.gov.ua/dep_img8/sp23.jpg',
+		facebook: 'https://www.facebook.com/viktoria.ptashnik.7',
+		tags: [],
+	},
+	{
+		name: 'Рабінович Вадим Зіновійович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18032',
+		picture: 'http://static.rada.gov.ua/dep_img8/ob4.jpg',
+		facebook: 'https://www.facebook.com/vadim.rabinovich.39',
+		tags: [],
+	},
+	{
+		name: 'Развадовський Віктор Йосипович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/2308',
+		picture: 'http://static.rada.gov.ua/dep_img8/d67_1.jpg',
+		facebook: 'https://www.facebook.com/pages/Развадовский-Виктор/580332582102859',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Ревега Олександр Васильович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18414',
+		picture: 'http://static.rada.gov.ua/dep_img8/d63_1.jpg',
+		facebook: 'https://www.facebook.com/profile.php?id=100005670881659',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Река Андрій Олександрович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18129',
+		picture: 'http://static.rada.gov.ua/dep_img8/d149_1.jpg',
+		facebook: '',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Рибак Іван Петрович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/9123',
+		picture: 'http://static.rada.gov.ua/dep_img8/d202_1.jpg',
+		facebook: 'https://www.facebook.com/ivan.rybak.94',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Рибалка Сергій Вікторович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18053',
+		picture: 'http://static.rada.gov.ua/dep_img8/rp22.jpg',
+		facebook: 'https://www.facebook.com/s.v.rybalka',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Рибчинський Євген Юрійович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18130',
+		picture: 'http://static.rada.gov.ua/dep_img8/d211_1.jpg',
+		facebook: 'https://www.facebook.com/ribchinski',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Різаненко Павло Олександрович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/15774',
+		picture: 'http://static.rada.gov.ua/dep_img8/d97_1.jpg',
+		facebook: '',
+		tags: [],
+	},
+	{
+		name: 'Розенблат Борислав Соломонович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18131',
+		picture: 'http://static.rada.gov.ua/dep_img8/d62_1.jpg',
+		facebook: 'https://www.facebook.com/boryslav.rozenblat',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Романова Анна Анатоліївна',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18029',
+		picture: 'http://static.rada.gov.ua/dep_img8/sp30.jpg',
+		facebook: 'https://www.facebook.com/anna.romanova.58958',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Романовський Олександр Володимирович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18245',
+		picture: 'http://static.rada.gov.ua/dep_img8/nf72.jpg',
+		facebook: '',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Романюк Віктор Миколайович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18132',
+		picture: 'http://static.rada.gov.ua/dep_img8/d94_1.jpg',
+		facebook: 'https://www.facebook.com/viktorromanyuk2012',
+		tags: [],
+	},
+	{
+		name: 'Романюк Роман Сергійович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/10096',
+		picture: 'http://static.rada.gov.ua/dep_img8/bp25.jpg',
+		facebook: '',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Рудик Сергій Ярославович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/16430',
+		picture: 'http://static.rada.gov.ua/dep_img8/d198_1.jpg',
+		facebook: 'https://www.facebook.com/serhiy.rudyk.3',
+		tags: [],
+	},
+	{
+		name: 'Рябчин Олексій Михайлович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18056',
+		picture: 'http://static.rada.gov.ua/dep_img8/but9.jpg',
+		facebook: '',
+		tags: [],
+	},
+	{
+		name: 'Сабашук Петро Павлович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/5582',
+		picture: 'http://static.rada.gov.ua/dep_img8/d74_1.jpg',
+		facebook: 'https://www.facebook.com/petr.sabashuk',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Савченко Надія Вікторівна',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18166',
+		picture: 'http://static.rada.gov.ua/dep_img8/but1.jpg',
+		facebook: '',
+		tags: [],
+	},
+	{
+		name: 'Савченко Олексій Юрійович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/17988',
+		picture: 'http://static.rada.gov.ua/dep_img8/bp48.jpg',
+		facebook: 'https://www.facebook.com/profile.php?id=100008874278662',
+		tags: [],
+	},
+	{
+		name: 'Савчук Юрій Петрович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/15681',
+		picture: 'http://static.rada.gov.ua/dep_img8/nf22.jpg',
+		facebook: '',
+		tags: [],
+	},
+	{
+		name: 'Сажко Сергій Миколайович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18133',
+		picture: 'http://static.rada.gov.ua/dep_img8/d59_1.jpg',
+		facebook: 'https://www.facebook.com/sergey.sazhko.5',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Святаш Дмитро Володимирович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/5541',
+		picture: 'http://static.rada.gov.ua/dep_img8/d170_1.jpg',
+		facebook: '',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Семенуха Роман Сергійович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18026',
+		picture: 'http://static.rada.gov.ua/dep_img8/sp27.jpg',
+		facebook: 'https://www.facebook.com/profile.php?id=100008142013904',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Семенченко Семен Ігорович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18003',
+		picture: 'http://static.rada.gov.ua/dep_img8/sp2.jpg',
+		facebook: 'https://www.facebook.com/dostali.hvatit',
+		tags: [],
+	},
+	{
+		name: 'Семерак Остап Михайлович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/1908',
+		picture: 'http://static.rada.gov.ua/dep_img8/nf33.jpg',
+		facebook: 'https://www.facebook.com/os.semerak',
+		tags: [],
+	},
+	{
+		name: 'Сидорович Руслан Михайлович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18020',
+		picture: 'http://static.rada.gov.ua/dep_img8/sp21.jpg',
+		facebook: 'https://www.facebook.com/profile.php?id=100001487524478',
+		tags: [],
+	},
+	{
+		name: 'Сидорчук Вадим Васильович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/17954',
+		picture: 'http://static.rada.gov.ua/dep_img8/nf30.jpg',
+		facebook: 'https://www.facebook.com/profile.php?id=100003366903315',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Силантьєв Денис Олегович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18047',
+		picture: 'http://static.rada.gov.ua/dep_img8/rp12.jpg',
+		facebook: 'https://www.facebook.com/silantievdenis',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Сироїд Оксана Іванівна',
+		url: 'http://itd.rada.gov.ua/mps/info/page/3180',
+		picture: 'http://static.rada.gov.ua/dep_img8/sp4.jpg',
+		facebook: '',
+		tags: [],
+	},
+	{
+		name: 'Сисоєнко Ірина Володимирівна',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18024',
+		picture: 'http://static.rada.gov.ua/dep_img8/sp25.jpg',
+		facebook: 'https://www.facebook.com/irina.sysoenko',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Скорик Микола Леонідович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18033',
+		picture: 'http://static.rada.gov.ua/dep_img8/ob10.jpg',
+		facebook: 'https://www.facebook.com/SkorykNikolay',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Скрипник Олексій Олексійович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18004',
+		picture: 'http://static.rada.gov.ua/dep_img8/sp3.jpg',
+		facebook: 'https://www.facebook.com/oleksiy.skrypnyk',
+		tags: [],
+	},
+	{
+		name: 'Скуратовський Сергій Іванович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18051',
+		picture: 'http://static.rada.gov.ua/dep_img8/rp19.jpg',
+		facebook: 'https://www.facebook.com/serhii.skuratovskyi',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Соболєв Єгор Вікторович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18012',
+		picture: 'http://static.rada.gov.ua/dep_img8/sp13.jpg',
+		facebook: 'https://www.facebook.com/IegorSoboliev',
+		tags: [],
+	},
+	{
+		name: 'Соболєв Сергій Владиславович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/386',
+		picture: 'http://static.rada.gov.ua/dep_img8/but4.jpg',
+		facebook: '',
+		tags: [],
+	},
+	{
+		name: 'Соловей Юрій Ігорович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18134',
+		picture: 'http://static.rada.gov.ua/dep_img8/d89_1.jpg',
+		facebook: 'https://www.facebook.com/yuriy.solovey',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Солод Юрій Васильович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18135',
+		picture: 'http://static.rada.gov.ua/dep_img8/d47_1.jpg',
+		facebook: '',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Сольвар Руслан Миколайович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/15769',
+		picture: 'http://static.rada.gov.ua/dep_img8/d91_1.jpg',
+		facebook: 'https://www.facebook.com/fgg.yyoykhg',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Соляр Володимир Миронович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/17968',
+		picture: 'http://static.rada.gov.ua/dep_img8/nf55.jpg',
+		facebook: '',
+		tags: [],
+	},
+	{
+		name: 'Сотник Олена Сергіївна',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18010',
+		picture: 'http://static.rada.gov.ua/dep_img8/sp11.jpg',
+		facebook: 'https://www.facebook.com/lenasotnik',
+		tags: [],
+	},
+	{
+		name: 'Сочка Олександр Олександрович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/12270',
+		picture: 'http://static.rada.gov.ua/dep_img8/nf50.jpg',
+		facebook: 'https://www.facebook.com/sochka.ol',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Співаковський Олександр Володимирович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18136',
+		picture: 'http://static.rada.gov.ua/dep_img8/d182_1.jpg',
+		facebook: 'https://www.facebook.com/spivakovsky.alexander',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Спориш Іван Дмитрович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18137',
+		picture: 'http://static.rada.gov.ua/dep_img8/d15_1.jpg',
+		facebook: '',
+		tags: [],
+	},
+	{
+		name: 'Сташук Віталій Филимонович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18138',
+		picture: 'http://static.rada.gov.ua/dep_img8/d212_1.jpg',
+		facebook: 'https://www.facebook.com/v.stashuk',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Стеценко Дмитро Олександрович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18220',
+		picture: 'http://static.rada.gov.ua/dep_img8/nf70.jpg',
+		facebook: 'https://www.facebook.com/d.a.stetsenko',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Сторожук Дмитро Анатолійович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/17379',
+		picture: 'http://static.rada.gov.ua/dep_img8/nf56.jpg',
+		facebook: 'https://www.facebook.com/dmytro.storozhuk.1',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Сугоняко Олександр Леонідович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18139',
+		picture: 'http://static.rada.gov.ua/dep_img8/d158_1.jpg',
+		facebook: 'https://www.facebook.com/o.suhoniako',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Супруненко Олександр Іванович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/11097',
+		picture: 'http://static.rada.gov.ua/dep_img8/d216_1.jpg',
+		facebook: 'https://www.facebook.com/O.I.Suprunenko',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Суслова Ірина Миколаївна',
+		url: 'http://itd.rada.gov.ua/mps/info/page/11999',
+		picture: 'http://static.rada.gov.ua/dep_img8/sp6.jpg',
+		facebook: 'https://www.facebook.com/ir.suslova',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Сюмар Вікторія Петрівна',
+		url: 'http://itd.rada.gov.ua/mps/info/page/17948',
+		picture: 'http://static.rada.gov.ua/dep_img8/nf7.jpg',
+		facebook: 'https://www.facebook.com/vsiumar',
+		tags: [],
+	},
+	{
+		name: 'Тарасюк Борис Іванович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/5486',
+		picture: 'http://static.rada.gov.ua/dep_img8/but12.jpg',
+		facebook: '',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Тарута Сергій Олексійович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18140',
+		picture: 'http://static.rada.gov.ua/dep_img8/d58_1.jpg',
+		facebook: '',
+		tags: [],
+	},
+	{
+		name: 'Тетерук Андрій Анатолійович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/17947',
+		picture: 'http://static.rada.gov.ua/dep_img8/nf5.jpg',
+		facebook: 'https://www.facebook.com/profile.php?id=100000860206870',
+		tags: [],
+	},
+	{
+		name: 'Тимошенко Юлія Володимирівна',
+		url: 'http://itd.rada.gov.ua/mps/info/page/1792',
+		picture: 'http://static.rada.gov.ua/dep_img8/but2.jpg',
 		facebook: 'https://www.facebook.com/YuliaTymoshenko',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Тимошенко Юрій Володимирович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18141',
+		picture: 'http://static.rada.gov.ua/dep_img8/d88_1.jpg',
+		facebook: 'https://www.facebook.com/profile.php?id=100006819228796',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Тимчук Дмитро Борисович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/17950',
+		picture: 'http://static.rada.gov.ua/dep_img8/nf13.jpg',
+		facebook: 'https://www.facebook.com/dmitry.tymchuk',
+		tags: [],
+	},
+	{
+		name: 'Тіміш Григорій Іванович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18142',
+		picture: 'http://static.rada.gov.ua/dep_img8/d203_1.jpg',
+		facebook: 'https://www.facebook.com/hrihoriy.timish',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Ткачук Геннадій Віталійович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/15676',
+		picture: 'http://static.rada.gov.ua/dep_img8/bp42.jpg',
+		facebook: '',
+		tags: [],
+	},
+	{
+		name: 'Томенко Микола Володимирович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/5415',
+		picture: 'http://static.rada.gov.ua/dep_img8/bp8.jpg',
+		facebook: 'https://www.facebook.com/m.tomenko',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Третьяков Олександр Юрійович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/5504',
+		picture: 'http://static.rada.gov.ua/dep_img8/d219_1.jpg',
+		facebook: 'https://www.facebook.com/TretiakovOleksandr',
+		tags: [],
+	},
+	{
+		name: 'Тригубенко Сергій Миколайович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/17987',
+		picture: 'http://static.rada.gov.ua/dep_img8/bp46.jpg',
+		facebook: 'https://www.facebook.com/sergiy.trygubenko',
+		tags: [],
+	},
+	{
+		name: 'Унгурян Павло Якимович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/9540',
+		picture: 'http://static.rada.gov.ua/dep_img8/nf43.jpg',
+		facebook: '',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Урбанський Олександр Ігорович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18143',
+		picture: 'http://static.rada.gov.ua/dep_img8/d143_1.jpg',
+		facebook: 'https://www.facebook.com/urbansky.alexandr',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Усов Костянтин Глібович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18144',
+		picture: 'http://static.rada.gov.ua/dep_img8/d33_1.jpg',
+		facebook: 'https://www.facebook.com/kostiantyn.usov',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Фаєрмарк Сергій Олександрович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/15653',
+		picture: 'http://static.rada.gov.ua/dep_img8/nf29.jpg',
+		facebook: 'https://www.facebook.com/Faermark.Sergey',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Федорук Микола Трохимович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/15831',
+		picture: 'http://static.rada.gov.ua/dep_img8/d201_1.jpg',
+		facebook: '',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Фельдман Олександр Борисович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/5542',
+		picture: 'http://static.rada.gov.ua/dep_img8/d174_1.jpg',
+		facebook: 'https://www.facebook.com/alexander.feldman.9',
+		tags: [],
+	},
+	{
+		name: 'Філатов Борис Альбертович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18145',
+		picture: 'http://static.rada.gov.ua/dep_img8/d27_1.jpg',
+		facebook: 'https://www.facebook.com/profile.php?id=100002157183088',
+		tags: [],
+	},
+	{
+		name: 'Фірсов Єгор Павлович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/17047',
+		picture: 'http://static.rada.gov.ua/dep_img8/bp54.jpg',
+		facebook: 'https://www.facebook.com/egor.firsov',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Фріз Ірина Василівна',
+		url: 'http://itd.rada.gov.ua/mps/info/page/9684',
+		picture: 'http://static.rada.gov.ua/dep_img8/bp30.jpg',
+		facebook: 'https://www.facebook.com/Iryna.Friz',
+		tags: [],
+	},
+	{
+		name: 'Фролов Микола Олександрович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18146',
+		picture: 'http://static.rada.gov.ua/dep_img8/d76_1.jpg',
+		facebook: 'https://www.facebook.com/pages/Микола-Фролов/445737665579539',
+		tags: [],
+	},
+	{
+		name: 'Фурсін Іван Геннадійович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/15799',
+		picture: 'http://static.rada.gov.ua/dep_img8/d138_1.jpg',
+		facebook: '',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Хлань Сергій Володимирович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18147',
+		picture: 'http://static.rada.gov.ua/dep_img8/d185_1.jpg',
+		facebook: 'https://www.facebook.com/sergey.khlan',
+		tags: [],
+	},
+	{
+		name: 'Хміль Михайло Михайлович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/15785',
+		picture: 'http://static.rada.gov.ua/dep_img8/nf42.jpg',
+		facebook: 'https://www.facebook.com/m.khmil',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Хомутиннік Віталій Юрійович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/5549',
+		picture: 'http://static.rada.gov.ua/dep_img8/d171_1.jpg',
+		facebook: 'https://www.facebook.com/profile.php?id=100009097881046',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Чекіта Геннадій Леонідович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/7741',
+		picture: 'http://static.rada.gov.ua/dep_img8/d134_1.jpg',
+		facebook: 'https://www.facebook.com/profile.php?id=100004331413559',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Чепинога Віталій Михайлович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/8715',
+		picture: 'http://static.rada.gov.ua/dep_img8/bp56.jpg',
+		facebook: 'https://www.facebook.com/vitalii.chepynoga',
+		tags: [],
+	},
+	{
+		name: 'Червакова Ольга Валеріївна',
+		url: 'http://itd.rada.gov.ua/mps/info/page/17989',
+		picture: 'http://static.rada.gov.ua/dep_img8/bp49.jpg',
+		facebook: 'https://www.facebook.com/chervakova',
+		tags: [],
+	},
+	{
+		name: 'Черненко Олександр Миколайович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/17979',
+		picture: 'http://static.rada.gov.ua/dep_img8/bp21.jpg',
+		facebook: 'https://www.facebook.com/profichok',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Чижмарь Юрій Васильович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18218',
+		picture: 'http://static.rada.gov.ua/dep_img8/rp25.jpg',
+		facebook: 'https://www.facebook.com/y.chyzhmar',
+		tags: [],
+	},
+	{
+		name: 'Чорновол Тетяна Миколаївна',
+		url: 'http://itd.rada.gov.ua/mps/info/page/17946',
+		picture: 'http://static.rada.gov.ua/dep_img8/nf2.jpg',
+		facebook: 'https://www.facebook.com/tchornovol',
+		tags: [],
+	},
+	{
+		name: 'Чубаров Рефат Абдурахманович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/2340',
+		picture: 'http://static.rada.gov.ua/dep_img8/bp71.jpg',
+		facebook: 'https://www.facebook.com/dogrujol',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Чумак Віктор Васильович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/15836',
+		picture: 'http://static.rada.gov.ua/dep_img8/d214_1.jpg',
+		facebook: 'https://www.facebook.com/vik.chumak',
+		tags: [],
+	},
+	{
+		name: 'Шаповалов Юрій Анатолійович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/15803',
+		picture: 'http://static.rada.gov.ua/dep_img8/d146_1.jpg',
+		facebook: 'https://www.facebook.com/shapovalov.y',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Шевченко Олександр Леонідович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/17650',
+		picture: 'http://static.rada.gov.ua/dep_img8/d83_1.jpg',
+		facebook: '',
+		tags: [],
+	},
+	{
+		name: 'Шенцев Дмитро Олексійович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/8885',
+		picture: 'http://static.rada.gov.ua/dep_img8/d176_1.jpg',
+		facebook: 'https://www.facebook.com/shencev',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Шинькович Андрій Васильович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/8473',
+		picture: 'http://static.rada.gov.ua/dep_img8/d189_1.jpg',
+		facebook: '',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Шипко Андрій Федорович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/5785',
+		picture: 'http://static.rada.gov.ua/dep_img8/d35_1.jpg',
+		facebook: 'https://www.facebook.com/profile.php?id=100008193793723',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Шкварилюк Володимир Васильович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/15658',
+		picture: 'http://static.rada.gov.ua/dep_img8/nf25.jpg',
+		facebook: '',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Шкіря Ігор Миколайович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/5399',
+		picture: 'http://static.rada.gov.ua/dep_img8/d52_1.jpg',
+		facebook: '',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Шкрум Альона Іванівна',
+		url: 'http://itd.rada.gov.ua/mps/info/page/16532',
+		picture: 'http://static.rada.gov.ua/dep_img8/but5.jpg',
+		facebook: 'https://www.facebook.com/profile.php?id=834764357',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Шпенов Дмитро Юрійович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/11096',
+		picture: 'http://static.rada.gov.ua/dep_img8/d37_1.jpg',
+		facebook: 'https://www.facebook.com/shpenov',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Шурма Ігор Михайлович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/6548',
+		picture: 'http://static.rada.gov.ua/dep_img8/ob27.jpg',
+		facebook: 'https://www.facebook.com/igor.shurma',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Шуфрич Нестор Іванович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/2274',
+		picture: 'http://static.rada.gov.ua/dep_img8/ob7.jpg',
+		facebook: '',
+		tags: [],
+	},
+	{
+		name: 'Шухевич Юрій-Богдан Романович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18041',
+		picture: 'http://static.rada.gov.ua/dep_img8/rp5.jpg',
+		facebook: 'https://www.facebook.com/jurij.shukhevych',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Южаніна Ніна Петрівна',
+		url: 'http://itd.rada.gov.ua/mps/info/page/17980',
+		picture: 'http://static.rada.gov.ua/dep_img8/bp28.jpg',
+		facebook: '',
+		tags: [],
+	},
+	{
+		name: 'Юрик Тарас Зіновійович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18148',
+		picture: 'http://static.rada.gov.ua/dep_img8/d165_1.jpg',
+		facebook: 'https://www.facebook.com/profile.php?id=100000468266581',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Юринець Оксана Василівна',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18149',
+		picture: 'http://static.rada.gov.ua/dep_img8/d117_1.jpg',
+		facebook: 'https://www.facebook.com/oksana.yurynets',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Юрчишин Петро Васильович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18150',
+		picture: 'http://static.rada.gov.ua/dep_img8/d13_1.jpg',
+		facebook: 'https://www.facebook.com/pages/Юрчишин-Петро-Васильович/809477289111192',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Яніцький Василь Петрович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18151',
+		picture: 'http://static.rada.gov.ua/dep_img8/d155_1.jpg',
+		facebook: 'https://www.facebook.com/vasil.petrovich.yanitsky',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Яриніч Костянтин Володимирович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18152',
+		picture: 'http://static.rada.gov.ua/dep_img8/d99_1.jpg',
+		facebook: 'https://www.facebook.com/yarinichkv',
+		tags: [
+			{
+				name: 'популист',
+				lawId: '1558-1',
+				lawName: 'Закон про реструктуризацію зобов\'язань за кредитами в іноземній валюті (№1558-1)',
+				lawUrl: 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049'
+			}
+		],
+	},
+	{
+		name: 'Ярош Дмитро Анатолійович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/18153',
+		picture: 'http://static.rada.gov.ua/dep_img8/d39_1.jpg',
+		facebook: 'https://www.facebook.com/dyastrub',
+		tags: [],
+	},
+	{
+		name: 'Яценко Антон Володимирович',
+		url: 'http://itd.rada.gov.ua/mps/info/page/4339',
+		picture: 'http://static.rada.gov.ua/dep_img8/d200_1.jpg',
+		facebook: 'https://www.facebook.com/profile.php?id=100004074104054',
 		tags: [
 			{
 				name: 'популист',
