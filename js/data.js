@@ -501,7 +501,7 @@
 		name: 'Березюк Олег Романович',
 		url: 'http://itd.rada.gov.ua/mps/info/page/18027',
 		picture: 'http://static.rada.gov.ua/dep_img8/sp28.jpg',
-		facebook: 'https://www.facebook.com/oleg.bereziuk.77',
+		facebook: '',
 		tags: [
 			{
 				name: 'популіст',
@@ -659,7 +659,7 @@
 		name: 'Бондар Віктор Васильович',
 		url: 'http://itd.rada.gov.ua/mps/info/page/15826',
 		picture: 'http://static.rada.gov.ua/dep_img8/d191_1.jpg',
-		facebook: '',
+		facebook: 'https://www.facebook.com/bondarndm',
 		tags: [
 			{
 				name: 'шокін-ок',
