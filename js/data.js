@@ -6693,7 +6693,7 @@ $(function () {
 			return;
 		}
 		var htmlFb = deputy.facebook ? '<a href="' + deputy.facebook + '" target="_blank"><img src="img/facebook.png"></a>' : '',
-			htmlPicture = deputy.picture ? '<img src="' + deputy.picture + '" style="width: 50px;">' : '',
+			htmlPicture = deputy.picture ? '<img src="img/pixel.png" data-src="' + deputy.picture + '" class="js-lazy-img" style="width: 50px;">' : '',
 			htmlName = deputy.url ? '<a href="' + deputy.url + '" target="_blank">' + deputy.name + '</a>' : deputy.name,
 			htmlTag1 = '',
 			htmlTag2 = '';
@@ -6730,6 +6730,18 @@ $(function () {
 			'</tr>'
 		)
 	});
+	
+	// Load images
+	function loadImages() {
+		var $img = $('.js-lazy-img[data-src]').first();
+		$img
+			.attr('src', $img.data('src'))
+			.removeAttr('data-src')
+			.load(function() {
+				loadImages();
+			});
+	}
+	loadImages();
 
 	// Bind tooltips
 	$('[data-toggle="tooltip"]').tooltip();
