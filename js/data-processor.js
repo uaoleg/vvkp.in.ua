@@ -3,13 +3,15 @@
 $(function () {
 	
 	$.ajax({
-     url: 'data/data.raw.json',
+     url: 'data/data.min.js',
      type: 'GET',
 	 contentType: "application/json;charset=utf-8",
-	 dataType: 'json',
+	 dataType: 'text',
      cache: false,
-     success : function(deputies){
-  		process(deputies);
+     success : function(base64string){
+			var binStr     = atob(base64string);
+			var deputies = JSON.parse(pako.inflate(binStr, { to: 'string' }));
+		  	process(deputies);
      },		
     });
 });
