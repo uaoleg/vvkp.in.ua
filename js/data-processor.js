@@ -9,6 +9,13 @@ $(function () {
 	 dataType: 'text',
      cache: false,
      success : function(base64string){
+		 
+		//  var t =  JSON.stringify(deputies);
+		//  
+		//  document.write(t);
+		//  
+		//  return;
+		 
 			var binStr     = atob(base64string);
 			var deputies = JSON.parse(pako.inflate(binStr, { to: 'string' }));
 		  	process(deputies);
