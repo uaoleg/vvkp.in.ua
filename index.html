@@ -1,61 +1,61 @@
 ﻿<!DOCTYPE html>
 <html>
-	<head>
-		<meta http-equiv="cache-control" content="no-cache" />
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<link rel="shortcut icon" href="img/icon.ico">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-		<script defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
-		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-		<title>Всеукраїнський Вебсайт Контролю Політиків</title>		
-	</head>
-	<body>
-		<div class="container">
-			<div class="row">
-			
-				<div class="col-md-9">
-					<h1 style="text-align: center;">Універсальний передвиборчий каталог депутатів</h1>
-					<br>
-					<table class="table table-striped js-deputies-table"></table>
-					<br>
-					<hr>
-					<br>
-					<h3 style="background-image: url(img/logo.png); line-height: 60px; margin: 0; text-align: center;">
-						<a href="https://www.youtube.com/watch?v=1CLBANCVHTw" target="_blank" style="color: white; font-size: 42px; text-shadow: 2px 2px 4px black;">VVKP :-)</a>
-					</h3>
-				</div>
-				
-				<div class="col-md-3" style="padding-top: 25px; text-align: center;">
-					<a class="github-button" href="https://github.com/uaoleg/vvkp.in.ua" data-style="mega" data-count-href="/uaoleg/vvkp.in.ua/stargazers" data-count-api="/repos/uaoleg/vvkp.in.ua#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star uaoleg/vvkp.in.ua on GitHub">Star</a>
-					<br><br>
-					<div class="fb-page" data-href="https://www.facebook.com/vvkp.in.ua" data-width="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/vvkp.in.ua"><a href="https://www.facebook.com/vvkp.in.ua">VVKP</a></blockquote></div></div>
-				</div>
-				
-			</div>
-		</div>
-			
-		<div id="fb-root"></div>
-		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=576873339001045";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
-		
-		<script src="js/data-processor.js"></script>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" href="img/icon.ico">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+        <script defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="js/pako.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <title>Всеукраїнський Вебсайт Контролю Політиків</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+            
+                <div class="col-md-9">
+                    <h1 style="text-align: center;">Універсальний передвиборчий каталог депутатів</h1>
+                    <br>
+                    <table class="table table-striped js-deputies-table"></table>
+                    <br>
+                    <hr>
+                    <br>
+                    <h3 style="background-image: url(img/logo.png); line-height: 60px; margin: 0; text-align: center;">
+                        <a href="https://www.youtube.com/watch?v=1CLBANCVHTw" target="_blank" style="color: white; font-size: 42px; text-shadow: 2px 2px 4px black;">VVKP :-)</a>
+                    </h3>
+                </div>
+                
+                <div class="col-md-3" style="padding-top: 25px; text-align: center;">
+                    <a class="github-button" href="https://github.com/uaoleg/vvkp.in.ua" data-style="mega" data-count-href="/uaoleg/vvkp.in.ua/stargazers" data-count-api="/repos/uaoleg/vvkp.in.ua#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star uaoleg/vvkp.in.ua on GitHub">Star</a>
+                    <br><br>
+                    <div class="fb-page" data-href="https://www.facebook.com/vvkp.in.ua" data-width="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/vvkp.in.ua"><a href="https://www.facebook.com/vvkp.in.ua">VVKP</a></blockquote></div></div>
+                </div>
+                
+            </div>
+        </div>
+            
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=576873339001045";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+        
+        <script src="js/data-processor.js"></script>
 
-		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-		  ga('create', 'UA-64746354-1', 'auto');
-		  ga('send', 'pageview');
+          ga('create', 'UA-64746354-1', 'auto');
+          ga('send', 'pageview');
 
-		</script>
-	</body>
+        </script>
+    </body>
 </html>
