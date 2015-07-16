@@ -1,47 +1,39 @@
 ﻿<!DOCTYPE html>
 <html>
-	<head>
-		<meta http-equiv="cache-control" content="no-cache" />
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-		<script src="js/pako.min.js"></script>
-		<script src="js/md5.js"></script>
-		<title>pack data</title>
-	</head>
-	<body>
-		<h1>lzw content</h1>
-		<textarea style="width: 500px; height: 150px;" id="txtArea"></textarea>
-		<h1>content md5 hash</h1>
-		<textarea style="width: 500px; height: 50px;" id="hashArea"></textarea>
-		<script>
-			function pack()
-			{
-				$.ajax({
-				     url: 'data/data.raw.json',
-				     type: 'GET',
-					 contentType: "application/json;charset=utf-8",
-					 dataType: 'json',
-				     cache: false,
-				     success : function(json){
-				  		//process(deputies);					  
-						  //, { to: 'string' }
-						var binaryString = pako.deflate(JSON.stringify(json), { to: 'string' });
-						
-						//var t = String.fromCharCode.apply(null, binaryString)
-						
-						var base64str = btoa(binaryString);
-						
-						var area = document.getElementById("txtArea");
-						area.textContent = base64str;				
-						  
-						var hash = md5(base64str);
-						area = document.getElementById("hashArea");
-						area.textContent = hash;	
-	     		},		
-	    		});
-			}
-			pack();
-		</script>
-	</body>
+    <head>
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="js/pako.min.js"></script>
+        <script src="js/md5.js"></script>
+        <title>pack data</title>
+    </head>
+    <body>
+        <h1>lzw content</h1>
+        <textarea style="width: 500px; height: 150px;" id="txtArea"></textarea>
+        <h1>content md5 hash</h1>
+        <textarea style="width: 500px; height: 50px;" id="hashArea"></textarea>
+        <script>
+            function pack() {
+                $.ajax({
+                    url: '../data/data.raw.json',
+                    type: 'GET',
+                    contentType: "application/json;charset=utf-8",
+                    dataType: 'json',
+                    cache: false,
+                    success: function(json) {
+                        var binaryString = pako.deflate(JSON.stringify(json), { to: 'string' }),
+                            base64str = btoa(binaryString),
+                            hash = md5(base64str),
+                            area = document.getElementById("txtArea");
+                        area.textContent = base64str;                
+                        area = document.getElementById("hashArea");
+                        area.textContent = hash;    
+                    },        
+                });
+            }
+            pack();
+        </script>
+    </body>
 
 </html>
