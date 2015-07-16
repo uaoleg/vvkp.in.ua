@@ -6737,7 +6737,7 @@ $(function () {
 		$img
 			.attr('src', $img.data('src'))
 			.removeAttr('data-src')
-			.load(function() {
+			.on('load error', function() {
 				loadImages();
 			});
 	}
