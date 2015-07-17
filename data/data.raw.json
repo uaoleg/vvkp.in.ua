@@ -5,6 +5,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/but17.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -35,6 +36,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp44.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100004181072834",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -58,6 +60,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf64.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100009322140452",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -81,6 +84,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp55.jpg",
     "facebook": "https://www.facebook.com/deputy.alekseev",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -97,6 +101,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/rp21.jpg",
     "facebook": "https://www.facebook.com/vasiliy.amelchenko",
     "residence": "Чернігів",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -113,6 +118,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d222_1.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -136,6 +142,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp39.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100007288305290",
     "residence": "Новий Розділ Львівської області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -159,6 +166,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d64_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100009067737697",
     "residence": "Коростень Житомирської області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -182,6 +190,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d218_1.jpg",
     "facebook": "https://www.facebook.com/volodymyr.ariev",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -198,6 +207,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/rp16.jpg",
     "facebook": "https://www.facebook.com/andvicart",
     "residence": "Київ",
+    "party": "",
     "tags": []
   },
   {
@@ -206,6 +216,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d75_1.jpg",
     "facebook": "https://www.facebook.com/artjushenko.igor",
     "residence": "Запоріжжя",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -222,6 +233,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d206_1.jpg",
     "facebook": "https://www.facebook.com/vladatroshenko",
     "residence": "Чернігів",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -245,6 +257,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/sp8.jpg",
     "facebook": "https://www.facebook.com/alyona.babak",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -268,6 +281,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf35.jpg",
     "facebook": "https://www.facebook.com/valery.babenko.9",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -291,6 +305,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf75.jpg",
     "facebook": "",
     "residence": "Івано-Франківськ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -321,6 +336,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d106_1.jpg",
     "facebook": "https://www.facebook.com/YevgeniyBakulin",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -344,6 +360,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp57.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100008866600855",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -367,6 +384,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d80_1.jpg",
     "facebook": "",
     "residence": "Мелітополь Запорізької області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -390,6 +408,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d69_1.jpg",
     "facebook": "https://www.facebook.com/ViktorBaloga",
     "residence": "Мукачеве Закарпатської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -420,6 +439,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d73_1.jpg",
     "facebook": "https://www.facebook.com/baloga.ivan",
     "residence": "Мукачеве Закарпатської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -443,6 +463,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d71_1.jpg",
     "facebook": "",
     "residence": "Мукачеве Закарпатської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -466,6 +487,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d79_1.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -496,6 +518,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d141_1.jpg",
     "facebook": "https://www.facebook.com/vitaly.barvinenko",
     "residence": "Одеса",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -519,6 +542,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d167_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100004441810055",
     "residence": "селище Нагірянка Чортківського району Тернопільської області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -542,6 +566,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d123_1.jpg",
     "facebook": "https://www.facebook.com/t.batenko",
     "residence": "Львів",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -565,6 +590,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/ob9.jpg",
     "facebook": "https://www.facebook.com/bahteevaTD",
     "residence": "Донецьк",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -588,6 +614,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d24_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100007266183649",
     "residence": "Дніпропетровськ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -618,6 +645,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d213_1.jpg",
     "facebook": "https://www.facebook.com/borislav.bereza",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -641,6 +669,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf10.jpg",
     "facebook": "https://www.facebook.com/yra.bereza",
     "residence": "Дніпропетровськ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -671,6 +700,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d100_1.jpg",
     "facebook": "",
     "residence": "Кіровоград",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -701,6 +731,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/sp28.jpg",
     "facebook": "",
     "residence": "Львів",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -717,6 +748,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp47.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -733,6 +765,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d217_1.jpg",
     "facebook": "",
     "residence": "Харків",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -756,6 +789,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/ob5.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -786,6 +820,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d180_1.jpg",
     "facebook": "",
     "residence": "Харків",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -816,6 +851,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d196_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100004831083336",
     "residence": "село Селище Корсунь-Шевченківського району Черкаської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -846,6 +882,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp3.jpg",
     "facebook": "https://www.facebook.com/olgabogomolets",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -869,6 +906,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d77_1.jpg",
     "facebook": "",
     "residence": "селище Сонячне Запорізького району Запорізької області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -892,6 +930,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf66.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100003472124257",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -908,6 +947,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/ob1.jpg",
     "facebook": "",
     "residence": "Рубіжне Луганської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -931,6 +971,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d191_1.jpg",
     "facebook": "https://www.facebook.com/bondarndm",
     "residence": "село Дашківці Віньковецького району Хмельницької області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -961,6 +1002,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d119_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100006099828041",
     "residence": "Сокаль Львівської області",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -977,6 +1019,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp62.jpg",
     "facebook": "",
     "residence": "село Запсонь Берегівського району Закарпатської області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -1000,6 +1043,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf47.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100009140976073",
     "residence": "село Новопетрівка Снігурівського району Миколаївської області",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -1023,6 +1067,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d145_1.jpg",
     "facebook": "https://www.facebook.com/bublyk.svoboda",
     "residence": "село Ковалівка Полтавського району Полтавської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -1046,6 +1091,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d204_1.jpg",
     "facebook": "https://www.facebook.com/maksym.burbak",
     "residence": "Чернівці",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -1062,6 +1108,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d162_1.jpg",
     "facebook": "https://www.facebook.com/vladislav.buharev",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -1085,6 +1132,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d130_1.jpg",
     "facebook": "https://www.facebook.com/avadaturskyy",
     "residence": "Миколаїв",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -1108,6 +1156,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d81_1.jpg",
     "facebook": "",
     "residence": "Бердянськ Запорізької області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -1124,6 +1173,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf45.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100002202366807",
     "residence": "Запоріжжя",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -1147,6 +1197,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf17.jpg",
     "facebook": "https://www.facebook.com/vivmail",
     "residence": "Львів",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -1163,6 +1214,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf40.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100000145124423",
     "residence": "Львів",
+    "party": "",
     "tags": []
   },
   {
@@ -1171,6 +1223,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/sp9.jpg",
     "facebook": "https://www.facebook.com/natalka.poltavka.78",
     "residence": "Донецьк",
+    "party": "",
     "tags": []
   },
   {
@@ -1179,6 +1232,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf44.jpg",
     "facebook": "https://www.facebook.com/sergey.vysotsky",
     "residence": "Київ",
+    "party": "",
     "tags": []
   },
   {
@@ -1187,6 +1241,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/ob2.jpg",
     "facebook": "https://www.facebook.com/OleksandrVilkul",
     "residence": "Кривий Ріг Дніпропетровської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -1217,6 +1272,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d184_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100008664874137",
     "residence": "Нова Каховка Херсонської області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -1240,6 +1296,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/rp7.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100008907132210",
     "residence": "Сєвєродонецьк Луганської області",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -1256,6 +1313,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/but15.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100001667276617",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -1286,6 +1344,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/rp23.jpg",
     "facebook": "https://www.facebook.com/Dr.vovk",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -1302,6 +1361,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d153_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100002187041715",
     "residence": "Рівне",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -1318,6 +1378,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf46.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100009606826570",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -1334,6 +1395,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/sp22.jpg",
     "facebook": "https://www.facebook.com/viktoriya.voytsitska",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -1350,6 +1412,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/ob13.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -1373,6 +1436,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d95_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100008264370063",
     "residence": "село Ярівка Хотинського району Чернівецької області",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -1389,6 +1453,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/rp10.jpg",
     "facebook": "",
     "residence": "Дніпропетровськ",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -1405,6 +1470,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d32_1.jpg",
     "facebook": "",
     "residence": "Кривий Ріг Дніпропетровської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -1435,6 +1501,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d114_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100008014216592",
     "residence": "смт Мілове Луганської області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -1458,6 +1525,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp53.jpg",
     "facebook": "",
     "residence": "Хмельницький",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -1481,6 +1549,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp43.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -1497,6 +1566,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf21.jpg",
     "facebook": "https://www.facebook.com/anton.gerashchenko.7",
     "residence": "Харків",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -1527,6 +1597,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp9.jpg",
     "facebook": "https://www.facebook.com/iryna.gerashchenko",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -1550,6 +1621,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d192_1.jpg",
     "facebook": "https://www.facebook.com/olexandr.gerega",
     "residence": "Городок Хмельницької області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -1573,6 +1645,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d50_1.jpg",
     "facebook": "https://www.facebook.com/evgeniy.geller",
     "residence": "Донецьк",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -1596,6 +1669,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d179_1.jpg",
     "facebook": "",
     "residence": "Харків",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -1619,6 +1693,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d164_1.jpg",
     "facebook": "https://www.facebook.com/mihaylo.holovko",
     "residence": "Тернопіль",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -1642,6 +1717,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d197_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100003798267049",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -1665,6 +1741,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d136_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100009312742363",
     "residence": "Одеса",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -1688,6 +1765,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp40.jpg",
     "facebook": "https://www.facebook.com/alexeygoncharenko",
     "residence": "Одеса",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -1704,6 +1782,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/sp1.jpg",
     "facebook": "",
     "residence": "село Підгірне Пустомитівського району Львівської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -1720,6 +1799,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf41.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100000968968654",
     "residence": "Кіровоград",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -1743,6 +1823,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d68_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100004995437158",
     "residence": "село Тур'ї Ремети Перечинського району Закарпатської області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -1766,6 +1847,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d183_1.jpg",
     "facebook": "https://www.facebook.com/andriy.gordeev",
     "residence": "село Томина Балка Білозерського району Херсонської області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -1789,6 +1871,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp58.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -1812,6 +1895,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf9.jpg",
     "facebook": "https://www.facebook.com/liliya.grynevych",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -1835,6 +1919,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp14.jpg",
     "facebook": "",
     "residence": "смт Козин Обухівського району Київської області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -1858,6 +1943,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp4.jpg",
     "facebook": "https://www.facebook.com/volodymyrgroysman",
     "residence": "Вінниця",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -1881,6 +1967,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d92_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100004086552851",
     "residence": "село Іванівка Білоцерківського району Київської області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -1911,6 +1998,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d19_1.jpg",
     "facebook": "https://www.facebook.com/igor.guz",
     "residence": "Луцьк",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -1927,6 +2015,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d140_1.jpg",
     "facebook": "https://www.facebook.com/vasilgulyaev",
     "residence": "село Молодіжне Овідіопольського району Одеської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -1957,6 +2046,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/ob15.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -1980,6 +2070,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d208_1.jpg",
     "facebook": "",
     "residence": "Носівка Чернігівської області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -1996,6 +2087,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/sp10.jpg",
     "facebook": "https://www.facebook.com/danchenko.oleksandr",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -2012,6 +2104,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf32.jpg",
     "facebook": "https://www.facebook.com/evgeniy.deidei",
     "residence": "Рені Одеської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -2042,6 +2135,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d18_1.jpg",
     "facebook": "https://www.facebook.com/ruslan.demchak",
     "residence": "Липовець Вінницької області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -2058,6 +2152,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d173_1.jpg",
     "facebook": "https://www.facebook.com/anatoliy.denysenko.1",
     "residence": "Харків",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -2081,6 +2176,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d26_1.jpg",
     "facebook": "https://www.facebook.com/andriy.denysenko.75",
     "residence": "Дніпропетровськ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -2097,6 +2193,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp45.jpg",
     "facebook": "https://www.facebook.com/vadym.denysenko.1",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -2127,6 +2224,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf15.jpg",
     "facebook": "https://www.facebook.com/denisovamlsp",
     "residence": "Сімферопіль Автономної Республіки Крим",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -2150,6 +2248,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d87_1.jpg",
     "facebook": "https://www.facebook.com/derevyanko.yurii",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -2180,6 +2279,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d159_1.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -2210,6 +2310,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d154_1.jpg",
     "facebook": "https://www.facebook.com/oleksandr.dehtyarchuk",
     "residence": "Дубно Рівненської області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -2233,6 +2334,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp5.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -2256,6 +2358,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf24.jpg",
     "facebook": "https://www.facebook.com/denys.dzenzerskyy",
     "residence": "Дніпропетровськ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -2286,6 +2389,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d66_1.jpg",
     "facebook": "https://www.facebook.com/dzyublik",
     "residence": "смт Черняхів Житомирської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -2316,6 +2420,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d86_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=1325521180",
     "residence": "смт Брошнів-Осада Рожнятівського району Івано-Франківської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -2339,6 +2444,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/sp18.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -2355,6 +2461,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d40_1.jpg",
     "facebook": "https://www.facebook.com/profile.php",
     "residence": "село Чернече Криничанського району Дніпропетровської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -2378,6 +2485,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d210_1.jpg",
     "facebook": "https://www.facebook.com/shtabdmitrenko",
     "residence": "Чернігів",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -2401,6 +2509,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d178_1.jpg",
     "facebook": "",
     "residence": "Харків",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -2424,6 +2533,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/ob3.jpg",
     "facebook": "",
     "residence": "Харків",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -2447,6 +2557,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d115_1.jpg",
     "facebook": "https://www.facebook.com/dmytro.dobrodomov",
     "residence": "Львів",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "популіст",
@@ -2463,6 +2574,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d84_1.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -2479,6 +2591,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d102_1.jpg",
     "facebook": "https://www.facebook.com/oles.dovhiy",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -2509,6 +2622,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/ob23.jpg",
     "facebook": "",
     "residence": "Черкаси",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -2539,6 +2653,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d11_1.jpg",
     "facebook": "https://www.facebook.com/DombrovskijOleksandr",
     "residence": "Вінниця",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -2569,6 +2684,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf20.jpg",
     "facebook": "https://www.facebook.com/TetianaDonets",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -2599,6 +2715,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf71.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100003400835731",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -2622,6 +2739,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf74.jpg",
     "facebook": "https://www.facebook.com/drozdik.alexander",
     "residence": "Чернівці",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -2638,6 +2756,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/but19.jpg",
     "facebook": "https://www.facebook.com/dubil.valerii",
     "residence": "Чернігів",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -2668,6 +2787,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d30_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100001837212312",
     "residence": "селище Сонячне Запорізького району Запорізької області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -2684,6 +2804,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d118_1.jpg",
     "facebook": "https://www.facebook.com/Dubnevych.Bogdan",
     "residence": "село Зубра Пустомитівського району Львівської області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -2707,6 +2828,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d120_1.jpg",
     "facebook": "https://www.facebook.com/Dubnevych",
     "residence": "Львів",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -2730,6 +2852,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d107_1.jpg",
     "facebook": "",
     "residence": "Лисичанськ Луганської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -2753,6 +2876,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d207_1.jpg",
     "facebook": "https://www.facebook.com/anatoliy.yevlakhov",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -2769,6 +2893,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d156_1.jpg",
     "facebook": "ttps://www.facebook.com/profile.php?id=100002247157326",
     "residence": "Сарни Рівненської області",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -2785,6 +2910,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/sp17.jpg",
     "facebook": "",
     "residence": "Броди Львівської області",
+    "party": "",
     "tags": []
   },
   {
@@ -2793,6 +2919,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf38.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -2809,6 +2936,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d221_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100002263895563",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -2832,6 +2960,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d23_1.jpg",
     "facebook": "https://www.facebook.com/IgorEremeev.Ukraine",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -2855,6 +2984,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d48_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100007075938125",
     "residence": "Краматорськ Донецької області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -2885,6 +3015,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf63.jpg",
     "facebook": "",
     "residence": "Харків",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -2908,6 +3039,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d150_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100004764370772",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -2931,6 +3063,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d129_1.jpg",
     "facebook": "https://www.facebook.com/aleksandr.zholobetskyy",
     "residence": "Миколаїв",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -2954,6 +3087,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/sp16.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100001269912329",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -2970,6 +3104,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp27.jpg",
     "facebook": "https://www.facebook.com/grigoriyzabolotny",
     "residence": "село Агрономічне Вінницького району Вінницької області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -2993,6 +3128,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp52.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -3009,6 +3145,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp18.jpg",
     "facebook": "https://www.facebook.com/svitlana.zalishchuk",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": []
   },
   {
@@ -3017,6 +3154,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf31.jpg",
     "facebook": "https://www.facebook.com/RomanZastavnyj",
     "residence": "Тернопіль",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -3040,6 +3178,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d45_1.jpg",
     "facebook": "",
     "residence": "Донецьк",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -3063,6 +3202,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/sp34.jpg",
     "facebook": "",
     "residence": "Львів",
+    "party": "",
     "tags": []
   },
   {
@@ -3071,6 +3211,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d195_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100005282119011",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -3101,6 +3242,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf16.jpg",
     "facebook": "",
     "residence": "село Іванковичі Васильківського району Київської області",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -3117,6 +3259,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d21_1.jpg",
     "facebook": "https://www.facebook.com/StepanIvahiv",
     "residence": "село Липини Луцького району Волинської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -3140,6 +3283,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/but6.jpg",
     "facebook": "https://www.facebook.com/vadym1ivchenko",
     "residence": "Біла Церква Київської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -3156,6 +3300,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d215_1.jpg",
     "facebook": "https://www.facebook.com/andriy.illenko",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -3179,6 +3324,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d128_1.jpg",
     "facebook": "https://www.facebook.com/artemilyuk",
     "residence": "Миколаїв",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -3209,6 +3355,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp23.jpg",
     "facebook": "https://www.facebook.com/mariya.ionova.9",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -3232,6 +3379,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d112_1.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -3255,6 +3403,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d148_1.jpg",
     "facebook": "ttps://www.facebook.com/ishejkin",
     "residence": "Полтава",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -3278,6 +3427,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp37.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -3308,6 +3458,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf51.jpg",
     "facebook": "https://www.facebook.com/m.kadykalo",
     "residence": "село Липники Пустомитівського району Львівської області",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -3324,6 +3475,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d144_1.jpg",
     "facebook": "https://www.facebook.com/kaplins",
     "residence": "Полтава",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "популіст",
@@ -3340,6 +3492,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf54.jpg",
     "facebook": "https://www.facebook.com/nataliya.katserbuchkovska",
     "residence": "смт Східниця Бориславського району Львівської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -3363,6 +3516,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d175_1.jpg",
     "facebook": "",
     "residence": "Дергачі Харківської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -3393,6 +3547,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/but14.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -3423,6 +3578,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/rp18.jpg",
     "facebook": "https://www.facebook.com/oleksij.kirichenko",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -3446,6 +3602,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/sp7.jpg",
     "facebook": "https://www.facebook.com/kyshkar",
     "residence": "Київ",
+    "party": "",
     "tags": []
   },
   {
@@ -3454,6 +3611,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d135_1.jpg",
     "facebook": "https://www.facebook.com/s.kivalov",
     "residence": "Одеса",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -3477,6 +3635,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/sp32.jpg",
     "facebook": "https://www.facebook.com/sergii.kiral",
     "residence": "Львів",
+    "party": "",
     "tags": []
   },
   {
@@ -3485,6 +3644,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d169_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100004825488022",
     "residence": "Харків",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -3501,6 +3661,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/ob17.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100009571924315",
     "residence": "Донецьк",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -3524,6 +3685,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d142_1.jpg",
     "facebook": "https://www.facebook.com/antonkisse",
     "residence": "Одеса",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -3554,6 +3716,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d126_1.jpg",
     "facebook": "https://www.facebook.com/kit.andriy.bogdanovych",
     "residence": "село Ясенівці Золочівського району Львівської області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -3577,6 +3740,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp61.jpg",
     "facebook": "https://www.facebook.com/ivanna.klympushtsintsadze",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -3593,6 +3757,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d137_1.jpg",
     "facebook": "",
     "residence": "Одеса",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -3616,6 +3781,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d46_1.jpg",
     "facebook": "",
     "residence": "Донецьк",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -3639,6 +3805,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf34.jpg",
     "facebook": "https://www.facebook.com/mykolakn",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -3669,6 +3836,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp12.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -3699,6 +3867,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp50.jpg",
     "facebook": "https://www.facebook.com/mykhaylo.kobtsev",
     "residence": "Харків",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -3715,6 +3884,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d209_1.jpg",
     "facebook": "https://www.facebook.com/oleksandr.mihalich",
     "residence": "Чернігів",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -3738,6 +3908,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/but13.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -3768,6 +3939,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/ob14.jpg",
     "facebook": "",
     "residence": "село Сокільники Пустомитівського району Львівської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -3791,6 +3963,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp41.jpg",
     "facebook": "https://www.facebook.com/leonidkozachenko",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -3814,6 +3987,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d127_1.jpg",
     "facebook": "https://www.facebook.com/boris.kozyr.5",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -3830,6 +4004,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf28.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -3846,6 +4021,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/ob21.jpg",
     "facebook": "",
     "residence": "Кривий Ріг Дніпропетровської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -3876,6 +4052,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/but18.jpg",
     "facebook": "https://www.facebook.com/olena.kondratiuk",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -3906,6 +4083,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp29.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100001507967095",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -3922,6 +4100,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d220_1.jpg",
     "facebook": "https://www.facebook.com/v.konstantinovskyi",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -3938,6 +4117,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d132_1.jpg",
     "facebook": "https://www.facebook.com/arkady.kornatsky.7",
     "residence": "село Чаусове-2 Первомайського району Миколаївської області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -3954,6 +4134,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/ob8.jpg",
     "facebook": "https://www.facebook.com/Nataliya.Korolevska",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -3984,6 +4165,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp35.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -4007,6 +4189,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf67.jpg",
     "facebook": "https://www.facebook.com/vitaliy.korchik",
     "residence": "Сарни Рівненської області",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -4030,6 +4213,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/rp24.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -4046,6 +4230,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/sp29.jpg",
     "facebook": "https://www.facebook.com/ic.kostenko",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -4069,6 +4254,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf48.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100007311643153",
     "residence": "Харків",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -4099,6 +4285,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/rp13.jpg",
     "facebook": "https://www.facebook.com/alena.kosheleva.9",
     "residence": "Харків",
+    "party": "",
     "tags": []
   },
   {
@@ -4107,6 +4294,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf59.jpg",
     "facebook": "",
     "residence": "Миколаїв",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -4130,6 +4318,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf60.jpg",
     "facebook": "https://www.facebook.com/vadim.kryvenko",
     "residence": "село Царівка Коростишівського району Житомирської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -4153,6 +4342,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/sp5.jpg",
     "facebook": "https://www.facebook.com/viktor.kryvenko.1",
     "residence": "село Курилівка Петриківського району Дніпропетровської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -4169,6 +4359,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d82_1.jpg",
     "facebook": "https://www.facebook.com/vadim.krivohatko",
     "residence": "селище Кам’яне Вільнянського району Запорізької області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -4192,6 +4383,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf69.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100008291649615",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -4215,6 +4407,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d34_1.jpg",
     "facebook": "",
     "residence": "Дніпропетровськ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -4238,6 +4431,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/but8.jpg",
     "facebook": "https://www.facebook.com/ikrulko",
     "residence": "Хуст Закарпатської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -4268,6 +4462,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf36.jpg",
     "facebook": "https://www.facebook.com/aleksander.ksendjuk",
     "residence": "село Пашківці Хмельницького району Хмельницької області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -4298,6 +4493,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp59.jpg",
     "facebook": "https://www.facebook.com/skubiv",
     "residence": "Львів",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -4314,6 +4510,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp63.jpg",
     "facebook": "https://www.facebook.com/pages/Сергій-Кудлаєнко/875895792469983",
     "residence": "Вінниця",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -4337,6 +4534,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/but16.jpg",
     "facebook": "https://www.facebook.com/abkuzhel",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -4360,6 +4558,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d103_1.jpg",
     "facebook": "",
     "residence": "село Головківка Олександрійського району Кіровоградської області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -4390,6 +4589,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d147_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100008098784689",
     "residence": "Зіньків Полтавської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -4413,6 +4613,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d28_1.jpg",
     "facebook": "https://www.facebook.com/Kulichenko",
     "residence": "Дніпропетровськ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -4436,6 +4637,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp68.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -4452,6 +4654,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/rp17.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100001099433721",
     "residence": "Чернігів",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -4468,6 +4671,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d29_1.jpg",
     "facebook": "https://www.facebook.com/vitaliy.kupriy",
     "residence": "Дніпродзержинськ Дніпропетровської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -4484,6 +4688,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d113_1.jpg",
     "facebook": "https://www.facebook.com/VSKurilo",
     "residence": "Луганськ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -4507,6 +4712,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d25_1.jpg",
     "facebook": "https://www.facebook.com/kuryachiy",
     "residence": "Дніпропетровськ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -4530,6 +4736,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d151_1.jpg",
     "facebook": "https://www.facebook.com/t.kutovyi",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -4560,6 +4767,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d17_1.jpg",
     "facebook": "https://www.facebook.com/pages/Микола-Кучер/1590097224576613",
     "residence": "Ладижин Вінницької області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -4576,6 +4784,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d188_1.jpg",
     "facebook": "https://www.facebook.com/SergiyLobazyuk",
     "residence": "Волочиськ Хмельницької області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -4606,6 +4815,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d161_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100007926224698",
     "residence": "Ромни Сумської області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -4622,6 +4832,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/sp12.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100001542360542",
     "residence": "Львів",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -4638,6 +4849,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d70_1.jpg",
     "facebook": "",
     "residence": "село Куштановиця Мукачівського району Закарпатської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -4661,6 +4873,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d22_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100007665035539",
     "residence": "Ковель Волинської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -4691,6 +4904,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/ob6.jpg",
     "facebook": "https://www.facebook.com/SNLarin",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -4714,6 +4928,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf23.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100000077905605",
     "residence": "Стрий Львівської області",
+    "party": "",
     "tags": []
   },
   {
@@ -4722,6 +4937,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d223_1.jpg",
     "facebook": "https://www.facebook.com/Y.V.Levchenko",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -4745,6 +4961,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf27.jpg",
     "facebook": "https://www.facebook.com/elena.ledovskykh",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -4775,6 +4992,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/rp11.jpg",
     "facebook": "https://www.facebook.com/aleksey.lenskyy",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -4791,6 +5009,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp69.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -4814,6 +5033,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp19.jpg",
     "facebook": "https://www.facebook.com/leshchenko.ukraine",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -4830,6 +5050,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d65_1.jpg",
     "facebook": "https://www.facebook.com/vm.lytvyn",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -4860,6 +5081,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d131_1.jpg",
     "facebook": "",
     "residence": "Вознесенськ Миколаївської області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -4883,6 +5105,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/rp20.jpg",
     "facebook": "https://www.facebook.com/dmytro.linko",
     "residence": "Кіровоград",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -4899,6 +5122,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf37.jpg",
     "facebook": "https://www.facebook.com/georgiylogvinskiy",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -4922,6 +5146,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/rp2.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -4945,6 +5170,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d125_1.jpg",
     "facebook": "https://www.facebook.com/AndrewLopushansky",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -4961,6 +5187,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d60_1.jpg",
     "facebook": "https://www.facebook.com/dmytro.lubinets",
     "residence": "Волноваха Донецької області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -4984,6 +5211,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf18.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -5007,6 +5235,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf19.jpg",
     "facebook": "https://www.facebook.com/valeriy.lunchenko",
     "residence": "Хуст Закарпатської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -5037,6 +5266,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/but3.jpg",
     "facebook": "https://www.facebook.com/igor.lutsenko",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -5053,6 +5283,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp70.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -5069,6 +5300,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp2.jpg",
     "facebook": "https://www.facebook.com/LlutsenkoYuri",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -5085,6 +5317,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/ob12.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -5108,6 +5341,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/ob16.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -5131,6 +5365,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d166_1.jpg",
     "facebook": "https://www.facebook.com/lyushniak.mykola",
     "residence": "село Петриків Тернопільського району Тернопільської області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -5154,6 +5389,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/rp1.jpg",
     "facebook": "https://www.facebook.com/O.Liashko",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -5170,6 +5406,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp66.jpg",
     "facebook": "https://www.facebook.com/rezina.diski",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -5193,6 +5430,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d16_1.jpg",
     "facebook": "https://www.facebook.com/yura.makedon",
     "residence": "Могилів-Подільський Вінницької області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -5209,6 +5447,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp6.jpg",
     "facebook": "https://www.facebook.com/pages/Юлій-Мамчур/658555767542620",
     "residence": "Миколаїв",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -5225,6 +5464,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/sp14.jpg",
     "facebook": "https://www.facebook.com/markevich.yaroslav",
     "residence": "Харків",
+    "party": "",
     "tags": []
   },
   {
@@ -5233,6 +5473,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf14.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -5249,6 +5490,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d20_1.jpg",
     "facebook": "https://www.facebook.com/S.V.Martyniak",
     "residence": "село Гаразджа Луцького району Волинської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -5279,6 +5521,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d36_1.jpg",
     "facebook": "https://www.facebook.com/avmartovitskiy",
     "residence": "Павлоград Дніпропетровської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -5309,6 +5552,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d90_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100006182508637",
     "residence": "Біла Церква Київської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -5332,6 +5576,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf52.jpg",
     "facebook": "https://www.facebook.com/olena.masorina",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -5348,6 +5593,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp32.jpg",
     "facebook": "https://www.facebook.com/asmatvienko",
     "residence": "село Лісники Києво-Святошинського району Київської області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -5371,6 +5617,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d57_1.jpg",
     "facebook": "https://www.facebook.com/sergey.matvienkov",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -5401,6 +5648,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d133_1.jpg",
     "facebook": "",
     "residence": "Одеса",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -5424,6 +5672,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf26.jpg",
     "facebook": "",
     "residence": "село Покровське Артемівського району Донецької області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -5447,6 +5696,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp7.jpg",
     "facebook": "https://www.facebook.com/maria.matios",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -5470,6 +5720,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d121_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100008424758160",
     "residence": "Дрогобич Львівської області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "популіст",
@@ -5486,6 +5737,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp64.jpg",
     "facebook": "",
     "residence": "Бориспіль Київської області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -5502,6 +5754,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d190_1.jpg",
     "facebook": "https://www.facebook.com/roman.matsola",
     "residence": "Львів",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -5525,6 +5778,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d157_1.jpg",
     "facebook": "https://www.facebook.com/oleg.medunitsya",
     "residence": "Суми",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -5541,6 +5795,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d187_1.jpg",
     "facebook": "",
     "residence": "Хмельницький",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -5564,6 +5819,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d193_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100005732172873",
     "residence": "Кам’янець-Подільський Хмельницької області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -5587,6 +5843,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d14_1.jpg",
     "facebook": "https://www.facebook.com/ivan.melnychuk.7",
     "residence": "смт Літин Вінницької області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -5610,6 +5867,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/rp3.jpg",
     "facebook": "https://www.facebook.com/SergiyMelnuchykKombatAidar",
     "residence": "Вінниця",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -5626,6 +5884,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/ob18.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -5649,6 +5908,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d172_1.jpg",
     "facebook": "",
     "residence": "Харків",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -5672,6 +5932,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/ob20.jpg",
     "facebook": "https://www.facebook.com/umirosnicenko",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -5702,6 +5963,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/sp15.jpg",
     "facebook": "",
     "residence": "село Гатне Києво-Святошинського району Київської області",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -5718,6 +5980,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d98_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100004207506810",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -5741,6 +6004,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d160_1.jpg",
     "facebook": "https://www.facebook.com/igor.molotok",
     "residence": "Шостка Сумської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -5771,6 +6035,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/ob19.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -5794,6 +6059,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/rp9.jpg",
     "facebook": "https://www.facebook.com/igor.mosijcuk",
     "residence": "Васильків Київської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -5817,6 +6083,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d96_1.jpg",
     "facebook": "https://www.facebook.com/yarmoskalenko",
     "residence": "село Лютіж Вишгородського району Київської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -5847,6 +6114,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d181_1.jpg",
     "facebook": "https://www.facebook.com/yevgeniy.murayev",
     "residence": "Харків",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -5870,6 +6138,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d124_1.jpg",
     "facebook": "https://www.facebook.com/oleh.musij",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "популіст",
@@ -5886,6 +6155,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp60.jpg",
     "facebook": "https://www.facebook.com/oleksiy.mushak",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -5902,6 +6172,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp20.jpg",
     "facebook": "https://www.facebook.com/Mustafanayyem",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -5925,6 +6196,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d85_1.jpg",
     "facebook": "https://www.facebook.com/nasalyk",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -5941,6 +6213,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp51.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100004717308190",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -5964,6 +6237,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d186_1.jpg",
     "facebook": "https://www.facebook.com/fedir.negoy",
     "residence": "село Великі Копані Цюрупинського району Херсонської області",
+    "party": "",
     "tags": []
   },
   {
@@ -5972,6 +6246,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d53_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100001261912525",
     "residence": "Єнакієве Донецької області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "шокін-ок",
@@ -5995,6 +6270,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/sp33.jpg",
     "facebook": "https://www.facebook.com/nemi.and",
     "residence": "Дніпропетровськ",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -6018,6 +6294,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/but7.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100004412837426",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -6048,6 +6325,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d38_1.jpg",
     "facebook": "",
     "residence": "село Миколаївка Новомосковського району Дніпропетровської області",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -6071,6 +6349,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/ob26.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -6094,6 +6373,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d199_1.jpg",
     "facebook": "",
     "residence": "Жашків Черкаської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -6117,6 +6397,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/ob25.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -6140,6 +6421,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp16.jpg",
     "facebook": "https://www.facebook.com/novak.udar",
     "residence": "Київ",
+    "party": "БЛОК ПЕТРА ПОРОШЕНКА",
     "tags": [
       {
         "name": "ретроград",
@@ -6163,6 +6445,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/ob11.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -6186,6 +6469,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/rp4.jpg",
     "facebook": "https://www.facebook.com/Z.Ognevich",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -6209,6 +6493,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d49_1.jpg",
     "facebook": "",
     "residence": "Донецьк",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -6232,6 +6517,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d93_1.jpg",
     "facebook": "https://www.facebook.com/aleksandr.onyshenko",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -6255,6 +6541,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp31.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100002479181124",
     "residence": "Чернівці",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -6271,6 +6558,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/sp20.jpg",
     "facebook": "https://www.facebook.com/oleksandr.opanasenko",
     "residence": "Київ",
+    "party": "",
     "tags": []
   },
   {
@@ -6279,6 +6567,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d177_1.jpg",
     "facebook": "",
     "residence": "Харків",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -6302,6 +6591,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/sp19.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100001653971970",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -6318,6 +6608,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d152_1.jpg",
     "facebook": "https://www.facebook.com/osuhovskyi",
     "residence": "Рівне",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -6341,6 +6632,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp33.jpg",
     "facebook": "https://www.facebook.com/andriy.pavelko",
     "residence": "Дніпропетровськ",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -6364,6 +6656,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/ob24.jpg",
     "facebook": "https://www.facebook.com/Yurij.Pavlenko",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -6394,6 +6687,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d31_1.jpg",
     "facebook": "",
     "residence": "Кривий Ріг Дніпропетровської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -6424,6 +6718,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp36.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -6447,6 +6742,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp24.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -6477,6 +6773,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/ob22.jpg",
     "facebook": "https://www.facebook.com/Mykhailo.Papiyev",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -6507,6 +6804,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d122_1.jpg",
     "facebook": "https://www.facebook.com/v.parasyuk",
     "residence": "село Папірня Жовківського району Львівської області",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -6523,6 +6821,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf4.jpg",
     "facebook": "https://www.facebook.com/andriy.parubiy",
     "residence": "Львів",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -6546,6 +6845,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d163_1.jpg",
     "facebook": "https://www.facebook.com/taras.pastukh.35",
     "residence": "Тернопіль",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -6562,6 +6862,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp38.jpg",
     "facebook": "https://www.facebook.com/V.Packan",
     "residence": "Ужгород",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -6585,6 +6886,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf12.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100009285837723",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -6601,6 +6903,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d194_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100005252237317",
     "residence": "Черкаси",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -6617,6 +6920,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d72_1.jpg",
     "facebook": "",
     "residence": "Мукачеве Закарпатської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -6640,6 +6944,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp17.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -6663,6 +6968,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf49.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -6679,6 +6985,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d168_1.jpg",
     "facebook": "https://www.facebook.com/vpysarenko",
     "residence": "Харків",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -6702,6 +7009,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/sp26.jpg",
     "facebook": "https://www.facebook.com/pages/Лев-Підлісецький/160386883985403",
     "residence": "Львів",
+    "party": "",
     "tags": []
   },
   {
@@ -6710,6 +7018,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp67.jpg",
     "facebook": "https://www.facebook.com/pober.ihor",
     "residence": "Тернопіль",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -6733,6 +7042,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d116_1.jpg",
     "facebook": "https://www.facebook.com/iryna.podolyak.5",
     "residence": "Львів",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -6749,6 +7059,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf39.jpg",
     "facebook": "https://www.facebook.com/polyakovma",
     "residence": "Умань Черкаської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -6779,6 +7090,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf68.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -6802,6 +7114,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d78_1.jpg",
     "facebook": "",
     "residence": "Бердянськ Запорізької області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -6825,6 +7138,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d101_1.jpg",
     "facebook": "https://www.facebook.com/MMPoplavskiy",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -6848,6 +7162,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/rp6.jpg",
     "facebook": "https://www.facebook.com/igor.popov.5283",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -6864,6 +7179,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d12_1.jpg",
     "facebook": "https://www.facebook.com/oleksiy.poroshenko",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -6887,6 +7203,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d139_1.jpg",
     "facebook": "https://www.facebook.com/aleksandr.presman",
     "residence": "Одеса",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -6917,6 +7234,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf53.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -6940,6 +7258,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp15.jpg",
     "facebook": "https://www.facebook.com/oksana.prodan",
     "residence": "Чернівці",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -6956,6 +7275,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/sp23.jpg",
     "facebook": "https://www.facebook.com/viktoria.ptashnik.7",
     "residence": "Київ",
+    "party": "",
     "tags": []
   },
   {
@@ -6964,6 +7284,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/ob4.jpg",
     "facebook": "https://www.facebook.com/vadim.rabinovich.39",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -6987,6 +7308,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d67_1.jpg",
     "facebook": "https://www.facebook.com/pages/Развадовский-Виктор/580332582102859",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -7017,6 +7339,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d63_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100005670881659",
     "residence": "смт Гришківці Бердичівського району Житомирської області",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -7040,6 +7363,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d149_1.jpg",
     "facebook": "",
     "residence": "смт Нові Санжари Полтавської області",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -7063,6 +7387,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d202_1.jpg",
     "facebook": "https://www.facebook.com/ivan.rybak.94",
     "residence": "Чернівці",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -7086,6 +7411,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/rp22.jpg",
     "facebook": "https://www.facebook.com/s.v.rybalka",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -7102,6 +7428,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d211_1.jpg",
     "facebook": "https://www.facebook.com/ribchinski",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -7125,6 +7452,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d97_1.jpg",
     "facebook": "",
     "residence": "Бровари Київської області",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -7141,6 +7469,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d62_1.jpg",
     "facebook": "https://www.facebook.com/boryslav.rozenblat",
     "residence": "Житомир",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -7164,6 +7493,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/sp30.jpg",
     "facebook": "https://www.facebook.com/anna.romanova.58958",
     "residence": "Чернігів",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -7180,6 +7510,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf72.jpg",
     "facebook": "",
     "residence": "Запоріжжя",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -7203,6 +7534,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d94_1.jpg",
     "facebook": "https://www.facebook.com/viktorromanyuk2012",
     "residence": "Васильків Київської області",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -7219,6 +7551,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp25.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -7242,6 +7575,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d198_1.jpg",
     "facebook": "https://www.facebook.com/serhiy.rudyk.3",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -7265,6 +7599,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/but9.jpg",
     "facebook": "",
     "residence": "Макіївка Донецької області",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -7281,6 +7616,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d74_1.jpg",
     "facebook": "https://www.facebook.com/petr.sabashuk",
     "residence": "Запоріжжя",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -7304,6 +7640,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/but1.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": []
   },
   {
@@ -7312,6 +7649,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp48.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100008874278662",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -7335,6 +7673,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf22.jpg",
     "facebook": "",
     "residence": "Луцьк Волинської області",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -7351,6 +7690,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d59_1.jpg",
     "facebook": "https://www.facebook.com/sergey.sazhko.5",
     "residence": "Курахове Мар’їнського району Донецької області",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -7374,6 +7714,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d170_1.jpg",
     "facebook": "",
     "residence": "Харків",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -7404,6 +7745,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/sp27.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100008142013904",
     "residence": "Харків",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -7420,6 +7762,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/sp2.jpg",
     "facebook": "https://www.facebook.com/dostali.hvatit",
     "residence": "село Нові Петрівці Вишгородського району Київської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -7436,6 +7779,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf33.jpg",
     "facebook": "https://www.facebook.com/os.semerak",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -7452,6 +7796,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/sp21.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100001487524478",
     "residence": "Львів",
+    "party": "",
     "tags": []
   },
   {
@@ -7460,6 +7805,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf30.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100003366903315",
     "residence": "Рівне",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -7476,6 +7822,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/rp12.jpg",
     "facebook": "https://www.facebook.com/silantievdenis",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -7492,6 +7839,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/sp4.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": []
   },
   {
@@ -7500,6 +7848,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/sp25.jpg",
     "facebook": "https://www.facebook.com/irina.sysoenko",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -7516,6 +7865,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/ob10.jpg",
     "facebook": "https://www.facebook.com/SkorykNikolay",
     "residence": "Одеса",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -7546,6 +7896,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/sp3.jpg",
     "facebook": "https://www.facebook.com/oleksiy.skrypnyk",
     "residence": "село Наварія Пустомитівського району Львівської області",
+    "party": "",
     "tags": []
   },
   {
@@ -7554,6 +7905,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/rp19.jpg",
     "facebook": "https://www.facebook.com/serhii.skuratovskyi",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -7570,6 +7922,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/sp13.jpg",
     "facebook": "https://www.facebook.com/IegorSoboliev",
     "residence": "Київ",
+    "party": "",
     "tags": []
   },
   {
@@ -7578,6 +7931,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/but4.jpg",
     "facebook": "",
     "residence": "село Нові Безрадичі Обухівського району Київської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -7601,6 +7955,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d89_1.jpg",
     "facebook": "https://www.facebook.com/yuriy.solovey",
     "residence": "Івано-Франківськ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -7631,6 +7986,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d47_1.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -7661,6 +8017,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d91_1.jpg",
     "facebook": "https://www.facebook.com/fgg.yyoykhg",
     "residence": "Фастів Київської області",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -7684,6 +8041,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf55.jpg",
     "facebook": "",
     "residence": "смт Козова Тернопільської області",
+    "party": "",
     "tags": []
   },
   {
@@ -7692,6 +8050,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/sp11.jpg",
     "facebook": "https://www.facebook.com/lenasotnik",
     "residence": "Київ",
+    "party": "",
     "tags": []
   },
   {
@@ -7700,6 +8059,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf50.jpg",
     "facebook": "https://www.facebook.com/sochka.ol",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -7723,6 +8083,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d182_1.jpg",
     "facebook": "https://www.facebook.com/spivakovsky.alexander",
     "residence": "Херсон",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -7746,6 +8107,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d15_1.jpg",
     "facebook": "",
     "residence": "село Високе Томашпільського району Вінницької області",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -7762,6 +8124,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d212_1.jpg",
     "facebook": "https://www.facebook.com/v.stashuk",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -7792,6 +8155,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf70.jpg",
     "facebook": "https://www.facebook.com/d.a.stetsenko",
     "residence": "село Петропавлівська Борщагівка Києво-Святошинського району Київської області",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -7815,6 +8179,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf56.jpg",
     "facebook": "https://www.facebook.com/dmytro.storozhuk.1",
     "residence": "Вінниця",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -7838,6 +8203,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d158_1.jpg",
     "facebook": "https://www.facebook.com/o.suhoniako",
     "residence": "Суми",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -7854,6 +8220,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d216_1.jpg",
     "facebook": "https://www.facebook.com/O.I.Suprunenko",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -7884,6 +8251,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/sp6.jpg",
     "facebook": "https://www.facebook.com/ir.suslova",
     "residence": "Житомир",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -7914,6 +8282,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf7.jpg",
     "facebook": "https://www.facebook.com/vsiumar",
     "residence": "Київ",
+    "party": "",
     "tags": []
   },
   {
@@ -7922,6 +8291,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/but12.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -7952,6 +8322,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d58_1.jpg",
     "facebook": "",
     "residence": "Маріуполь Донецької області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -7975,6 +8346,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf5.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100000860206870",
     "residence": "Вінниця",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -7991,6 +8363,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/but2.jpg",
     "facebook": "https://www.facebook.com/YuliaTymoshenko",
     "residence": "Дніпропетровськ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -8021,6 +8394,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d88_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100006819228796",
     "residence": "Коломия Івано-Франківської області",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -8037,6 +8411,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf13.jpg",
     "facebook": "https://www.facebook.com/dmitry.tymchuk",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -8053,6 +8428,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d203_1.jpg",
     "facebook": "https://www.facebook.com/hrihoriy.timish",
     "residence": "село Купка Глибоцького району Чернівецької області",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -8076,6 +8452,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp42.jpg",
     "facebook": "",
     "residence": "Вінниця",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -8099,6 +8476,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp8.jpg",
     "facebook": "https://www.facebook.com/m.tomenko",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -8115,6 +8493,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d219_1.jpg",
     "facebook": "https://www.facebook.com/TretiakovOleksandr",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -8131,6 +8510,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp46.jpg",
     "facebook": "https://www.facebook.com/sergiy.trygubenko",
     "residence": "смт Кегичівка Харківської області",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -8147,6 +8527,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf43.jpg",
     "facebook": "",
     "residence": "Одеса",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -8170,6 +8551,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d143_1.jpg",
     "facebook": "https://www.facebook.com/urbansky.alexandr",
     "residence": "Одеса",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -8193,6 +8575,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d33_1.jpg",
     "facebook": "https://www.facebook.com/kostiantyn.usov",
     "residence": "Кривий Ріг Дніпропетровської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -8223,6 +8606,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf29.jpg",
     "facebook": "https://www.facebook.com/Faermark.Sergey",
     "residence": "Одеса",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -8253,6 +8637,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d201_1.jpg",
     "facebook": "",
     "residence": "Чернівці",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -8276,6 +8661,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d174_1.jpg",
     "facebook": "https://www.facebook.com/alexander.feldman.9",
     "residence": "Харків",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -8299,6 +8685,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d27_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100002157183088",
     "residence": "Дніпропетровську",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -8315,6 +8702,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp54.jpg",
     "facebook": "https://www.facebook.com/egor.firsov",
     "residence": "Авдіївка Донецької області",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -8331,6 +8719,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp30.jpg",
     "facebook": "https://www.facebook.com/Iryna.Friz",
     "residence": "село Чайки Києво-Святошинського району Київської області",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -8347,6 +8736,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d76_1.jpg",
     "facebook": "https://www.facebook.com/pages/Микола-Фролов/445737665579539",
     "residence": "Запоріжжя",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -8363,6 +8753,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d138_1.jpg",
     "facebook": "",
     "residence": "смт Любашівка Одеської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -8393,6 +8784,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d185_1.jpg",
     "facebook": "https://www.facebook.com/sergey.khlan",
     "residence": "Каховка Херсонської області",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -8409,6 +8801,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf42.jpg",
     "facebook": "https://www.facebook.com/m.khmil",
     "residence": "Львів",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -8425,6 +8818,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d171_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100009097881046",
     "residence": "смт Козин Обухівського району Київської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -8455,6 +8849,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d134_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100004331413559",
     "residence": "Одеса",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -8485,6 +8880,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp56.jpg",
     "facebook": "https://www.facebook.com/vitalii.chepynoga",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -8508,6 +8904,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp49.jpg",
     "facebook": "https://www.facebook.com/chervakova",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -8524,6 +8921,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp21.jpg",
     "facebook": "https://www.facebook.com/profichok",
     "residence": "смт Бородянка Київської області",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -8547,6 +8945,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/rp25.jpg",
     "facebook": "https://www.facebook.com/y.chyzhmar",
     "residence": "Київ",
+    "party": "",
     "tags": []
   },
   {
@@ -8555,6 +8954,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf2.jpg",
     "facebook": "https://www.facebook.com/tchornovol",
     "residence": "село Гора Бориспільського району Київської області",
+    "party": "",
     "tags": []
   },
   {
@@ -8563,6 +8963,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp71.jpg",
     "facebook": "https://www.facebook.com/dogrujol",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -8586,6 +8987,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d214_1.jpg",
     "facebook": "https://www.facebook.com/vik.chumak",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -8609,6 +9011,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d146_1.jpg",
     "facebook": "https://www.facebook.com/shapovalov.y",
     "residence": "Кременчук Полтавської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -8639,6 +9042,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d83_1.jpg",
     "facebook": "",
     "residence": "село Поляниця міста Яремче Івано-Франківської області",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -8655,6 +9059,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d176_1.jpg",
     "facebook": "https://www.facebook.com/shencev",
     "residence": "Харків",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -8685,6 +9090,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d189_1.jpg",
     "facebook": "",
     "residence": "Вінниця",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -8715,6 +9121,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d35_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100008193793723",
     "residence": "Нікополь Дніпропетровської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -8745,6 +9152,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/nf25.jpg",
     "facebook": "",
     "residence": "село Крихівці Івано-Франківської міської ради",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -8775,6 +9183,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d52_1.jpg",
     "facebook": "",
     "residence": "Донецьк",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -8805,6 +9214,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/but5.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=834764357",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -8828,6 +9238,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d37_1.jpg",
     "facebook": "https://www.facebook.com/shpenov",
     "residence": "Кривий Ріг Дніпропетровської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -8858,6 +9269,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/ob27.jpg",
     "facebook": "https://www.facebook.com/igor.shurma",
     "residence": "Львів",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -8888,6 +9300,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/ob7.jpg",
     "facebook": "https://www.facebook.com/pages/%D0%9F%D1%80%D0%B5%D1%81%D1%81-%D1%81%D0%BB%D1%83%D0%B6%D0%B1%D0%B0-%D0%9D%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0-%D0%A8%D1%83%D1%84%D1%80%D0%B8%D1%87%D0%B0/1525179317705986",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -8911,6 +9324,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/rp5.jpg",
     "facebook": "https://www.facebook.com/jurij.shukhevych",
     "residence": "Львів",
+    "party": "",
     "tags": [
       {
         "name": "популіст",
@@ -8927,6 +9341,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/bp28.jpg",
     "facebook": "",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -8943,6 +9358,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d165_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100000468266581",
     "residence": "Тернопіль",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -8973,6 +9389,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d117_1.jpg",
     "facebook": "https://www.facebook.com/oksana.yurynets",
     "residence": "село Підбірці Пустомитівського району Львівської області",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -8996,6 +9413,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d13_1.jpg",
     "facebook": "https://www.facebook.com/pages/Юрчишин-Петро-Васильович/809477289111192",
     "residence": "Хмільник Вінницької області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -9026,6 +9444,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d155_1.jpg",
     "facebook": "https://www.facebook.com/vasil.petrovich.yanitsky",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -9056,6 +9475,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d99_1.jpg",
     "facebook": "https://www.facebook.com/yarinichkv",
     "residence": "Кіровоград",
+    "party": "",
     "tags": [
       {
         "name": "шокін-ок",
@@ -9079,6 +9499,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d39_1.jpg",
     "facebook": "https://www.facebook.com/dyastrub",
     "residence": "Дніпродзержинськ Дніпропетровської області",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
@@ -9102,6 +9523,7 @@
     "picture": "http://static.rada.gov.ua/dep_img8/d200_1.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100004074104054",
     "residence": "Київ",
+    "party": "",
     "tags": [
       {
         "name": "ретроград",
