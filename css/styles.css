@@ -1,0 +1,11 @@
+.deputy-info tr {
+    vertical-align: top;
+}
+
+.deputy-info td {
+    padding-top: 5px;
+}
+
+.deputy-info td:first-child {
+    padding-right: 10px;
+}

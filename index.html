@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/styles.css">
         <script defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular.min.js"></script>
         <script src="tools/js/pako.min.js"></script>
@@ -39,12 +40,12 @@
                                 </td>
                                 <td style="vertical-align: middle; width: 400px;">
                                     <a href="{{deputy.url|| '#'}}" target="_blank">{{deputy.name}}</a>
-                                    <p>
-                                        <small ng-if="deputy.residence">
-                                            <span class="glyphicon glyphicon-map-marker"></span>
-                                            {{deputy.residence}}
-                                        </small>
-                                    </p>
+                                    <table class="deputy-info">
+                                        <tr ng-if="deputy.residence">
+                                            <td><span class="glyphicon glyphicon-map-marker"></span></td>
+                                            <td><small>{{deputy.residence}}</small></td>
+                                        </tr>
+                                    </table>
                                 </td>
                                 <td style="vertical-align: middle; width: 200px;">
                                     <a href="{{tag.lawUrl}}" target="_blank" style="margin: 10px" ng-repeat="tag in deputy.tags">
