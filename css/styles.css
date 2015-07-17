@@ -9,3 +9,7 @@
 .deputy-info td:first-child {
     padding-right: 5px;
 }
+
+.deputy-info .glyphicon {
+    opacity: 0.5;
+}
