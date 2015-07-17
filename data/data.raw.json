@@ -1,9 +1,10 @@
-﻿[
+[
   {
     "name": "Абдуллін Олександр Рафкатович",
     "url": "http://itd.rada.gov.ua/mps/info/page/2524",
     "picture": "http://static.rada.gov.ua/dep_img8/but17.jpg",
     "facebook": "",
+    "residence": "Києв",
     "tags": [
       {
         "name": "шокін-ок",
@@ -26,6 +27,7 @@
     "url": "http://itd.rada.gov.ua/mps/info/page/15669",
     "picture": "http://static.rada.gov.ua/dep_img8/bp44.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100004181072834",
+    "residence": "Києв",
     "tags": [
       {
         "name": "шокін-ок",
@@ -41,6 +43,7 @@
     "url": "http://itd.rada.gov.ua/mps/info/page/16067",
     "picture": "http://static.rada.gov.ua/dep_img8/nf64.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100009322140452",
+    "residence": "Києв",
     "tags": [
       {
         "name": "шокін-ок",
@@ -63,6 +66,7 @@
     "url": "http://itd.rada.gov.ua/mps/info/page/17993",
     "picture": "http://static.rada.gov.ua/dep_img8/bp55.jpg",
     "facebook": "",
+    "residence": "Києв",
     "tags": [
       {
         "name": "шокін-ок",
@@ -78,6 +82,7 @@
     "url": "http://itd.rada.gov.ua/mps/info/page/12290",
     "picture": "http://static.rada.gov.ua/dep_img8/rp21.jpg",
     "facebook": "",
+    "residence": "Чернігів",
     "tags": [
       {
         "name": "популіст",

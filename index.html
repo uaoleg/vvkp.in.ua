@@ -38,7 +38,14 @@
                                     <img src="img/pixel.png" vvkp-src="{{deputy.picture}}" style="width: 50px;" />
                                 </td>
                                 <td style="vertical-align: middle; width: 400px;">
-                                    <a href="{{deputy.url|| '#'}}" target="_blank">{{deputy.name}}</a></td>
+                                    <a href="{{deputy.url|| '#'}}" target="_blank">{{deputy.name}}</a>
+                                    <p>
+                                        <small ng-if="deputy.residence">
+                                            <span class="glyphicon glyphicon-map-marker"></span>
+                                            {{deputy.residence}}
+                                        </small>
+                                    </p>
+                                </td>
                                 <td style="vertical-align: middle; width: 200px;">
                                     <a href="{{tag.lawUrl}}" target="_blank" style="margin: 10px" ng-repeat="tag in deputy.tags">
                                         <span class="label label-{{tag.type}}" data-toggle="tooltip" data-placement="left" title="{{tag.lawName}}">{{tag.name}}
