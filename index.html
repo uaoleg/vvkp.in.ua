@@ -33,10 +33,10 @@
                                 <td style="vertical-align: middle; width: 30px;">
                                     <a href="{{deputy.facebook}}" target="_blank" ng-if="deputy.facebook"><img src="img/facebook.png"></a>
                                 </td>
-                                <td style="height: 84px; width: 60px;">
+                                <td style="height: 84px; vertical-align: middle; width: 60px;">
                                     <img src="img/pixel.png" vvkp-src="{{deputy.picture}}" style="width: 50px;" />
                                 </td>
-                                <td style="vertical-align: middle; width: 400px;">
+                                <td style="vertical-align: middle;">
                                     <a href="{{deputy.url|| '#'}}" target="_blank"><b>{{deputy.name}}</b></a>
                                     <table class="deputy-info">
                                         <tr ng-if="deputy.residence">
@@ -45,13 +45,13 @@
                                         </tr>
                                     </table>
                                 </td>
-                                <td style="vertical-align: middle; width: 200px;">
-                                    <a href="{{tag.lawUrl}}" target="_blank" style="margin: 10px" ng-repeat="tag in deputy.tags">
-                                        <span class="label label-{{tag.type}}" data-toggle="tooltip" data-placement="left" title="{{tag.lawName}}">{{tag.name}}
+                                <td style="vertical-align: middle; width: 100px;">
+                                    <a href="{{tag.lawUrl}}" target="_blank" class="deputy-tag" ng-repeat="tag in deputy.tags">
+                                        <span class="label label-{{tag.type}}" data-toggle="tooltip" data-placement="left" title="{{tag.lawName}}">
+                                            {{tag.name}}
                                         </span>
                                     </a>
                                 </td>
-                                <td>&nbsp;</td>
                             </tr>
                         </tbody>
                     </table>

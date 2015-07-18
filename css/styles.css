@@ -13,3 +13,8 @@
 .deputy-info .glyphicon {
     opacity: 0.5;
 }
+
+.deputy-tag .label {
+    display: block;
+    margin-bottom: 10px;
+}
