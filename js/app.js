@@ -4,7 +4,7 @@
   app.controller('deputiesListCtrl', ['$scope', '$http', function($scope, $http){
     $scope.list = [];
 
-    $http.get('data/data.min.js')
+    $http.get('data/data.min.js?vvkp-version-1.2.2')
 	  .then(function(response){
 			var binStr = atob(response.data);
 			$scope.list = JSON.parse(pako.inflate(binStr, { to: 'string' }));
