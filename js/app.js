@@ -1,8 +1,12 @@
 (function (angular) {
     var app = angular.module('vvkp-app',[]);
 
-    app.controller('deputiesListCtrl', ['$scope', '$http', function($scope, $http){
+    app.controller('deputiesListCtrl', ['$scope', '$http', function($scope, $http) {
         $scope.list = [];
+
+        $scope.setSearchText = function(text) {
+            $scope.searchText = text;
+        };
 
         $http.get('data/data.min.js?vvkp-version-1.2.2')
             .then(function(response){

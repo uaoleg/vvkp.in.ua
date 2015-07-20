@@ -14,7 +14,7 @@
     <body ng-app="vvkp-app" ng-controller="deputiesListCtrl">
         <div class="container">
             <div class="row">
-                <div class="col-md-9">
+                <div class="col-md-8">
                     <h1 style="text-align: center;">Універсальний передвиборчий каталог депутатів</h1>
                     <br>
                     <table class="table table-striped js-deputies-table">
@@ -22,14 +22,28 @@
                             <tr>
                                 <td colspan="5">
                                     <div class="form-group has-feedback has-feedback-left">
-                                        <input type = "text" ng-model="searchText" class="form-control" placeholder="Прізвище, Місто або Тег"/>
+                                        <input type="text" ng-model="searchText" class="form-control" placeholder="Прізвище, Місто або Тег"/>
                                         <i class="glyphicon glyphicon-search form-control-feedback" style="opacity: 0.5;"></i>
+                                    </div>
+                                    <div style="font-style: italic;">
+                                        <blockquote ng-if="searchText == 'популіст'">
+                                            Проголосував Закон про реструктуризацію зобов'язань за кредитами в іноземній валюті
+                                            (<a href="http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3413" target="_blank">№1558-1</a>)
+                                        </blockquote>
+                                        <blockquote ng-if="searchText == 'ретроград'">
+                                            Не підтримав проект Закону про внесення змін до деяких законів України у сфері державних закупівель щодо приведення їх у відповідність з міжнародними стандартами та вжиття заходів з подолання корупції
+                                            (<a href="http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3413" target="_blank">№2087а</a>)
+                                        </blockquote>
+                                        <blockquote ng-if="searchText == 'шокін-ок'">
+                                            Не підписано постанову про звільнення гепрокурора Віктора Шокіна
+                                            (<a href="https://goo.gl/ThzeTx" target="_blank">причини</a>)
+                                        </blockquote>
                                     </div>
                                 </td>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr ng-repeat="deputy in list| filter:searchText">
+                            <tr ng-repeat="deputy in list | filter:searchText">
                                 <td style="vertical-align: middle; width: 30px;">
                                     <a href="{{deputy.facebook}}" target="_blank" ng-if="deputy.facebook"><img src="img/facebook.png"></a>
                                 </td>
@@ -46,11 +60,15 @@
                                     </table>
                                 </td>
                                 <td style="vertical-align: middle; width: 100px;">
-                                    <a href="{{tag.lawUrl}}" target="_blank" class="deputy-tag" ng-repeat="tag in deputy.tags">
-                                        <span class="label label-{{tag.type}}" data-toggle="tooltip" data-placement="left" title="{{tag.lawName}}">
-                                            {{tag.name}}
-                                        </span>
-                                    </a>
+                                    <span class="deputy-tag label label-{{tag.type}}"
+                                          data-toggle="tooltip"
+                                          data-placement="left"
+                                          title="{{tag.lawName}}"
+                                          ng-repeat="tag in deputy.tags"
+                                          ng-click="setSearchText(tag.name)"
+                                    >
+                                        {{tag.name}}
+                                    </span>
                                 </td>
                             </tr>
                         </tbody>

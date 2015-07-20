@@ -14,7 +14,8 @@
     opacity: 0.5;
 }
 
-.deputy-tag .label {
+.deputy-tag.label {
+    cursor: pointer;
     display: block;
     margin-bottom: 10px;
 }
