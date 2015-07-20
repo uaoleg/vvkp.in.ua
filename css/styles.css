@@ -14,6 +14,14 @@
     opacity: 0.5;
 }
 
+.deputy-party {
+    cursor: pointer;
+    display: block;
+    margin: 5px auto 0;
+    max-height: 35px;
+    max-width: 100px;
+}
+
 .deputy-tag.label {
     cursor: pointer;
     display: block;

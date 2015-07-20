@@ -53,11 +53,17 @@
                                 <td style="vertical-align: middle; width: 30px;">
                                     <a href="{{deputy.facebook}}" target="_blank" ng-if="deputy.facebook"><img src="img/facebook.png"></a>
                                 </td>
-                                <td style="height: 84px; vertical-align: middle; width: 60px;">
-                                    <span class="img-deputy-{{deputy.id}}"></span>
+                                <td style="height: 84px; text-align: center; vertical-align: middle; width: 60px;">
+                                    <div class="img-deputy-{{deputy.id}}"></div>
+                                    <img src="img/parties/{{deputy.party}}.png"
+                                         class="deputy-party"
+                                         ng-if="deputy.party"
+                                         ng-click="setSearchText(deputy.party)">
                                 </td>
                                 <td style="vertical-align: middle;">
-                                    <a href="http://itd.rada.gov.ua/mps/info/page/{{deputy.id}}" target="_blank"><b>{{deputy.name}}</b></a>
+                                    <a href="http://itd.rada.gov.ua/mps/info/page/{{deputy.id}}" target="_blank">
+                                        <h3 style="margin: 0;">{{deputy.name}}</h3>
+                                    </a>
                                     <table class="deputy-info">
                                         <tr ng-if="deputy.residence">
                                             <td><span class="glyphicon glyphicon-map-marker"></span></td>
