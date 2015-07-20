@@ -5,6 +5,7 @@
         $scope.list = [];
 
         $scope.setSearchText = function(text) {
+            location.href = '#search-text';
             $scope.searchText = text;
         };
 
