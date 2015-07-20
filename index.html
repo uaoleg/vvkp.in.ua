@@ -4,11 +4,13 @@
         <link rel="shortcut icon" href="img/icon.ico">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ng-tags-input/3.0.0/ng-tags-input.min.css"/>
         <link rel="stylesheet" href="css/bootstrap.css?vvkp-version-1.2.6">
         <link rel="stylesheet" href="css/deputies.css?vvkp-version-1.2.6">
         <link rel="stylesheet" href="css/styles.css?vvkp-version-1.2.6">
         <script defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ng-tags-input/3.0.0/ng-tags-input.min.js"></script>
         <script src="tools/js/pako.min.js"></script>
         <title>Всеукраїнський Вебсайт Контролю Політиків</title>
     </head>
@@ -22,25 +24,36 @@
                         <thead>
                             <tr>
                                 <td colspan="5">
-                                    <div class="form-group has-feedback has-feedback-left">
-                                        <input type="text"
-                                               id="search-text"
-                                               class="form-control"
-                                               placeholder="Прізвище, Партія, Місто або Тег"
-                                               ng-model="searchText"
-                                        />
+                                    <div class="form-group has-feedback has-feedback-left search-container">
+                                        <tags-input on-tag-added="reloadSearchResults()"
+                                                    on-tag-removed="reloadSearchResults()"
+                                                    replace-spaces-with-dashes="false"
+                                                    add-on-comma = "false"
+                                                    display-property = "name"
+                                                    key-property = "name"
+                                                    ng-model="tags"
+                                                     placeholder="Прізвище, Партія, Місто або Тег"></tags-input>
                                         <i class="glyphicon glyphicon-search form-control-feedback" style="opacity: 0.5;"></i>
                                     </div>
                                     <div style="font-style: italic;">
-                                        <blockquote ng-if="searchText == 'популіст'">
+                                        <blockquote ng-if="isTagSelected('популіст')">
+                                            <div>
+                                                <span class="deputy-tag label label-danger">популіст</span>
+                                            </div>
                                             Проголосували Закон про реструктуризацію зобов'язань за кредитами в іноземній валюті
                                             (<a href="http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3413" target="_blank">№1558-1</a>)
                                         </blockquote>
-                                        <blockquote ng-if="searchText == 'ретроград'">
+                                        <blockquote ng-if="isTagSelected('ретроград')">
+                                            <div>
+                                                <span class="deputy-tag label label-info">ретроград</span>
+                                            </div>
                                             Не підтримали проект Закону про внесення змін до деяких законів України у сфері державних закупівель щодо приведення їх у відповідність з міжнародними стандартами та вжиття заходів з подолання корупції
                                             (<a href="http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3413" target="_blank">№2087а</a>)
                                         </blockquote>
-                                        <blockquote ng-if="searchText == 'шокін-ок'">
+                                        <blockquote ng-if="isTagSelected('шокін-ок')">
+                                            <div>
+                                                <span class="deputy-tag label label-warning">шокін-ок</span>
+                                            </div>
                                             Не підписали постанову про звільнення гепрокурора Віктора Шокіна
                                             (<a href="https://goo.gl/ThzeTx" target="_blank">деталі конфлікту</a>)
                                         </blockquote>
@@ -48,17 +61,17 @@
                                 </td>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody style="{{filtering?'opacity: 0.5':''}}">
                             <tr ng-repeat="deputy in list | filter:searchText">
                                 <td style="vertical-align: middle; width: 30px;">
                                     <a href="{{deputy.facebook}}" target="_blank" ng-if="deputy.facebook"><img src="img/facebook.png"></a>
                                 </td>
                                 <td style="height: 84px; text-align: center; vertical-align: middle; width: 60px;">
                                     <div class="img-deputy-{{deputy.id}}"></div>
-                                    <img src="img/parties/{{deputy.party}}.png"
+                                    <img ng-src="img/parties/{{deputy.party}}.png"
                                          class="deputy-party"
                                          ng-if="deputy.party"
-                                         ng-click="setSearchText(deputy.party)">
+                                         ng-click="addSearchTag(deputy.party)">
                                 </td>
                                 <td>
                                     <a href="http://itd.rada.gov.ua/mps/info/page/{{deputy.id}}" target="_blank">
@@ -77,7 +90,7 @@
                                           data-placement="left"
                                           title="{{tag.lawName}}"
                                           ng-repeat="tag in deputy.tags"
-                                          ng-click="setSearchText(tag.name)"
+                                          ng-click="addSearchTag(tag.name)"
                                     >
                                         {{tag.name}}
                                     </span>
