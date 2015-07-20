@@ -9,7 +9,7 @@
             $scope.searchText = text;
         };
 
-        $http.get('data/data.min.js?vvkp-version-1.2.4')
+        $http.get('data/data.min.js?vvkp-version-1.2.5')
             .then(function(response){
                   var binStr = atob(response.data);
                   $scope.list = JSON.parse(pako.inflate(binStr, { to: 'string' }));
@@ -19,17 +19,7 @@
 	app.directive('vvkpSrc', function(){
 		return {
 			restrict: 'A',
-			scope: true,
-			link: function(scope, elem, attrs) {
-				function tryToLoadImage(){
-					elem.attr('src', '')
-						.attr('src', attrs.vvkpSrc)
-						.on('error', function() {
-							tryToLoadImage();
-						});
-				}
-				setTimeout(tryToLoadImage,1500);
-			}
+			scope: true
 		};
 	});
 })(window.angular);
