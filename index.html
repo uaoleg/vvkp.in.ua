@@ -1,17 +1,18 @@
 <html>
     <head>
-        <meta charset="utf-8" />
+        <meta charset="utf-8"/>
         <link rel="shortcut icon" href="img/icon.ico">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ng-tags-input/3.0.0/ng-tags-input.min.css"/>
-        <link rel="stylesheet" href="css/bootstrap.css?vvkp-version-1.2.7">
         <link rel="stylesheet" href="css/deputies.css?vvkp-version-1.2.7">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ng-tags-input/3.0.0/ng-tags-input.min.css"/>
         <link rel="stylesheet" href="css/styles.css?vvkp-version-1.2.7">
         <script defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ng-tags-input/3.0.0/ng-tags-input.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.0/ui-bootstrap-tpls.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.0/ui-bootstrap.min.js"></script>
         <script src="tools/js/pako.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
         <title>Всеукраїнський Вебсайт Контролю Політиків</title>
     </head>
     <body ng-app="vvkp-app" ng-controller="deputiesListCtrl">
@@ -32,7 +33,7 @@
                                                     display-property = "name"
                                                     key-property = "name"
                                                     ng-model="tags"
-                                                     placeholder="Прізвище, Партія, Місто або Тег"></tags-input>
+                                                    placeholder="Прізвище, Партія, Місто або Тег"></tags-input>
                                     </div>
                                     <div style="font-style: italic;">
                                         <blockquote ng-if="isTagSelected('популіст')">
@@ -61,7 +62,7 @@
                             </tr>
                         </thead>
                         <tbody style="{{filtering ? 'opacity: 0.5' : ''}}">
-                            <tr ng-repeat="deputy in list | filter:searchText">
+                            <tr ng-repeat="deputy in list | filter: searchText">
                                 <td style="vertical-align: middle; width: 30px;">
                                     <a href="{{deputy.facebook}}" target="_blank" ng-if="deputy.facebook"><img src="img/facebook.png"></a>
                                 </td>
@@ -95,9 +96,8 @@
                                           data-placement="left"
                                           title="{{tag.lawName}}"
                                           ng-repeat="tag in deputy.tags"
-                                          ng-click="addSearchTag(tag.name)"
-                                    >
-                                        {{tag.name}}
+                                          ng-click="setSearchText(tag.name)"
+                                          ng-bind="tag.name">
                                     </span>
                                 </td>
                             </tr>
@@ -131,6 +131,8 @@
                         fjs.parentNode.insertBefore(js, fjs);
                     }(document, 'script', 'facebook-jssdk'));</script>
 
+        <script src="js/services.js?vvkp-version-1.2.7"></script>
+        <script src="js/controllers.js?vvkp-version-1.2.7"></script>
         <script src="js/app.js?vvkp-version-1.2.7"></script>
 
         <script>
