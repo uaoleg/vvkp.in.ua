@@ -19,11 +19,11 @@
 				function tryToLoadImage(){
 					elem.attr('src', '')
 						.attr('src', attrs.vvkpSrc)
-						.on('load error', function() {
+						.on('error', function() {
 							tryToLoadImage();
 						});
 				}
-                tryToLoadImage();
+				setTimeout(tryToLoadImage,1500);
 			}
 		};
 	});
