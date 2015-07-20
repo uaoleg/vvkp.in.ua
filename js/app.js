@@ -9,7 +9,7 @@
             $scope.searchText = text;
         };
 
-        $http.get('data/data.min.js?vvkp-version-1.2.5')
+        $http.get('data/data.min.js?vvkp-version-1.2.6')
             .then(function(response){
                   var binStr = atob(response.data);
                   $scope.list = JSON.parse(pako.inflate(binStr, { to: 'string' }));
