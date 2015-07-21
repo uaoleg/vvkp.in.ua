@@ -77,7 +77,7 @@
                                         <h3 style="margin: 10px 0 0;">{{deputy.name}}</h3>
                                     </a>
                                     <table class="deputy-info">
-                                        <tr ng-if="deputy.phones">
+                                        <tr ng-if="deputy.phones.length">
                                             <td><span class="glyphicon glyphicon-earphone"></span></td>
                                             <td>
                                                 <small ng-repeat="phone in deputy.phones">{{deputy.phones[0]}}{{$last ? '' : ', '}}</small>
