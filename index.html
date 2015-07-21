@@ -67,9 +67,6 @@
                                 </td>
                             </tr>
                             <tr ng-repeat="deputy in list | filter:searchText">
-                                <td style="vertical-align: middle; width: 30px;">
-                                    <a href="{{deputy.facebook}}" target="_blank" ng-if="deputy.facebook"><img src="img/facebook.png"></a>
-                                </td>
                                 <td style="height: 84px; text-align: center; vertical-align: middle; width: 60px;">
                                     <div class="img-deputy-{{deputy.id}}"></div>
                                     <img ng-src="img/parties/{{deputy.party}}.png"
@@ -78,9 +75,10 @@
                                          ng-click="addSearchTag(deputy.party)">
                                 </td>
                                 <td>
-                                    <a href="http://itd.rada.gov.ua/mps/info/page/{{deputy.id}}" target="_blank">
-                                        <h3 style="margin: 10px 0 0;">{{deputy.name}}</h3>
-                                    </a>
+                                    <h3 style="margin: 10px 0 0;">
+                                        <a href="http://itd.rada.gov.ua/mps/info/page/{{deputy.id}}" target="_blank">{{deputy.name}}</a>
+                                        <a href="{{deputy.facebook}}" target="_blank" ng-if="deputy.facebook"><img src="img/facebook.png"></a>
+                                    </h3>
                                     <table class="deputy-info">
                                         <tr ng-if="deputy.phones.length">
                                             <td><span class="glyphicon glyphicon-earphone"></span></td>
