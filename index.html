@@ -61,6 +61,11 @@
                             </tr>
                         </thead>
                         <tbody style="{{filtering ? 'opacity: 0.5' : ''}}">
+                            <tr>
+                                <td colspan="5">
+                                    <b>Депутатів: {{list.length}}</b>
+                                </td>
+                            </tr>
                             <tr ng-repeat="deputy in list | filter:searchText">
                                 <td style="vertical-align: middle; width: 30px;">
                                     <a href="{{deputy.facebook}}" target="_blank" ng-if="deputy.facebook"><img src="img/facebook.png"></a>
