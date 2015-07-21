@@ -1,3 +1,11 @@
+tags-input .tags {
+    background-image: url("../img/search.png");
+    background-position: 5px center;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    padding-left: 30px;
+}
+
 .deputy-info tr {
     vertical-align: top;
 }
@@ -31,8 +39,4 @@
     cursor: pointer;
     display: block;
     margin-bottom: 10px;
-}
-
-.search-container {
-    padding-left: 30px;
 }

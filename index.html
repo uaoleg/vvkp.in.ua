@@ -24,7 +24,7 @@
                         <thead>
                             <tr>
                                 <td colspan="5">
-                                    <div class="form-group has-feedback has-feedback-left search-container">
+                                    <div class="form-group">
                                         <tags-input on-tag-added="reloadSearchResults()"
                                                     on-tag-removed="reloadSearchResults()"
                                                     replace-spaces-with-dashes="false"
@@ -33,7 +33,6 @@
                                                     key-property = "name"
                                                     ng-model="tags"
                                                      placeholder="Прізвище, Партія, Місто або Тег"></tags-input>
-                                        <i class="glyphicon glyphicon-search form-control-feedback" style="opacity: 0.5;"></i>
                                     </div>
                                     <div style="font-style: italic;">
                                         <blockquote ng-if="isTagSelected('популіст')">
@@ -61,7 +60,7 @@
                                 </td>
                             </tr>
                         </thead>
-                        <tbody style="{{filtering?'opacity: 0.5':''}}">
+                        <tbody style="{{filtering ? 'opacity: 0.5' : ''}}">
                             <tr ng-repeat="deputy in list | filter:searchText">
                                 <td style="vertical-align: middle; width: 30px;">
                                     <a href="{{deputy.facebook}}" target="_blank" ng-if="deputy.facebook"><img src="img/facebook.png"></a>
