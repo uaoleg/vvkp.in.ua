@@ -77,6 +77,12 @@
                                         <h3 style="margin: 10px 0 0;">{{deputy.name}}</h3>
                                     </a>
                                     <table class="deputy-info">
+                                        <tr ng-if="deputy.phones">
+                                            <td><span class="glyphicon glyphicon-earphone"></span></td>
+                                            <td>
+                                                <small ng-repeat="phone in deputy.phones">{{deputy.phones[0]}}{{$last ? '' : ', '}}</small>
+                                            </td>
+                                        </tr>
                                         <tr ng-if="deputy.residence">
                                             <td><span class="glyphicon glyphicon-map-marker"></span></td>
                                             <td><small>{{deputy.residence}}</small></td>
