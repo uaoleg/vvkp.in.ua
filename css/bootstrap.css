@@ -5,3 +5,8 @@
 .table-no-border th, .table-no-border td {
      border-top: none !important;
  }
+
+ tags-input .tags .input {
+     box-shadow: none;
+ }
+ 

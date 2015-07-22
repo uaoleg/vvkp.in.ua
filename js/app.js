@@ -108,7 +108,7 @@
             return tagIndex;
         }
 
-        $http.get('data/data.min.js?vvkp-version-1.2.8')
+        $http.get('data/data.min.js?vvkp-version-1.2.9')
             .then(function(response){
                   var binStr = atob(response.data);
                   $scope.deputies = JSON.parse(pako.inflate(binStr, { to: 'string' }));

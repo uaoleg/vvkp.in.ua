@@ -3,11 +3,11 @@
         <meta charset="utf-8" />
         <link rel="shortcut icon" href="img/icon.ico">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ng-tags-input/3.0.0/ng-tags-input.min.css"/>
-        <link rel="stylesheet" href="css/bootstrap.css?vvkp-version-1.2.8">
-        <link rel="stylesheet" href="css/deputies.css?vvkp-version-1.2.8">
-        <link rel="stylesheet" href="css/styles.css?vvkp-version-1.2.8">
+        <link rel="stylesheet" href="css/bootstrap-theme-paper.min.css?vvkp-version-1.2.9">
+        <link rel="stylesheet" href="css/bootstrap.css?vvkp-version-1.2.9">
+        <link rel="stylesheet" href="css/deputies.css?vvkp-version-1.2.9">
+        <link rel="stylesheet" href="css/styles.css?vvkp-version-1.2.9">
         <script defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.0/ui-bootstrap-tpls.min.js"></script>
@@ -20,7 +20,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    <h1 style="text-align: center;">Універсальний передвиборчий каталог депутатів</h1>
+                    <h1 style="font-size: 42px; text-align: center;">Універсальний передвиборчий каталог депутатів</h1>
                     <br>
                     <table class="table table-striped js-deputies-table">
                         <thead>
@@ -42,7 +42,7 @@
                         <tbody style="{{filtering ? 'opacity: 0.5' : ''}}">
                             <tr>
                                 <td colspan="5">
-                                    <b style="display: inline-block; height: 19px; vertical-align: middle;">
+                                    <b style="display: inline-block; height: 28px; vertical-align: middle;">
                                         Знайдено депутатів: {{list.length}}
                                     </b>
                                     <button class="btn btn-default btn-xs"
@@ -69,10 +69,11 @@
                                          ng-click="addSearchTag(deputy.party)">
                                 </td>
                                 <td>
-                                    <h3 style="margin: 10px 0 0;">
-                                        <a href="http://itd.rada.gov.ua/mps/info/page/{{deputy.id}}" target="_blank">{{deputy.name}}</a>
+                                    <h4 style="margin: 10px 0 0;">
+                                        {{deputy.name}}
+                                        <a href="http://itd.rada.gov.ua/mps/info/page/{{deputy.id}}" target="_blank"><img src="img/rada.png"></a>
                                         <a href="{{deputy.facebook}}" target="_blank" ng-if="deputy.facebook"><img src="img/facebook.png"></a>
-                                    </h3>
+                                    </h4>
                                     <table class="deputy-info">
                                         <tr ng-if="deputy.phones.length">
                                             <td><span class="glyphicon glyphicon-earphone"></span></td>
@@ -128,7 +129,7 @@
                         fjs.parentNode.insertBefore(js, fjs);
                     }(document, 'script', 'facebook-jssdk'));</script>
 
-        <script src="js/app.js?vvkp-version-1.2.8"></script>
+        <script src="js/app.js?vvkp-version-1.2.9"></script>
 
         <script>
                     (function (i, s, o, g, r, a, m) {
