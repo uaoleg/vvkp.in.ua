@@ -40,3 +40,13 @@ tags-input .tags {
     display: block;
     margin-bottom: 10px;
 }
+
+.search-stats-desc {
+    max-width: 250px;
+}
+
+.search-stats-desc blockquote {
+    font-size: 14px;
+    margin: 0;
+    padding: 10px 0 10px 20px;
+}

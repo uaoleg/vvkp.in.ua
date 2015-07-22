@@ -10,6 +10,8 @@
         <link rel="stylesheet" href="css/styles.css?vvkp-version-1.2.8">
         <script defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.0/ui-bootstrap-tpls.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.0/ui-bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ng-tags-input/3.0.0/ng-tags-input.min.js"></script>
         <script src="tools/js/pako.min.js"></script>
         <title>Всеукраїнський Вебсайт Контролю Політиків</title>
@@ -34,36 +36,28 @@
                                                     ng-model="tags"
                                                      placeholder="Прізвище, Партія, Місто або Тег"></tags-input>
                                     </div>
-                                    <div style="font-style: italic;">
-                                        <blockquote ng-if="isTagSelected('популіст')">
-                                            <div>
-                                                <span class="deputy-tag label label-danger">популіст</span>
-                                            </div>
-                                            Проголосували Закон про реструктуризацію зобов'язань за кредитами в іноземній валюті
-                                            (<a href="http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3413" target="_blank">№1558-1</a>)
-                                        </blockquote>
-                                        <blockquote ng-if="isTagSelected('ретроград')">
-                                            <div>
-                                                <span class="deputy-tag label label-info">ретроград</span>
-                                            </div>
-                                            Не підтримали проект Закону про внесення змін до деяких законів України у сфері державних закупівель щодо приведення їх у відповідність з міжнародними стандартами та вжиття заходів з подолання корупції
-                                            (<a href="http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3413" target="_blank">№2087а</a>)
-                                        </blockquote>
-                                        <blockquote ng-if="isTagSelected('шокін-ок')">
-                                            <div>
-                                                <span class="deputy-tag label label-warning">шокін-ок</span>
-                                            </div>
-                                            Не підписали постанову про звільнення гепрокурора Віктора Шокіна
-                                            (<a href="https://goo.gl/ThzeTx" target="_blank">деталі конфлікту</a>)
-                                        </blockquote>
-                                    </div>
                                 </td>
                             </tr>
                         </thead>
                         <tbody style="{{filtering ? 'opacity: 0.5' : ''}}">
                             <tr>
                                 <td colspan="5">
-                                    <b>Депутатів: {{list.length}}</b>
+                                    <b style="display: inline-block; height: 19px; vertical-align: middle;">
+                                        Знайдено депутатів: {{list.length}}
+                                    </b>
+                                    <button class="btn btn-default btn-xs"
+                                            style="margin-left: 10px;"
+                                            ng-if="searchStats.parties.length || searchStats.lawTags.length"
+                                            popover-template="'template/app/search-stats.html'"
+                                            popover-title="Статистика"
+                                            popover-placement="bottom"
+                                            popover-trigger="focus"
+                                            >
+                                        <span class="glyphicon glyphicon-stats"></span>
+                                        <b>Статистика</b>
+                                    </button>
+                                    <script type="text/ng-template" id="searchStatsParties.html">
+                                    </script>
                                 </td>
                             </tr>
                             <tr ng-repeat="deputy in list | filter:searchText">
@@ -94,9 +88,9 @@
                                 </td>
                                 <td style="vertical-align: middle; width: 100px;">
                                     <span class="deputy-tag label label-{{tag.type}}"
-                                          data-toggle="tooltip"
-                                          data-placement="left"
-                                          title="{{tag.lawName}}"
+                                          tooltip="{{tag.lawName}}"
+                                          tooltip-placement="left"
+                                          tooltip-trigger="mouseenter"
                                           ng-repeat="tag in deputy.tags"
                                           ng-click="addSearchTag(tag.name)"
                                     >
