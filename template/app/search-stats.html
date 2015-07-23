@@ -1,25 +1,3 @@
-<div class="search-stats-desc">
-    <div ng-if="searchStats.lawTagsForParty">
-        <img ng-src="img/parties/{{searchStats.lawTagsForParty}}.png"
-             class="deputy-party"
-             style="cursor: default; opacity: 1;">
-        <hr>
-    </div>
-    <blockquote ng-if="isLawTagSelected('популіст')">
-        Проголосували Закон про реструктуризацію зобов'язань за кредитами в іноземній валюті
-        (<a href="http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3413" target="_blank">№1558-1</a>)
-    </blockquote>
-    <blockquote ng-if="isLawTagSelected('ретроград')">
-        Не підтримали проект Закону про внесення змін до деяких законів України у сфері державних закупівель щодо приведення їх у відповідність з міжнародними стандартами та вжиття заходів з подолання корупції
-        (<a href="http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3413" target="_blank">№2087а</a>)
-    </blockquote>
-    <blockquote ng-if="isLawTagSelected('шокін-ок')">
-        Не підписали постанову про звільнення гепрокурора Віктора Шокіна
-        (<a href="https://goo.gl/ThzeTx" target="_blank">деталі конфлікту</a>)
-    </blockquote>
-    <hr ng-if="searchStats.parties.length && !searchStats.lawTags.length">
-</div>
-
 <table>
     <tr style="vertical-align: top;">
 
@@ -52,6 +30,29 @@
                     </td>
                 </tr>
             </table>
+        </td>
+
+        <td ng-if="searchStats.lawTagsForParty || searchStats.partiesForTag" style="padding: 10px; border-right: 1px solid #ccc;"></td>
+        <td ng-if="searchStats.lawTagsForParty || searchStats.partiesForTag" style="padding: 10px;"></td>
+
+        <td ng-if="searchStats.lawTagsForParty || searchStats.partiesForTag" style="max-width: 250px;">
+            <div ng-if="searchStats.lawTagsForParty">
+                <img ng-src="../../img/parties/{{searchStats.lawTagsForParty}}.png"
+                     class="deputy-party"
+                     style="cursor: default; opacity: 1;">
+            </div>
+            <p ng-if="isLawTagSelected('популіст')">
+                Проголосували Закон про реструктуризацію зобов'язань за кредитами в іноземній валюті
+                (<a href="http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3413" target="_blank">№1558-1</a>)
+            </p>
+            <p ng-if="isLawTagSelected('ретроград')">
+                Не підтримали проект Закону про внесення змін до деяких законів України у сфері державних закупівель щодо приведення їх у відповідність з міжнародними стандартами та вжиття заходів з подолання корупції
+                (<a href="http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3413" target="_blank">№2087а</a>)
+            </p>
+            <p ng-if="isLawTagSelected('шокін-ок')">
+                Не підписали постанову про звільнення гепрокурора Віктора Шокіна
+                (<a href="https://goo.gl/ThzeTx" target="_blank">деталі конфлікту</a>)
+            </p>
         </td>
 
     </tr>

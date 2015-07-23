@@ -39,7 +39,7 @@
                 lawTags_lc = lawTags.join('~').toLowerCase().split('~'),
                 statsParties = {},
                 statsLawTags = {},
-                stats = {parties: [], lawTags: [], lawTagsForParty: ''};
+                stats = {parties: [], lawTags: [], partiesForTag: '', lawTagsForParty: ''};
 
             angular.forEach(options, function(option, key) {
                 searchString = option.name.toLowerCase();
@@ -56,6 +56,7 @@
                 }
                 if (lawTags_lc.indexOf(searchString) > -1) {
                     hasLawTag = true;
+                    stats.partiesForTag = searchString;
                 }
             });
 
@@ -117,4 +118,21 @@
                   $scope.reloadSearchResults();
             });
     }]);
+
+    // Emulation of popover-trigger="focus" for Firefox on MacOS
+    // @link http://stackoverflow.com/questions/22916471/close-all-angular-js-bootstrap-popovers-with-click-anywhere-on-screen
+    angular.element(document.body).bind('click', function (e) {
+        var popups = document.querySelectorAll('.popover');
+        if (popups) {
+            for (var i = 0; i < popups.length; i++) {
+                var popup = popups[i],
+                    popupElement = angular.element(popup);
+                if (popupElement[0].previousSibling != e.target && popupElement[0].previousSibling != e.target.parentElement) {
+                    popupElement.scope().$parent.isOpen = false;
+                    popupElement.remove();
+                }
+            }
+        }
+    });
+
 })(window.angular);

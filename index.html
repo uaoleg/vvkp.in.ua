@@ -46,18 +46,15 @@
                                         Знайдено депутатів: {{list.length}}
                                     </b>
                                     <button class="btn btn-default btn-xs"
-                                            style="margin-left: 10px;"
                                             ng-if="searchStats.parties.length || searchStats.lawTags.length"
                                             popover-template="'template/app/search-stats.html'"
                                             popover-title="Статистика"
                                             popover-placement="bottom"
-                                            popover-trigger="focus"
-                                            >
+                                            popover-trigger="click"
+                                    >
                                         <span class="glyphicon glyphicon-stats"></span>
                                         <b>Статистика</b>
                                     </button>
-                                    <script type="text/ng-template" id="searchStatsParties.html">
-                                    </script>
                                 </td>
                             </tr>
                             <tr ng-repeat="deputy in list | filter:searchText">
@@ -71,8 +68,8 @@
                                 <td>
                                     <h4 style="margin: 10px 0 0;">
                                         {{deputy.name}}
-                                        <a href="http://itd.rada.gov.ua/mps/info/page/{{deputy.id}}" target="_blank"><img src="img/rada.png"></a>
-                                        <a href="{{deputy.facebook}}" target="_blank" ng-if="deputy.facebook"><img src="img/facebook.png"></a>
+                                        <a href="http://itd.rada.gov.ua/mps/info/page/{{deputy.id}}" target="_blank"><img src="img/icon/rada.png"></a>
+                                        <a href="{{deputy.facebook}}" target="_blank" ng-if="deputy.facebook"><img src="img/icon/facebook.png"></a>
                                     </h4>
                                     <table class="deputy-info">
                                         <tr ng-if="deputy.phones.length">

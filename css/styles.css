@@ -1,5 +1,5 @@
 tags-input .tags {
-    background-image: url("../img/search.png");
+    background-image: url("../img/icon/search.png");
     background-position: 5px center;
     background-repeat: no-repeat;
     border-radius: 4px;
@@ -39,14 +39,4 @@ tags-input .tags {
     cursor: pointer;
     display: block;
     margin-bottom: 10px;
-}
-
-.search-stats-desc {
-    max-width: 250px;
-}
-
-.search-stats-desc blockquote {
-    font-size: 14px;
-    margin: 0;
-    padding: 10px 0 10px 20px;
 }
