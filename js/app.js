@@ -52,11 +52,11 @@
                 });
                 if (parties_lc.indexOf(searchString) > -1) {
                     hasParty = true;
-                    stats.lawTagsForParty = searchString;
+                    stats.lawTagsForParty = option.name;
                 }
                 if (lawTags_lc.indexOf(searchString) > -1) {
                     hasLawTag = true;
-                    stats.partiesForTag = searchString;
+                    stats.partiesForTag = option.name;
                 }
             });
 
@@ -109,7 +109,7 @@
             return tagIndex;
         }
 
-        $http.get('data/data.min.js?vvkp-version-1.2.10')
+        $http.get('data/data.min.js?vvkp-version-1.2.11')
             .then(function(response){
                   var binStr = atob(response.data);
                   $scope.deputies = JSON.parse(pako.inflate(binStr, { to: 'string' }));
