@@ -61,15 +61,20 @@
                                 <td style="height: 84px; text-align: center; vertical-align: middle; width: 60px;">
                                     <div class="img-deputy-{{deputy.id}}"></div>
                                     <img ng-src="img/parties/{{deputy.party}}.png"
-                                         class="deputy-party"
+                                         class="deputy-party fading"
                                          ng-if="deputy.party"
                                          ng-click="addSearchTag(deputy.party)">
                                 </td>
                                 <td>
                                     <h4 style="margin: 10px 0 0;">
                                         {{deputy.name}}
-                                        <a href="http://itd.rada.gov.ua/mps/info/page/{{deputy.id}}" target="_blank"><img src="img/icon/rada.png"></a>
-                                        <a href="{{deputy.facebook}}" target="_blank" ng-if="deputy.facebook"><img src="img/icon/facebook.png"></a>
+                                        <br>
+                                        <a href="http://itd.rada.gov.ua/mps/info/page/{{deputy.id}}" target="_blank">
+                                            <img src="img/icon/rada.png" class="fading" tooltip="Верховна Рада" tooltip-popup-delay="500">
+                                        </a>
+                                        <a href="{{deputy.facebook}}" target="_blank" ng-if="deputy.facebook">
+                                            <img src="img/icon/facebook.png" class="fading" tooltip="Facebook" tooltip-popup-delay="500">
+                                        </a>
                                     </h4>
                                     <table class="deputy-info">
                                         <tr ng-if="deputy.phones.length">
@@ -89,6 +94,7 @@
                                           tooltip="{{tag.lawName}}"
                                           tooltip-placement="left"
                                           tooltip-trigger="mouseenter"
+                                          tooltip-popup-delay="500"
                                           ng-repeat="tag in deputy.tags"
                                           ng-click="addSearchTag(tag.name)"
                                     >
