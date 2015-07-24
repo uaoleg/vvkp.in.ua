@@ -155,23 +155,9 @@
             .then(function(response){
                 var binStr = atob(response.data),
                     data = JSON.parse(pako.inflate(binStr, { to: 'string' }));
-//data.deputies.forEach(function(deputy) {
-//    deputy.lawTags = [];
-//    deputy.tags.forEach(function(tag) {
-//        deputy.lawTags.push(tag.name);
-//    });
-//    delete deputy.tags;
-//});
-//console.log(JSON.stringify(data.deputies));
                 $scope.deputies = data.deputies;
                 $scope.lawTags = data.lawTags;
                 $scope.parties = data.parties;
-                $scope.deputies.forEach(function(deputy) {
-                    var party = $scope.getParty(deputy.party);
-                    if (party) {
-                        party.deputies += 1;
-                    }
-                });
                 $scope.reloadSearchResults();
             });
 
