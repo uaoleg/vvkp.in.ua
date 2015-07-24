@@ -1,9 +1,7 @@
-tags-input .tags {
-    background-image: url("../img/icon/search.png");
-    background-position: 5px center;
-    background-repeat: no-repeat;
+[class^="img-deputy-"], 
+[class*=" img-deputy-"] {
     border-radius: 4px;
-    padding-left: 30px;
+    box-shadow: 1px 1px 1px #999;
 }
 
 .deputy-info tr {

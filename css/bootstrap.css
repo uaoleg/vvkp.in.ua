@@ -18,9 +18,17 @@
 }
 
 .table-no-border th, .table-no-border td {
-     border-top: none !important;
- }
+    border-top: none !important;
+}
 
- tags-input .tags .input {
-     box-shadow: none;
- }
+tags-input .tags {
+    background-image: url("../img/icon/search.png");
+    background-position: 5px center;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    padding-left: 30px;
+}
+
+tags-input .tags .input {
+    box-shadow: none;
+}
