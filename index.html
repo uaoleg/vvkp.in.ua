@@ -34,7 +34,7 @@
                                                     display-property="name"
                                                     key-property="name"
                                                     ng-model="tags"
-                                                     placeholder="Прізвище, Партія, Місто або Тег"></tags-input>
+                                                    placeholder="Прізвище, Партія, Місто або Тег"></tags-input>
                                     </div>
                                 </td>
                             </tr>
@@ -91,15 +91,17 @@
                                     </table>
                                 </td>
                                 <td style="vertical-align: middle; width: 100px;">
-                                    <span class="deputy-tag label label-{{tag.type}}"
-                                          tooltip="{{tag.lawName}}"
+                                    <span
+                                          ng-repeat="lawTagName in deputy.lawTags"
+                                          ng-init="lawTag = getLawTag(lawTagName)"
+                                          ng-click="addSearchTag(lawTag.name)"
+                                          tooltip="{{lawTag.lawName}} {{lawTag.lawId}}"
                                           tooltip-placement="left"
                                           tooltip-trigger="mouseenter"
                                           tooltip-popup-delay="500"
-                                          ng-repeat="tag in deputy.tags"
-                                          ng-click="addSearchTag(tag.name)"
+                                          class="deputy-tag label label-{{lawTag.type}}"
                                     >
-                                        {{tag.name}}
+                                        {{lawTag.name}}
                                     </span>
                                 </td>
                             </tr>

@@ -39,18 +39,22 @@
             <div ng-if="searchStats.lawTagsForParty">
                 <img ng-src="../../img/parties/{{searchStats.lawTagsForParty}}.png" class="deputy-party" style="cursor: default;">
             </div>
-            <p ng-if="isLawTagSelected('популіст')">
+            <p ng-repeat="(key, tag) in tags" ng-init="lawTag = getLawTag(tag.name)" ng-if="getLawTag(tag.name)">
+                {{lawTag.lawName}}
+                (<a href="{{lawTag.lawUrl}}" target="_blank">{{lawTag.lawId}}</a>)
+            </p>
+<!--            <p ng-if="getLawTag('популіст')">
                 Проголосували Закон про реструктуризацію зобов'язань за кредитами в іноземній валюті
                 (<a href="http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049" target="_blank">№1558-1</a>)
             </p>
-            <p ng-if="isLawTagSelected('ретроград')">
+            <p ng-if="getLawTag('ретроград')">
                 Не підтримали проект Закону про внесення змін до деяких законів України у сфері державних закупівель щодо приведення їх у відповідність з міжнародними стандартами та вжиття заходів з подолання корупції
                 (<a href="http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3413" target="_blank">№2087а</a>)
             </p>
-            <p ng-if="isLawTagSelected('шокін-ок')">
+            <p ng-if="getLawTag('шокін-ок')">
                 Не підписали постанову про звільнення гепрокурора Віктора Шокіна
                 (<a href="https://goo.gl/ThzeTx" target="_blank">деталі конфлікту</a>)
-            </p>
+            </p>-->
         </td>
 
     </tr>

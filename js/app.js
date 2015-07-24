@@ -13,15 +13,24 @@
             return parties[0];
         };
 
-        $scope.isLawTagSelected = function(text) {
-            return indexOfTag($scope.tags, text) > -1;
+        $scope.getLawTag = function(name) {
+            var lawTags = $scope.lawTags.filter(function(lawTag) {
+                return lawTag.name.indexOf(name) > -1;
+            });
+            return lawTags[0];
         };
 
         $scope.addSearchTag = function(text) {
-            if ($scope.isLawTagSelected(text)) {
+            var added = false;
+            for (var tag in $scope.tags) {
+                if (tag.indexOf(text) > -1) {
+                    added = true;
+                }
+            }
+            if (added) {
                 return;
             }
-            $scope.tags.push({name:text});
+            $scope.tags.push({name: text});
             $scope.reloadSearchResults();
         };
 
@@ -64,21 +73,19 @@
             var searchString = '',
                 hasLawTag = false,
                 hasParty = false,
-                parties_lc = parties.map(function(party) {
-                    return party.name;
-                }).join('~').toLowerCase().split('~'),
-                lawTags_lc = lawTags.join('~').toLowerCase().split('~'),
+                parties_lc = arrayToLowerCase(parties, 'name'),
+                lawTags_lc = arrayToLowerCase(lawTags, 'name'),
                 statsParties = {},
                 statsLawTags = {},
                 stats = {parties: [], lawTags: [], partiesForTag: '', lawTagsForParty: ''};
 
-            angular.forEach(options, function(option, key) {
+            options.forEach(function(option) {
                 searchString = option.name.toLowerCase();
-                deputies = deputies.filter(function(item){
+                deputies = deputies.filter(function(item) {
                     if (item.name.toLowerCase().indexOf(searchString) > -1) return true;
                     if (item.residence.toLowerCase().indexOf(searchString) > -1) return true;
                     if (item.party.toLowerCase().indexOf(searchString) > -1) return true;
-                    if (indexOfTag(item.tags, searchString) > -1) return true;
+                    if (arrayToLowerCase(item.lawTags).indexOf(searchString) > -1) return true;
                     return false;
                 });
                 if (parties_lc.indexOf(searchString) > -1) {
@@ -111,11 +118,11 @@
             }
             if (!hasLawTag) {
                 deputies.forEach(function(deputy) {
-                    angular.forEach(deputy.tags, function(deputyTag, key) {
-                        if (!statsLawTags[deputyTag.name]) {
-                            statsLawTags[deputyTag.name] = 1;
+                    deputy.lawTags.forEach(function(lawTag) {
+                        if (!statsLawTags[lawTag]) {
+                            statsLawTags[lawTag] = 1;
                         } else {
-                            statsLawTags[deputyTag.name]++;
+                            statsLawTags[lawTag]++;
                         }
                     });
                 });
@@ -133,28 +140,32 @@
             return deputies;
         };
 
-        function indexOfTag(tags, text) {
-            var tagIndex = -1;
-            tags.forEach(function(tag, index){
-                tagIndex = (tag.name.toLowerCase().indexOf(text) > -1) ? index : tagIndex;
-            });
-            return tagIndex;
-        }
+        function arrayToLowerCase(array, field) {
+            return array.map(function(item) {
+                if (field) {
+                    return item[field];
+                } else {
+                    return item;
+                }
+            }).join('~').toLowerCase().split('~');
+        };
 
         // Load data
         $http.get('data/data.min.js?vvkp-version-1.2.11')
             .then(function(response){
-                var binStr = atob(response.data);
-                $scope.deputies = JSON.parse(pako.inflate(binStr, { to: 'string' }));
-                $scope.lawTags = ['ретроград', 'шокін-ок', 'популіст'];
-                $scope.parties = [
-                    {name: 'Батьківщина', deputies: 0},
-                    {name: 'Блок Петра Порошенка', deputies: 0},
-                    {name: 'Народний Фронт', deputies: 0},
-                    {name: 'Опозиційний блок', deputies: 0},
-                    {name: 'Радикальна партія Олега Ляшка', deputies: 0},
-                    {name: 'Самопоміч', deputies: 0}
-                ];
+                var binStr = atob(response.data),
+                    data = JSON.parse(pako.inflate(binStr, { to: 'string' }));
+//data.deputies.forEach(function(deputy) {
+//    deputy.lawTags = [];
+//    deputy.tags.forEach(function(tag) {
+//        deputy.lawTags.push(tag.name);
+//    });
+//    delete deputy.tags;
+//});
+//console.log(JSON.stringify(data.deputies));
+                $scope.deputies = data.deputies;
+                $scope.lawTags = data.lawTags;
+                $scope.parties = data.parties;
                 $scope.deputies.forEach(function(deputy) {
                     var party = $scope.getParty(deputy.party);
                     if (party) {
