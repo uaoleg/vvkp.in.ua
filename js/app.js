@@ -1,7 +1,7 @@
 (function (angular) {
     var app = angular.module('vvkp-app',['ui.bootstrap', 'ngTagsInput']);
 
-    app.controller('deputiesListCtrl', ['$scope', '$http', '$timeout', function($scope, $http, $timeout) {
+    app.controller('deputiesListCtrl', ['$scope', '$http', '$timeout', '$location', function($scope, $http, $timeout, $location) {
         $scope.list = [];
         $scope.tags = [];
         $scope.filtering = false;
@@ -21,7 +21,26 @@
             $scope.reloadSearchResults();
         };
 
+        $scope.updateUrl = function(){
+            var codedString = btoa(escape(JSON.stringify($scope.tags)));
+
+            $location.path(codedString);
+        };
+
+        $scope.getUrlData = function(){
+            var path = $location.path();
+            if (path){
+                try {
+                    $scope.tags = JSON.parse(unescape(atob(path.replace('/',''))));
+                }
+                catch(e) {
+                    $location.path('');
+                }
+            }
+        };
+
         $scope.reloadSearchResults = function(){
+            $scope.updateUrl();
             $scope.filtering = true;
             $timeout(function(){
                 $scope.list = filterList(angular.copy($scope.deputies), angular.copy($scope.parties), angular.copy($scope.lawTags), angular.copy($scope.tags));
@@ -117,6 +136,8 @@
                   $scope.parties = ['Батьківщина', 'БЛОК ПЕТРА ПОРОШЕНКА', 'НАРОДНИЙ ФРОНТ', 'Опозиційний блок', 'Радикальна партія Олега Ляшка', 'САМОПОМІЧ'];
                   $scope.reloadSearchResults();
             });
+
+        $scope.getUrlData();
     }]);
 
     // Emulation of popover-trigger="focus" for Firefox on MacOS
