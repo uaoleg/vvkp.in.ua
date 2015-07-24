@@ -3,7 +3,7 @@
 
         <td ng-if="searchStats.parties.length">
             <table class="table table-hover table-no-border">
-                <tr ng-repeat="party in searchStats.parties" ng-click="addSearchTag(party.name)" style="cursor: pointer;">
+                <tr ng-repeat="party in searchStats.parties" ng-click="searchAddTag(party.name)" style="cursor: pointer;">
                     <td style="height: 57px;">
                         <img ng-src="img/parties/{{party.name}}.png" class="deputy-party">
                         <progressbar ng-if="searchStats.partiesForTag && tags.length === 1"
@@ -26,7 +26,7 @@
             <table class="table table-hover table-no-border">
                 <tr ng-repeat="statsLawTag in searchStats.lawTags"
                     ng-init="lawTag1 = getLawTag(statsLawTag.name); lawTag2 = getLawTag(lawTag1.opposite)"
-                    ng-click="addSearchTag(statsLawTag.name)"
+                    ng-click="searchAddTag(statsLawTag.name)"
                     tooltip="{{lawTag1.lawName}}"
                     tooltip-placement="top"
                     tooltip-popup-delay="1000"
@@ -50,10 +50,19 @@
         <td ng-if="searchStats.lawTagsForParty || searchStats.partiesForTag" style="padding: 10px; border-right: 1px solid #ccc;"></td>
         <td ng-if="searchStats.lawTagsForParty || searchStats.partiesForTag" style="padding: 10px;"></td>
 
-        <td ng-if="searchStats.lawTagsForParty || searchStats.partiesForTag" style="max-width: 250px;">
-            <div ng-if="searchStats.lawTagsForParty">
+        <td ng-if="searchStats.lawTagsForParty" style="max-width: 250px; text-align: center; vertical-align: middle; width: 150px;">
+            <div ng-click="searchNextParty(searchStats.lawTagsForParty, -1); $event.stopPropagation();" style="cursor: pointer; margin-bottom: 15px;">
+                <span class="glyphicon glyphicon-menu-up"></span>
+            </div>
+            <div>
                 <img ng-src="../../img/parties/{{searchStats.lawTagsForParty}}.png" class="deputy-party" style="cursor: default;">
             </div>
+            <div ng-click="searchNextParty(searchStats.lawTagsForParty); $event.stopPropagation();" style="cursor: pointer; margin-top: 20px;">
+                <span class="glyphicon glyphicon-menu-down"></span>
+            </div>
+        </td>
+
+        <td ng-if="searchStats.partiesForTag" style="max-width: 250px;">
             <p ng-repeat="(key, tag) in tags" ng-init="lawTag = getLawTag(tag.name)" ng-if="getLawTag(tag.name)">
                 {{lawTag.lawName}}
                 (<a href="{{lawTag.lawUrl}}" target="_blank">{{lawTag.lawId}}</a>)

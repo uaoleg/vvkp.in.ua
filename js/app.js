@@ -20,7 +20,7 @@
             return lawTags[0];
         };
 
-        $scope.addSearchTag = function(text) {
+        $scope.searchAddTag = function(text) {
             var added = false;
             for (var tag in $scope.tags) {
                 if (tag.indexOf(text) > -1) {
@@ -32,6 +32,28 @@
             }
             $scope.tags.push({name: text});
             $scope.reloadSearchResults();
+        };
+
+        $scope.searchNextParty = function(partyName, dir) {
+            var nextParty;
+            if (!dir) {
+                dir = 1;
+            }
+            for (var i in $scope.parties) {
+                i *= 1;
+                if ($scope.parties[i].name === partyName) {
+                    if (i + dir < 0) {
+                        nextParty = $scope.parties[$scope.parties.length - 1];
+                    } else if (i + dir < $scope.parties.length) {
+                        nextParty = $scope.parties[i + dir];
+                    } else if (dir > 0) {
+                        nextParty = $scope.parties[0];
+                    }
+                    break;
+                }
+            }
+            $scope.tags = [];
+            $scope.searchAddTag(nextParty.name);
         };
 
         $scope.updateUrl = function() {
@@ -156,7 +178,7 @@
         };
 
         // Load data
-        $http.get('data/data.min.js?vvkp-version-1.2.11')
+        $http.get('data/data.min.js?vvkp-version-1.2.12')
             .then(function(response){
                 var binStr = atob(response.data),
                     data = JSON.parse(pako.inflate(binStr, { to: 'string' }));
