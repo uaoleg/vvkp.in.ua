@@ -11,7 +11,7 @@
         };
 
         $scope.isLawTagSelected = function(text){
-            return indexOfTag($scope.tags,text) > -1;
+            return indexOfTag($scope.tags, text) > -1;
         };
 
         $scope.addSearchTag = function(text){
@@ -21,36 +21,42 @@
             $scope.reloadSearchResults();
         };
 
-        $scope.updateUrl = function(){
-            var codedString = btoa(escape(JSON.stringify($scope.tags)));
-
+        $scope.updateUrl = function() {
+            var codedString =  '';
+            if ($scope.tags.length) {
+                codedString += 'search/' + $scope.tags.map(function(tag){
+                    return transliterate(tag.name);
+                }).join(',');
+            }
             $location.path(codedString);
         };
 
         $scope.getUrlData = function(){
-            var path = $location.path();
-            if (path){
-                try {
-                    $scope.tags = JSON.parse(unescape(atob(path.replace('/',''))));
-                }
-                catch(e) {
-                    $location.path('');
-                }
+            var path = $location.path(),
+                tag;
+            if (path.indexOf('/search/') === 0) {
+                path = path.replace('/search/', '');
+                $scope.tags = [];
+                path.split(',').forEach(function(tag) {
+                    tag = transliterate(transliterate(tag), true);
+                    if ($scope.tags.indexOf(tag) === -1) {
+                        $scope.tags.push(tag);
+                    }
+                });
             }
         };
 
-        $scope.reloadSearchResults = function(){
+        $scope.reloadSearchResults = function() {
             $scope.updateUrl();
             $scope.filtering = true;
             $timeout(function(){
                 $scope.list = filterList(angular.copy($scope.deputies), angular.copy($scope.parties), angular.copy($scope.lawTags), angular.copy($scope.tags));
                 $scope.filtering = false;
-            },50); // remove value after list rendering fixes
-
+            }, 50); // remove value after list rendering fixes
             return;
         };
 
-        function filterList(deputies, parties, lawTags, options){
+        function filterList(deputies, parties, lawTags, options) {
             var searchString = '',
                 hasLawTag = false,
                 hasParty = false,
@@ -139,6 +145,23 @@
 
         $scope.getUrlData();
     }]);
+
+    function transliterate(text, enToUk) {
+        var
+            uk = "щ    є  ж  ї  ё  х  ц  ч  ш  ъ  ю  я  а б в ґ д е э з і и ы й л м н о п р т у ф к с г ь".split(/ +/g),
+            en = "shch ye zh yi yo kh ts ch sh '' iu ia a b v g d e e z i y y j l m n o p r t u f k s h '".split(/ +/g),
+            x;
+        for (x = 0; x < uk.length; x++) {
+            text = text.split(enToUk ? en[x] : uk[x]).join(enToUk ? uk[x] : en[x]);
+            text = text.split(enToUk ? en[x].toUpperCase() : uk[x].toUpperCase()).join(enToUk ? uk[x].toUpperCase() : en[x].toUpperCase());
+        }
+        if (enToUk) {
+            text = text.replace(/_/g, ' ');
+        } else {
+            text = text.replace(/ /g, '_');
+        }
+        return text;
+    }
 
     // Emulation of popover-trigger="focus" for Firefox on MacOS
     // @link http://stackoverflow.com/questions/22916471/close-all-angular-js-bootstrap-popovers-with-click-anywhere-on-screen
