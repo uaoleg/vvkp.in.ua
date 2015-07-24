@@ -116,6 +116,7 @@
                 }
                 stats.parties.sort(function(a, b) { return b.count - a.count; });
             }
+
             if (!hasLawTag) {
                 deputies.forEach(function(deputy) {
                     deputy.lawTags.forEach(function(lawTag) {
@@ -126,14 +127,18 @@
                         }
                     });
                 });
-                for (var lawTags in statsLawTags) {
+               for (var lawTag in statsLawTags) {
+                    var total = stats.lawTagsForParty ? $scope.getParty(stats.lawTagsForParty).deputies : deputies.length,
+                        lawTagOpposite = $scope.getLawTag(lawTag).opposite;
                     stats.lawTags.push({
-                        name: lawTags,
-                        count: statsLawTags[lawTags],
-                        total: $scope.getParty(stats.lawTagsForParty).deputies
+                        name: lawTag,
+                        count: statsLawTags[lawTag],
+                        percent1: statsLawTags[lawTag] * 100 / total,
+                        percent2: statsLawTags[lawTagOpposite] * 100 / total
                     });
                 }
                 stats.lawTags.sort(function(a, b) { return b.count - a.count; });
+                stats.lawTags = stats.lawTags.slice(0, $scope.lawTags.length / 2);
             }
             $scope.searchStats = stats;
 

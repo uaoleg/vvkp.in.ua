@@ -32,7 +32,8 @@
             "lawName": "Не підтримано Закон про реструктуризацію зобов'язань за кредитами в іноземній валюті",
             "lawUrl": "http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049",
             "lawGood": 0,
-            "type": "success"
+            "type": "success",
+            "opposite": "популіст"
         },
         {
             "name": "популіст",
@@ -40,7 +41,8 @@
             "lawName": "Підтримано Закон про реструктуризацію зобов'язань за кредитами в іноземній валюті",
             "lawUrl": "http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049",
             "lawGood": 0,
-            "type": "danger"
+            "type": "danger",
+            "opposite": "конструктив"
         },
         {
             "name": "новатор",
@@ -48,7 +50,8 @@
             "lawName": "Підтримано проект Закону про внесення змін до деяких законів України у сфері державних закупівель щодо приведення їх у відповідність з міжнародними стандартами та вжиття заходів з подолання корупції",
             "lawUrl": "http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3413",
             "lawGood": 1,
-            "type": "success"
+            "type": "success",
+            "opposite": "ретроград"
         },
         {
             "name": "ретроград",
@@ -56,7 +59,8 @@
             "lawName": "Не підтримано проект Закону про внесення змін до деяких законів України у сфері державних закупівель щодо приведення їх у відповідність з міжнародними стандартами та вжиття заходів з подолання корупції",
             "lawUrl": "http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3413",
             "lawGood": 1,
-            "type": "danger"
+            "type": "danger",
+            "opposite": "новатор"
         },
         {
             "name": "шокін-геть",
@@ -64,7 +68,8 @@
             "lawName": "Підписано постанову про звільнення гепрокурора Віктора Шокіна",
             "lawUrl": "https://goo.gl/ThzeTx",
             "lawGood": 1,
-            "type": "success"
+            "type": "success",
+            "opposite": "шокін-ок"
         },
         {
             "name": "шокін-ок",
@@ -72,7 +77,8 @@
             "lawName": "Не підписано постанову про звільнення гепрокурора Віктора Шокіна",
             "lawUrl": "https://goo.gl/ThzeTx",
             "lawGood": 1,
-            "type": "danger"
+            "type": "danger",
+            "opposite": "шокін-геть"
         }
     ],
     "deputies": [

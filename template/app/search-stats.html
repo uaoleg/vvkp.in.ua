@@ -6,7 +6,7 @@
                 <tr ng-repeat="party in searchStats.parties" ng-click="addSearchTag(party.name)" style="cursor: pointer;">
                     <td style="height: 57px;">
                         <img ng-src="img/parties/{{party.name}}.png" class="deputy-party">
-                        <progressbar ng-if="searchStats.partiesForTag"
+                        <progressbar ng-if="searchStats.partiesForTag && tags.length === 1"
                                      value="party.count"
                                      max="party.total"
                                      type="{{getLawTag(searchStats.partiesForTag).type}}"
@@ -25,19 +25,20 @@
         <td ng-if="searchStats.lawTags.length">
             <table class="table table-hover table-no-border">
                 <tr ng-repeat="statsLawTag in searchStats.lawTags"
-                    ng-init="lawTag = getLawTag(statsLawTag.name)"
+                    ng-init="lawTag1 = getLawTag(statsLawTag.name); lawTag2 = getLawTag(lawTag1.opposite)"
                     ng-click="addSearchTag(statsLawTag.name)"
-                    tooltip="{{lawTag.lawName}}"
+                    tooltip="{{lawTag1.lawName}}"
                     tooltip-placement="top"
                     tooltip-popup-delay="1000"
                     style="cursor: pointer;">
-                    <td style="height: 57px; vertical-align: middle;">
-                        <span class="label label-{{lawTag.type}}">{{lawTag.name}}</span>
-                        <progressbar ng-if="searchStats.lawTagsForParty"
-                                     value="statsLawTag.count"
-                                     max="statsLawTag.total"
-                                     type="{{lawTag.type}}"
-                                     style="margin: 10px 0 0;"></progressbar>
+                    <td style="height: 57px;">
+                        <progress style="height: 24px; margin: 10px 0 0; width: 200px;">
+                            <bar value="statsLawTag.percent1" type="{{lawTag1.type}}"
+                                 style="padding: 0 10px; text-align: left; ">
+                                <span><b>{{lawTag1.name}}</b></span>
+                            </bar>
+                            <bar value="statsLawTag.percent2" type="{{lawTag2.type}}"></bar>
+                        </progress>
                     </td>
                     <td style="padding: 10px 10px 10px 30px; vertical-align: middle;">
                         <b class="pull-right">{{statsLawTag.count}}</b>
