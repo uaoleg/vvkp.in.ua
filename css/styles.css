@@ -1,4 +1,4 @@
-[class^="img-deputy-"], 
+[class^="img-deputy-"],
 [class*=" img-deputy-"] {
     border-radius: 4px;
     box-shadow: 1px 1px 1px #999;
@@ -32,6 +32,7 @@
     cursor: pointer;
     display: block;
     margin-bottom: 10px;
+    width: 100px;
 }
 
 .fading {

@@ -31,7 +31,7 @@
                 return;
             }
             $scope.tags.push({name: text});
-            $scope.reloadSearchResults();
+            $scope.searchReloadResults();
         };
 
         $scope.searchNextParty = function(partyName, dir) {
@@ -81,7 +81,7 @@
             }
         };
 
-        $scope.reloadSearchResults = function() {
+        $scope.searchReloadResults = function() {
             $scope.updateUrl();
             $scope.filtering = true;
             $timeout(function(){
@@ -89,6 +89,39 @@
                 $scope.filtering = false;
             }, 50); // remove value after list rendering fixes
             return;
+        };
+
+        $scope.searchLoadSuggestions = function($query) {
+            var types = {},
+                max = 10,
+                matchedCount = 0,
+                results = [];
+            $scope.searchSuggestions.forEach(function(tag) {
+                var matched = tag.name.toLowerCase().indexOf($query.toLowerCase()) !== -1;
+                if (matched) {
+                    if (!types[tag.type]) {
+                        types[tag.type] = [];
+                    }
+                    types[tag.type].push(tag);
+                    matchedCount++;
+                }
+                return matched;
+            });
+            while (true) {
+                for (var type in types) {
+                    var tag = types[type].shift();
+                    if (tag) {
+                        results.push(tag);
+                    }
+                }
+                if (results.length >= max || results.length >= matchedCount) {
+                    break;
+                }
+            }
+            results.sort(function(a, b) {
+                return a.typeOrder - b.typeOrder;
+            });
+            return results;
         };
 
         function filterList(deputies, parties, lawTags, options) {
@@ -185,7 +218,8 @@
                 $scope.deputies = data.deputies;
                 $scope.lawTags = data.lawTags;
                 $scope.parties = data.parties;
-                $scope.reloadSearchResults();
+                $scope.searchSuggestions = data.searchSuggestions;
+                $scope.searchReloadResults();
             });
 
         $scope.getUrlData();

@@ -31,14 +31,23 @@
                             <tr>
                                 <td colspan="5">
                                     <div class="form-group">
-                                        <tags-input on-tag-added="reloadSearchResults()"
-                                                    on-tag-removed="reloadSearchResults()"
+                                        <tags-input on-tag-added="searchReloadResults()"
+                                                    on-tag-removed="searchReloadResults()"
                                                     replace-spaces-with-dashes="false"
                                                     add-on-comma="false"
                                                     display-property="name"
                                                     key-property="name"
                                                     ng-model="tags"
-                                                    placeholder="Прізвище, Партія, Місто або Тег"></tags-input>
+                                                    placeholder="Прізвище, Партія, Місто або Тег">
+                                            <auto-complete
+                                                source="searchLoadSuggestions($query)"
+                                                min-length="0"
+                                                load-on-focus="false"
+                                                load-on-empty="false"
+                                                select-first-match="true"
+                                                max-results-to-show="10"
+                                                template="template/app/search-suggestions.html"></auto-complete>
+                                        </tags-input>
                                     </div>
                                 </td>
                             </tr>
@@ -97,7 +106,7 @@
                                         </tr>
                                     </table>
                                 </td>
-                                <td style="vertical-align: middle; width: 100px;">
+                                <td style="vertical-align: middle;">
                                     <span
                                           ng-repeat="lawTagName in deputy.lawTags"
                                           ng-init="lawTag = getLawTag(lawTagName)"

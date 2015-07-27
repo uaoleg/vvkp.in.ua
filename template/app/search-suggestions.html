@@ -1,0 +1,18 @@
+<div ng-if="data.type == 'law-tag'">
+    <span class="deputy-tag label label-{{data.lawTagType}}" style="margin-top: 10px;">{{data.name}}</span>
+</div>
+<div ng-if="data.type == 'party'">
+    <div>
+        <img ng-src="img/parties/{{data.name}}.png" class="deputy-party" style="margin: 0;">
+    </div>
+    <div>
+        {{data.name}}
+    </div>
+</div>
+<div ng-if="data.type == 'deputy-name'">
+    <div class="img-deputy-{{data.deputyId}}"></div>
+    {{data.name}}
+</div>
+<div ng-if="data.type == 'deputy-district'">
+    {{data.name}}
+</div>

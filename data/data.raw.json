@@ -7360,5 +7360,3775 @@
                 "region": "Черкаська область"
             }
         }
+    ],
+    "searchSuggestions": [
+        {
+            "name": "конструктив",
+            "type": "law-tag",
+            "typeOrder": 1,
+            "lawTagType": "success"
+        },
+        {
+            "name": "популіст",
+            "type": "law-tag",
+            "typeOrder": 1,
+            "lawTagType": "danger"
+        },
+        {
+            "name": "новатор",
+            "type": "law-tag",
+            "typeOrder": 1,
+            "lawTagType": "success"
+        },
+        {
+            "name": "ретроград",
+            "type": "law-tag",
+            "typeOrder": 1,
+            "lawTagType": "danger"
+        },
+        {
+            "name": "шокін-геть",
+            "type": "law-tag",
+            "typeOrder": 1,
+            "lawTagType": "success"
+        },
+        {
+            "name": "шокін-ок",
+            "type": "law-tag",
+            "typeOrder": 1,
+            "lawTagType": "danger"
+        },
+        {
+            "name": "Блок Петра Порошенка",
+            "type": "party",
+            "typeOrder": 2
+        },
+        {
+            "name": "Народний Фронт",
+            "type": "party",
+            "typeOrder": 2
+        },
+        {
+            "name": "Опозиційний блок",
+            "type": "party",
+            "typeOrder": 2
+        },
+        {
+            "name": "Самопоміч",
+            "type": "party",
+            "typeOrder": 2
+        },
+        {
+            "name": "Радикальна партія Олега Ляшка",
+            "type": "party",
+            "typeOrder": 2
+        },
+        {
+            "name": "Батьківщина",
+            "type": "party",
+            "typeOrder": 2
+        },
+        {
+            "name": "Абдуллін Олександр Рафкатович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "2524"
+        },
+        {
+            "name": "Агафонова Наталія Володимирівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15669"
+        },
+        {
+            "name": "Алексєєв Ігор Сергійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "16067"
+        },
+        {
+            "name": "Алєксєєв Сергій Олегович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17993"
+        },
+        {
+            "name": "Амельченко Василь Васильович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "12290"
+        },
+        {
+            "name": "Андрієвський Дмитро Йосипович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15839"
+        },
+        {
+            "name": "Антонищак Андрій Федорович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17983"
+        },
+        {
+            "name": "Арешонков Володимир Юрійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18058"
+        },
+        {
+            "name": "Ар’єв Володимир Ігорович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "11118"
+        },
+        {
+            "name": "Артеменко Андрій Вікторович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18049"
+        },
+        {
+            "name": "Артюшенко Ігор Андрійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18059"
+        },
+        {
+            "name": "Атрошенко Владислав Анатолійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "5584"
+        },
+        {
+            "name": "Бабак Альона Валеріївна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18007"
+        },
+        {
+            "name": "Бабенко Валерій Борисович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "4427"
+        },
+        {
+            "name": "Бабій Юрій Юрійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18604"
+        },
+        {
+            "name": "Бакулін Євген Миколайович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18060"
+        },
+        {
+            "name": "Бакуменко Олександр Борисович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17994"
+        },
+        {
+            "name": "Балицький Євген Віталійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15762"
+        },
+        {
+            "name": "Балога Віктор Іванович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "5566"
+        },
+        {
+            "name": "Балога Іван Іванович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18061"
+        },
+        {
+            "name": "Балога Павло Іванович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15757"
+        },
+        {
+            "name": "Бандуров Володимир Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15761"
+        },
+        {
+            "name": "Барвіненко Віталій Дмитрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "9776"
+        },
+        {
+            "name": "Барна Олег Степанович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18062"
+        },
+        {
+            "name": "Батенко Тарас Іванович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18063"
+        },
+        {
+            "name": "Бахтеєва Тетяна Дмитрівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "5520"
+        },
+        {
+            "name": "Безбах Яків Якович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15734"
+        },
+        {
+            "name": "Береза Борислав Юхимович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18064"
+        },
+        {
+            "name": "Береза Юрій Миколайович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17949"
+        },
+        {
+            "name": "Березкін Станіслав Семенович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "14393"
+        },
+        {
+            "name": "Березюк Олег Романович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18027"
+        },
+        {
+            "name": "Бєлькова Ольга Валентинівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15684"
+        },
+        {
+            "name": "Білецький Андрій Євгенійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18065"
+        },
+        {
+            "name": "Білий Олексій Петрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "8723"
+        },
+        {
+            "name": "Біловол Олександр Миколайович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "3471"
+        },
+        {
+            "name": "Бобов Геннадій Борисович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15829"
+        },
+        {
+            "name": "Богомолець Ольга Вадимівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17972"
+        },
+        {
+            "name": "Богуслаєв Вячеслав Олександрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "8725"
+        },
+        {
+            "name": "Бойко Олена Петрівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "16698"
+        },
+        {
+            "name": "Бойко Юрій Анатолійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "11094"
+        },
+        {
+            "name": "Бондар Віктор Васильович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15826"
+        },
+        {
+            "name": "Бондар Михайло Леонтійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18066"
+        },
+        {
+            "name": "Брензович Василь Іванович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17998"
+        },
+        {
+            "name": "Бриченко Ігор Віталійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15796"
+        },
+        {
+            "name": "Бублик Юрій Васильович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15802"
+        },
+        {
+            "name": "Бурбак Максим Юрійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15655"
+        },
+        {
+            "name": "Бухарєв Владислав Вікторович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15257"
+        },
+        {
+            "name": "Вадатурський Андрій Олексійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18067"
+        },
+        {
+            "name": "Валентиров Сергій Васильович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18068"
+        },
+        {
+            "name": "Ванат Петро Михайлович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17964"
+        },
+        {
+            "name": "Васюник Ігор Васильович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15787"
+        },
+        {
+            "name": "Величкович Микола Романович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17961"
+        },
+        {
+            "name": "Веселова Наталія Василівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18008"
+        },
+        {
+            "name": "Висоцький Сергій Віталійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17963"
+        },
+        {
+            "name": "Вілкул Олександр Юрійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "8737"
+        },
+        {
+            "name": "Вінник Іван Юлійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18069"
+        },
+        {
+            "name": "Вітко Артем Леонідович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18043"
+        },
+        {
+            "name": "Власенко Сергій Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "12265"
+        },
+        {
+            "name": "Вовк Віктор Іванович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "8132"
+        },
+        {
+            "name": "Вознюк Юрій Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15807"
+        },
+        {
+            "name": "Войцеховська Світлана Михайлівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "11596"
+        },
+        {
+            "name": "Войціцька Вікторія Михайлівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18021"
+        },
+        {
+            "name": "Воропаєв Юрій Миколайович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "8741"
+        },
+        {
+            "name": "Гаврилюк Михайло Віталійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18070"
+        },
+        {
+            "name": "Галасюк Віктор Валерійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18046"
+        },
+        {
+            "name": "Гальченко Андрій Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18071"
+        },
+        {
+            "name": "Гарбуз Юрій Григорійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18072"
+        },
+        {
+            "name": "Гвоздьов Михайло Олексійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17992"
+        },
+        {
+            "name": "Герасимов Артур Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17985"
+        },
+        {
+            "name": "Геращенко Антон Юрійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17952"
+        },
+        {
+            "name": "Геращенко Ірина Володимирівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "11121"
+        },
+        {
+            "name": "Герега Олександр Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15827"
+        },
+        {
+            "name": "Гєллєр Євгеній Борисович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "8746"
+        },
+        {
+            "name": "Гіршфельд Анатолій Мусійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "5606"
+        },
+        {
+            "name": "Головко Михайло Йосифович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15813"
+        },
+        {
+            "name": "Голуб Владислав Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "8238"
+        },
+        {
+            "name": "Голубов Дмитро Іванович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18074"
+        },
+        {
+            "name": "Гончаренко Олексій Олексійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17984"
+        },
+        {
+            "name": "Гопко Ганна Миколаївна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18002"
+        },
+        {
+            "name": "Горбунов Олександр Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17962"
+        },
+        {
+            "name": "Горват Роберт Іванович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18075"
+        },
+        {
+            "name": "Гордєєв Андрій Анатолійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15953"
+        },
+        {
+            "name": "Грановський Олександр Михайлович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17995"
+        },
+        {
+            "name": "Гриневич Лілія Михайлівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15646"
+        },
+        {
+            "name": "Гринів Ігор Олексійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "5414"
+        },
+        {
+            "name": "Гройсман Володимир Борисович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17973"
+        },
+        {
+            "name": "Гудзенко Віталій Іванович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18077"
+        },
+        {
+            "name": "Гузь Ігор Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "14674"
+        },
+        {
+            "name": "Гуляєв Василь Олександрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18078"
+        },
+        {
+            "name": "Гусак Володимир Георгійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18036"
+        },
+        {
+            "name": "Давиденко Валерій Миколайович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18079"
+        },
+        {
+            "name": "Данченко Олександр Іванович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18009"
+        },
+        {
+            "name": "Дейдей Євген Сергійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17956"
+        },
+        {
+            "name": "Демчак Руслан Євгенійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18080"
+        },
+        {
+            "name": "Денисенко Анатолій Петрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15815"
+        },
+        {
+            "name": "Денисенко Андрій Сергійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18081"
+        },
+        {
+            "name": "Денисенко Вадим Ігорович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17986"
+        },
+        {
+            "name": "Денісова Людмила Леонтіївна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "8757"
+        },
+        {
+            "name": "Дерев’янко Юрій Богданович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15768"
+        },
+        {
+            "name": "Деркач Андрій Леонідович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "2284"
+        },
+        {
+            "name": "Дехтярчук Олександр Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "6130"
+        },
+        {
+            "name": "Джемілєв Мустафа",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "2394"
+        },
+        {
+            "name": "Дзензерський Денис Вікторович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15652"
+        },
+        {
+            "name": "Дзюблик Павло Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18082"
+        },
+        {
+            "name": "Дирів Анатолій Борисович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15767"
+        },
+        {
+            "name": "Діденко Ігор Анатолійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18017"
+        },
+        {
+            "name": "Дідич Валентин Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18083"
+        },
+        {
+            "name": "Дмитренко Олег Миколайович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18084"
+        },
+        {
+            "name": "Добкін Дмитро Маркович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15818"
+        },
+        {
+            "name": "Добкін Михайло Маркович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "5578"
+        },
+        {
+            "name": "Добродомов Дмитро Євгенович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18085"
+        },
+        {
+            "name": "Довбенко Михайло Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "6201"
+        },
+        {
+            "name": "Довгий Олесь Станіславович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18086"
+        },
+        {
+            "name": "Долженков Олександр Валерійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15644"
+        },
+        {
+            "name": "Домбровський Олександр Георгійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15727"
+        },
+        {
+            "name": "Донець Тетяна Анатоліївна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "3849"
+        },
+        {
+            "name": "Драюк Сергій Євсейович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18221"
+        },
+        {
+            "name": "Дроздик Олександр Валерійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18222"
+        },
+        {
+            "name": "Дубіль Валерій Олександрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "12272"
+        },
+        {
+            "name": "Дубінін Олександр Іванович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18087"
+        },
+        {
+            "name": "Дубневич Богдан Васильович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18088"
+        },
+        {
+            "name": "Дубневич Ярослав Васильович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15790"
+        },
+        {
+            "name": "Дунаєв Сергій Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15780"
+        },
+        {
+            "name": "Євлахов Анатолій Сергійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18089"
+        },
+        {
+            "name": "Євтушок Сергій Миколайович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "11728"
+        },
+        {
+            "name": "Єднак Остап Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18016"
+        },
+        {
+            "name": "Єленський Віктор Євгенович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17959"
+        },
+        {
+            "name": "Ємець Леонід Олександрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "4761"
+        },
+        {
+            "name": "Єремеєв Ігор Миронович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "5509"
+        },
+        {
+            "name": "Єфімов Максим Вікторович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18090"
+        },
+        {
+            "name": "Єфремова Ірина Олексіївна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "16716"
+        },
+        {
+            "name": "Жеваго Костянтин Валентинович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "2301"
+        },
+        {
+            "name": "Жолобецький Олександр Олександрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18091"
+        },
+        {
+            "name": "Журжій Андрій Валерійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18015"
+        },
+        {
+            "name": "Заболотний Григорій Михайлович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15730"
+        },
+        {
+            "name": "Загорій Гліб Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17991"
+        },
+        {
+            "name": "Заліщук Світлана Петрівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17976"
+        },
+        {
+            "name": "Заставний Роман Йосипович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17955"
+        },
+        {
+            "name": "Звягільський Юхим Леонідович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "833"
+        },
+        {
+            "name": "Зубач Любомир Львович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "19126"
+        },
+        {
+            "name": "Зубик Володимир Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "8771"
+        },
+        {
+            "name": "Іванчук Андрій Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15654"
+        },
+        {
+            "name": "Івахів Степан Петрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15733"
+        },
+        {
+            "name": "Івченко Вадим Євгенович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18055"
+        },
+        {
+            "name": "Іллєнко Андрій Юрійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15837"
+        },
+        {
+            "name": "Ільюк Артем Олександрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15794"
+        },
+        {
+            "name": "Іонова Марія Миколаївна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15672"
+        },
+        {
+            "name": "Іоффе Юлій Якович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "793"
+        },
+        {
+            "name": "Іщейкін Костянтин Євгенович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18092"
+        },
+        {
+            "name": "Іщенко Валерій Олександрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15685"
+        },
+        {
+            "name": "Кадикало Микола Олегович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "16618"
+        },
+        {
+            "name": "Каплін Сергій Миколайович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15801"
+        },
+        {
+            "name": "Кацер-Бучковська Наталія Володимирівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17967"
+        },
+        {
+            "name": "Кацуба Володимир Михайлович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15816"
+        },
+        {
+            "name": "Кириленко Іван Григорович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "1351"
+        },
+        {
+            "name": "Кириченко Олексій Миколайович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "12455"
+        },
+        {
+            "name": "Кишкар Павло Миколайович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18006"
+        },
+        {
+            "name": "Ківалов Сергій Васильович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "2320"
+        },
+        {
+            "name": "Кіраль Сергій Іванович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18031"
+        },
+        {
+            "name": "Кірш Олександр Вікторович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18093"
+        },
+        {
+            "name": "Кісельов Андрій Миколайович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "13694"
+        },
+        {
+            "name": "Кіссе Антон Іванович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "7371"
+        },
+        {
+            "name": "Кіт Андрій Богданович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18094"
+        },
+        {
+            "name": "Климпуш-Цинцадзе Іванна Орестівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17997"
+        },
+        {
+            "name": "Клімов Леонід Михайлович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "5423"
+        },
+        {
+            "name": "Клюєв Сергій Петрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "8781"
+        },
+        {
+            "name": "Княжицький Микола Леонідович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15645"
+        },
+        {
+            "name": "Князевич Руслан Петрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "1897"
+        },
+        {
+            "name": "Кобцев Михайло Валентинович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17990"
+        },
+        {
+            "name": "Кодола Олександр Михайлович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15309"
+        },
+        {
+            "name": "Кожем’якін Андрій Анатолійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "8786"
+        },
+        {
+            "name": "Козак Тарас Романович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18034"
+        },
+        {
+            "name": "Козаченко Леонід Петрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "7175"
+        },
+        {
+            "name": "Козир Борис Юрійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18095"
+        },
+        {
+            "name": "Колганова Олена Валеріївна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17414"
+        },
+        {
+            "name": "Колєсніков Дмитро Валерійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "11098"
+        },
+        {
+            "name": "Кондратюк Олена Костянтинівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "11166"
+        },
+        {
+            "name": "Кононенко Ігор Віталійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17981"
+        },
+        {
+            "name": "Константіновський Вячеслав Леонідович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18096"
+        },
+        {
+            "name": "Корнацький Аркадій Олексійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18097"
+        },
+        {
+            "name": "Королевська Наталія Юріївна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "8693"
+        },
+        {
+            "name": "Король Віктор Миколайович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "2314"
+        },
+        {
+            "name": "Корчик Віталій Андрійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18167"
+        },
+        {
+            "name": "Корчинська Оксана Анатоліївна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18165"
+        },
+        {
+            "name": "Костенко Павло Петрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18028"
+        },
+        {
+            "name": "Котвіцький Ігор Олександрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17965"
+        },
+        {
+            "name": "Кошелєва Альона Володимирівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18048"
+        },
+        {
+            "name": "Кремінь Тарас Дмитрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17969"
+        },
+        {
+            "name": "Кривенко Вадим Валерійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17970"
+        },
+        {
+            "name": "Кривенко Віктор Миколайович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18005"
+        },
+        {
+            "name": "Кривохатько Вадим Вікторович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18107"
+        },
+        {
+            "name": "Кривошея Геннадій Григорович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15901"
+        },
+        {
+            "name": "Кришин Олег Юрійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18108"
+        },
+        {
+            "name": "Крулько Іван Іванович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "6073"
+        },
+        {
+            "name": "Ксенжук Олександр Степанович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17957"
+        },
+        {
+            "name": "Кубів Степан Іванович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15649"
+        },
+        {
+            "name": "Кудлаєнко Сергій Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17999"
+        },
+        {
+            "name": "Кужель Олександра Володимирівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "735"
+        },
+        {
+            "name": "Кузьменко Анатолій Іванович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18109"
+        },
+        {
+            "name": "Кулініч Олег Іванович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15804"
+        },
+        {
+            "name": "Куліченко Іван Іванович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18110"
+        },
+        {
+            "name": "Куніцин Сергій Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15840"
+        },
+        {
+            "name": "Купрієнко Олег Васильович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18050"
+        },
+        {
+            "name": "Купрій Віталій Миколайович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18111"
+        },
+        {
+            "name": "Курило Віталій Семенович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "8803"
+        },
+        {
+            "name": "Курячий Максим Павлович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "13646"
+        },
+        {
+            "name": "Кутовий Тарас Вікторович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15805"
+        },
+        {
+            "name": "Кучер Микола Іванович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18112"
+        },
+        {
+            "name": "Лабазюк Сергій Петрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15824"
+        },
+        {
+            "name": "Лаврик Микола Іванович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18113"
+        },
+        {
+            "name": "Лаврик Олег Васильович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18011"
+        },
+        {
+            "name": "Ланьо Михайло Іванович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15756"
+        },
+        {
+            "name": "Лапін Ігор Олександрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18114"
+        },
+        {
+            "name": "Ларін Сергій Миколайович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "2179"
+        },
+        {
+            "name": "Левус Андрій Мар’янович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "11694"
+        },
+        {
+            "name": "Левченко Юрій Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "16672"
+        },
+        {
+            "name": "Ледовських Олена Володимирівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17413"
+        },
+        {
+            "name": "Ленський Олексій Олексійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "10204"
+        },
+        {
+            "name": "Лесюк Ярослав Васильович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18605"
+        },
+        {
+            "name": "Лещенко Сергій Анатолійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17977"
+        },
+        {
+            "name": "Литвин Володимир Михайлович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "5470"
+        },
+        {
+            "name": "Лівік Олександр Петрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18115"
+        },
+        {
+            "name": "Лінько Дмитро Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18052"
+        },
+        {
+            "name": "Логвинський Георгій Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17958"
+        },
+        {
+            "name": "Лозовой Андрій Сергійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15916"
+        },
+        {
+            "name": "Лопушанський Андрій Ярославович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "8815"
+        },
+        {
+            "name": "Лубінець Дмитро Валерійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18116"
+        },
+        {
+            "name": "Лук’янчук Руслан Валерійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "6332"
+        },
+        {
+            "name": "Лунченко Валерій Валерійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15662"
+        },
+        {
+            "name": "Луценко Ігор Вікторович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18054"
+        },
+        {
+            "name": "Луценко Ірина Степанівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15647"
+        },
+        {
+            "name": "Луценко Юрій Віталійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "4132"
+        },
+        {
+            "name": "Льовочкін Сергій Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "7718"
+        },
+        {
+            "name": "Льовочкіна Юлія Володимирівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "11109"
+        },
+        {
+            "name": "Люшняк Микола Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18117"
+        },
+        {
+            "name": "Ляшко Олег Валерійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "8818"
+        },
+        {
+            "name": "Макар’ян Давид Борисович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15972"
+        },
+        {
+            "name": "Македон Юрій Миколайович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18163"
+        },
+        {
+            "name": "Мамчур Юлій Валерійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17974"
+        },
+        {
+            "name": "Маркевич Ярослав Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18013"
+        },
+        {
+            "name": "Мартиненко Микола Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "2323"
+        },
+        {
+            "name": "Мартиняк Сергій Васильович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15732"
+        },
+        {
+            "name": "Мартовицький Артур Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15744"
+        },
+        {
+            "name": "Марченко Олександр Олександрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18118"
+        },
+        {
+            "name": "Масоріна Олена Сергіївна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17966"
+        },
+        {
+            "name": "Матвієнко Анатолій Сергійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "2262"
+        },
+        {
+            "name": "Матвієнков Сергій Анатолійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "2356"
+        },
+        {
+            "name": "Матвійчук Едуард Леонідович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "5500"
+        },
+        {
+            "name": "Матейченко Костянтин Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17953"
+        },
+        {
+            "name": "Матіос Марія Василівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15665"
+        },
+        {
+            "name": "Матківський Богдан Миронович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18119"
+        },
+        {
+            "name": "Матузко Олена Олександрівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "11342"
+        },
+        {
+            "name": "Мацола Роман Миколайович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18120"
+        },
+        {
+            "name": "Медуниця Олег Вячеславович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "12003"
+        },
+        {
+            "name": "Мельник Сергій Іванович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18161"
+        },
+        {
+            "name": "Мельниченко Володимир Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15828"
+        },
+        {
+            "name": "Мельничук Іван Іванович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18121"
+        },
+        {
+            "name": "Мельничук Сергій Петрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18039"
+        },
+        {
+            "name": "Мирний Іван Миколайович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "11106"
+        },
+        {
+            "name": "Мисик Володимир Юрійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15814"
+        },
+        {
+            "name": "Мірошниченко Юрій Романович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "8826"
+        },
+        {
+            "name": "Мірошніченко Іван Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18014"
+        },
+        {
+            "name": "Міщенко Сергій Григорович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "8827"
+        },
+        {
+            "name": "Молоток Ігор Федорович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15810"
+        },
+        {
+            "name": "Мороко Юрій Миколайович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "11102"
+        },
+        {
+            "name": "Мосійчук Ігор Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18045"
+        },
+        {
+            "name": "Москаленко Ярослав Миколайович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15773"
+        },
+        {
+            "name": "Мураєв Євгеній Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15819"
+        },
+        {
+            "name": "Мусій Олег Степанович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "16517"
+        },
+        {
+            "name": "Мушак Олексій Петрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17996"
+        },
+        {
+            "name": "Найєм Мустафа-Масі",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17978"
+        },
+        {
+            "name": "Насалик Ігор Степанович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "2370"
+        },
+        {
+            "name": "Насіров Роман Михайлович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17666"
+        },
+        {
+            "name": "Негой Федір Федорович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15823"
+        },
+        {
+            "name": "Недава Олег Анатолійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18122"
+        },
+        {
+            "name": "Немировський Андрій Валентинович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "19058"
+        },
+        {
+            "name": "Немиря Григорій Михайлович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "8830"
+        },
+        {
+            "name": "Нестеренко Вадим Григорович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18123"
+        },
+        {
+            "name": "Нечаєв Олександр Ігоревич",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15725"
+        },
+        {
+            "name": "Ничипоренко Валентин Миколайович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15830"
+        },
+        {
+            "name": "Німченко Василь Іванович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18037"
+        },
+        {
+            "name": "Новак Наталія Василівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "13379"
+        },
+        {
+            "name": "Новинський Вадим Владиславович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17108"
+        },
+        {
+            "name": "Огнєвіч Злата Леонідівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18040"
+        },
+        {
+            "name": "Омельянович Денис Сергійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "13562"
+        },
+        {
+            "name": "Онищенко Олександр Романович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15771"
+        },
+        {
+            "name": "Онуфрик Богдан Семенович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17982"
+        },
+        {
+            "name": "Опанасенко Олександр Валерійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18019"
+        },
+        {
+            "name": "Остапчук Віктор Миколайович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15817"
+        },
+        {
+            "name": "Острікова Тетяна Георгіївна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18018"
+        },
+        {
+            "name": "Осуховський Олег Іванович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15806"
+        },
+        {
+            "name": "Павелко Андрій Васильович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15651"
+        },
+        {
+            "name": "Павленко Юрій Олексійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "5380"
+        },
+        {
+            "name": "Павлов Костянтин Юрійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15741"
+        },
+        {
+            "name": "Паламарчук Микола Петрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15671"
+        },
+        {
+            "name": "Палатний Артур Леонідович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15670"
+        },
+        {
+            "name": "Папієв Михайло Миколайович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "5464"
+        },
+        {
+            "name": "Парасюк Володимир Зіновійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18124"
+        },
+        {
+            "name": "Парубій Андрій Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "11584"
+        },
+        {
+            "name": "Пастух Тарас Тимофійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18125"
+        },
+        {
+            "name": "Пацкан Валерій Васильович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15674"
+        },
+        {
+            "name": "Пашинський Сергій Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "8696"
+        },
+        {
+            "name": "Петренко Олег Миколайович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18126"
+        },
+        {
+            "name": "Петьовка Василь Васильович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "11131"
+        },
+        {
+            "name": "Пинзеник Віктор Михайлович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "862"
+        },
+        {
+            "name": "Пинзеник Павло Васильович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "8125"
+        },
+        {
+            "name": "Писаренко Валерій Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "8838"
+        },
+        {
+            "name": "Підлісецький Лев Теофілович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18025"
+        },
+        {
+            "name": "Побер Ігор Миколайович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15680"
+        },
+        {
+            "name": "Подоляк Ірина Ігорівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18127"
+        },
+        {
+            "name": "Поляков Максим Анатолійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17960"
+        },
+        {
+            "name": "Помазанов Андрій Віталійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18164"
+        },
+        {
+            "name": "Пономарьов Олександр Сергійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15760"
+        },
+        {
+            "name": "Поплавський Михайло Михайлович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "5422"
+        },
+        {
+            "name": "Попов Ігор Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18042"
+        },
+        {
+            "name": "Порошенко Олексій Петрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18128"
+        },
+        {
+            "name": "Пресман Олександр Семенович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15800"
+        },
+        {
+            "name": "Присяжнюк Олександр Анатолійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "11620"
+        },
+        {
+            "name": "Продан Оксана Петрівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15667"
+        },
+        {
+            "name": "Пташник Вікторія Юріївна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18022"
+        },
+        {
+            "name": "Рабінович Вадим Зіновійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18032"
+        },
+        {
+            "name": "Развадовський Віктор Йосипович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "2308"
+        },
+        {
+            "name": "Ревега Олександр Васильович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18414"
+        },
+        {
+            "name": "Река Андрій Олександрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18129"
+        },
+        {
+            "name": "Рибак Іван Петрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "9123"
+        },
+        {
+            "name": "Рибалка Сергій Вікторович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18053"
+        },
+        {
+            "name": "Рибчинський Євген Юрійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18130"
+        },
+        {
+            "name": "Різаненко Павло Олександрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15774"
+        },
+        {
+            "name": "Розенблат Борислав Соломонович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18131"
+        },
+        {
+            "name": "Романова Анна Анатоліївна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18029"
+        },
+        {
+            "name": "Романовський Олександр Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18245"
+        },
+        {
+            "name": "Романюк Віктор Миколайович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18132"
+        },
+        {
+            "name": "Романюк Роман Сергійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "10096"
+        },
+        {
+            "name": "Рудик Сергій Ярославович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "16430"
+        },
+        {
+            "name": "Рябчин Олексій Михайлович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18056"
+        },
+        {
+            "name": "Сабашук Петро Павлович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "5582"
+        },
+        {
+            "name": "Савченко Надія Вікторівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18166"
+        },
+        {
+            "name": "Савченко Олексій Юрійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17988"
+        },
+        {
+            "name": "Савчук Юрій Петрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15681"
+        },
+        {
+            "name": "Сажко Сергій Миколайович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18133"
+        },
+        {
+            "name": "Святаш Дмитро Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "5541"
+        },
+        {
+            "name": "Семенуха Роман Сергійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18026"
+        },
+        {
+            "name": "Семенченко Семен Ігорович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18003"
+        },
+        {
+            "name": "Семерак Остап Михайлович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "1908"
+        },
+        {
+            "name": "Сидорович Руслан Михайлович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18020"
+        },
+        {
+            "name": "Сидорчук Вадим Васильович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17954"
+        },
+        {
+            "name": "Силантьєв Денис Олегович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18047"
+        },
+        {
+            "name": "Сироїд Оксана Іванівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "3180"
+        },
+        {
+            "name": "Сисоєнко Ірина Володимирівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18024"
+        },
+        {
+            "name": "Скорик Микола Леонідович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18033"
+        },
+        {
+            "name": "Скрипник Олексій Олексійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18004"
+        },
+        {
+            "name": "Скуратовський Сергій Іванович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18051"
+        },
+        {
+            "name": "Соболєв Єгор Вікторович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18012"
+        },
+        {
+            "name": "Соболєв Сергій Владиславович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "386"
+        },
+        {
+            "name": "Соловей Юрій Ігорович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18134"
+        },
+        {
+            "name": "Солод Юрій Васильович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18135"
+        },
+        {
+            "name": "Сольвар Руслан Миколайович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15769"
+        },
+        {
+            "name": "Соляр Володимир Миронович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17968"
+        },
+        {
+            "name": "Сотник Олена Сергіївна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18010"
+        },
+        {
+            "name": "Сочка Олександр Олександрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "12270"
+        },
+        {
+            "name": "Співаковський Олександр Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18136"
+        },
+        {
+            "name": "Спориш Іван Дмитрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18137"
+        },
+        {
+            "name": "Сташук Віталій Филимонович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18138"
+        },
+        {
+            "name": "Стеценко Дмитро Олександрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18220"
+        },
+        {
+            "name": "Сторожук Дмитро Анатолійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17379"
+        },
+        {
+            "name": "Сугоняко Олександр Леонідович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18139"
+        },
+        {
+            "name": "Супруненко Олександр Іванович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "11097"
+        },
+        {
+            "name": "Суслова Ірина Миколаївна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "11999"
+        },
+        {
+            "name": "Сюмар Вікторія Петрівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17948"
+        },
+        {
+            "name": "Тарасюк Борис Іванович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "5486"
+        },
+        {
+            "name": "Тарута Сергій Олексійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18140"
+        },
+        {
+            "name": "Тетерук Андрій Анатолійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17947"
+        },
+        {
+            "name": "Тимошенко Юлія Володимирівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "1792"
+        },
+        {
+            "name": "Тимошенко Юрій Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18141"
+        },
+        {
+            "name": "Тимчук Дмитро Борисович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17950"
+        },
+        {
+            "name": "Тіміш Григорій Іванович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18142"
+        },
+        {
+            "name": "Ткачук Геннадій Віталійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15676"
+        },
+        {
+            "name": "Томенко Микола Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "5415"
+        },
+        {
+            "name": "Третьяков Олександр Юрійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "5504"
+        },
+        {
+            "name": "Тригубенко Сергій Миколайович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17987"
+        },
+        {
+            "name": "Унгурян Павло Якимович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "9540"
+        },
+        {
+            "name": "Урбанський Олександр Ігорович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18143"
+        },
+        {
+            "name": "Усов Костянтин Глібович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18144"
+        },
+        {
+            "name": "Фаєрмарк Сергій Олександрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15653"
+        },
+        {
+            "name": "Федорук Микола Трохимович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15831"
+        },
+        {
+            "name": "Фельдман Олександр Борисович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "5542"
+        },
+        {
+            "name": "Філатов Борис Альбертович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18145"
+        },
+        {
+            "name": "Фірсов Єгор Павлович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17047"
+        },
+        {
+            "name": "Фріз Ірина Василівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "9684"
+        },
+        {
+            "name": "Фролов Микола Олександрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18146"
+        },
+        {
+            "name": "Фурсін Іван Геннадійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15799"
+        },
+        {
+            "name": "Хлань Сергій Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18147"
+        },
+        {
+            "name": "Хміль Михайло Михайлович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15785"
+        },
+        {
+            "name": "Хомутиннік Віталій Юрійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "5549"
+        },
+        {
+            "name": "Чекіта Геннадій Леонідович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "7741"
+        },
+        {
+            "name": "Чепинога Віталій Михайлович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "8715"
+        },
+        {
+            "name": "Червакова Ольга Валеріївна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17989"
+        },
+        {
+            "name": "Черненко Олександр Миколайович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17979"
+        },
+        {
+            "name": "Чижмарь Юрій Васильович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18218"
+        },
+        {
+            "name": "Чорновол Тетяна Миколаївна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17946"
+        },
+        {
+            "name": "Чубаров Рефат Абдурахманович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "2340"
+        },
+        {
+            "name": "Чумак Віктор Васильович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15836"
+        },
+        {
+            "name": "Шаповалов Юрій Анатолійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15803"
+        },
+        {
+            "name": "Шевченко Олександр Леонідович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17650"
+        },
+        {
+            "name": "Шенцев Дмитро Олексійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "8885"
+        },
+        {
+            "name": "Шинькович Андрій Васильович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "8473"
+        },
+        {
+            "name": "Шипко Андрій Федорович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "5785"
+        },
+        {
+            "name": "Шкварилюк Володимир Васильович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "15658"
+        },
+        {
+            "name": "Шкіря Ігор Миколайович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "5399"
+        },
+        {
+            "name": "Шкрум Альона Іванівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "16532"
+        },
+        {
+            "name": "Шпенов Дмитро Юрійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "11096"
+        },
+        {
+            "name": "Шурма Ігор Михайлович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "6548"
+        },
+        {
+            "name": "Шуфрич Нестор Іванович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "2274"
+        },
+        {
+            "name": "Шухевич Юрій-Богдан Романович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18041"
+        },
+        {
+            "name": "Южаніна Ніна Петрівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "17980"
+        },
+        {
+            "name": "Юрик Тарас Зіновійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18148"
+        },
+        {
+            "name": "Юринець Оксана Василівна",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18149"
+        },
+        {
+            "name": "Юрчишин Петро Васильович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18150"
+        },
+        {
+            "name": "Яніцький Василь Петрович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18151"
+        },
+        {
+            "name": "Яриніч Костянтин Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18152"
+        },
+        {
+            "name": "Ярош Дмитро Анатолійович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "18153"
+        },
+        {
+            "name": "Яценко Антон Володимирович",
+            "type": "deputy-name",
+            "typeOrder": 3,
+            "deputyId": "4339"
+        },
+        {
+            "name": "Виборчий округ №11 (Вінницька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 11
+        },
+        {
+            "name": "Виборчий округ №12 (Вінницька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 12
+        },
+        {
+            "name": "Виборчий округ №13 (Вінницька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 13
+        },
+        {
+            "name": "Виборчий округ №14 (Вінницька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 14
+        },
+        {
+            "name": "Виборчий округ №15 (Вінницька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 15
+        },
+        {
+            "name": "Виборчий округ №16 (Вінницька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 16
+        },
+        {
+            "name": "Виборчий округ №17 (Вінницька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 17
+        },
+        {
+            "name": "Виборчий округ №18 (Вінницька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 18
+        },
+        {
+            "name": "Виборчий округ №19 (Волинська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 19
+        },
+        {
+            "name": "Виборчий округ №20 (Волинська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 20
+        },
+        {
+            "name": "Виборчий округ №21 (Волинська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 21
+        },
+        {
+            "name": "Виборчий округ №22 (Волинська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 22
+        },
+        {
+            "name": "Виборчий округ №23 (Волинська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 23
+        },
+        {
+            "name": "Виборчий округ №24 (Дніпропетровська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 24
+        },
+        {
+            "name": "Виборчий округ №25 (Дніпропетровська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 25
+        },
+        {
+            "name": "Виборчий округ №26 (Дніпропетровська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 26
+        },
+        {
+            "name": "Виборчий округ №27 (Дніпропетровська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 27
+        },
+        {
+            "name": "Виборчий округ №28 (Дніпропетровська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 28
+        },
+        {
+            "name": "Виборчий округ №29 (Дніпропетровська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 29
+        },
+        {
+            "name": "Виборчий округ №30 (Дніпропетровська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 30
+        },
+        {
+            "name": "Виборчий округ №31 (Дніпропетровська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 31
+        },
+        {
+            "name": "Виборчий округ №32 (Дніпропетровська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 32
+        },
+        {
+            "name": "Виборчий округ №33 (Дніпропетровська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 33
+        },
+        {
+            "name": "Виборчий округ №34 (Дніпропетровська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 34
+        },
+        {
+            "name": "Виборчий округ №35 (Дніпропетровська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 35
+        },
+        {
+            "name": "Виборчий округ №36 (Дніпропетровська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 36
+        },
+        {
+            "name": "Виборчий округ №37 (Дніпропетровська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 37
+        },
+        {
+            "name": "Виборчий округ №38 (Дніпропетровська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 38
+        },
+        {
+            "name": "Виборчий округ №39 (Дніпропетровська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 39
+        },
+        {
+            "name": "Виборчий округ №40 (Дніпропетровська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 40
+        },
+        {
+            "name": "Виборчий округ №45 (Донецька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 45
+        },
+        {
+            "name": "Виборчий округ №46 (Донецька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 46
+        },
+        {
+            "name": "Виборчий округ №47 (Донецька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 47
+        },
+        {
+            "name": "Виборчий округ №48 (Донецька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 48
+        },
+        {
+            "name": "Виборчий округ №49 (Донецька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 49
+        },
+        {
+            "name": "Виборчий округ №50 (Донецька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 50
+        },
+        {
+            "name": "Виборчий округ №52 (Донецька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 52
+        },
+        {
+            "name": "Виборчий округ №53 (Донецька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 53
+        },
+        {
+            "name": "Виборчий округ №57 (Донецька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 57
+        },
+        {
+            "name": "Виборчий округ №58 (Донецька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 58
+        },
+        {
+            "name": "Виборчий округ №59 (Донецька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 59
+        },
+        {
+            "name": "Виборчий округ №60 (Донецька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 60
+        },
+        {
+            "name": "Виборчий округ №62 (Житомирська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 62
+        },
+        {
+            "name": "Виборчий округ №63 (Житомирська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 63
+        },
+        {
+            "name": "Виборчий округ №64 (Житомирська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 64
+        },
+        {
+            "name": "Виборчий округ №65 (Житомирська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 65
+        },
+        {
+            "name": "Виборчий округ №66 (Житомирська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 66
+        },
+        {
+            "name": "Виборчий округ №67 (Житомирська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 67
+        },
+        {
+            "name": "Виборчий округ №68 (Закарпатська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 68
+        },
+        {
+            "name": "Виборчий округ №69 (Закарпатська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 69
+        },
+        {
+            "name": "Виборчий округ №70 (Закарпатська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 70
+        },
+        {
+            "name": "Виборчий округ №71 (Закарпатська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 71
+        },
+        {
+            "name": "Виборчий округ №72 (Закарпатська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 72
+        },
+        {
+            "name": "Виборчий округ №73 (Закарпатська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 73
+        },
+        {
+            "name": "Виборчий округ №74 (Запорізька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 74
+        },
+        {
+            "name": "Виборчий округ №75 (Запорізька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 75
+        },
+        {
+            "name": "Виборчий округ №76 (Запорізька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 76
+        },
+        {
+            "name": "Виборчий округ №77 (Запорізька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 77
+        },
+        {
+            "name": "Виборчий округ №78 (Запорізька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 78
+        },
+        {
+            "name": "Виборчий округ №79 (Запорізька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 79
+        },
+        {
+            "name": "Виборчий округ №80 (Запорізька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 80
+        },
+        {
+            "name": "Виборчий округ №81 (Запорізька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 81
+        },
+        {
+            "name": "Виборчий округ №82 (Запорізька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 82
+        },
+        {
+            "name": "Виборчий округ №83 (Івано-Франківська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 83
+        },
+        {
+            "name": "Виборчий округ №84 (Івано-Франківська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 84
+        },
+        {
+            "name": "Виборчий округ №85 (Івано-Франківська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 85
+        },
+        {
+            "name": "Виборчий округ №86 (Івано-Франківська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 86
+        },
+        {
+            "name": "Виборчий округ №88 (Івано-Франківська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 88
+        },
+        {
+            "name": "Виборчий округ №89 (Івано-Франківська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 89
+        },
+        {
+            "name": "Виборчий округ №90 (Київська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 90
+        },
+        {
+            "name": "Виборчий округ №91 (Київська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 91
+        },
+        {
+            "name": "Виборчий округ №92 (Київська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 92
+        },
+        {
+            "name": "Виборчий округ №93 (Київська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 93
+        },
+        {
+            "name": "Виборчий округ №94 (Київська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 94
+        },
+        {
+            "name": "Виборчий округ №95 (Київська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 95
+        },
+        {
+            "name": "Виборчий округ №96 (Київська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 96
+        },
+        {
+            "name": "Виборчий округ №97 (Київська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 97
+        },
+        {
+            "name": "Виборчий округ №98 (Київська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 98
+        },
+        {
+            "name": "Виборчий округ №99 (Кіровоградська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 99
+        },
+        {
+            "name": "Виборчий округ №100 (Кіровоградська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 100
+        },
+        {
+            "name": "Виборчий округ №101 (Кіровоградська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 101
+        },
+        {
+            "name": "Виборчий округ №102 (Кіровоградська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 102
+        },
+        {
+            "name": "Виборчий округ №103 (Кіровоградська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 103
+        },
+        {
+            "name": "Виборчий округ №106 (Луганська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 106
+        },
+        {
+            "name": "Виборчий округ №107 (Луганська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 107
+        },
+        {
+            "name": "Виборчий округ №112 (Луганська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 112
+        },
+        {
+            "name": "Виборчий округ №113 (Луганська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 113
+        },
+        {
+            "name": "Виборчий округ №114 (Луганська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 114
+        },
+        {
+            "name": "Виборчий округ №115 (Львівська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 115
+        },
+        {
+            "name": "Виборчий округ №116 (Львівська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 116
+        },
+        {
+            "name": "Виборчий округ №117 (Львівська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 117
+        },
+        {
+            "name": "Виборчий округ №118 (Львівська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 118
+        },
+        {
+            "name": "Виборчий округ №119 (Львівська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 119
+        },
+        {
+            "name": "Виборчий округ №120 (Львівська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 120
+        },
+        {
+            "name": "Виборчий округ №121 (Львівська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 121
+        },
+        {
+            "name": "Виборчий округ №122 (Львівська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 122
+        },
+        {
+            "name": "Виборчий округ №123 (Львівська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 123
+        },
+        {
+            "name": "Виборчий округ №124 (Львівська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 124
+        },
+        {
+            "name": "Виборчий округ №125 (Львівська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 125
+        },
+        {
+            "name": "Виборчий округ №126 (Львівська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 126
+        },
+        {
+            "name": "Виборчий округ №127 (Миколаївська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 127
+        },
+        {
+            "name": "Виборчий округ №128 (Миколаївська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 128
+        },
+        {
+            "name": "Виборчий округ №129 (Миколаївська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 129
+        },
+        {
+            "name": "Виборчий округ №130 (Миколаївська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 130
+        },
+        {
+            "name": "Виборчий округ №131 (Миколаївська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 131
+        },
+        {
+            "name": "Виборчий округ №132 (Миколаївська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 132
+        },
+        {
+            "name": "Виборчий округ №133 (Одеська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 133
+        },
+        {
+            "name": "Виборчий округ №134 (Одеська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 134
+        },
+        {
+            "name": "Виборчий округ №135 (Одеська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 135
+        },
+        {
+            "name": "Виборчий округ №136 (Одеська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 136
+        },
+        {
+            "name": "Виборчий округ №137 (Одеська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 137
+        },
+        {
+            "name": "Виборчий округ №138 (Одеська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 138
+        },
+        {
+            "name": "Виборчий округ №139 (Одеська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 139
+        },
+        {
+            "name": "Виборчий округ №140 (Одеська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 140
+        },
+        {
+            "name": "Виборчий округ №141 (Одеська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 141
+        },
+        {
+            "name": "Виборчий округ №142 (Одеська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 142
+        },
+        {
+            "name": "Виборчий округ №143 (Одеська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 143
+        },
+        {
+            "name": "Виборчий округ №144 (Полтавська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 144
+        },
+        {
+            "name": "Виборчий округ №145 (Полтавська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 145
+        },
+        {
+            "name": "Виборчий округ №146 (Полтавська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 146
+        },
+        {
+            "name": "Виборчий округ №147 (Полтавська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 147
+        },
+        {
+            "name": "Виборчий округ №148 (Полтавська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 148
+        },
+        {
+            "name": "Виборчий округ №149 (Полтавська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 149
+        },
+        {
+            "name": "Виборчий округ №150 (Полтавська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 150
+        },
+        {
+            "name": "Виборчий округ №151 (Полтавська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 151
+        },
+        {
+            "name": "Виборчий округ №152 (Рівненська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 152
+        },
+        {
+            "name": "Виборчий округ №153 (Рівненська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 153
+        },
+        {
+            "name": "Виборчий округ №154 (Рівненська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 154
+        },
+        {
+            "name": "Виборчий округ №155 (Рівненська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 155
+        },
+        {
+            "name": "Виборчий округ №156 (Рівненська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 156
+        },
+        {
+            "name": "Виборчий округ №157 (Сумська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 157
+        },
+        {
+            "name": "Виборчий округ №158 (Сумська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 158
+        },
+        {
+            "name": "Виборчий округ №159 (Сумська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 159
+        },
+        {
+            "name": "Виборчий округ №160 (Сумська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 160
+        },
+        {
+            "name": "Виборчий округ №161 (Сумська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 161
+        },
+        {
+            "name": "Виборчий округ №162 (Сумська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 162
+        },
+        {
+            "name": "Виборчий округ №163 (Тернопільська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 163
+        },
+        {
+            "name": "Виборчий округ №164 (Тернопільська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 164
+        },
+        {
+            "name": "Виборчий округ №165 (Тернопільська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 165
+        },
+        {
+            "name": "Виборчий округ №166 (Тернопільська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 166
+        },
+        {
+            "name": "Виборчий округ №167 (Тернопільська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 167
+        },
+        {
+            "name": "Виборчий округ №168 (Харківська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 168
+        },
+        {
+            "name": "Виборчий округ №169 (Харківська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 169
+        },
+        {
+            "name": "Виборчий округ №170 (Харківська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 170
+        },
+        {
+            "name": "Виборчий округ №171 (Харківська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 171
+        },
+        {
+            "name": "Виборчий округ №172 (Харківська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 172
+        },
+        {
+            "name": "Виборчий округ №173 (Харківська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 173
+        },
+        {
+            "name": "Виборчий округ №174 (Харківська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 174
+        },
+        {
+            "name": "Виборчий округ №175 (Харківська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 175
+        },
+        {
+            "name": "Виборчий округ №176 (Харківська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 176
+        },
+        {
+            "name": "Виборчий округ №177 (Харківська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 177
+        },
+        {
+            "name": "Виборчий округ №178 (Харківська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 178
+        },
+        {
+            "name": "Виборчий округ №179 (Харківська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 179
+        },
+        {
+            "name": "Виборчий округ №180 (Харківська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 180
+        },
+        {
+            "name": "Виборчий округ №181 (Харківська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 181
+        },
+        {
+            "name": "Виборчий округ №182 (Херсонська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 182
+        },
+        {
+            "name": "Виборчий округ №183 (Херсонська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 183
+        },
+        {
+            "name": "Виборчий округ №184 (Херсонська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 184
+        },
+        {
+            "name": "Виборчий округ №185 (Херсонська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 185
+        },
+        {
+            "name": "Виборчий округ №186 (Херсонська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 186
+        },
+        {
+            "name": "Виборчий округ №187 (Хмельницька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 187
+        },
+        {
+            "name": "Виборчий округ №188 (Хмельницька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 188
+        },
+        {
+            "name": "Виборчий округ №189 (Хмельницька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 189
+        },
+        {
+            "name": "Виборчий округ №190 (Хмельницька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 190
+        },
+        {
+            "name": "Виборчий округ №191 (Хмельницька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 191
+        },
+        {
+            "name": "Виборчий округ №192 (Хмельницька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 192
+        },
+        {
+            "name": "Виборчий округ №193 (Хмельницька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 193
+        },
+        {
+            "name": "Виборчий округ №194 (Черкаська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 194
+        },
+        {
+            "name": "Виборчий округ №195 (Черкаська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 195
+        },
+        {
+            "name": "Виборчий округ №196 (Черкаська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 196
+        },
+        {
+            "name": "Виборчий округ №197 (Черкаська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 197
+        },
+        {
+            "name": "Виборчий округ №198 (Черкаська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 198
+        },
+        {
+            "name": "Виборчий округ №199 (Черкаська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 199
+        },
+        {
+            "name": "Виборчий округ №200 (Черкаська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 200
+        },
+        {
+            "name": "Виборчий округ №201 (Чернівецька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 201
+        },
+        {
+            "name": "Виборчий округ №202 (Чернівецька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 202
+        },
+        {
+            "name": "Виборчий округ №203 (Чернівецька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 203
+        },
+        {
+            "name": "Виборчий округ №204 (Чернівецька область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 204
+        },
+        {
+            "name": "Виборчий округ №206 (Чернігівська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 206
+        },
+        {
+            "name": "Виборчий округ №207 (Чернігівська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 207
+        },
+        {
+            "name": "Виборчий округ №208 (Чернігівська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 208
+        },
+        {
+            "name": "Виборчий округ №209 (Чернігівська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 209
+        },
+        {
+            "name": "Виборчий округ №210 (Чернігівська область)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 210
+        },
+        {
+            "name": "Виборчий округ №211 (м. Київ)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 211
+        },
+        {
+            "name": "Виборчий округ №212 (м. Київ)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 212
+        },
+        {
+            "name": "Виборчий округ №213 (м. Київ)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 213
+        },
+        {
+            "name": "Виборчий округ №214 (м. Київ)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 214
+        },
+        {
+            "name": "Виборчий округ №215 (м. Київ)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 215
+        },
+        {
+            "name": "Виборчий округ №216 (м. Київ)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 216
+        },
+        {
+            "name": "Виборчий округ №217 (м. Київ)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 217
+        },
+        {
+            "name": "Виборчий округ №219 (м. Київ)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 219
+        },
+        {
+            "name": "Виборчий округ №220 (м. Київ)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 220
+        },
+        {
+            "name": "Виборчий округ №221 (м. Київ)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 221
+        },
+        {
+            "name": "Виборчий округ №222 (м. Київ)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 222
+        },
+        {
+            "name": "Виборчий округ №223 (м. Київ)",
+            "type": "deputy-district",
+            "typeOrder": 4,
+            "districtId": 223
+        }
     ]
 }
