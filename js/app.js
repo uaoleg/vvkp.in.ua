@@ -227,6 +227,11 @@
                 $scope.parties = data.parties;
                 $scope.searchSuggestions = data.searchSuggestions;
                 $scope.searchReloadResults();
+                if ($location.host().indexOf('zrada') !== -1) {
+                    $scope.searchAddTag('шокін-ок');
+                } else if ($location.host().indexOf('peremoga') !== -1) {
+                    $scope.searchAddTag('шокін-геть');
+                }
             });
 
         $scope.getUrlData();
