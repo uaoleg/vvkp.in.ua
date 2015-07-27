@@ -25,19 +25,25 @@
         <td ng-if="searchStats.lawTags.length">
             <table class="table table-hover table-no-border">
                 <tr ng-repeat="statsLawTag in searchStats.lawTags"
-                    ng-init="lawTag1 = getLawTag(statsLawTag.name); lawTag2 = getLawTag(lawTag1.opposite)"
-                    ng-click="searchAddTag(statsLawTag.name)"
-                    tooltip="{{lawTag1.lawName}}"
-                    tooltip-placement="top"
-                    tooltip-popup-delay="1000"
-                    style="cursor: pointer;">
+                    ng-init="lawTag1 = getLawTag(statsLawTag.name); lawTag2 = getLawTag(lawTag1.opposite)">
                     <td style="height: 57px;">
                         <progress style="height: 24px; margin: 10px 0 0; width: 200px;">
                             <bar value="statsLawTag.percent1" type="{{lawTag1.type}}"
-                                 style="padding: 0 10px; text-align: left; ">
+                                 ng-click="searchAddTag(lawTag1.name)"
+                                 tooltip="{{lawTag1.lawName}}"
+                                 tooltip-placement="top"
+                                 tooltip-popup-delay="500"
+                                 tooltip-append-to-body="true"
+                                 style="cursor: pointer; padding: 0 10px; text-align: left;">
                                 <span><b>{{lawTag1.name}}</b></span>
                             </bar>
-                            <bar value="statsLawTag.percent2" type="{{lawTag2.type}}"></bar>
+                            <bar value="statsLawTag.percent2" type="{{lawTag2.type}}"
+                                 ng-click="searchAddTag(lawTag2.name)"
+                                 tooltip="{{lawTag2.lawName}}"
+                                 tooltip-placement="top"
+                                 tooltip-popup-delay="500"
+                                 tooltip-append-to-body="true"
+                                 style="cursor: pointer;"></bar>
                         </progress>
                     </td>
                     <td style="padding: 10px 10px 10px 30px; vertical-align: middle;">
