@@ -81,24 +81,30 @@
                                 <td>
                                     <h4 style="margin: 10px 0 0;">
                                         {{deputy.name}}
-                                        <br>
-                                        <a href="http://itd.rada.gov.ua/mps/info/page/{{deputy.id}}" target="_blank">
-                                            <img src="img/icon/rada.png" class="fading" tooltip="Верховна Рада" tooltip-popup-delay="1000">
-                                        </a>
-                                        <a href="{{deputy.facebook}}" target="_blank" ng-if="deputy.facebook">
-                                            <img src="img/icon/facebook.png" class="fading" tooltip="Facebook" tooltip-popup-delay="1000">
-                                        </a>
                                     </h4>
                                     <table class="deputy-info">
+                                        <tr style="vertical-align: middle;">
+                                            <td><span class="glyphicon glyphicon-globe" tooltip="Офіційна веб-сторінка" tooltip-placement="left" tooltip-popup-delay="1000"></span></td>
+                                            <td>
+                                                <a href="http://itd.rada.gov.ua/mps/info/page/{{deputy.id}}" target="_blank">
+                                                    Верховна Рада</a><span ng-if="deputy.facebook">,</span>
+                                                <img src="img/icon/facebook-16.png"
+                                                     ng-if="deputy.facebook"
+                                                     tooltip="Персональна веб-сторінка" tooltip-placement="left" tooltip-popup-delay="1000"
+                                                     style="margin: -4px 0 0 5px; opacity: 0.4;">
+                                                <a href="{{deputy.facebook}}" target="_blank" ng-if="deputy.facebook">
+                                                    Facebook</a>
+                                            </td>
+                                        </tr>
                                         <tr ng-if="deputy.phones.length">
-                                            <td><span class="glyphicon glyphicon-earphone" tooltip="Контактні телефони" tooltip-popup-delay="1000"></span></td>
+                                            <td><span class="glyphicon glyphicon-earphone" tooltip="Контактні телефони" tooltip-placement="left" tooltip-popup-delay="1000"></span></td>
                                             <td>
                                                 <small ng-repeat="phone in deputy.phones">{{deputy.phones[0]}}{{$last ? '' : ', '}}</small>
                                             </td>
                                         </tr>
                                         <tr ng-if="deputy.district">
-                                            <td><span class="glyphicon glyphicon-check" tooltip="Виборчий округ" tooltip-popup-delay="1000"></span></td>
-                                            <td><small>№{{deputy.district.id}}, {{deputy.district.region}}</small></td>
+                                            <td><span class="glyphicon glyphicon-check" tooltip="Виборчий округ" tooltip-placement="left" tooltip-popup-delay="1000"></span></td>
+                                            <td><small>Округ №{{deputy.district.id}}, {{deputy.district.region}}</small></td>
                                         </tr>
                                     </table>
                                 </td>

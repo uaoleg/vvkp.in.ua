@@ -4,12 +4,16 @@
     box-shadow: 1px 1px 1px #999;
 }
 
+.deputy-info a {
+    color: rgb(102, 102, 102);
+}
+
 .deputy-info tr {
     vertical-align: top;
 }
 
 .deputy-info td {
-    padding-top: 5px;
+    padding: 5px 0;
 }
 
 .deputy-info td:first-child {
