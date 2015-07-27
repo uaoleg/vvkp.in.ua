@@ -22,8 +22,8 @@
 
         $scope.searchAddTag = function(text) {
             var added = false;
-            for (var tag in $scope.tags) {
-                if (tag.indexOf(text) > -1) {
+            for (var i in $scope.tags) {
+                if ($scope.tags[i].name.indexOf(text) > -1) {
                     added = true;
                 }
             }

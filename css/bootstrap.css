@@ -21,6 +21,24 @@
      border-top: none !important;
  }
 
- tags-input .tags .input {
-     box-shadow: none;
- }
+tags-input .tags {
+    background-image: url("../img/icon/search.png");
+    background-position: 5px center;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    padding-left: 30px;
+}
+
+tags-input .tags .input {
+    box-shadow: none;
+}
+
+tags-input .tags .tag-item {
+    color: #ffffff;
+    background: #2196f3;
+    border-color: transparent;
+}
+
+tags-input .tags .tag-item .remove-button {
+    color: #ffffff;
+}
