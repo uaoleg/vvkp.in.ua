@@ -137,10 +137,11 @@
             options.forEach(function(option) {
                 searchString = option.name.toLowerCase();
                 deputies = deputies.filter(function(item) {
-                    if (item.name.toLowerCase().indexOf(searchString) > -1) return true;
-                    if (item.residence.toLowerCase().indexOf(searchString) > -1) return true;
-                    if (item.party.toLowerCase().indexOf(searchString) > -1) return true;
                     if (arrayToLowerCase(item.lawTags).indexOf(searchString) > -1) return true;
+                    if (item.party.toLowerCase().indexOf(searchString) > -1) return true;
+                    if (item.name.toLowerCase().indexOf(searchString) > -1) return true;
+                    if (item.district && item.district.text.toLowerCase().indexOf(searchString) > -1) return true;
+                    if (item.residence.toLowerCase().indexOf(searchString) > -1) return true;
                     return false;
                 });
                 if (parties_lc.indexOf(searchString) > -1) {
