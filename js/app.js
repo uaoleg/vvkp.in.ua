@@ -93,6 +93,7 @@
 
         $scope.searchLoadSuggestions = function($query) {
             var types = {},
+                typesNotEmpty = 0,
                 max = 10,
                 matchedCount = 0,
                 results = [];
@@ -107,6 +108,12 @@
                 }
                 return matched;
             });
+            for (var type in types) {
+                typesNotEmpty++;
+            }
+            if (typesNotEmpty === 1) {
+                max = 100;
+            }
             while (true) {
                 for (var type in types) {
                     var tag = types[type].shift();
