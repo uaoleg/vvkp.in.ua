@@ -92,7 +92,6 @@ usort($data->parties, function($a, $b) {
     return $b->deputies - $a->deputies;
 });
 
-//header('Content-Type: text/html; charset=utf-8');
 $json = json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 file_put_contents($datafile, $json);
 echo $json;
