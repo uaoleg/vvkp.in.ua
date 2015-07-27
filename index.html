@@ -22,7 +22,7 @@
     <body ng-app="vvkp-app" ng-controller="deputiesListCtrl">
         <div class="container">
             <div class="row">
-                
+
                 <div class="col-md-8">
                     <h1 style="font-size: 42px; text-align: center;">Універсальний передвиборчий каталог депутатів</h1>
                     <br>
@@ -82,13 +82,17 @@
                                     </h4>
                                     <table class="deputy-info">
                                         <tr ng-if="deputy.phones.length">
-                                            <td><span class="glyphicon glyphicon-earphone"></span></td>
+                                            <td><span class="glyphicon glyphicon-earphone" tooltip="Контактні телефони" tooltip-popup-delay="1000"></span></td>
                                             <td>
                                                 <small ng-repeat="phone in deputy.phones">{{deputy.phones[0]}}{{$last ? '' : ', '}}</small>
                                             </td>
                                         </tr>
+                                        <tr ng-if="deputy.district">
+                                            <td><span class="glyphicon glyphicon-check" tooltip="Виборчий округ" tooltip-popup-delay="1000"></span></td>
+                                            <td><small>№{{deputy.district.id}}, {{deputy.district.region}}</small></td>
+                                        </tr>
                                         <tr ng-if="deputy.residence">
-                                            <td><span class="glyphicon glyphicon-map-marker"></span></td>
+                                            <td><span class="glyphicon glyphicon-map-marker" tooltip="Місце проживання" tooltip-popup-delay="1000"></span></td>
                                             <td><small>{{deputy.residence}}</small></td>
                                         </tr>
                                     </table>
