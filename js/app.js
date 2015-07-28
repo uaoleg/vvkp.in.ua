@@ -242,8 +242,8 @@
 
     function transliterate(text, enToUk) {
         var
-            uk = "щ    є  ж  ї  ё  х  ц  ч  ш  ъ  ю  я  а б в ґ д е э з і и ы й л м н о п р т у ф к с г ь".split(/ +/g),
-            en = "shch ye zh yi yo kh ts ch sh '' iu ia a b v g d e e z i y y j l m n o p r t u f k s h '".split(/ +/g),
+            uk = "щ    є  ж  ї  ё  х  ч  ш  ъ  ъ  ю  я  а б в г ґ д е э з і и ы й к л м н о п р с т у ф ц ь ь №".split(/ +/g),
+            en = "shch ye zh yi yo kh ch sh `` '' iu ia a b v h g d e e z i y y j k l m n o p r s t u f c ` ' #".split(/ +/g),
             x;
         for (x = 0; x < uk.length; x++) {
             text = text.split(enToUk ? en[x] : uk[x]).join(enToUk ? uk[x] : en[x]);
