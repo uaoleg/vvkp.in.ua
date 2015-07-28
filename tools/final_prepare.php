@@ -6,7 +6,7 @@ $datafile = '../data/data.raw.json';
 $data = file_get_contents($datafile);
 $data = json_decode($data);
 
-// Update data
+// Search suggestions
 $tags = array();
 $tagsDeputyName = array();
 $tagsDeputyDistrict = array();
@@ -49,6 +49,28 @@ usort($tagsDeputyDistrict, function($a, $b) {
     }
 });
 $data->searchSuggestions = array_merge($tags, $tagsDeputyName, $tagsDeputyDistrict);
+
+// Recount parties' deputy count
+foreach ($data->parties as $party) {
+    $party->deputies = 0;
+    foreach ($data->deputies as $i => $deputy) {
+        if ($deputy->party === $party->name)  {
+            $party->deputies++;
+        }
+    }
+}
+usort($data->parties, function($a, $b) {
+    return $b->deputies - $a->deputies;
+});
+
+// Manual updates
+foreach ($data->deputies as $deputy) {
+    switch ($deputy->name) {
+        case 'Савченко Надія Вікторівна':
+            $deputy->lawTags = [];
+            break;
+    }
+}
 
 $json = json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 file_put_contents($datafile, $json);

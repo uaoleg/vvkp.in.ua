@@ -79,19 +79,6 @@ foreach ($laws as $lawUrl => $law) {
 
 }
 
-// Recount parties' deputy count
-foreach ($data->parties as $party) {
-    $party->deputies = 0;
-    foreach ($data->deputies as $i => $deputy) {
-        if ($deputy->party === $party->name)  {
-            $party->deputies++;
-        }
-    }
-}
-usort($data->parties, function($a, $b) {
-    return $b->deputies - $a->deputies;
-});
-
 $json = json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 file_put_contents($datafile, $json);
 echo $json;
