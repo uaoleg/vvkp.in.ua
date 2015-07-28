@@ -10374,6 +10374,18 @@
     ],
     "searchSuggestions": [
         {
+            "name": "працює",
+            "type": "law-tag",
+            "typeOrder": 1,
+            "lawTagType": "success"
+        },
+        {
+            "name": "прогульник",
+            "type": "law-tag",
+            "typeOrder": 1,
+            "lawTagType": "danger"
+        },
+        {
             "name": "конструктив",
             "type": "law-tag",
             "typeOrder": 1,
