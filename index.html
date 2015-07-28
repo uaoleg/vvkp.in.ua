@@ -124,6 +124,10 @@
                                              style="width: {{deputy.lawTagsRate[lawTag.name]}}%;">
                                             <span>{{lawTag.name}}</span>
                                         </div>
+                                        <div role="progressbar" aria-valuenow="{{100-deputy.lawTagsRate[lawTag.name]}}" aria-valuemin="0" aria-valuemax="100"
+                                             class="progress-bar progress-bar-{{getLawTag(lawTag.opposite).type}}"
+                                             style="width: {{100-deputy.lawTagsRate[lawTag.name]}}%;">
+                                        </div>
                                     </div>
                                 </td>
                             </tr>

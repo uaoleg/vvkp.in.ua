@@ -226,12 +226,15 @@
                 $scope.lawTags = data.lawTags;
                 $scope.parties = data.parties;
                 $scope.searchSuggestions = data.searchSuggestions;
-                $scope.searchReloadResults();
-                if ($location.host().indexOf('zrada') !== -1) {
-                    $scope.searchAddTag('шокін-ок');
-                } else if ($location.host().indexOf('peremoga') !== -1) {
-                    $scope.searchAddTag('шокін-геть');
+                // Load default tag for domain
+                if ($scope.tags.length === 0) {
+                    if ($location.host().indexOf('zrada') !== -1) {
+                        $scope.searchAddTag('шокін-ок');
+                    } else if ($location.host().indexOf('peremoga') !== -1) {
+                        $scope.searchAddTag('шокін-геть');
+                    }
                 }
+                $scope.searchReloadResults();
             });
 
         $scope.getUrlData();
