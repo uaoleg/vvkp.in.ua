@@ -218,7 +218,7 @@
         };
 
         // Load data
-        $http.get('data/data.min.js?vvkp-version-1.3.1')
+        $http.get('data/data.min.js?vvkp-version-1.3.2')
             .then(function(response){
                 var binStr = atob(response.data),
                     data = JSON.parse(pako.inflate(binStr, { to: 'string' }));
