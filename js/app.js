@@ -242,17 +242,20 @@
 
     function transliterate(text, enToUk) {
         var
-            uk = "щ    є  ж  ї  ё  х  ч  ш  ъ  ъ  ю  я  а б в г ґ д е э з і и ы й к л м н о п р с т у ф ц ь ь №".split(/ +/g),
-            en = "shch ye zh yi yo kh ch sh `` '' iu ia a b v h g d e e z i y y j k l m n o p r s t u f c ` ' #".split(/ +/g),
+            uk = "щ    є  ж  ї  ё  х  ч  ш  ъ  ю  я  а б в г ґ д е э з і и ы й к л м н о п р с т у ф ц ь №".split(/ +/g),
+            en = "shch ye zh yi yo kh ch sh '' iu ia a b v h g d e e z i y y j k l m n o p r s t u f c ' #".split(/ +/g),
             x;
         for (x = 0; x < uk.length; x++) {
             text = text.split(enToUk ? en[x] : uk[x]).join(enToUk ? uk[x] : en[x]);
             text = text.split(enToUk ? en[x].toUpperCase() : uk[x].toUpperCase()).join(enToUk ? uk[x].toUpperCase() : en[x].toUpperCase());
         }
         if (enToUk) {
-            text = text.replace(/_/g, ' ');
+            text = text.replace(/_/g, ' ').trim();
         } else {
             text = text.replace(/ /g, '_');
+            if (text.indexOf("'") === text.length - 1) { // Support correct parsing for Facebook
+                text += '_';
+            }
         }
         return text;
     }
