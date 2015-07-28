@@ -25,7 +25,7 @@ foreach ($data->deputies as $deputy) {
     $url = "{$url['scheme']}://{$url['host']}{$url['path']}?{$url['query']}";
 
     // Get registrations
-    $deputy->registrations = array(
+    $registrations = array(
         'total'   => 0,
         'present' => 0,
         'missing' => 0,
@@ -34,16 +34,41 @@ foreach ($data->deputies as $deputy) {
     $content = file_get_contents($url);
     $content = iconv('windows-1251', 'utf-8', $content);
     $html = $parser->str_get_html($content);
-    $registrations = $html->find('ul.pd li .zrez font');
-    foreach ($registrations as $registration) {
-        $deputy->registrations['total']++;
-        if (mb_strpos($registration->plaintext, 'Присут') === 0) {
-            $deputy->registrations['present']++;
+    $htmlRegistrations = $html->find('ul.pd li .zrez font');
+    foreach ($htmlRegistrations as $htmlRegistration) {
+        $registrations['total']++;
+        if (mb_strpos($htmlRegistration->plaintext, 'Присут') === 0) {
+            $registrations['present']++;
         } else {
-            $deputy->registrations['missing']++;
+            $registrations['missing']++;
         }
     }
-    $deputy->registrations['rate'] = round($deputy->registrations['present'] / $deputy->registrations['total'] * 100);
+    $registrations['rate'] = round($registrations['present'] / $registrations['total'] * 100);
+
+    // Remove tags
+    $deputy->lawTags = (array)$deputy->lawTags;
+    $deputy->lawTagsRate = (array)$deputy->lawTagsRate;
+    if (($key = array_search('працює', $deputy->lawTags)) !== false) {
+        unset($deputy->lawTags[$key]);
+    }
+    if (($key = array_search('прогульник', $deputy->lawTags)) !== false) {
+        unset($deputy->lawTags[$key]);
+    }
+    if (isset($deputy->lawTagsRate['працює'])) {
+        unset($deputy->lawTagsRate['працює']);
+    }
+    if (isset($deputy->lawTagsRate['прогульник'])) {
+        unset($deputy->lawTagsRate['прогульник']);
+    }
+
+    // Set tags
+    if ($registrations['rate'] >= 50) {
+        $deputy->lawTags[] = 'працює';
+        $deputy->lawTagsRate['працює'] = $registrations['rate'];
+    } else {
+        $deputy->lawTags[] = 'прогульник';
+        $deputy->lawTagsRate['прогульник'] = 100 - $registrations['rate'];
+    }
 }
 
 $json = json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);

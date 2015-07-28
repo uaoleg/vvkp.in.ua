@@ -6,6 +6,28 @@ $datafile = '../data/data.raw.json';
 $data = file_get_contents($datafile);
 $data = json_decode($data);
 
+// Order law tags
+foreach ($data->deputies as $deputy) {
+    $deputy->lawTags = (array)$deputy->lawTags;
+    $deputy->lawTagsRate = (array)$deputy->lawTagsRate;
+    $deputy->lawTags = array_unique($deputy->lawTags);
+    usort($deputy->lawTags, function($a, $b) {
+        if (in_array($a, ['працює', 'прогульник'])) {
+            return -1;
+        } elseif (in_array($b, ['працює', 'прогульник'])) {
+            return 1;
+        } else {
+            return strcmp($a, $b);
+        }
+    });
+    foreach ($deputy->lawTags as $lawTag) {
+        if (!isset($deputy->lawTagsRate[$lawTag])) {
+            $deputy->lawTagsRate[$lawTag] = 100;
+        }
+    }
+}
+
+
 // Search suggestions
 $tags = array();
 $tagsDeputyName = array();
@@ -68,6 +90,7 @@ foreach ($data->deputies as $deputy) {
     switch ($deputy->name) {
         case 'Савченко Надія Вікторівна':
             $deputy->lawTags = [];
+            $deputy->lawTagsRate = [];
             break;
     }
 }

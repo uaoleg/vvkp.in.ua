@@ -109,19 +109,22 @@
                                         </tr>
                                     </table>
                                 </td>
-                                <td style="vertical-align: middle;">
-                                    <span
-                                          ng-repeat="lawTagName in deputy.lawTags"
-                                          ng-init="lawTag = getLawTag(lawTagName)"
-                                          ng-click="searchAddTag(lawTag.name)"
-                                          tooltip="{{lawTag.lawName}} {{lawTag.lawId}}"
-                                          tooltip-placement="left"
-                                          tooltip-trigger="mouseenter"
-                                          tooltip-popup-delay="1000"
-                                          class="deputy-tag label label-{{lawTag.type}}"
-                                    >
-                                        {{lawTag.name}}
-                                    </span>
+                                <td style="text-align: right; vertical-align: middle;">
+                                    <div ng-repeat="lawTagName in deputy.lawTags"
+                                         ng-init="lawTag = getLawTag(lawTagName)"
+                                         ng-click="searchAddTag(lawTag.name)"
+                                         tooltip="{{lawTag.lawName}} {{lawTag.lawId}}"
+                                         tooltip-placement="left"
+                                         tooltip-trigger="mouseenter"
+                                         tooltip-popup-delay="1000"
+                                         class="deputy-tag progress progress-text-centered"
+                                         style="font-weight: bold; height: 19px; margin: 0 0 10px;">
+                                        <div role="progressbar" aria-valuenow="{{deputy.lawTagsRate[lawTag.name]}}" aria-valuemin="0" aria-valuemax="100"
+                                             class="progress-bar progress-bar-{{lawTag.type}}"
+                                             style="width: {{deputy.lawTagsRate[lawTag.name]}}%;">
+                                            <span>{{lawTag.name}}</span>
+                                        </div>
+                                    </div>
                                 </td>
                             </tr>
                         </tbody>

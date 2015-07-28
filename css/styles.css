@@ -32,7 +32,7 @@
     max-width: 100px;
 }
 
-.deputy-tag.label {
+.deputy-tag {
     cursor: pointer;
     display: block;
     margin-bottom: 10px;

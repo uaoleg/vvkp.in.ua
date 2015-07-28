@@ -49,11 +49,18 @@ foreach ($laws as $lawUrl => $law) {
         $vote = $votes->item($i)->nodeValue;
 
         // Remove tags
+        $deputy->lawTagsRate = (array)$deputy->lawTagsRate;
         if (($key = array_search($law['tagGood'], $deputy->lawTags)) !== false) {
             unset($deputy->lawTags[$key]);
         }
         if (($key = array_search($law['tagBad'], $deputy->lawTags)) !== false) {
             unset($deputy->lawTags[$key]);
+        }
+        if (isset($deputy->lawTagsRate[$law['tagGood']])) {
+            unset($deputy->lawTagsRate[$law['tagGood']]);
+        }
+        if (isset($deputy->lawTagsRate[$law['tagBad']])) {
+            unset($deputy->lawTagsRate[$law['tagBad']]);
         }
 
         // Append tag
@@ -73,8 +80,10 @@ foreach ($laws as $lawUrl => $law) {
             }
         }
 
-        $deputy->lawTags = array_unique($deputy->lawTags);
-        sort($deputy->lawTags);
+        // Set rates
+        foreach ($deputy->lawTags as $lawTag) {
+            $deputy->lawTagsRate[$lawTag] = 100;
+        }
     }
 
 }
