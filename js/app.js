@@ -1,7 +1,8 @@
 (function (angular) {
-    var app = angular.module('vvkp-app',['ui.bootstrap', 'ngTagsInput']);
 
-    app.controller('deputiesListCtrl', ['$scope', '$http', '$timeout', '$location', function($scope, $http, $timeout, $location) {
+    var app = angular.module('vvkp-app', ['ui.bootstrap', 'ngTagsInput']);
+
+    app.controller('deputiesListCtrl', ['$scope', '$http', '$timeout', '$location', '$modal', function($scope, $http, $timeout, $location, $modal) {
         $scope.searchedDeputies = [];
         $scope.searchTags = [];
         $scope.filtering = false;
@@ -18,6 +19,27 @@
                 return lawTag.name.indexOf(name) > -1;
             });
             return lawTags[0];
+        };
+
+        $scope.deputyPage = function(deputy) {
+            $scope.deputy = deputy;
+            var modalInstance = $modal.open({
+                templateUrl: 'template/deputy/page.html?time' + Date.now(),
+                scope: $scope
+            });
+            modalInstance.rendered.then(function() {
+                var domain = document.domain;
+                if ((domain === 'zrada.today') || (domain === 'peremoga.today')) {
+                    domain = 'vvkp.in.ua';
+                }
+                changeCommentsUrl(document.domain + '/#/deputy/' + deputy.name + '/' + deputy.id);
+            });
+            function changeCommentsUrl(newUrl) {
+                parser = document.getElementById('deputy-page-comments');
+                parser.innerHTML = '';
+                parser.innerHTML='<div style="margin: 0 auto;" class="fb-comments" data-href="'+newUrl+'" data-num-posts="20" data-width="380"></div>';
+                FB.XFBML.parse(parser);
+            }
         };
 
         $scope.searchAddTag = function(text) {
