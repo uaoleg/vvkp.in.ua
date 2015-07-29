@@ -14,8 +14,7 @@
         <link rel="stylesheet" href="css/styles.css?vvkp-version-1.4.0">
         <script defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.0/ui-bootstrap-tpls.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.0/ui-bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.1/ui-bootstrap-tpls.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ng-tags-input/3.0.0/ng-tags-input.min.js"></script>
         <script src="tools/js/pako.min.js"></script>
         <title>Всеукраїнський Вебсайт Контролю Політиків</title>
@@ -47,7 +46,7 @@
                                                 load-on-empty="false"
                                                 select-first-match="true"
                                                 max-results-to-show="100"
-                                                template="template/app/search-suggestions.html?vvkp-version-1.4.0"></auto-complete>
+                                                template="template/search/suggestions.html?vvkp-version-1.4.0"></auto-complete>
                                         </tags-input>
                                     </div>
                                 </td>
@@ -62,7 +61,7 @@
                                     <button class="btn btn-default btn-xs"
                                             style="margin-left: 10px;"
                                             ng-if="searchStats.parties.length || searchStats.lawTags.length"
-                                            popover-template="'template/app/search-stats.html?vvkp-version-1.4.0'"
+                                            popover-template="'template/search/stats.html?vvkp-version-1.4.0'"
                                             popover-placement="bottom"
                                             popover-trigger="click"
                                     >
