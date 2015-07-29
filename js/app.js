@@ -2,8 +2,8 @@
     var app = angular.module('vvkp-app',['ui.bootstrap', 'ngTagsInput']);
 
     app.controller('deputiesListCtrl', ['$scope', '$http', '$timeout', '$location', function($scope, $http, $timeout, $location) {
-        $scope.list = [];
-        $scope.tags = [];
+        $scope.searchedDeputies = [];
+        $scope.searchTags = [];
         $scope.filtering = false;
 
         $scope.getParty = function(name) {
@@ -22,15 +22,15 @@
 
         $scope.searchAddTag = function(text) {
             var added = false;
-            for (var i in $scope.tags) {
-                if ($scope.tags[i].name.indexOf(text) > -1) {
+            for (var i in $scope.searchTags) {
+                if ($scope.searchTags[i].name.indexOf(text) > -1) {
                     added = true;
                 }
             }
             if (added) {
                 return;
             }
-            $scope.tags.push({name: text});
+            $scope.searchTags.push({name: text});
             $scope.searchReloadResults();
         };
 
@@ -52,14 +52,14 @@
                     break;
                 }
             }
-            $scope.tags = [];
+            $scope.searchTags = [];
             $scope.searchAddTag(nextParty.name);
         };
 
         $scope.updateUrl = function() {
             var codedString =  '';
-            if ($scope.tags.length) {
-                codedString += 'search/' + $scope.tags.map(function(tag){
+            if ($scope.searchTags.length) {
+                codedString += 'search/' + $scope.searchTags.map(function(tag){
                     return transliterate(tag.name);
                 }).join(',');
             }
@@ -71,11 +71,11 @@
                 tag;
             if (path.indexOf('/search/') === 0) {
                 path = path.replace('/search/', '');
-                $scope.tags = [];
+                $scope.searchTags = [];
                 path.split(',').forEach(function(tag) {
                     tag = transliterate(transliterate(tag), true);
-                    if ($scope.tags.indexOf(tag) === -1) {
-                        $scope.tags.push(tag);
+                    if ($scope.searchTags.indexOf(tag) === -1) {
+                        $scope.searchTags.push(tag);
                     }
                 });
             }
@@ -84,8 +84,8 @@
         $scope.searchReloadResults = function() {
             $scope.updateUrl();
             $scope.filtering = true;
-            $timeout(function(){
-                $scope.list = filterList(angular.copy($scope.deputies), angular.copy($scope.parties), angular.copy($scope.lawTags), angular.copy($scope.tags));
+            $timeout(function() {
+                $scope.searchedDeputies = searchDeputies(angular.copy($scope.deputies), angular.copy($scope.parties), angular.copy($scope.lawTags), angular.copy($scope.searchTags));
                 $scope.filtering = false;
             }, 50); // remove value after list rendering fixes
             return;
@@ -131,7 +131,7 @@
             return results;
         };
 
-        function filterList(deputies, parties, lawTags, options) {
+        function searchDeputies(deputies, parties, lawTags, searchTags) {
             var searchString = '',
                 hasLawTag = false,
                 hasParty = false,
@@ -141,7 +141,7 @@
                 statsLawTags = {},
                 stats = {parties: [], lawTags: [], partiesForTag: '', lawTagsForParty: ''};
 
-            options.forEach(function(option) {
+            searchTags.forEach(function(option) {
                 searchString = option.name.toLowerCase();
                 deputies = deputies.filter(function(item) {
                     if (arrayToLowerCase(item.lawTags).indexOf(searchString) > -1) return true;
@@ -227,7 +227,7 @@
                 $scope.parties = data.parties;
                 $scope.searchSuggestions = data.searchSuggestions;
                 // Load default tag for domain
-                if ($scope.tags.length === 0) {
+                if ($scope.searchTags.length === 0) {
                     if ($location.host().indexOf('zrada') !== -1) {
                         $scope.searchAddTag('шокін-ок');
                     } else if ($location.host().indexOf('peremoga') !== -1) {
