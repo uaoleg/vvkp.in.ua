@@ -12,9 +12,9 @@ foreach ($data->deputies as $deputy) {
     $deputy->lawTagsRate = (array)$deputy->lawTagsRate;
     $deputy->lawTags = array_unique($deputy->lawTags);
     usort($deputy->lawTags, function($a, $b) {
-        if (in_array($a, ['працює', 'прогульник'])) {
+        if (in_array($a, ['працює', 'прогулює'])) {
             return -1;
-        } elseif (in_array($b, ['працює', 'прогульник'])) {
+        } elseif (in_array($b, ['працює', 'прогулює'])) {
             return 1;
         } else {
             return strcmp($a, $b);

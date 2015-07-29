@@ -51,14 +51,14 @@ foreach ($data->deputies as $deputy) {
     if (($key = array_search('працює', $deputy->lawTags)) !== false) {
         unset($deputy->lawTags[$key]);
     }
-    if (($key = array_search('прогульник', $deputy->lawTags)) !== false) {
+    if (($key = array_search('прогулює', $deputy->lawTags)) !== false) {
         unset($deputy->lawTags[$key]);
     }
     if (isset($deputy->lawTagsRate['працює'])) {
         unset($deputy->lawTagsRate['працює']);
     }
-    if (isset($deputy->lawTagsRate['прогульник'])) {
-        unset($deputy->lawTagsRate['прогульник']);
+    if (isset($deputy->lawTagsRate['прогулює'])) {
+        unset($deputy->lawTagsRate['прогулює']);
     }
 
     // Set tags
@@ -66,8 +66,8 @@ foreach ($data->deputies as $deputy) {
         $deputy->lawTags[] = 'працює';
         $deputy->lawTagsRate['працює'] = $registrations['rate'];
     } else {
-        $deputy->lawTags[] = 'прогульник';
-        $deputy->lawTagsRate['прогульник'] = 100 - $registrations['rate'];
+        $deputy->lawTags[] = 'прогулює';
+        $deputy->lawTagsRate['прогулює'] = 100 - $registrations['rate'];
     }
 }
 
