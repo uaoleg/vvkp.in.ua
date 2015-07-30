@@ -21,6 +21,22 @@
             return lawTags[0];
         };
 
+        $scope.getLaws = function(tagName) {
+            var laws = [];
+            $scope.laws.forEach(function(law) {
+                law = angular.copy(law);
+                if (law.tagYes === tagName) {
+                    law.desc = law.descYes;
+                    laws.push(law);
+                }
+                if (law.tagNo === tagName) {
+                    law.desc = law.descNo;
+                    laws.push(law);
+                }
+            });
+            return laws;
+        };
+
         $scope.deputyPage = function(deputy) {
             $scope.deputy = deputy;
             var modalInstance = $modal.open({
@@ -244,9 +260,10 @@
             .then(function(response){
                 var binStr = atob(response.data),
                     data = JSON.parse(pako.inflate(binStr, { to: 'string' }));
-                $scope.deputies = data.deputies;
+                $scope.laws = data.laws;
                 $scope.lawTags = data.lawTags;
                 $scope.parties = data.parties;
+                $scope.deputies = data.deputies;
                 $scope.searchSuggestions = data.searchSuggestions;
                 // Load default tag for domain
                 if ($scope.searchTags.length === 0) {

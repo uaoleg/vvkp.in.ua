@@ -47,27 +47,33 @@ foreach ($data->deputies as $deputy) {
 
     // Remove tags
     $deputy->lawTags = (array)$deputy->lawTags;
-    $deputy->lawTagsRate = (array)$deputy->lawTagsRate;
+    $deputy->lawTagsInfo = (array)$deputy->lawTagsInfo;
     if (($key = array_search('працює', $deputy->lawTags)) !== false) {
         unset($deputy->lawTags[$key]);
     }
     if (($key = array_search('прогулює', $deputy->lawTags)) !== false) {
         unset($deputy->lawTags[$key]);
     }
-    if (isset($deputy->lawTagsRate['працює'])) {
-        unset($deputy->lawTagsRate['працює']);
+    if (isset($deputy->lawTagsInfo['працює'])) {
+        unset($deputy->lawTagsInfo['працює']);
     }
-    if (isset($deputy->lawTagsRate['прогулює'])) {
-        unset($deputy->lawTagsRate['прогулює']);
+    if (isset($deputy->lawTagsInfo['прогулює'])) {
+        unset($deputy->lawTagsInfo['прогулює']);
     }
 
     // Set tags
     if ($registrations['rate'] >= 50) {
         $deputy->lawTags[] = 'працює';
-        $deputy->lawTagsRate['працює'] = $registrations['rate'];
+        $deputy->lawTagsInfo['працює'] = [
+            'rate' => $registrations['rate'],
+            'laws' => ['відвідуваність'],
+        ];
     } else {
         $deputy->lawTags[] = 'прогулює';
-        $deputy->lawTagsRate['прогулює'] = 100 - $registrations['rate'];
+        $deputy->lawTagsInfo['прогулює'] = [
+            'rate' => 100 - $registrations['rate'],
+            'laws' => ['відвідуваність'],
+        ];
     }
 }
 

@@ -6,7 +6,7 @@
                 <tr ng-repeat="party in searchStats.parties" ng-click="searchAddTag(party.name)" style="cursor: pointer;">
                     <td style="height: 57px;">
                         <img ng-src="img/parties/{{party.name}}.png" class="deputy-party">
-                        <progressbar ng-if="searchStats.partiesForTag && tags.length === 1"
+                        <progressbar ng-if="searchStats.partiesForTag && searchTags.length === 1"
                                      value="party.count"
                                      max="party.total"
                                      type="{{getLawTag(searchStats.partiesForTag).type}}"
@@ -25,12 +25,12 @@
         <td ng-if="searchStats.lawTags.length">
             <table class="table table-hover table-no-border">
                 <tr ng-repeat="statsLawTag in searchStats.lawTags"
-                    ng-init="lawTag1 = getLawTag(statsLawTag.name); lawTag2 = getLawTag(lawTag1.opposite)">
+                    ng-init="lawTag1 = getLawTag(statsLawTag.name); lawTag2 = getLawTag(lawTag1.opposite); laws1 = getLaws(lawTag1.name); laws2 = getLaws(lawTag2.name)">
                     <td style="height: 57px;">
                         <progress style="height: 24px; margin: 10px 0 0; width: 200px;">
                             <bar value="statsLawTag.percent1" type="{{lawTag1.type}}"
                                  ng-click="searchAddTag(lawTag1.name)"
-                                 tooltip="{{lawTag1.lawName}}"
+                                 tooltip="{{laws1[0].desc}}"
                                  tooltip-placement="top"
                                  tooltip-popup-delay="500"
                                  tooltip-append-to-body="true"
@@ -39,7 +39,7 @@
                             </bar>
                             <bar value="statsLawTag.percent2" type="{{lawTag2.type}}"
                                  ng-click="searchAddTag(lawTag2.name)"
-                                 tooltip="{{lawTag2.lawName}}"
+                                 tooltip="{{laws2[0].desc}}"
                                  tooltip-placement="top"
                                  tooltip-popup-delay="500"
                                  tooltip-append-to-body="true"
@@ -69,12 +69,14 @@
         </td>
 
         <td ng-if="searchStats.partiesForTag" style="max-width: 250px;">
-            <p ng-repeat="(key, tag) in tags" ng-init="lawTag = getLawTag(tag.name)" ng-if="getLawTag(tag.name)">
-                {{lawTag.lawName}}
-                <span ng-if="lawTag.lawUrl">
-                    (<a href="{{lawTag.lawUrl}}" target="_blank">{{lawTag.lawId || 'деталі'}}</a>)
-                </span>
-            </p>
+            <div ng-repeat="(key, tag) in searchTags">
+                <p ng-repeat="law in getLaws(tag.name)">
+                    {{law.desc}}
+                    <span ng-if="law.url">
+                        (<a href="{{law.url}}" target="_blank">{{law.no || 'деталі'}}</a>)
+                    </span>
+                </p>
+            </div>
         </td>
 
     </tr>

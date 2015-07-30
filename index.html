@@ -110,22 +110,22 @@
                                 </td>
                                 <td style="text-align: right; vertical-align: middle;">
                                     <div ng-repeat="lawTagName in deputy.lawTags"
-                                         ng-init="lawTag = getLawTag(lawTagName)"
+                                         ng-init="lawTag = getLawTag(lawTagName); laws = getLaws(lawTagName)"
                                          ng-click="searchAddTag(lawTag.name)"
-                                         tooltip="{{lawTag.lawName}} {{lawTag.lawId}}"
+                                         tooltip="{{laws[0].desc}} {{laws[0].no}}"
                                          tooltip-placement="left"
                                          tooltip-trigger="mouseenter"
                                          tooltip-popup-delay="1000"
                                          class="deputy-tag progress progress-text-centered"
                                          style="font-weight: bold; height: 19px; margin: 0 0 10px;">
-                                        <div role="progressbar" aria-valuenow="{{deputy.lawTagsRate[lawTag.name]}}" aria-valuemin="0" aria-valuemax="100"
+                                        <div role="progressbar" aria-valuenow="{{deputy.lawTagsInfo[lawTag.name].rate}}" aria-valuemin="0" aria-valuemax="100"
                                              class="progress-bar progress-bar-{{lawTag.type}}"
-                                             style="width: {{deputy.lawTagsRate[lawTag.name]}}%;">
+                                             style="width: {{deputy.lawTagsInfo[lawTag.name].rate}}%;">
                                             <span>{{lawTag.name}}</span>
                                         </div>
-                                        <div role="progressbar" aria-valuenow="{{100-deputy.lawTagsRate[lawTag.name]}}" aria-valuemin="0" aria-valuemax="100"
+                                        <div role="progressbar" aria-valuenow="{{100-deputy.lawTagsInfo[lawTag.name].rate}}" aria-valuemin="0" aria-valuemax="100"
                                              class="progress-bar progress-bar-{{getLawTag(lawTag.opposite).type}}"
-                                             style="width: {{100-deputy.lawTagsRate[lawTag.name]}}%;">
+                                             style="width: {{100-deputy.lawTagsInfo[lawTag.name].rate}}%;">
                                         </div>
                                     </div>
                                 </td>

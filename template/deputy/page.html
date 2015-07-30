@@ -40,16 +40,19 @@
 </div>
 <div class="modal-body">
     <table class="table">
-        <tr ng-repeat="lawTagName in deputy.lawTags" ng-init="lawTag = getLawTag(lawTagName)">
+        <tr ng-repeat="lawTagName in deputy.lawTags" ng-init="lawTag = getLawTag(lawTagName); laws = getLaws(lawTagName)">
             <td>
-                <p style="font-size: 14px; line-height: 18px;">
-                    {{lawTag.lawName}} {{lawTag.lawId}}
+                <p ng-repeat="law in laws" style="font-size: 14px; line-height: 18px;">
+                    <b>{{law.desc}}</b> / <i>{{law.name}}</i>
+                    <span ng-if="law.url">
+                        / <a href="{{law.url}}" target="_blank">{{law.no || 'деталі'}}</a>
+                    </span>
                 </p>
             </td>
             <td style="width: 200px;">
                 <progress>
-                    <bar value="deputy.lawTagsRate[lawTag.name]" type="{{lawTag.type}}"></bar>
-                    <bar value="100-deputy.lawTagsRate[lawTag.name]" type="{{getLawTag(lawTag.opposite).type}}"></bar>
+                    <bar value="deputy.lawTagsInfo[lawTag.name].rate" type="{{lawTag.type}}"></bar>
+                    <bar value="100-deputy.lawTagsInfo[lawTag.name].rate" type="{{getLawTag(lawTag.opposite).type}}"></bar>
                 </progress>
                 <div class="progress-title">{{lawTag.name}}</div>
             </td>
