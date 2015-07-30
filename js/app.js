@@ -37,7 +37,7 @@
             function changeCommentsUrl(newUrl) {
                 parser = document.getElementById('deputy-page-comments');
                 parser.innerHTML = '';
-                parser.innerHTML='<div style="margin: 0 auto;" class="fb-comments" data-href="'+newUrl+'" data-num-posts="20" data-width="380"></div>';
+                parser.innerHTML='<div class="fb-comments" data-href="'+newUrl+'" data-num-posts="20" data-width="570"></div>';
                 FB.XFBML.parse(parser);
             }
         };
