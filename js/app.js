@@ -21,6 +21,15 @@
             return lawTags[0];
         };
 
+        $scope.isDeputyLawTagRateBigger = function(deputy, lawTagName) {
+            var lawTag = $scope.getLawTag(lawTagName);
+            if (!deputy.lawTagsInfo[lawTag.opposite]) {
+                return true;
+            } else {
+                return deputy.lawTagsInfo[lawTag.name].rate > deputy.lawTagsInfo[lawTag.opposite].rate;
+            }
+        };
+
         $scope.getLaws = function(tagName) {
             var laws = [];
             $scope.laws.forEach(function(law) {

@@ -23,7 +23,7 @@ foreach ($data->deputies as $deputy) {
 
         // Append tag
         if ($law->id === 'відвідуваність') {
-            if ($registrations['rate'] >= 50) {
+            if ($vote >= 50) {
                 $lawTag = 'працює';
             } else {
                 $lawTag = 'прогулює';
@@ -46,11 +46,18 @@ foreach ($data->deputies as $deputy) {
             ];
         }
         $deputy->lawTagsInfo[$lawTag]['laws'][] = $law->id;
+        if ($law->id === 'відвідуваність') {
+            $deputy->lawTagsInfo[$lawTag]['rate'] = $vote;
+        }
 
     }
 
     // Set law tags rates
     foreach ($deputy->lawTagsInfo as $lawTag => $info) {
+
+        if (in_array($lawTag, array('працює', 'прогулює'))) {
+            continue;
+        }
 
         // Total laws count for the tag
         $total = 0;

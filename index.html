@@ -110,8 +110,9 @@
                                 </td>
                                 <td style="text-align: right; vertical-align: middle;">
                                     <div ng-repeat="lawTagName in deputy.lawTags"
-                                         ng-init="lawTag = getLawTag(lawTagName); laws = getLaws(lawTagName)"
+                                         ng-if="isDeputyLawTagRateBigger(deputy, lawTagName)"
                                          ng-click="searchAddTag(lawTag.name)"
+                                         ng-init="lawTag = getLawTag(lawTagName); laws = getLaws(lawTagName)"
                                          tooltip="{{laws[0].desc}} {{laws[0].no}}"
                                          tooltip-placement="left"
                                          tooltip-trigger="mouseenter"
