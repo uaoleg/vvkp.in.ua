@@ -39,6 +39,11 @@
     width: 100px;
 }
 
+.deputy-tag-tooltip .tooltip-inner {
+    line-height: 16px;
+    text-align: left;
+}
+
 .fading {
     opacity: 0.5;
 }
