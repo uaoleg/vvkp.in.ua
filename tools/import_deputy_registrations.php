@@ -12,6 +12,7 @@ $parser = new \Sunra\PhpSimple\HtmlDomParser();
 foreach ($data->deputies as $deputy) {
 
     echo "{$deputy->id}\n";
+    $deputy->laws = (array)$deputy->laws;
 
     // Get link to registrations
     $url = "http://itd.rada.gov.ua/mps/info/page/{$deputy->id}";
@@ -45,36 +46,9 @@ foreach ($data->deputies as $deputy) {
     }
     $registrations['rate'] = round($registrations['present'] / $registrations['total'] * 100);
 
-    // Remove tags
-    $deputy->lawTags = (array)$deputy->lawTags;
-    $deputy->lawTagsInfo = (array)$deputy->lawTagsInfo;
-    if (($key = array_search('працює', $deputy->lawTags)) !== false) {
-        unset($deputy->lawTags[$key]);
-    }
-    if (($key = array_search('прогулює', $deputy->lawTags)) !== false) {
-        unset($deputy->lawTags[$key]);
-    }
-    if (isset($deputy->lawTagsInfo['працює'])) {
-        unset($deputy->lawTagsInfo['працює']);
-    }
-    if (isset($deputy->lawTagsInfo['прогулює'])) {
-        unset($deputy->lawTagsInfo['прогулює']);
-    }
+    // Append law
+    $deputy->laws['відвідуваність'] = $registrations['rate'];
 
-    // Set tags
-    if ($registrations['rate'] >= 50) {
-        $deputy->lawTags[] = 'працює';
-        $deputy->lawTagsInfo['працює'] = [
-            'rate' => $registrations['rate'],
-            'laws' => ['відвідуваність'],
-        ];
-    } else {
-        $deputy->lawTags[] = 'прогулює';
-        $deputy->lawTagsInfo['прогулює'] = [
-            'rate' => 100 - $registrations['rate'],
-            'laws' => ['відвідуваність'],
-        ];
-    }
 }
 
 $json = json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
