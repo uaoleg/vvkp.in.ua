@@ -40,7 +40,9 @@
 </div>
 <div class="modal-body">
     <table class="table">
-        <tr ng-repeat="lawTagName in deputy.lawTags" ng-init="lawTag = getLawTag(lawTagName); laws = getLaws(lawTagName)">
+        <tr ng-repeat="lawTagName in deputy.lawTags"
+            ng-if="isDeputyLawTagRateBigger(deputy, lawTagName)"
+            ng-init="lawTag = getLawTag(lawTagName); laws = getDeputyLaws(deputy, lawTagName)">
             <td>
                 <p ng-repeat="law in laws" style="font-size: 14px; line-height: 18px;">
                     <b>{{law.desc}}</b> / <i>{{law.name}}</i>

@@ -21,15 +21,6 @@
             return lawTags[0];
         };
 
-        $scope.isDeputyLawTagRateBigger = function(deputy, lawTagName) {
-            var lawTag = $scope.getLawTag(lawTagName);
-            if (!deputy.lawTagsInfo[lawTag.opposite]) {
-                return true;
-            } else {
-                return deputy.lawTagsInfo[lawTag.name].rate > deputy.lawTagsInfo[lawTag.opposite].rate;
-            }
-        };
-
         $scope.getLaws = function(tagName) {
             var laws = [];
             $scope.laws.forEach(function(law) {
@@ -46,10 +37,46 @@
             return laws;
         };
 
+        $scope.getDeputyLaws = function(deputy, lawTagName) {
+            function getLaws(deputy, lawTagName) {
+                var law,
+                    laws = [];
+                if (!deputy.lawTagsInfo[lawTagName]) {
+                    return [];
+                }
+                deputy.lawTagsInfo[lawTagName].laws.forEach(function(lawInfo) {
+                    $scope.laws.forEach(function(lawObject) {
+                        if (lawInfo === lawObject.id) {
+                            law = angular.copy(lawObject);
+                        }
+                    });
+                    if (law.tagYes === lawTagName) {
+                        law.desc = law.descYes;
+                        laws.push(law);
+                    }
+                    if (law.tagNo === lawTagName) {
+                        law.desc = law.descNo;
+                        laws.push(law);
+                    }
+                });
+                return laws;
+            }
+            return getLaws(deputy, lawTagName).concat(getLaws(deputy, $scope.getLawTag(lawTagName).opposite));
+        };
+
+        $scope.isDeputyLawTagRateBigger = function(deputy, lawTagName) {
+            var lawTag = $scope.getLawTag(lawTagName);
+            if (!deputy.lawTagsInfo[lawTag.opposite]) {
+                return true;
+            } else {
+                return deputy.lawTagsInfo[lawTag.name].rate > deputy.lawTagsInfo[lawTag.opposite].rate;
+            }
+        };
+
         $scope.deputyPage = function(deputy) {
             $scope.deputy = deputy;
             var modalInstance = $modal.open({
-                templateUrl: 'template/deputy/page.html?time' + Date.now(),
+                templateUrl: 'template/deputy/page.html?vvkp-version-1.4.0',
                 scope: $scope
             });
             modalInstance.rendered.then(function() {

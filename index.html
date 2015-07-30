@@ -112,7 +112,7 @@
                                     <div ng-repeat="lawTagName in deputy.lawTags"
                                          ng-if="isDeputyLawTagRateBigger(deputy, lawTagName)"
                                          ng-click="searchAddTag(lawTag.name)"
-                                         ng-init="lawTag = getLawTag(lawTagName); laws = getLaws(lawTagName)"
+                                         ng-init="lawTag = getLawTag(lawTagName); laws = getDeputyLaws(deputy, lawTagName)"
                                          tooltip="{{laws[0].desc}} {{laws[0].no}}"
                                          tooltip-placement="left"
                                          tooltip-trigger="mouseenter"

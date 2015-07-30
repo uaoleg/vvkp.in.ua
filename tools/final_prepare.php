@@ -47,7 +47,11 @@ foreach ($data->deputies as $deputy) {
         }
         $deputy->lawTagsInfo[$lawTag]['laws'][] = $law->id;
         if ($law->id === 'відвідуваність') {
-            $deputy->lawTagsInfo[$lawTag]['rate'] = $vote;
+            if ($lawTag === 'працює') {
+                $deputy->lawTagsInfo[$lawTag]['rate'] = $vote;
+            } else {
+                $deputy->lawTagsInfo[$lawTag]['rate'] = 100 - $vote;
+            }
         }
 
     }
@@ -74,9 +78,9 @@ foreach ($data->deputies as $deputy) {
     // Order law tags
     $deputy->lawTags = array_unique($deputy->lawTags);
     usort($deputy->lawTags, function($a, $b) {
-        if (in_array($a, ['працює', 'прогулює', 'шокін-ок', 'шокін-геть'])) {
+        if (in_array($a, ['працює', 'прогулює'])) {
             return -1;
-        } elseif (in_array($b, ['працює', 'прогулює', 'шокін-ок', 'шокін-геть'])) {
+        } elseif (in_array($b, ['працює', 'прогулює'])) {
             return 1;
         } else {
             return strcmp($a, $b);
