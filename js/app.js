@@ -76,7 +76,7 @@
         $scope.deputyPage = function(deputy) {
             $scope.deputy = deputy;
             var modalInstance = $modal.open({
-                templateUrl: 'template/deputy/page.html?vvkp-version-1.4.0',
+                templateUrl: 'template/deputy/page.html?vvkp-version-1.5.0',
                 scope: $scope
             });
             modalInstance.rendered.then(function() {
@@ -292,7 +292,7 @@
         };
 
         // Load data
-        $http.get('data/data.min.js?vvkp-version-1.4.0')
+        $http.get('data/data.min.js?vvkp-version-1.5.0')
             .then(function(response){
                 var binStr = atob(response.data),
                     data = JSON.parse(pako.inflate(binStr, { to: 'string' }));

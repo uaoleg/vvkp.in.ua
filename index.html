@@ -8,10 +8,10 @@
         <link rel="shortcut icon" href="img/icon.ico">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ng-tags-input/3.0.0/ng-tags-input.min.css"/>
-        <link rel="stylesheet" href="css/bootstrap-theme-paper.min.css?vvkp-version-1.4.0">
-        <link rel="stylesheet" href="css/bootstrap.css?vvkp-version-1.4.0">
-        <link rel="stylesheet" href="css/deputies.css?vvkp-version-1.4.0">
-        <link rel="stylesheet" href="css/styles.css?vvkp-version-1.4.0">
+        <link rel="stylesheet" href="css/bootstrap-theme-paper.min.css?vvkp-version-1.5.0">
+        <link rel="stylesheet" href="css/bootstrap.css?vvkp-version-1.5.0">
+        <link rel="stylesheet" href="css/deputies.css?vvkp-version-1.5.0">
+        <link rel="stylesheet" href="css/styles.css?vvkp-version-1.5.0">
         <script defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.1/ui-bootstrap-tpls.min.js"></script>
@@ -26,10 +26,10 @@
                 <div class="col-md-8">
                     <h1 style="font-size: 42px; text-align: center;">Універсальний передвиборчий каталог депутатів</h1>
                     <br>
-                    <table class="table table-striped js-deputies-table">
+                    <table class="table table-striped">
                         <thead>
                             <tr>
-                                <td colspan="5">
+                                <td>
                                     <div class="form-group">
                                         <tags-input on-tag-added="searchReloadResults()"
                                                     on-tag-removed="searchReloadResults()"
@@ -46,31 +46,33 @@
                                                 load-on-empty="false"
                                                 select-first-match="true"
                                                 max-results-to-show="100"
-                                                template="template/search/suggestions.html?vvkp-version-1.4.0"></auto-complete>
+                                                template="template/search/suggestions.html?vvkp-version-1.5.0"></auto-complete>
                                         </tags-input>
                                     </div>
                                 </td>
                             </tr>
                         </thead>
+                    </table>
+                    <table class="table table-striped">
                         <tbody style="{{filtering ? 'opacity: 0.5' : ''}}">
                             <tr>
                                 <td colspan="5">
                                     <b style="display: inline-block; height: 28px; vertical-align: middle;">
                                         Знайдено депутатів: {{searchedDeputies.length}}
                                     </b>
-                                    <button class="btn btn-default btn-xs"
-                                            style="margin-left: 10px;"
-                                            ng-if="searchStats.parties.length || searchStats.lawTags.length"
-                                            popover-template="'template/search/stats.html?vvkp-version-1.4.0'"
+                                    <button ng-if="searchStats.parties.length || searchStats.lawTags.length"
+                                            popover-template="'template/search/stats.html?vvkp-version-1.5.0'"
                                             popover-placement="bottom"
                                             popover-trigger="click"
+                                            class="btn btn-default btn-xs"
+                                            style="margin-left: 10px;"
                                     >
                                         <span class="glyphicon glyphicon-stats"></span>
                                         <b>Статистика</b>
                                     </button>
                                 </td>
                             </tr>
-                            <tr ng-repeat="deputy in searchedDeputies | filter:searchText">
+                            <tr ng-repeat="deputy in searchedDeputies | filter:searchText" class="deputy-row">
                                 <td style="height: 84px; text-align: center; vertical-align: middle; width: 60px;">
                                     <div class="img-deputy-{{deputy.id}}"></div>
                                     <img ng-src="img/parties/{{deputy.party}}.png"
@@ -111,24 +113,33 @@
                                 <td style="text-align: right; vertical-align: middle;">
                                     <div ng-repeat="lawTagName in deputy.lawTags"
                                          ng-if="isDeputyLawTagRateBigger(deputy, lawTagName)"
-                                         ng-click="searchAddTag(lawTag.name)"
-                                         ng-init="lawTag = getLawTag(lawTagName)"
-                                         tooltip="{{deputy.lawTagsInfo[lawTagName].desc | joinBy:'; '}}"
-                                         tooltip-placement="left"
-                                         tooltip-trigger="mouseenter"
-                                         tooltip-popup-delay="100"
-                                         tooltip-class="deputy-tag-tooltip"
-                                         class="deputy-tag progress progress-text-centered"
-                                         style="font-weight: bold; height: 19px; margin: 0 0 10px;">
-                                        <div role="progressbar" aria-valuenow="{{deputy.lawTagsInfo[lawTag.name].rate}}" aria-valuemin="0" aria-valuemax="100"
-                                             class="progress-bar progress-bar-{{lawTag.type}}"
-                                             style="width: {{deputy.lawTagsInfo[lawTag.name].rate}}%;">
-                                            <span>{{lawTag.name}}</span>
-                                        </div>
-                                        <div role="progressbar" aria-valuenow="{{100-deputy.lawTagsInfo[lawTag.name].rate}}" aria-valuemin="0" aria-valuemax="100"
-                                             class="progress-bar progress-bar-{{getLawTag(lawTag.opposite).type}}"
-                                             style="width: {{100-deputy.lawTagsInfo[lawTag.name].rate}}%;">
-                                        </div>
+                                         ng-init="lawTag = getLawTag(lawTagName)">
+                                        <table><tr>
+                                            <td style="padding: 0 10px 8px 0;">
+                                                <div class="deputy-tag-about">
+                                                    <span popover-template="'template/deputy/tag-about.html?vvkp-version-1.5.0'"
+                                                          popover-placement="left"
+                                                          popover-trigger="click"
+                                                          class="glyphicon glyphicon-info-sign fading"
+                                                          style="cursor: pointer;"></span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div ng-click="searchAddTag(lawTag.name)"
+                                                     class="deputy-tag progress progress-text-centered"
+                                                     style="font-weight: bold; height: 19px; margin: 0 0 10px;">
+                                                    <div role="progressbar" aria-valuenow="{{deputy.lawTagsInfo[lawTag.name].rate}}" aria-valuemin="0" aria-valuemax="100"
+                                                         class="progress-bar progress-bar-{{lawTag.type}}"
+                                                         style="width: {{deputy.lawTagsInfo[lawTag.name].rate}}%;">
+                                                        <span>{{lawTag.name}}</span>
+                                                    </div>
+                                                    <div role="progressbar" aria-valuenow="{{100-deputy.lawTagsInfo[lawTag.name].rate}}" aria-valuemin="0" aria-valuemax="100"
+                                                         class="progress-bar progress-bar-{{getLawTag(lawTag.opposite).type}}"
+                                                         style="width: {{100-deputy.lawTagsInfo[lawTag.name].rate}}%;">
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr></table>
                                     </div>
                                 </td>
                             </tr>
@@ -162,7 +173,7 @@
                         fjs.parentNode.insertBefore(js, fjs);
                     }(document, 'script', 'facebook-jssdk'));</script>
 
-        <script src="js/app.js?vvkp-version-1.4.0"></script>
+        <script src="js/app.js?vvkp-version-1.5.0"></script>
 
         <script>
             (function (i, s, o, g, r, a, m) {

@@ -43,11 +43,9 @@ foreach ($data->deputies as $deputy) {
         if (!isset($deputy->lawTagsInfo[$lawTag])) {
             $deputy->lawTagsInfo[$lawTag] = [
                 'laws' => [],
-                'desc' => [],
             ];
         }
         $deputy->lawTagsInfo[$lawTag]['laws'][] = $law->id;
-        $deputy->lawTagsInfo[$lawTag]['desc'][] = ($law->tagYes === $lawTag) ? $law->descYes : $law->descNo;
 
         // Set registration rate
         if ($law->id === 'відвідуваність') {

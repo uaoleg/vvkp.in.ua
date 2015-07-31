@@ -7,32 +7,44 @@
         </td>
         <td style="vertical-align: top;">
             <h3 class="modal-title" style="line-height: 1;">{{deputy.name}}</h3>
-            <img ng-src="img/parties/{{deputy.party}}.png"
-                 ng-if="deputy.party"
-                 style="width: 150px;">
             <table class="deputy-info">
-                <tr style="vertical-align: middle;">
-                    <td><span class="glyphicon glyphicon-globe" tooltip="Офіційна веб-сторінка" tooltip-placement="left" tooltip-popup-delay="1000"></span></td>
+                <tr ng-if="deputy.party" style="vertical-align: middle;">
+                    <td style="width: 30px;">
+                        <img ng-src="img/icon/party-16.png" tooltip="Партія" tooltip-placement="left" style="opacity: 0.4">
+                    </td>
                     <td>
-                        <a href="http://itd.rada.gov.ua/mps/info/page/{{deputy.id}}" target="_blank">
-                            Верховна Рада</a><span ng-if="deputy.facebook">,</span>
-                        <img src="img/icon/facebook-16.png"
-                             ng-if="deputy.facebook"
-                             tooltip="Персональна веб-сторінка" tooltip-placement="left" tooltip-popup-delay="1000"
-                             style="margin: -4px 0 0 5px; opacity: 0.4;">
-                        <a href="{{deputy.facebook}}" target="_blank" ng-if="deputy.facebook">
-                            Facebook</a>
+                        <img ng-src="img/parties/{{deputy.party}}.png" class="deputy-party" style="cursor: default; margin: 0;">
+                    </td>
+                </tr>
+                <tr style="vertical-align: middle;">
+                    <td>
+                        <span class="glyphicon glyphicon-globe" tooltip="Офіційна веб-сторінка" tooltip-placement="left"></span>
+                    </td>
+                    <td>
+                        <a href="http://itd.rada.gov.ua/mps/info/page/{{deputy.id}}" target="_blank">Верховна Рада</a>
+                    </td>
+                </tr>
+                <tr ng-if="deputy.facebook" style="vertical-align: middle;">
+                    <td>
+                        <img ng-src="img/icon/facebook-16.png" tooltip="Персональна веб-сторінка" tooltip-placement="left" style="opacity: 0.4">
+                    </td>
+                    <td>
+                        <a href="{{deputy.facebook}}" target="_blank" ng-if="deputy.facebook">Facebook</a>
                     </td>
                 </tr>
                 <tr ng-if="deputy.phones.length">
-                    <td><span class="glyphicon glyphicon-earphone" tooltip="Контактні телефони" tooltip-placement="left" tooltip-popup-delay="1000"></span></td>
+                    <td><span class="glyphicon glyphicon-earphone" tooltip="Контактні телефони" tooltip-placement="left"></span></td>
                     <td>
                         <small ng-repeat="phone in deputy.phones">{{deputy.phones[0]}}{{$last ? '' : ', '}}</small>
                     </td>
                 </tr>
                 <tr ng-if="deputy.district">
-                    <td><span class="glyphicon glyphicon-check" tooltip="Виборчий округ" tooltip-placement="left" tooltip-popup-delay="1000"></span></td>
+                    <td><span class="glyphicon glyphicon-check" tooltip="Виборчий округ" tooltip-placement="left"></span></td>
                     <td><small>Округ №{{deputy.district.id}}, {{deputy.district.region}}</small></td>
+                </tr>
+                <tr ng-if="deputy.residence">
+                    <td><span class="glyphicon glyphicon-map-marker" tooltip="Місце проживання" tooltip-placement="left"></span></td>
+                    <td><small>{{deputy.residence}}</small></td>
                 </tr>
             </table>
         </td>
@@ -44,8 +56,17 @@
             ng-if="isDeputyLawTagRateBigger(deputy, lawTagName)"
             ng-init="lawTag = getLawTag(lawTagName); laws = getDeputyLaws(deputy, lawTagName)">
             <td>
-                <p ng-repeat="law in laws" style="font-size: 14px; line-height: 18px;">
-                    <b>{{law.desc}}</b> / <i>{{law.name}}</i>
+                <p ng-repeat="law in laws"
+                   style="font-size: 14px; line-height: 18px;">
+                    {{lawTagName}}
+                    <b class="text-{{law.good && deputy.lawTagsInfo[law.tagYes].laws.indexOf(law.id) > -1 ? 'success' : 'danger'}}">
+                        {{law.desc}}
+                        <span ng-if="law.id === 'відвідуваність'">
+                            ({{deputy.lawTagsInfo[law.tagYes].laws.indexOf(law.id) > -1 ? deputy.lawTagsInfo[law.tagYes].rate : deputy.lawTagsInfo[law.tagNo].rate}}%)
+                        </span>
+                    </b>
+                    /
+                    <i>{{law.name}}</i>
                     <span ng-if="law.url">
                         / <a href="{{law.url}}" target="_blank">{{law.no || 'деталі'}}</a>
                     </span>

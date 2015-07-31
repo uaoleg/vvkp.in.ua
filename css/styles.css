@@ -39,9 +39,12 @@
     width: 100px;
 }
 
-.deputy-tag-tooltip .tooltip-inner {
-    line-height: 16px;
-    text-align: left;
+.deputy-tag-about {
+    visibility: hidden;
+}
+
+.deputy-row:hover .deputy-tag-about {
+    visibility: visible;
 }
 
 .fading {
