@@ -218,7 +218,13 @@
             searchTags.forEach(function(option) {
                 searchString = option.name.toLowerCase();
                 deputies = deputies.filter(function(item) {
-                    if (arrayToLowerCase(item.lawTags).indexOf(searchString) > -1) return true;
+                    var tagIndex = item.lawTags.indexOf(searchString);
+                    if (tagIndex > -1) {
+                        if (!item.searchRate) {
+                            item.searchRate = item.lawTagsInfo[item.lawTags[tagIndex]].rate;
+                        }
+                        return true;
+                    }
                     if (item.party.toLowerCase().indexOf(searchString) > -1) return true;
                     if (item.name.toLowerCase().indexOf(searchString) > -1) return true;
                     if (item.district && item.district.text.toLowerCase().indexOf(searchString) > -1) return true;
@@ -232,6 +238,15 @@
                     hasLawTag = true;
                     stats.partiesForTag = option.name;
                 }
+            });
+            deputies.sort(function(a, b) {
+                if (a.searchRate < b.searchRate) {
+                    return 1;
+                }
+                if (a.searchRate > b.searchRate) {
+                    return -1;
+                }
+                return a.name.localeCompare(b.name);
             });
 
             if (!hasParty) {
