@@ -69,8 +69,8 @@
         </td>
 
         <td ng-if="searchStats.partiesForTag" style="max-width: 250px;">
-            <div ng-repeat="(key, tag) in searchTags">
-                <p ng-repeat="law in getLaws(tag.name)">
+            <div ng-repeat="(key, tag) in searchTags" ng-init="laws = getLaws(tag.name)">
+                <p ng-repeat="law in laws">
                     {{law.desc}}
                     <span ng-if="law.url">
                         (<a href="{{law.url}}" target="_blank">{{law.no || 'деталі'}}</a>)

@@ -38,7 +38,7 @@
         };
 
         $scope.getDeputyLaws = function(deputy, lawTagName) {
-            function getLaws(deputy, lawTagName) {
+            var getDeputyLaws = function(deputy, lawTagName) {
                 var law,
                     laws = [];
                 if (!deputy.lawTagsInfo[lawTagName]) {
@@ -61,7 +61,7 @@
                 });
                 return laws;
             }
-            return getLaws(deputy, lawTagName).concat(getLaws(deputy, $scope.getLawTag(lawTagName).opposite));
+            return getDeputyLaws(deputy, lawTagName).concat(getDeputyLaws(deputy, $scope.getLawTag(lawTagName).opposite));
         };
 
         $scope.isDeputyLawTagRateBigger = function(deputy, lawTagName) {
@@ -76,7 +76,7 @@
         $scope.deputyPage = function(deputy) {
             $scope.deputy = deputy;
             var modalInstance = $modal.open({
-                templateUrl: 'template/deputy/page.html?vvkp-version-1.5.0',
+                templateUrl: 'template/deputy/page.html?vvkp-version-1.5.1',
                 scope: $scope
             });
             modalInstance.rendered.then(function() {
@@ -292,7 +292,7 @@
         };
 
         // Load data
-        $http.get('data/data.min.js?vvkp-version-1.5.0')
+        $http.get('data/data.min.js?vvkp-version-1.5.1')
             .then(function(response){
                 var binStr = atob(response.data),
                     data = JSON.parse(pako.inflate(binStr, { to: 'string' }));
@@ -349,12 +349,6 @@
                 }
             }
         }
-    });
-
-    app.filter('joinBy', function () {
-        return function (input, delimiter) {
-            return (input || []).join(delimiter || ',');
-        };
     });
 
 })(window.angular);
