@@ -106,7 +106,7 @@
             }
             $scope.searchTags.push({name: text});
             $scope.searchReloadResults();
-            resetLimit();
+            searchedDeputiesLimitReset();
         };
 
         $scope.searchNextParty = function(partyName, dir) {
@@ -206,12 +206,12 @@
             return results;
         };
 
-        function resetLimit(){
-            $scope.totalDisplayed = 10;
+        function searchedDeputiesLimitReset(){
+            $scope.searchDeputiesLimit = 10;
         }
 
-        function incLimit(){
-            $scope.totalDisplayed += 10;
+        function searchedDeputiesLimitInc(){
+            $scope.searchDeputiesLimit += 100;
         }
 
         function searchDeputies(deputies, parties, lawTags, searchTags) {
@@ -336,16 +336,14 @@
                 $scope.searchReloadResults();
             });
 
-        window.onscroll = function(ev) {
-            console.log('scrolling');
-            console.log(window.innerHeight, window.scrollY, document.body.offsetHeight);
+        window.onscroll = function() {
             if ((window.innerHeight + window.scrollY) >= (document.body.offsetHeight - 200)) {
-                $timeout(incLimit);
+                $timeout(searchedDeputiesLimitInc);
             }
         };
 
         $scope.getUrlData();
-        resetLimit();
+        searchedDeputiesLimitReset();
     }]);
 
     function transliterate(text, enToUk) {
