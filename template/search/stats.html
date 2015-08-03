@@ -70,13 +70,22 @@
         </td>
 
         <td ng-if="searchStats.partiesForTag" style="max-width: 250px;">
-            <div ng-repeat="(key, tag) in searchTags" ng-init="laws = getLaws(tag.name)">
-                <p ng-repeat="law in laws">
-                    {{law.desc}}
-                    <span ng-if="law.url">
-                        (<a href="{{law.url}}" target="_blank">{{law.no || 'деталі'}}</a>)
+            <div ng-repeat="(key, searchTag) in searchTags"
+                 ng-init="lawTag = getLawTag(searchTag.name); lawTag.showLaws = false; laws = getLaws(searchTag.name)">
+                <p>
+                    {{lawTag.desc}}
+                    <span ng-if="lawTag.laws > 1">
+                        (<a href ng-click="lawTag.showLaws = true; $event.stopPropagation()">закони</a>)
                     </span>
                 </p>
+                <ul ng-show="lawTag.showLaws">
+                    <li ng-repeat="law in laws">
+                        {{law.desc}}
+                        <span ng-if="law.url">
+                            (<a href="{{law.url}}" target="_blank" ng-click="$event.stopPropagation()">{{law.no || 'деталі'}}</a>)
+                        </span>
+                    </li>
+                </ul>
             </div>
         </td>
 
