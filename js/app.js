@@ -212,6 +212,9 @@
         }
 
         function searchedDeputiesLimitInc(){
+            if ($scope.searchedDeputiesLimit >= $scope.searchedDeputies.length) {
+                return;
+            }
             $scope.searchedDeputiesIncreasingLimit = true;
             $timeout(function() {
                 $scope.searchedDeputiesLimit += 100;
