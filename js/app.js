@@ -5,7 +5,8 @@
     app.controller('deputiesListCtrl', ['$scope', '$http', '$timeout', '$location', '$modal', function($scope, $http, $timeout, $location, $modal) {
         $scope.searchedDeputies = [];
         $scope.searchTags = [];
-        $scope.filtering = false;
+        $scope.searchedDeputiesFiltering = false;
+        $scope.searchedDeputiesIncreasingLimit = false;
 
         $scope.getParty = function(name) {
             var parties = $scope.parties.filter(function(party) {
@@ -158,11 +159,11 @@
         $scope.searchReloadResults = function() {
             searchedDeputiesLimitReset();
             $scope.updateUrl();
-            $scope.filtering = true;
+            $scope.searchedDeputiesFiltering = true;
             $timeout(function() {
                 $scope.searchedDeputies = searchDeputies(angular.copy($scope.deputies), angular.copy($scope.parties), angular.copy($scope.lawTags), angular.copy($scope.searchTags));
-                $scope.filtering = false;
-            }, 50); // remove value after list rendering fixes
+                $scope.searchedDeputiesFiltering = false;
+            }, 50);
             return;
         };
 
@@ -207,11 +208,15 @@
         };
 
         function searchedDeputiesLimitReset(){
-            $scope.searchDeputiesLimit = 10;
+            $scope.searchedDeputiesLimit = 10;
         }
 
         function searchedDeputiesLimitInc(){
-            $scope.searchDeputiesLimit += 100;
+            $scope.searchedDeputiesIncreasingLimit = true;
+            $timeout(function() {
+                $scope.searchedDeputiesLimit += 100;
+                $scope.searchedDeputiesIncreasingLimit = false;
+            }, 50);
         }
 
         function searchDeputies(deputies, parties, lawTags, searchTags) {

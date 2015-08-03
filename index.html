@@ -54,7 +54,7 @@
                         </thead>
                     </table>
                     <table class="table table-striped">
-                        <tbody style="{{filtering ? 'opacity: 0.5' : ''}}">
+                        <tbody style="{{searchedDeputiesFiltering ? 'opacity: 0.5' : ''}}">
                             <tr>
                                 <td colspan="5">
                                     <b style="display: inline-block; height: 28px; vertical-align: middle;">
@@ -72,7 +72,7 @@
                                     </button>
                                 </td>
                             </tr>
-                            <tr ng-repeat="deputy in searchedDeputies | filter:searchText | limitTo:searchDeputiesLimit"
+                            <tr ng-repeat="deputy in searchedDeputies | filter:searchText | limitTo:searchedDeputiesLimit"
                                 class="deputy-row">
                                 <td style="height: 84px; text-align: center; vertical-align: middle; width: 60px;">
                                     <div class="img-deputy-{{deputy.id}}"></div>
@@ -146,6 +146,9 @@
                             </tr>
                         </tbody>
                     </table>
+                    <div ng-show="searchedDeputiesFiltering || searchedDeputiesIncreasingLimit" style="text-align: center;">
+                        <img ng-src="img/loading.gif">
+                    </div>
                     <br>
                     <hr>
                     <br>
