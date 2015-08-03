@@ -102,42 +102,50 @@
         {
             "name": "працює",
             "type": "success",
-            "opposite": "прогулює"
+            "opposite": "прогулює",
+            "laws": 1
         },
         {
             "name": "прогулює",
             "type": "danger",
-            "opposite": "працює"
+            "opposite": "працює",
+            "laws": 1
         },
         {
             "name": "конструктив",
             "type": "success",
-            "opposite": "популіст"
+            "opposite": "популіст",
+            "laws": 1
         },
         {
             "name": "популіст",
             "type": "danger",
-            "opposite": "конструктив"
+            "opposite": "конструктив",
+            "laws": 1
         },
         {
             "name": "новатор",
             "type": "success",
-            "opposite": "ретроград"
+            "opposite": "ретроград",
+            "laws": 3
         },
         {
             "name": "ретроград",
             "type": "danger",
-            "opposite": "новатор"
+            "opposite": "новатор",
+            "laws": 3
         },
         {
             "name": "шокін-геть",
             "type": "success",
-            "opposite": "шокін-ок"
+            "opposite": "шокін-ок",
+            "laws": 1
         },
         {
             "name": "шокін-ок",
             "type": "danger",
-            "opposite": "шокін-геть"
+            "opposite": "шокін-геть",
+            "laws": 1
         }
     ],
     "deputies": [

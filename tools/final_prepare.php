@@ -6,6 +6,34 @@ $datafile = '../data/data.raw.json';
 $data = file_get_contents($datafile);
 $data = json_decode($data);
 
+// Recount parties' deputy count
+foreach ($data->parties as $party) {
+    $party->deputies = 0;
+    foreach ($data->deputies as $i => $deputy) {
+        if ($deputy->party === $party->name)  {
+            $party->deputies++;
+        }
+    }
+}
+usort($data->parties, function($a, $b) {
+    return $b->deputies - $a->deputies;
+});
+
+// Recount law tags' law count
+foreach ($data->lawTags as $lawTag) {
+    $lawTag->laws = 0;
+    foreach ($data->laws as $i => $law) {
+        if (in_array($lawTag->name, [$law->tagYes, $law->tagNo]))  {
+            $lawTag->laws++;
+        }
+    }
+}
+usort($data->parties, function($a, $b) {
+    return $b->deputies - $a->deputies;
+});
+
+
+
 // Law tags
 foreach ($data->deputies as $deputy) {
 
@@ -134,19 +162,6 @@ usort($tagsDeputyDistrict, function($a, $b) {
     }
 });
 $data->searchSuggestions = array_merge($tags, $tagsDeputyName, $tagsDeputyDistrict);
-
-// Recount parties' deputy count
-foreach ($data->parties as $party) {
-    $party->deputies = 0;
-    foreach ($data->deputies as $i => $deputy) {
-        if ($deputy->party === $party->name)  {
-            $party->deputies++;
-        }
-    }
-}
-usort($data->parties, function($a, $b) {
-    return $b->deputies - $a->deputies;
-});
 
 // Manual updates
 foreach ($data->deputies as $deputy) {
