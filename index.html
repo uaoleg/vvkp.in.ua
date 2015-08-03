@@ -72,7 +72,8 @@
                                     </button>
                                 </td>
                             </tr>
-                            <tr ng-repeat="deputy in searchedDeputies | filter:searchText" class="deputy-row">
+                            <tr ng-repeat="deputy in searchedDeputies | filter:searchText | limitTo:totalDisplayed"
+                                class="deputy-row">
                                 <td style="height: 84px; text-align: center; vertical-align: middle; width: 60px;">
                                     <div class="img-deputy-{{deputy.id}}"></div>
                                     <img ng-src="img/parties/{{deputy.party}}.png"

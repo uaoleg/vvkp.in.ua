@@ -106,6 +106,7 @@
             }
             $scope.searchTags.push({name: text});
             $scope.searchReloadResults();
+            resetLimit();
         };
 
         $scope.searchNextParty = function(partyName, dir) {
@@ -204,6 +205,14 @@
             });
             return results;
         };
+
+        function resetLimit(){
+            $scope.totalDisplayed = 10;
+        }
+
+        function incLimit(){
+            $scope.totalDisplayed += 10;
+        }
 
         function searchDeputies(deputies, parties, lawTags, searchTags) {
             var searchString = '',
@@ -327,7 +336,16 @@
                 $scope.searchReloadResults();
             });
 
+        window.onscroll = function(ev) {
+            console.log('scrolling');
+            console.log(window.innerHeight, window.scrollY, document.body.offsetHeight);
+            if ((window.innerHeight + window.scrollY) >= (document.body.offsetHeight - 200)) {
+                $timeout(incLimit);
+            }
+        };
+
         $scope.getUrlData();
+        resetLimit();
     }]);
 
     function transliterate(text, enToUk) {
