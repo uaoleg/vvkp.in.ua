@@ -38,6 +38,16 @@
             return laws;
         };
 
+        $scope.getDeputy = function(name, id) {
+            for (var i in $scope.deputies) {
+                if (id && ($scope.deputies[i].id === id)) {
+                    return $scope.deputies[i];
+                } else if (!id && ($scope.deputies[i].name.indexOf(name) !== -1)) {
+                    return $scope.deputies[i];
+                }
+            }
+        };
+
         $scope.getDeputyLaws = function(deputy, lawTagName) {
             var getDeputyLaws = function(deputy, lawTagName) {
                 var law,
@@ -75,10 +85,10 @@
         };
 
         $scope.deputyPage = function(deputy) {
-            $scope.deputy = deputy;
             var modalInstance = $modal.open({
                 templateUrl: 'template/deputy/page.html?vvkp-version-1.5.2',
-                scope: $scope
+                scope: $scope,
+                animation: true
             });
             modalInstance.rendered.then(function() {
                 var domain = document.domain;
@@ -87,11 +97,23 @@
                 }
                 changeCommentsUrl(document.domain + '/#/deputy/' + deputy.name + '/' + deputy.id);
             });
+            modalInstance.result.then(function() {
+                $scope.deputy = null;
+                $scope.updateUrl();
+            }, function() {
+                $scope.deputy = null;
+                $scope.updateUrl();
+            });
+            deputy.modalInstance = modalInstance;
+            $scope.deputy = deputy;
+            $scope.updateUrl();
             function changeCommentsUrl(newUrl) {
                 parser = document.getElementById('deputy-page-comments');
                 parser.innerHTML = '';
                 parser.innerHTML='<div class="fb-comments" data-href="'+newUrl+'" data-num-posts="20" data-width="570"></div>';
-                FB.XFBML.parse(parser);
+                if (typeof FB !== 'undefined') {
+                    FB.XFBML.parse(parser);
+                }
             }
         };
 
@@ -132,27 +154,40 @@
         };
 
         $scope.updateUrl = function() {
-            var codedString =  '';
-            if ($scope.searchTags.length) {
-                codedString += 'search/' + $scope.searchTags.map(function(tag){
+            var path =  '';
+            if ($scope.deputy) {
+                path = 'deputy/' + transliterate($scope.deputy.name) + '/' + $scope.deputy.id;
+            } else if ($scope.searchTags.length) {
+                console.log($scope.searchTags);
+                path = 'search/' + $scope.searchTags.map(function(tag){
                     return transliterate(tag.name);
                 }).join(',');
             }
-            $location.path(codedString);
+            $location.path(path);
         };
 
         $scope.getUrlData = function(){
-            var path = $location.path(),
+            var path = $location.path().split('/'),
+                action = path[1],
                 tag;
-            if (path.indexOf('/search/') === 0) {
-                path = path.replace('/search/', '');
-                $scope.searchTags = [];
-                path.split(',').forEach(function(tag) {
-                    tag = transliterate(transliterate(tag), true);
-                    if ($scope.searchTags.indexOf(tag) === -1) {
-                        $scope.searchTags.push(tag);
+            switch (action) {
+                case 'deputy':
+                    var deputy = $scope.getDeputy(transliterate(path[2], true), path[3]);
+                    if (deputy) {
+                        $scope.deputyPage(deputy);
                     }
-                });
+                    break;
+                case 'search':
+                    $scope.searchTags = [];
+                    if (path[2]) {
+                        path[2].split(',').forEach(function(tag) {
+                            tag = transliterate(transliterate(tag), true);
+                            if ($scope.searchTags.indexOf(tag) === -1) {
+                                $scope.searchTags.push({name: tag});
+                            }
+                        });
+                    }
+                    break;
             }
         };
 
@@ -400,6 +435,8 @@
                 $scope.parties = data.parties;
                 $scope.deputies = data.deputies;
                 $scope.searchSuggestions = data.searchSuggestions;
+                // Parse URL
+                $scope.getUrlData();
                 // Load default tag for domain
                 if ($scope.searchTags.length === 0) {
                     if ($location.host().indexOf('zrada') !== -1) {
@@ -408,6 +445,7 @@
                         $scope.searchAddTag('шокін-геть');
                     }
                 }
+                // Filter
                 $scope.searchReloadResults();
             });
 
@@ -416,11 +454,9 @@
                 $timeout(searchedDeputiesLimitInc);
             }
         };
-
-        $scope.getUrlData();
     }]);
 
-    function transliterate(text, enToUk) {
+    function transliterate(text, enToUk, test) {
         var
             uk = "щ    є  ж  ї  ё  х  ч  ш  ъ  ю  я  а б в г ґ д е э з і и ы й к л м н о п р с т у ф ц ь №".split(/ +/g),
             en = "shch ye zh yi yo kh ch sh '' iu ia a b v h g d e e z i y y j k l m n o p r s t u f c ' #".split(/ +/g),

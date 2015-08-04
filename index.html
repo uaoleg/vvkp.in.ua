@@ -22,7 +22,6 @@
     <body ng-app="vvkp-app" ng-controller="deputiesListCtrl">
         <div class="container">
             <div class="row">
-
                 <div class="col-md-8">
                     <h1 style="font-size: 42px; text-align: center;">Універсальний передвиборчий каталог депутатів</h1>
                     <br>
@@ -75,14 +74,16 @@
                             <tr ng-repeat="deputy in searchedDeputies | filter:searchText | limitTo:searchedDeputiesLimit"
                                 class="deputy-row">
                                 <td style="height: 84px; text-align: center; vertical-align: middle; width: 60px;">
-                                    <div class="img-deputy-{{deputy.id}}"></div>
+                                    <div ng-click="deputyPage(deputy)"
+                                         class="img-deputy-{{deputy.id}}"
+                                         style="cursor: pointer;"></div>
                                     <img ng-src="img/parties/{{deputy.party}}.png"
                                          class="deputy-party fading"
                                          ng-if="deputy.party"
                                          ng-click="searchAddTag(deputy.party)">
                                 </td>
                                 <td>
-                                    <h4 style="margin: 10px 0 0;">
+                                    <h4 ng-click="deputyPage(deputy)" style="cursor: pointer; display: inline-block; margin: 10px 0 0;">
                                         {{deputy.name}}
                                     </h4>
                                     <table class="deputy-info">
@@ -156,13 +157,11 @@
                         <a href="https://www.youtube.com/watch?v=1CLBANCVHTw" target="_blank" style="color: white; font-size: 42px; text-shadow: 2px 2px 4px black;">VVKP :-)</a>
                     </h3>
                 </div>
-
                 <div class="col-md-3" style="padding-top: 25px; text-align: center;">
                     <a class="github-button" href="https://github.com/uaoleg/vvkp.in.ua" data-style="mega" data-count-href="/uaoleg/vvkp.in.ua/stargazers" data-count-api="/repos/uaoleg/vvkp.in.ua#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star uaoleg/vvkp.in.ua on GitHub">Star</a>
                     <br><br>
                     <div class="fb-page" data-href="https://www.facebook.com/vvkp.in.ua" data-width="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/vvkp.in.ua"><a href="https://www.facebook.com/vvkp.in.ua">VVKP</a></blockquote></div></div>
                 </div>
-
             </div>
         </div>
 
