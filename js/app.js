@@ -48,6 +48,16 @@
             }
         };
 
+        $scope.getDeputyLawStatus = function(deputy, law) {
+            if (law.good && (deputy.lawTagsInfo[law.tagYes] && deputy.lawTagsInfo[law.tagYes].laws.indexOf(law.id) !== -1)) {
+                return 'success';
+            } else if (!law.good && (!deputy.lawTagsInfo[law.tagYes] || (deputy.lawTagsInfo[law.tagYes].laws.indexOf(law.id) === -1))) {
+                return 'success';
+            } else {
+                return 'danger';
+            }
+        };
+
         $scope.getDeputyLaws = function(deputy, lawTagName) {
             var getDeputyLaws = function(deputy, lawTagName) {
                 var law,
@@ -158,7 +168,6 @@
             if ($scope.deputy) {
                 path = 'deputy/' + transliterate($scope.deputy.name) + '/' + $scope.deputy.id;
             } else if ($scope.searchTags.length) {
-                console.log($scope.searchTags);
                 path = 'search/' + $scope.searchTags.map(function(tag){
                     return transliterate(tag.name);
                 }).join(',');

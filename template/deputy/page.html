@@ -58,7 +58,7 @@
             <td>
                 <p ng-repeat="law in laws"
                    style="font-size: 14px; line-height: 18px;">
-                    <b class="text-{{law.good && deputy.lawTagsInfo[law.tagYes].laws.indexOf(law.id) > -1 ? 'success' : 'danger'}}">
+                    <b class="text-{{getDeputyLawStatus(deputy, law)}}">
                         {{law.desc}}
                         <span ng-if="law.id === 'відвідуваність'">
                             ({{deputy.lawTagsInfo[law.tagYes].laws.indexOf(law.id) > -1 ? deputy.lawTagsInfo[law.tagYes].rate : deputy.lawTagsInfo[law.tagNo].rate}}%)
