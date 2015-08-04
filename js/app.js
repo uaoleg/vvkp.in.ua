@@ -366,7 +366,13 @@
                     });
                 }
                 stats.lawTags.sort(function(a, b) {
-                    return b.count[b.types[0]] / b.total - a.count[a.types[0]] / a.total;
+                    var type;
+                    if ($location.host().indexOf('zrada') !== -1) {
+                        type = 'danger';
+                    } else {
+                        type = 'success';
+                    }
+                    return b.count[type] / b.total - a.count[type] / a.total;
                 });
             }
             $scope.searchStats = stats;
