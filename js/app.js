@@ -77,7 +77,7 @@
         $scope.deputyPage = function(deputy) {
             $scope.deputy = deputy;
             var modalInstance = $modal.open({
-                templateUrl: 'template/deputy/page.html?vvkp-version-1.5.1',
+                templateUrl: 'template/deputy/page.html?vvkp-version-1.5.2',
                 scope: $scope
             });
             modalInstance.rendered.then(function() {
@@ -327,27 +327,47 @@
             }
 
             if (!hasLawTag) {
+                $scope.lawTags.forEach(function(lawTag) {
+                    statsLawTags[lawTag.name] = 0;
+                });
                 deputies.forEach(function(deputy) {
-                    deputy.lawTags.forEach(function(lawTag) {
-                        if (!statsLawTags[lawTag]) {
-                            statsLawTags[lawTag] = 1;
-                        } else {
-                            statsLawTags[lawTag]++;
-                        }
+                    deputy.lawTags.forEach(function(lawTagName) {
+                        var lawTag = $scope.getLawTag(lawTagName);
+                        statsLawTags[lawTag.name] += deputy.lawTagsInfo[lawTag.name].laws.length;
                     });
                 });
-               for (var lawTag in statsLawTags) {
-                    var total = stats.lawTagsForParty ? $scope.getParty(stats.lawTagsForParty).deputies : deputies.length,
-                        lawTagOpposite = $scope.getLawTag(lawTag).opposite;
+                for (var lawTagName in statsLawTags) {
+                    var lawTag = $scope.getLawTag(lawTagName),
+                        lawTagOpposite = $scope.getLawTag(lawTag.opposite),
+                        count = {},
+                        statsName = '',
+                        statsTypes = [],
+                        statsTotal = 0;
+                    count[lawTag.type] = statsLawTags[lawTag.name];
+                    count[lawTagOpposite.type] = statsLawTags[lawTagOpposite.name];
+                    delete statsLawTags[lawTagOpposite.name];
+                    if (count[lawTag.type] > count[lawTagOpposite.type]) {
+                        statsName = lawTag.name;
+                        statsTypes.push(lawTag.type, lawTagOpposite.type);
+                    } else {
+                        statsName = lawTagOpposite.name;
+                        statsTypes.push(lawTagOpposite.type, lawTag.type);
+                    }
+                    if (hasParty) {
+                        statsTotal = $scope.getLawTag(lawTag.name).laws * $scope.getParty(stats.lawTagsForParty).deputies;
+                    } else {
+                        statsTotal = $scope.getLawTag(lawTag.name).laws * $scope.deputies.length;
+                    }
                     stats.lawTags.push({
-                        name: lawTag,
-                        count: statsLawTags[lawTag],
-                        percent1: statsLawTags[lawTag] * 100 / total,
-                        percent2: statsLawTags[lawTagOpposite] * 100 / total
+                        name: statsName,
+                        count: count,
+                        total: statsTotal,
+                        types: statsTypes
                     });
                 }
-                stats.lawTags.sort(function(a, b) { return b.count - a.count; });
-                stats.lawTags = stats.lawTags.slice(0, $scope.lawTags.length / 2);
+                stats.lawTags.sort(function(a, b) {
+                    return b.count[b.types[0]] / b.total - a.count[a.types[0]] / a.total;
+                });
             }
             $scope.searchStats = stats;
 
@@ -365,7 +385,7 @@
         };
 
         // Load data
-        $http.get('data/data.min.js?vvkp-version-1.5.1')
+        $http.get('data/data.min.js?vvkp-version-1.5.2')
             .then(function(response){
                 var binStr = atob(response.data),
                     data = JSON.parse(pako.inflate(binStr, { to: 'string' }));
