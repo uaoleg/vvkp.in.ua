@@ -1,3 +1,9 @@
+[ng\:cloak],
+[ng-cloak],
+.ng-cloak {
+    display: none !important;
+}
+
 [class^="img-deputy-"],
 [class*=" img-deputy-"] {
     border-radius: 4px;
