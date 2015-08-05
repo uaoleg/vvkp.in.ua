@@ -79,9 +79,10 @@
 .progress-text-centered span {
     color: #fff;
     display: block;
-    margin-top: -2px;
+    margin-top: -1px;
     position: absolute;
-    text-shadow: 0px 0px 5px #000;
+    text-shadow: 0px 0px 3px #000;
+    text-transform: uppercase;
     width: 100%;
  }
 
