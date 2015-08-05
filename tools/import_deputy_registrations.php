@@ -2,7 +2,7 @@
 
 require_once './lib/HtmlDomParser/HtmlDomParser.php';
 
-$datafile = '../data/data.raw.json';
+$datafile = '../data/data.json';
 
 // Get data
 $data = file_get_contents($datafile);

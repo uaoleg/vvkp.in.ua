@@ -8,16 +8,37 @@
         <link rel="shortcut icon" href="img/icon.ico">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ng-tags-input/3.0.0/ng-tags-input.min.css"/>
-        <link rel="stylesheet" href="css/bootstrap-theme-paper.min.css?vvkp-version-1.5.2">
-        <link rel="stylesheet" href="css/styles.css?vvkp-version-1.5.2">
         <script defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.1/ui-bootstrap-tpls.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ng-tags-input/3.0.0/ng-tags-input.min.js"></script>
-        <script src="tools/js/pako.min.js"></script>
         <title>Всеукраїнський Вебсайт Контролю Політиків</title>
+        <script type="text/javascript">
+            if (['vvkp.in.ua', 'zrada.today', 'peremoga.today'].indexOf(document.domain) !== -1) {
+                MIN = '.min';
+            } else {
+                MIN = '';
+            }
+            function headAppendScript(src) {
+                var head = document.getElementsByTagName('head')[0];
+                var js = document.createElement('script');
+                js.type = 'text/javascript';
+                js.src = src.replace('.js', MIN + '.js') + '?vvkp-version-1.5.2';
+                head.appendChild(js);
+            }
+            function headAppendStyle(href) {
+                var head = document.getElementsByTagName('head')[0];
+                var link = document.createElement('link');
+                link.rel = 'stylesheet';
+                link.href = href.replace('.css', MIN + '.css') + '?vvkp-version-1.5.2';
+                head.appendChild(link);
+            }
+            headAppendScript('js/app.js');
+            headAppendStyle('css/bootstrap-theme-paper.css');
+            headAppendStyle('css/styles.css');
+        </script>
     </head>
-    <body ng-app="vvkp-app" ng-controller="deputiesListCtrl">
+    <body ng-app="vvkp-app" ng-controller="deputiesListCtrl" onload="headAppendStyle('css/deputies.css');">
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
@@ -173,9 +194,6 @@
                         js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=576873339001045";
                         fjs.parentNode.insertBefore(js, fjs);
                     }(document, 'script', 'facebook-jssdk'));</script>
-
-        <script src="js/app.js?vvkp-version-1.5.2"></script>
-        <link rel="stylesheet" href="css/deputies.css?vvkp-version-1.5.2">
 
         <script>
             (function (i, s, o, g, r, a, m) {

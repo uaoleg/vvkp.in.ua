@@ -321,7 +321,7 @@
                 return a.name.localeCompare(b.name);
             });
             if (!stats.lawTagsTypes) {
-                if ($location.host().indexOf('zrada') !== -1) {
+                if ($location.host().indexOf('zrada.today') !== -1) {
                     stats.lawTagsTypes = ['danger', 'success'];
                 } else {
                     stats.lawTagsTypes = ['success', 'danger'];
@@ -411,7 +411,7 @@
                 }
                 stats.lawTags.sort(function(a, b) {
                     var type;
-                    if ($location.host().indexOf('zrada') !== -1) {
+                    if ($location.host().indexOf('zrada.today') !== -1) {
                         type = 'danger';
                     } else {
                         type = 'success';
@@ -435,20 +435,18 @@
         };
 
         // Load data
-        $http.get('data/data.min.js?vvkp-version-1.5.2')
+        $http.get('data/data' + MIN + '.json?vvkp-version-1.5.2')
             .then(function(response){
-                var binStr = atob(response.data),
-                    data = JSON.parse(pako.inflate(binStr, { to: 'string' }));
-                $scope.laws = data.laws;
-                $scope.lawTags = data.lawTags;
-                $scope.parties = data.parties;
-                $scope.deputies = data.deputies;
-                $scope.searchSuggestions = data.searchSuggestions;
+                $scope.laws = response.data.laws;
+                $scope.lawTags = response.data.lawTags;
+                $scope.parties = response.data.parties;
+                $scope.deputies = response.data.deputies;
+                $scope.searchSuggestions = response.data.searchSuggestions;
                 // Parse URL
                 $scope.getUrlData();
                 // Load default tag for domain
                 if ($scope.searchTags.length === 0) {
-                    if ($location.host().indexOf('zrada') !== -1) {
+                    if ($location.host().indexOf('zrada.today') !== -1) {
                         $scope.searchAddTag('шокін-ок');
                     } else if ($location.host().indexOf('peremoga') !== -1) {
                         $scope.searchAddTag('шокін-геть');

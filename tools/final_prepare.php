@@ -1,6 +1,6 @@
 <?php
 
-$datafile = '../data/data.raw.json';
+$datafile = '../data/data.json';
 
 // Get data
 $data = file_get_contents($datafile);
@@ -176,4 +176,29 @@ foreach ($data->deputies as $deputy) {
 
 $json = json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 file_put_contents($datafile, $json);
-echo $json;
+
+// gzip
+$compressDir = function($dir) use(&$compressDir, $s3) {
+    foreach (new DirectoryIterator($dir) as $file) {
+        if ($file->isDir() && (!$file->isDot())) {
+            $compressDir($file->getPathname());
+            continue;
+        }
+        if (!$file->isFile()) {
+            continue;
+        }
+        if (!in_array($file->getExtension(), ['html', 'js', 'css', 'json'])) {
+            continue;
+        }
+        if (mb_strpos($file->getFilename(), '.min.') !== false) {
+            continue;
+        }
+        $minName = mb_substr($file->getFilename(), 0, -mb_strlen($file->getExtension())) . 'min.' . $file->getExtension();
+        $minPath = str_replace($file->getFilename(), $minName, $file->getRealPath());
+        system("gzip --best < {$file->getRealPath()} > {$minPath}");
+    }
+};
+system("gzip --best < ../index.html > ../index.min.html");
+foreach (['../data', '../js', '../css'] as $dir) {
+    $compressDir($dir);
+}

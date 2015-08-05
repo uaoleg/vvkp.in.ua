@@ -1,6 +1,6 @@
 <?php
 
-$datafile = '../data/data.raw.json';
+$datafile = '../data/data.json';
 $url = isset($_GET['url']) ? $_GET['url'] : '';
 
 // Get data
