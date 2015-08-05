@@ -1,8 +1,10 @@
 (function (angular) {
+    
+    //TODO: Make correct file structure.
+    angular.module('vvkp-app', ['ui.bootstrap', 'ngTagsInput']);
 
-    var app = angular.module('vvkp-app', ['ui.bootstrap', 'ngTagsInput']);
-
-    app.controller('deputiesListCtrl', ['$scope', '$http', '$timeout', '$location', '$modal', function($scope, $http, $timeout, $location, $modal) {
+    angular.module('vvkp-app')
+      .controller('deputiesListCtrl', ['$scope', '$http', '$timeout', '$location', '$modal', function($scope, $http, $timeout, $location, $modal) {
         $scope.searchedDeputies = [];
         $scope.searchTags = [];
         $scope.searchedDeputiesFiltering = false;
@@ -462,8 +464,34 @@
                 $timeout(searchedDeputiesLimitInc);
             }
         };
-    }]);
+    }])
+      .directive('stickyElm', function(){
+        return {
+            restrict: 'A',
+            scope:{
+                stickyClass: '@'
+            },
+            link: function(scope, elm, attrs){
+                var isFixed = false;
+                var posTop = elm[0].getBoundingClientRect().top + getWindowScroll();
+                window.addEventListener('scroll', scrollHandler, false);
+                function scrollHandler(){
+                    if(!isFixed && getWindowScroll() > posTop ){
+                        isFixed = true;
+                        elm.addClass(scope.stickyClass);
+                    } else if(isFixed && getWindowScroll() < posTop ) {
+                        isFixed = false;
+                        elm.removeClass(scope.stickyClass);
+                    }
+                }
 
+                function getWindowScroll () {
+                    return  window.scrollY;
+                }
+
+            }
+        };
+    });
     function transliterate(text, enToUk, test) {
         var
             uk = "щ    є  ж  ї  ё  х  ч  ш  ъ  ю  я  а б в г ґ д е э з і и ы й к л м н о п р с т у ф ц ь №".split(/ +/g),
