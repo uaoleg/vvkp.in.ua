@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ng-tags-input/3.0.0/ng-tags-input.min.css"/>
         <script type="text/javascript">
-            if (['vvkp.in.ua', 'zrada.today', 'peremoga.today'].indexOf(document.domain) !== -1) {
+            if (['dev.vvkp.in.ua', 'vvkp.in.ua', 'zrada.today', 'peremoga.today'].indexOf(document.domain) !== -1) {
                 MIN = '.min';
             } else {
                 MIN = '';
@@ -19,7 +19,11 @@
                 var head = document.getElementsByTagName('head')[0];
                 var js = document.createElement('script');
                 js.type = 'text/javascript';
-                js.src = src.replace('.js', MIN + '.js') + '?vvkp-version-1.5.2';
+                if (src.indexOf('://') !== -1) {
+                    js.src = src;
+                } else {
+                    js.src = src.replace('.js', MIN + '.js') + '?vvkp-version-1.5.2';
+                }
                 if (typeof attrs === 'object') {
                     for (var attrName in attrs) {
                         js[attrName] = attrs[attrName];
@@ -31,7 +35,11 @@
                 var head = document.getElementsByTagName('head')[0];
                 var link = document.createElement('link');
                 link.rel = 'stylesheet';
-                link.href = href.replace('.css', MIN + '.css') + '?vvkp-version-1.5.2';
+                if (href.indexOf('://') !== -1) {
+                    link.href = href;
+                } else {
+                    link.href = href.replace('.css', MIN + '.css') + '?vvkp-version-1.5.2';
+                }
                 head.appendChild(link);
             }
             headAppendStyle('css/bootstrap-theme-paper.css');
