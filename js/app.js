@@ -456,6 +456,7 @@
                 $scope.searchReloadResults();
             });
 
+        // Lazy loading
         window.onscroll = function() {
             if ((window.innerHeight + window.scrollY) >= (document.body.offsetHeight - 200)) {
                 $timeout(searchedDeputiesLimitInc);
@@ -500,3 +501,50 @@
     });
 
 })(window.angular);
+
+window.onload = function() {
+
+    // Secondary styles
+    headAppendStyle('css/deputies.css');
+
+    // Github
+    headAppendScript('https://buttons.github.io/buttons.js', {'id': 'github-bjs'});
+
+    // Facebook
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id))
+            return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=576873339001045";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+    // Google Analytics
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-64746354-1', 'auto', {'allowLinker': true});
+    ga('require', 'linker');
+    switch (document.domain) {
+        default:
+            ga('linker:autoLink', ['peremoga.today', 'zrada.today'] );
+            break;
+        case 'peremoga.today':
+            ga('linker:autoLink', ['vvkp.in.ua', 'zrada.today'] );
+            break;
+        case 'zrada.today':
+            ga('linker:autoLink', ['vvkp.in.ua', 'peremoga.today'] );
+            break;
+    }
+    ga('send', 'pageview');
+};
