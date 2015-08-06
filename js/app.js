@@ -59,7 +59,8 @@
         };
 
         $scope.getDeputyLaws = function(deputy, lawTagName) {
-            var getDeputyLaws = function(deputy, lawTagName) {
+            var laws,
+                getDeputyLaws = function(deputy, lawTagName) {
                 var law,
                     laws = [];
                 if (!deputy.lawTagsInfo[lawTagName]) {
@@ -81,8 +82,23 @@
                     }
                 });
                 return laws;
-            }
-            return getDeputyLaws(deputy, lawTagName).concat(getDeputyLaws(deputy, $scope.getLawTag(lawTagName).opposite));
+            };
+            laws = getDeputyLaws(deputy, lawTagName).concat(getDeputyLaws(deputy, $scope.getLawTag(lawTagName).opposite));
+            laws.sort(function(a, b) {
+                var aStatus = ($scope.getDeputyLawStatus(deputy, a)),
+                    bStatus = ($scope.getDeputyLawStatus(deputy, b));
+                if ((aStatus === 'success') && (bStatus === 'danger')) {
+                    return -1;
+                } else if ((aStatus === 'danger') && (bStatus === 'success')) {
+                    return 1;
+                }
+                if (a.no * 1 < b.no * 1) {
+                    return -1;
+                } else {
+                    return 1;
+                }
+            });
+            return laws;
         };
 
         $scope.isDeputyLawTagRateBigger = function(deputy, lawTagName) {

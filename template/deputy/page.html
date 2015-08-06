@@ -73,8 +73,8 @@
             </td>
             <td style="width: 200px;">
                 <progress>
-                    <bar value="deputy.lawTagsInfo[lawTag.name].rate" type="{{lawTag.type}}"></bar>
-                    <bar value="100-deputy.lawTagsInfo[lawTag.name].rate" type="{{getLawTag(lawTag.opposite).type}}"></bar>
+                    <bar value="lawTag.type == 'success' ? deputy.lawTagsInfo[lawTag.name].rate : 100-deputy.lawTagsInfo[lawTag.name].rate" type="success"></bar>
+                    <bar value="lawTag.type == 'danger' ? deputy.lawTagsInfo[lawTag.name].rate : 100-deputy.lawTagsInfo[lawTag.name].rate" type="danger"></bar>
                 </progress>
                 <div class="progress-title">{{lawTag.name}}</div>
             </td>

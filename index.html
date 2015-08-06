@@ -161,13 +161,13 @@
                                                      class="deputy-tag progress progress-text-centered"
                                                      style="font-weight: bold; height: 19px; margin: 0 0 10px;">
                                                     <div role="progressbar" aria-valuenow="{{deputy.lawTagsInfo[lawTag.name].rate}}" aria-valuemin="0" aria-valuemax="100"
-                                                         class="progress-bar progress-bar-{{lawTag.type}}"
-                                                         style="width: {{deputy.lawTagsInfo[lawTag.name].rate}}%;">
+                                                         class="progress-bar progress-bar-success"
+                                                         style="width: {{lawTag.type == 'success' ? deputy.lawTagsInfo[lawTag.name].rate : 100-deputy.lawTagsInfo[lawTag.name].rate}}%;">
                                                         <span>{{lawTag.name}}</span>
                                                     </div>
                                                     <div role="progressbar" aria-valuenow="{{100-deputy.lawTagsInfo[lawTag.name].rate}}" aria-valuemin="0" aria-valuemax="100"
-                                                         class="progress-bar progress-bar-{{getLawTag(lawTag.opposite).type}}"
-                                                         style="width: {{100-deputy.lawTagsInfo[lawTag.name].rate}}%;">
+                                                         class="progress-bar progress-bar-danger"
+                                                         style="width: {{lawTag.type == 'danger' ? deputy.lawTagsInfo[lawTag.name].rate : 100-deputy.lawTagsInfo[lawTag.name].rate}}%;">
                                                     </div>
                                                 </div>
                                             </td>
