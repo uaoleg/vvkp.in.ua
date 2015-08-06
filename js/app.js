@@ -318,13 +318,6 @@
                 if (lawTags_lc.indexOf(searchString) > -1) {
                     hasLawTag = true;
                     stats.partiesForTag = option.name;
-                    if (!stats.lawTagsTypes) {
-                        var lawTagType = $scope.getLawTag(option.name).type;
-                        stats.lawTagsTypes = [
-                            lawTagType,
-                            lawTagType === 'success' ? 'danger' : 'success'
-                        ];
-                    }
                 }
             });
             deputies.sort(function(a, b) {
@@ -336,13 +329,6 @@
                 }
                 return a.name.localeCompare(b.name);
             });
-            if (!stats.lawTagsTypes) {
-                if ($location.host().indexOf('zrada.today') !== -1) {
-                    stats.lawTagsTypes = ['danger', 'success'];
-                } else {
-                    stats.lawTagsTypes = ['success', 'danger'];
-                }
-            }
 
             if (!hasParty) {
                 $scope.lawTags.forEach(function(lawTag) {
@@ -382,7 +368,11 @@
                     });
                 }
                 stats.parties.sort(function(a, b) {
-                    return b.count[stats.lawTagsTypes[0]] / b.total - a.count[stats.lawTagsTypes[0]] / a.total;
+                    var type = 'success';
+                    if (stats.partiesForTag) {
+                        type = $scope.getLawTag(stats.partiesForTag).type;
+                    }
+                    return b.count[type] / b.total - a.count[type] / a.total;
                 });
             }
 

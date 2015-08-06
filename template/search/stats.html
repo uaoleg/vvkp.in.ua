@@ -4,13 +4,12 @@
         <td ng-if="searchStats.parties.length">
             <table class="table table-hover table-no-border">
                 <tr ng-repeat="party in searchStats.parties"
-                    ng-init="lawTagType1 = searchStats.lawTagsTypes[0]; lawTagType2 = searchStats.lawTagsTypes[1]"
                     ng-click="searchAddTag(party.name)" style="cursor: pointer;">
                     <td style="height: 57px;">
                         <img ng-src="img/parties/100x35/{{party.name}}.png" class="deputy-party">
                         <progress max="party.total" style="margin: 10px 0 0; opacity: 0.5;">
-                            <bar value="party.count[lawTagType1]" type="{{lawTagType1}}"></bar>
-                            <bar value="party.count[lawTagType2]" type="{{lawTagType2}}"></bar>
+                            <bar value="party.count.success" type="success"></bar>
+                            <bar value="party.count.danger" type="danger"></bar>
                         </progress>
                     </td>
                     <td style="padding: 10px 10px 10px 30px; vertical-align: middle;">
