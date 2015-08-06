@@ -55,13 +55,12 @@
                 <div class="col-md-8">
                     <h1 style="font-size: 42px; text-align: center;">Універсальний передвиборчий каталог депутатів</h1>
                     <br>
+                    <div sticky-elm sticky-class="searchbar--sticky" style="margin-bottom: -23px;">
                     <table class="table table-striped">
                         <thead>
                             <tr>
                                 <td>
-                                    <div class="form-group SearchBar"
-                                         sticky-elm
-                                         sticky-class="SearchBar--sticky">
+                                    <div class="form-group">
                                         <tags-input on-tag-added="searchReloadResults()"
                                                     on-tag-removed="searchReloadResults()"
                                                     replace-spaces-with-dashes="false"
@@ -83,11 +82,9 @@
                                 </td>
                             </tr>
                         </thead>
-                    </table>
-                    <table class="table table-striped" ng-cloak>
-                        <tbody style="{{searchedDeputiesFiltering ? 'opacity: 0.5' : ''}}">
+                        <tbody>
                             <tr>
-                                <td colspan="5">
+                                <td>
                                     <b style="display: inline-block; height: 28px; vertical-align: middle;">
                                         Знайдено депутатів: {{searchedDeputies.length}}
                                     </b>
@@ -103,6 +100,12 @@
                                     </button>
                                 </td>
                             </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                    <table class="table table-striped" ng-cloak>
+                        <tbody style="{{searchedDeputiesFiltering ? 'opacity: 0.5' : ''}}">
+                            <tr></tr>
                             <tr ng-repeat="deputy in searchedDeputies | filter:searchText | limitTo:searchedDeputiesLimit"
                                 class="deputy-row">
                                 <td style="height: 84px; text-align: center; vertical-align: middle; width: 60px;">
@@ -189,7 +192,7 @@
                         <a href="https://www.youtube.com/watch?v=1CLBANCVHTw" target="_blank" style="color: white; font-size: 42px; text-shadow: 2px 2px 4px black;">VVKP :-)</a>
                     </h3>
                 </div>
-                <div class="col-md-3" style="padding-top: 25px; text-align: center;">
+                <div class="col-md-3" style="padding-top: 25px; text-align: center; z-index: 15;">
                     <a class="github-button" href="https://github.com/uaoleg/vvkp.in.ua" data-style="mega" data-count-href="/uaoleg/vvkp.in.ua/stargazers" data-count-api="/repos/uaoleg/vvkp.in.ua#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star uaoleg/vvkp.in.ua on GitHub">Star</a>
                     <br><br>
                     <div class="fb-page" data-href="https://www.facebook.com/vvkp.in.ua" data-width="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/vvkp.in.ua"><a href="https://www.facebook.com/vvkp.in.ua">VVKP</a></blockquote></div></div>

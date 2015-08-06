@@ -86,7 +86,7 @@
     width: 100%;
  }
 
- .progress-title {
+.progress-title {
     color: #bbbbbb;
     display: block;
     font-size: 80%;
@@ -94,7 +94,7 @@
     text-align: right;
  }
 
- .progress-title:before {
+.progress-title:before {
      content: '\2014 \00A0';
  }
 
@@ -104,6 +104,40 @@
 
 .progress-bar:last-child {
     border-radius: 0;
+}
+
+
+.searchbar--sticky {
+    position: fixed;
+    left: 0;
+    background: #ffffff;
+    top: 0;
+    margin-left: 0;
+    width: 100%;
+    z-index: 14;
+}
+
+.searchbar--sticky .host {
+    margin-bottom: 0;
+}
+
+.searchbar--sticky .table {
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0px 2px 4px #999;
+    width: 750px;
+    margin: 0 auto;
+    left: -195px;
+    position: relative;
+}
+
+.searchbar--sticky .table tr:last-child,
+.searchbar--sticky .table tr:last-child td:first-child {
+    border-bottom-left-radius: 4px;
+}
+
+.searchbar--sticky .table tr:last-child,
+.searchbar--sticky .table tr:last-child td:last-child {
+    border-bottom-right-radius: 4px;
 }
 
 .table-no-border th, .table-no-border td {
@@ -130,27 +164,4 @@ tags-input .tags .tag-item {
 
 tags-input .tags .tag-item .remove-button {
     color: #ffffff;
-}
-
-
-.SearchBar--sticky{
-    position: fixed;
-    left: 0;
-    background: #ffffff;
-    top: 0;
-    margin-left: 0;
-    width: 100%;
-    z-index: 14;
-}
-
-.SearchBar--sticky .host{
-    margin-bottom: 0;
-}
-
-.SearchBar--sticky .tags{
-    width: 730px;
-    margin: 0 auto;
-    left: -190px;
-    position: relative;
-
 }
