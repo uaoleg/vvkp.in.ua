@@ -131,3 +131,26 @@ tags-input .tags .tag-item {
 tags-input .tags .tag-item .remove-button {
     color: #ffffff;
 }
+
+
+.SearchBar--sticky{
+    position: fixed;
+    left: 0;
+    background: #ffffff;
+    top: 0;
+    margin-left: 0;
+    width: 100%;
+    z-index: 14;
+}
+
+.SearchBar--sticky .host{
+    margin-bottom: 0;
+}
+
+.SearchBar--sticky .tags{
+    width: 730px;
+    margin: 0 auto;
+    left: -190px;
+    position: relative;
+
+}
