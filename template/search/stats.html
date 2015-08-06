@@ -7,7 +7,7 @@
                     ng-init="lawTagType1 = searchStats.lawTagsTypes[0]; lawTagType2 = searchStats.lawTagsTypes[1]"
                     ng-click="searchAddTag(party.name)" style="cursor: pointer;">
                     <td style="height: 57px;">
-                        <img ng-src="img/parties/{{party.name}}.png" class="deputy-party">
+                        <img ng-src="img/parties/100x35/{{party.name}}.png" class="deputy-party">
                         <progress max="party.total" style="margin: 10px 0 0; opacity: 0.5;">
                             <bar value="party.count[lawTagType1]" type="{{lawTagType1}}"></bar>
                             <bar value="party.count[lawTagType2]" type="{{lawTagType2}}"></bar>
@@ -62,7 +62,7 @@
                 <span class="glyphicon glyphicon-menu-up"></span>
             </div>
             <div>
-                <img ng-src="../../img/parties/{{searchStats.lawTagsForParty}}.png" class="deputy-party" style="cursor: default;">
+                <img ng-src="../../img/parties/100x35/{{searchStats.lawTagsForParty}}.png" class="deputy-party" style="cursor: default;">
             </div>
             <div ng-click="searchNextParty(searchStats.lawTagsForParty); $event.stopPropagation();" style="cursor: pointer; margin-top: 20px;">
                 <span class="glyphicon glyphicon-menu-down"></span>
