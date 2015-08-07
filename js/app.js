@@ -1,5 +1,5 @@
 (function (angular) {
-    
+
     //TODO: Make correct file structure.
     angular.module('vvkp-app', ['ui.bootstrap', 'ngTagsInput']);
 
@@ -136,6 +136,7 @@
             $scope.deputy = deputy;
             $scope.updateUrl();
             function changeCommentsUrl(newUrl) {
+                return;
                 parser = document.getElementById('deputy-page-comments');
                 parser.innerHTML = '';
                 parser.innerHTML='<div class="fb-comments" data-href="'+newUrl+'" data-num-posts="20" data-width="570"></div>';
