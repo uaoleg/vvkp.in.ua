@@ -1,4 +1,4 @@
-<div ng-init="laws = getDeputyLaws(deputy, lawTag.name)" style="width: 400px;">
+<div ng-init="laws = getDeputyLaws(deputy, lawTag.name)" style="max-height: 300px; overflow-y: auto; width: 400px;">
     <p ng-repeat="law in laws" style="font-size: 14px; line-height: 18px;">
         <b class="text-{{getDeputyLawStatus(deputy, law)}}">
             {{law.desc}}
