@@ -302,15 +302,26 @@
                 searchString = option.name.toLowerCase();
                 searchTags_lc.push(searchString);
                 deputies = deputies.filter(function(item) {
-                    var tagIndex = item.lawTags.indexOf(searchString);
+                    var tagIndex;
+                    // Check name
+                    if (item.name.toLowerCase().indexOf(searchString) > -1) {
+                        return true;
+                    }
+                    // Check if deputy was fired
+                    if (item.dateAuthorityStop && (item.dateAuthorityStop * 1000 < new Date().getTime())) {
+                        return false;
+                    }
+                    // Check law tags
+                    tagIndex = item.lawTags.indexOf(searchString);
                     if (tagIndex > -1) {
                         if (!item.searchRate) {
                             item.searchRate = item.lawTagsInfo[item.lawTags[tagIndex]].rate;
                         }
                         return true;
                     }
+                    // Check party
                     if (item.party.toLowerCase().indexOf(searchString) > -1) return true;
-                    if (item.name.toLowerCase().indexOf(searchString) > -1) return true;
+                    // Check district
                     if (item.district && item.district.text.toLowerCase().indexOf(searchString) > -1) return true;
                     return false;
                 });

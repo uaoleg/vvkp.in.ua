@@ -10,6 +10,9 @@ $data = json_decode($data);
 foreach ($data->parties as $party) {
     $party->deputies = 0;
     foreach ($data->deputies as $i => $deputy) {
+        if ($deputy->dateAuthorityStop && ($deputy->dateAuthorityStop < time())) {
+            continue;
+        }
         if ($deputy->party === $party->name)  {
             $party->deputies++;
         }

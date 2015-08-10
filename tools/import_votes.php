@@ -1,5 +1,8 @@
 <?php
 
+require_once './lib/HtmlDomParser/HtmlDomParser.php';
+$parser = new \Sunra\PhpSimple\HtmlDomParser();
+
 $datafile = '../data/data.json';
 $url = isset($_GET['url']) ? $_GET['url'] : '';
 
@@ -27,7 +30,6 @@ foreach ($data->lawTags as $lawTag) {
 }
 
 foreach ($data->laws as $law) {
-
     if (!$law->urlVoting) {
         continue;
     }
@@ -39,21 +41,27 @@ foreach ($data->laws as $law) {
     echo "{$law->id}\n";
     $content = file_get_contents($law->urlVoting);
     $content = iconv('windows-1251', 'utf-8', $content);
+    $html = $parser->str_get_html($content);
+
+    // Parse date
+    $lawInfo = $html->find('.head_gol', 0)->plaintext;
+    preg_match('/\d\d\.\d\d\.\d\d\d\d/', $lawInfo, $matches);
+    $law->date = strtotime($matches[0]);
 
     // Parse votes
-    $dom = new DomDocument();
-    @$dom->loadHTML($content);
-    $finder = new DomXPath($dom);
-    $votes = $finder->query("//*[contains(concat(' ', normalize-space(@class), ' '), ' golos ')]");
+    $votes = $html->find('.golos');
+    $deputyNo = 0;
+    foreach ($data->deputies as $deputy) {
 
-    // Update data
-    foreach ($data->deputies as $i => $deputy) {
+        if (($deputy->dateAuthorityStart > $law->date) || ($deputy->dateAuthorityStop && ($deputy->dateAuthorityStop < $law->date))) {
+            continue;
+        }
 
         $deputy->laws = (array)$deputy->laws;
         $deputy->lawTagsInfo = (array)$deputy->lawTagsInfo;
 
         // Get vote
-        $voteStr = $votes->item($i)->nodeValue;
+        $voteStr = strip_tags($votes[$deputyNo]->plaintext);
         if (($law->urlVoting === 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049') && in_array($deputy->name, array('Кулініч Олег Іванович', 'Мельничук Сергій Петрович', 'Рудик Сергій Ярославович'))) {
             $vote = 'yes';
         } else {
@@ -77,6 +85,8 @@ foreach ($data->laws as $law) {
         // Append law
         $deputy->laws[$law->id] = $vote;
 
+        // Next deputy index
+        $deputyNo++;
     }
 
 }
