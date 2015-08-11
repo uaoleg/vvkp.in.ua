@@ -23403,21 +23403,7 @@
             "party": "Батьківщина",
             "lawTags": [],
             "laws": [],
-            "lawTagsInfo": {
-                "ретроград": {
-                    "laws": [
-                        "2172",
-                        "1058",
-                        "1565",
-                        "1580",
-                        "2087а",
-                        "2250",
-                        "2258",
-                        "2381"
-                    ],
-                    "rate": 100
-                }
-            },
+            "lawTagsInfo": [],
             "lawTagsRate": [],
             "dateAuthorityStart": 1417035600
         },
@@ -29424,2629 +29410,3067 @@
             "name": "Абдуллін Олександр Рафкатович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "2524"
+            "deputyId": "2524",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Аваков Арсен Борисович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15650"
+            "deputyId": "15650",
+            "dateAuthorityStop": "2014-12-02"
         },
         {
             "name": "Агафонова Наталія Володимирівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15669"
+            "deputyId": "15669",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Алексєєв Ігор Сергійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "16067"
+            "deputyId": "16067",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Алєксєєв Сергій Олегович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17993"
+            "deputyId": "17993",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Амельченко Василь Васильович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "12290"
+            "deputyId": "12290",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Андрієвський Дмитро Йосипович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15839"
+            "deputyId": "15839",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Антонищак Андрій Федорович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17983"
+            "deputyId": "17983",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Арешонков Володимир Юрійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18058"
+            "deputyId": "18058",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Ар’єв Володимир Ігорович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "11118"
+            "deputyId": "11118",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Артеменко Андрій Вікторович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18049"
+            "deputyId": "18049",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Артюшенко Ігор Андрійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18059"
+            "deputyId": "18059",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Атрошенко Владислав Анатолійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "5584"
+            "deputyId": "5584",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Бабак Альона Валеріївна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18007"
+            "deputyId": "18007",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Бабенко Валерій Борисович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "4427"
+            "deputyId": "4427",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Бабій Юрій Юрійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18604"
+            "deputyId": "18604",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Бакулін Євген Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18060"
+            "deputyId": "18060",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Бакуменко Олександр Борисович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17994"
+            "deputyId": "17994",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Балицький Євген Віталійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15762"
+            "deputyId": "15762",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Балога Віктор Іванович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "5566"
+            "deputyId": "5566",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Балога Іван Іванович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18061"
+            "deputyId": "18061",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Балога Павло Іванович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15757"
+            "deputyId": "15757",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Бандуров Володимир Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15761"
+            "deputyId": "15761",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Барвіненко Віталій Дмитрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "9776"
+            "deputyId": "9776",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Барна Олег Степанович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18062"
+            "deputyId": "18062",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Барна Степан Степанович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18207"
+            "deputyId": "18207",
+            "dateAuthorityStop": "2015-05-13"
         },
         {
             "name": "Батенко Тарас Іванович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18063"
+            "deputyId": "18063",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Бахтеєва Тетяна Дмитрівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "5520"
+            "deputyId": "5520",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Безбах Яків Якович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15734"
+            "deputyId": "15734",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Береза Борислав Юхимович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18064"
+            "deputyId": "18064",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Береза Юрій Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17949"
+            "deputyId": "17949",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Березкін Станіслав Семенович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "14393"
+            "deputyId": "14393",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Березюк Олег Романович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18027"
+            "deputyId": "18027",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Бєлькова Ольга Валентинівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15684"
+            "deputyId": "15684",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Білецький Андрій Євгенійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18065"
+            "deputyId": "18065",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Білий Олексій Петрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "8723"
+            "deputyId": "8723",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Біловол Олександр Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "3471"
+            "deputyId": "3471",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Бобов Геннадій Борисович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15829"
+            "deputyId": "15829",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Богомолець Ольга Вадимівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17972"
+            "deputyId": "17972",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Богуслаєв Вячеслав Олександрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "8725"
+            "deputyId": "8725",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Бойко Олена Петрівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "16698"
+            "deputyId": "16698",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Бойко Юрій Анатолійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "11094"
+            "deputyId": "11094",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Бондар Віктор Васильович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15826"
+            "deputyId": "15826",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Бондар Михайло Леонтійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18066"
+            "deputyId": "18066",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Брензович Василь Іванович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17998"
+            "deputyId": "17998",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Бриченко Ігор Віталійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15796"
+            "deputyId": "15796",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Бублик Юрій Васильович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15802"
+            "deputyId": "15802",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Бурбак Максим Юрійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15655"
+            "deputyId": "15655",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Бухарєв Владислав Вікторович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15257"
+            "deputyId": "15257",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Вадатурський Андрій Олексійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18067"
+            "deputyId": "18067",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Валентиров Сергій Васильович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18068"
+            "deputyId": "18068",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Ванат Петро Михайлович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17964"
+            "deputyId": "17964",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Васюник Ігор Васильович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15787"
+            "deputyId": "15787",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Величкович Микола Романович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17961"
+            "deputyId": "17961",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Веселова Наталія Василівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18008"
+            "deputyId": "18008",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Висоцький Сергій Віталійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17963"
+            "deputyId": "17963",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Вілкул Олександр Юрійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "8737"
+            "deputyId": "8737",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Вінник Іван Юлійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18069"
+            "deputyId": "18069",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Вітко Артем Леонідович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18043"
+            "deputyId": "18043",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Власенко Сергій Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "12265"
+            "deputyId": "12265",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Вовк Віктор Іванович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "8132"
+            "deputyId": "8132",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Вознюк Юрій Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15807"
+            "deputyId": "15807",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Войцеховська Світлана Михайлівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "11596"
+            "deputyId": "11596",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Войціцька Вікторія Михайлівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18021"
+            "deputyId": "18021",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Воропаєв Юрій Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "8741"
+            "deputyId": "8741",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Вощевський Валерій Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18044"
+            "deputyId": "18044",
+            "dateAuthorityStop": "2014-12-02"
         },
         {
             "name": "Гаврилюк Михайло Віталійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18070"
+            "deputyId": "18070",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Галасюк Віктор Валерійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18046"
+            "deputyId": "18046",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Гальченко Андрій Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18071"
+            "deputyId": "18071",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Гарбуз Юрій Григорійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18072"
+            "deputyId": "18072",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Гвоздьов Михайло Олексійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17992"
+            "deputyId": "17992",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Герасимов Артур Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17985"
+            "deputyId": "17985",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Геращенко Антон Юрійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17952"
+            "deputyId": "17952",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Геращенко Ірина Володимирівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "11121"
+            "deputyId": "11121",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Герега Олександр Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15827"
+            "deputyId": "15827",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Гєллєр Євгеній Борисович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "8746"
+            "deputyId": "8746",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Гіршфельд Анатолій Мусійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "5606"
+            "deputyId": "5606",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Головко Михайло Йосифович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15813"
+            "deputyId": "15813",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Голуб Владислав Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "8238"
+            "deputyId": "8238",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Голубов Дмитро Іванович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18074"
+            "deputyId": "18074",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Гончаренко Олексій Олексійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17984"
+            "deputyId": "17984",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Гопко Ганна Миколаївна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18002"
+            "deputyId": "18002",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Горбунов Олександр Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17962"
+            "deputyId": "17962",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Горват Роберт Іванович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18075"
+            "deputyId": "18075",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Гордєєв Андрій Анатолійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15953"
+            "deputyId": "15953",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Грановський Олександр Михайлович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17995"
+            "deputyId": "17995",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Гриневич Лілія Михайлівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15646"
+            "deputyId": "15646",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Гринів Ігор Олексійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "5414"
+            "deputyId": "5414",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Гройсман Володимир Борисович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17973"
+            "deputyId": "17973",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Гудзенко Віталій Іванович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18077"
+            "deputyId": "18077",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Гузь Ігор Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "14674"
+            "deputyId": "14674",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Гуляєв Василь Олександрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18078"
+            "deputyId": "18078",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Гусак Володимир Георгійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18036"
+            "deputyId": "18036",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Давиденко Валерій Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18079"
+            "deputyId": "18079",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Данченко Олександр Іванович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18009"
+            "deputyId": "18009",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Дейдей Євген Сергійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17956"
+            "deputyId": "17956",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Демчак Руслан Євгенійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18080"
+            "deputyId": "18080",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Денисенко Анатолій Петрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15815"
+            "deputyId": "15815",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Денисенко Андрій Сергійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18081"
+            "deputyId": "18081",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Денисенко Вадим Ігорович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17986"
+            "deputyId": "17986",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Денісова Людмила Леонтіївна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "8757"
+            "deputyId": "8757",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Дерев’янко Юрій Богданович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15768"
+            "deputyId": "15768",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Деркач Андрій Леонідович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "2284"
+            "deputyId": "2284",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Дехтярчук Олександр Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "6130"
+            "deputyId": "6130",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Джемілєв Мустафа",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "2394"
+            "deputyId": "2394",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Дзензерський Денис Вікторович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15652"
+            "deputyId": "15652",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Дзюблик Павло Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18082"
+            "deputyId": "18082",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Дирів Анатолій Борисович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15767"
+            "deputyId": "15767",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Діденко Ігор Анатолійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18017"
+            "deputyId": "18017",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Дідич Валентин Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18083"
+            "deputyId": "18083",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Дмитренко Олег Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18084"
+            "deputyId": "18084",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Добкін Дмитро Маркович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15818"
+            "deputyId": "15818",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Добкін Михайло Маркович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "5578"
+            "deputyId": "5578",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Добродомов Дмитро Євгенович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18085"
+            "deputyId": "18085",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Довбенко Михайло Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "6201"
+            "deputyId": "6201",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Довгий Олесь Станіславович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18086"
+            "deputyId": "18086",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Долженков Олександр Валерійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15644"
+            "deputyId": "15644",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Домбровський Олександр Георгійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15727"
+            "deputyId": "15727",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Донець Тетяна Анатоліївна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "3849"
+            "deputyId": "3849",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Драюк Сергій Євсейович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18221"
+            "deputyId": "18221",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Дроздик Олександр Валерійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18222"
+            "deputyId": "18222",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Дубіль Валерій Олександрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "12272"
+            "deputyId": "12272",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Дубінін Олександр Іванович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18087"
+            "deputyId": "18087",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Дубневич Богдан Васильович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18088"
+            "deputyId": "18088",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Дубневич Ярослав Васильович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15790"
+            "deputyId": "15790",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Дунаєв Сергій Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15780"
+            "deputyId": "15780",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Євлахов Анатолій Сергійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18089"
+            "deputyId": "18089",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Євтушок Сергій Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "11728"
+            "deputyId": "11728",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Єднак Остап Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18016"
+            "deputyId": "18016",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Єленський Віктор Євгенович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17959"
+            "deputyId": "17959",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Ємець Леонід Олександрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "4761"
+            "deputyId": "4761",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Єремеєв Ігор Миронович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "5509"
+            "deputyId": "5509",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Єфімов Максим Вікторович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18090"
+            "deputyId": "18090",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Єфремова Ірина Олексіївна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "16716"
+            "deputyId": "16716",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Жданов Ігор Олександрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18057"
+            "deputyId": "18057",
+            "dateAuthorityStop": "2014-12-02"
         },
         {
             "name": "Жеваго Костянтин Валентинович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "2301"
+            "deputyId": "2301",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Жолобецький Олександр Олександрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18091"
+            "deputyId": "18091",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Журжій Андрій Валерійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18015"
+            "deputyId": "18015",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Заболотний Григорій Михайлович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15730"
+            "deputyId": "15730",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Загорій Гліб Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17991"
+            "deputyId": "17991",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Заліщук Світлана Петрівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17976"
+            "deputyId": "17976",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Заставний Роман Йосипович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17955"
+            "deputyId": "17955",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Звягільський Юхим Леонідович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "833"
+            "deputyId": "833",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Зубач Любомир Львович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "19126"
+            "deputyId": "19126",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Зубик Володимир Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "8771"
+            "deputyId": "8771",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Іванчук Андрій Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15654"
+            "deputyId": "15654",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Івахів Степан Петрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15733"
+            "deputyId": "15733",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Івченко Вадим Євгенович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18055"
+            "deputyId": "18055",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Іллєнко Андрій Юрійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15837"
+            "deputyId": "15837",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Ільюк Артем Олександрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15794"
+            "deputyId": "15794",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Іонова Марія Миколаївна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15672"
+            "deputyId": "15672",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Іоффе Юлій Якович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "793"
+            "deputyId": "793",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Іщейкін Костянтин Євгенович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18092"
+            "deputyId": "18092",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Іщенко Валерій Олександрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15685"
+            "deputyId": "15685",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Кадикало Микола Олегович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "16618"
+            "deputyId": "16618",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Каплін Сергій Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15801"
+            "deputyId": "15801",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Кацер-Бучковська Наталія Володимирівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17967"
+            "deputyId": "17967",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Кацуба Володимир Михайлович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15816"
+            "deputyId": "15816",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Квіт Сергій Миронович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17975"
+            "deputyId": "17975",
+            "dateAuthorityStop": "2014-12-02"
         },
         {
             "name": "Кириленко В'ячеслав Анатолійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "2155"
+            "deputyId": "2155",
+            "dateAuthorityStop": "2014-12-02"
         },
         {
             "name": "Кириленко Іван Григорович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "1351"
+            "deputyId": "1351",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Кириченко Олексій Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "12455"
+            "deputyId": "12455",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Кишкар Павло Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18006"
+            "deputyId": "18006",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Ківалов Сергій Васильович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "2320"
+            "deputyId": "2320",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Кіраль Сергій Іванович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18031"
+            "deputyId": "18031",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Кірш Олександр Вікторович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18093"
+            "deputyId": "18093",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Кісельов Андрій Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "13694"
+            "deputyId": "13694",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Кіссе Антон Іванович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "7371"
+            "deputyId": "7371",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Кіт Андрій Богданович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18094"
+            "deputyId": "18094",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Климпуш-Цинцадзе Іванна Орестівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17997"
+            "deputyId": "17997",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Клімов Леонід Михайлович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "5423"
+            "deputyId": "5423",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Клюєв Сергій Петрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "8781"
+            "deputyId": "8781",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Княжицький Микола Леонідович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15645"
+            "deputyId": "15645",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Князевич Руслан Петрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "1897"
+            "deputyId": "1897",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Кобцев Михайло Валентинович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17990"
+            "deputyId": "17990",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Ковальчук Віталій Анатолійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15668"
+            "deputyId": "15668",
+            "dateAuthorityStop": "2015-01-14"
         },
         {
             "name": "Кодола Олександр Михайлович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15309"
+            "deputyId": "15309",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Кожем’якін Андрій Анатолійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "8786"
+            "deputyId": "8786",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Козак Тарас Романович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18034"
+            "deputyId": "18034",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Козаченко Леонід Петрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "7175"
+            "deputyId": "7175",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Козир Борис Юрійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18095"
+            "deputyId": "18095",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Колганова Олена Валеріївна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17414"
+            "deputyId": "17414",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Колєсніков Дмитро Валерійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "11098"
+            "deputyId": "11098",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Кондратюк Олена Костянтинівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "11166"
+            "deputyId": "11166",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Кононенко Ігор Віталійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17981"
+            "deputyId": "17981",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Константіновський Вячеслав Леонідович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18096"
+            "deputyId": "18096",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Корнацький Аркадій Олексійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18097"
+            "deputyId": "18097",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Королевська Наталія Юріївна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "8693"
+            "deputyId": "8693",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Король Віктор Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "2314"
+            "deputyId": "2314",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Корчик Віталій Андрійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18167"
+            "deputyId": "18167",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Корчинська Оксана Анатоліївна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18165"
+            "deputyId": "18165",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Костенко Павло Петрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18028"
+            "deputyId": "18028",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Котвіцький Ігор Олександрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17965"
+            "deputyId": "17965",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Кошелєва Альона Володимирівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18048"
+            "deputyId": "18048",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Кремінь Тарас Дмитрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17969"
+            "deputyId": "17969",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Кривенко Вадим Валерійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17970"
+            "deputyId": "17970",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Кривенко Віктор Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18005"
+            "deputyId": "18005",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Кривохатько Вадим Вікторович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18107"
+            "deputyId": "18107",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Кривошея Геннадій Григорович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15901"
+            "deputyId": "15901",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Кришин Олег Юрійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18108"
+            "deputyId": "18108",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Крулько Іван Іванович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "6073"
+            "deputyId": "6073",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Ксенжук Олександр Степанович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17957"
+            "deputyId": "17957",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Кубів Степан Іванович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15649"
+            "deputyId": "15649",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Кудлаєнко Сергій Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17999"
+            "deputyId": "17999",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Кужель Олександра Володимирівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "735"
+            "deputyId": "735",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Кузьменко Анатолій Іванович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18109"
+            "deputyId": "18109",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Кулініч Олег Іванович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15804"
+            "deputyId": "15804",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Куліч Валерій Петрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18160"
+            "deputyId": "18160",
+            "dateAuthorityStop": "2015-05-19"
         },
         {
             "name": "Куліченко Іван Іванович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18110"
+            "deputyId": "18110",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Куніцин Сергій Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15840"
+            "deputyId": "15840",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Купрієнко Олег Васильович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18050"
+            "deputyId": "18050",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Купрій Віталій Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18111"
+            "deputyId": "18111",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Курило Віталій Семенович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "8803"
+            "deputyId": "8803",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Курячий Максим Павлович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "13646"
+            "deputyId": "13646",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Кутовий Тарас Вікторович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15805"
+            "deputyId": "15805",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Кучер Микола Іванович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18112"
+            "deputyId": "18112",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Лабазюк Сергій Петрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15824"
+            "deputyId": "15824",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Лаврик Микола Іванович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18113"
+            "deputyId": "18113",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Лаврик Олег Васильович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18011"
+            "deputyId": "18011",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Ланьо Михайло Іванович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15756"
+            "deputyId": "15756",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Лапін Ігор Олександрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18114"
+            "deputyId": "18114",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Ларін Сергій Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "2179"
+            "deputyId": "2179",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Левус Андрій Мар’янович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "11694"
+            "deputyId": "11694",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Левченко Юрій Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "16672"
+            "deputyId": "16672",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Ледовських Олена Володимирівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17413"
+            "deputyId": "17413",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Ленський Олексій Олексійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "10204"
+            "deputyId": "10204",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Лесюк Ярослав Васильович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18605"
+            "deputyId": "18605",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Лещенко Сергій Анатолійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17977"
+            "deputyId": "17977",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Литвин Володимир Михайлович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "5470"
+            "deputyId": "5470",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Лівік Олександр Петрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18115"
+            "deputyId": "18115",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Лінько Дмитро Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18052"
+            "deputyId": "18052",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Логвинський Георгій Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17958"
+            "deputyId": "17958",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Лозовой Андрій Сергійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15916"
+            "deputyId": "15916",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Лопушанський Андрій Ярославович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "8815"
+            "deputyId": "8815",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Лубінець Дмитро Валерійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18116"
+            "deputyId": "18116",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Лук’янчук Руслан Валерійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "6332"
+            "deputyId": "6332",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Лунченко Валерій Валерійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15662"
+            "deputyId": "15662",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Луценко Ігор Вікторович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18054"
+            "deputyId": "18054",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Луценко Ірина Степанівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15647"
+            "deputyId": "15647",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Луценко Юрій Віталійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "4132"
+            "deputyId": "4132",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Льовочкін Сергій Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "7718"
+            "deputyId": "7718",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Льовочкіна Юлія Володимирівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "11109"
+            "deputyId": "11109",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Люшняк Микола Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18117"
+            "deputyId": "18117",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Ляшко Олег Валерійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "8818"
+            "deputyId": "8818",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Макар’ян Давид Борисович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15972"
+            "deputyId": "15972",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Македон Юрій Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18163"
+            "deputyId": "18163",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Мамчур Юлій Валерійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17974"
+            "deputyId": "17974",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Маркевич Ярослав Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18013"
+            "deputyId": "18013",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Мартиненко Микола Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "2323"
+            "deputyId": "2323",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Мартиняк Сергій Васильович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15732"
+            "deputyId": "15732",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Мартовицький Артур Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15744"
+            "deputyId": "15744",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Марченко Олександр Олександрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18118"
+            "deputyId": "18118",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Масоріна Олена Сергіївна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17966"
+            "deputyId": "17966",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Матвієнко Анатолій Сергійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "2262"
+            "deputyId": "2262",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Матвієнков Сергій Анатолійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "2356"
+            "deputyId": "2356",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Матвійчук Едуард Леонідович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "5500"
+            "deputyId": "5500",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Матейченко Костянтин Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17953"
+            "deputyId": "17953",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Матіос Марія Василівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15665"
+            "deputyId": "15665",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Матківський Богдан Миронович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18119"
+            "deputyId": "18119",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Матузко Олена Олександрівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "11342"
+            "deputyId": "11342",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Мацола Роман Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18120"
+            "deputyId": "18120",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Медуниця Олег Вячеславович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "12003"
+            "deputyId": "12003",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Мельник Сергій Іванович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18161"
+            "deputyId": "18161",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Мельниченко Володимир Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15828"
+            "deputyId": "15828",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Мельничук Іван Іванович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18121"
+            "deputyId": "18121",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Мельничук Сергій Петрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18039"
+            "deputyId": "18039",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Мирний Іван Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "11106"
+            "deputyId": "11106",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Мисик Володимир Юрійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15814"
+            "deputyId": "15814",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Мірошник Андрій Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18030"
+            "deputyId": "18030",
+            "dateAuthorityStop": "2015-05-13"
         },
         {
             "name": "Мірошниченко Юрій Романович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "8826"
+            "deputyId": "8826",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Мірошніченко Іван Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18014"
+            "deputyId": "18014",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Міщенко Сергій Григорович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "8827"
+            "deputyId": "8827",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Молоток Ігор Федорович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15810"
+            "deputyId": "15810",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Мороко Юрій Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "11102"
+            "deputyId": "11102",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Мосійчук Ігор Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18045"
+            "deputyId": "18045",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Москаленко Ярослав Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15773"
+            "deputyId": "15773",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Мураєв Євгеній Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15819"
+            "deputyId": "15819",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Мусій Олег Степанович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "16517"
+            "deputyId": "16517",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Мушак Олексій Петрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17996"
+            "deputyId": "17996",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Найєм Мустафа-Масі",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17978"
+            "deputyId": "17978",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Насалик Ігор Степанович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "2370"
+            "deputyId": "2370",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Насіров Роман Михайлович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17666"
+            "deputyId": "17666",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Негой Федір Федорович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15823"
+            "deputyId": "15823",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Недава Олег Анатолійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18122"
+            "deputyId": "18122",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Немировський Андрій Валентинович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "19058"
+            "deputyId": "19058",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Немиря Григорій Михайлович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "8830"
+            "deputyId": "8830",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Нестеренко Вадим Григорович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18123"
+            "deputyId": "18123",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Нечаєв Олександр Ігоревич",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15725"
+            "deputyId": "15725",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Ничипоренко Валентин Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15830"
+            "deputyId": "15830",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Німченко Василь Іванович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18037"
+            "deputyId": "18037",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Новак Наталія Василівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "13379"
+            "deputyId": "13379",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Новинський Вадим Владиславович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17108"
+            "deputyId": "17108",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Огнєвіч Злата Леонідівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18040"
+            "deputyId": "18040",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Омельянович Денис Сергійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "13562"
+            "deputyId": "13562",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Онищенко Олександр Романович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15771"
+            "deputyId": "15771",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Онуфрик Богдан Семенович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17982"
+            "deputyId": "17982",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Опанасенко Олександр Валерійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18019"
+            "deputyId": "18019",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Остапчук Віктор Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15817"
+            "deputyId": "15817",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Острікова Тетяна Георгіївна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18018"
+            "deputyId": "18018",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Осуховський Олег Іванович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15806"
+            "deputyId": "15806",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Павелко Андрій Васильович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15651"
+            "deputyId": "15651",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Павленко Ростислав Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15687"
+            "deputyId": "15687",
+            "dateAuthorityStop": "2015-01-14"
         },
         {
             "name": "Павленко Юрій Олексійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "5380"
+            "deputyId": "5380",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Павлов Костянтин Юрійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15741"
+            "deputyId": "15741",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Паламарчук Микола Петрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15671"
+            "deputyId": "15671",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Палатний Артур Леонідович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15670"
+            "deputyId": "15670",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Папієв Михайло Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "5464"
+            "deputyId": "5464",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Парасюк Володимир Зіновійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18124"
+            "deputyId": "18124",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Парубій Андрій Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "11584"
+            "deputyId": "11584",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Пастух Тарас Тимофійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18125"
+            "deputyId": "18125",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Пацкан Валерій Васильович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15674"
+            "deputyId": "15674",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Пашинський Сергій Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "8696"
+            "deputyId": "8696",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Петренко Олег Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18126"
+            "deputyId": "18126",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Петренко Павло Дмитрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15657"
+            "deputyId": "15657",
+            "dateAuthorityStop": "2014-12-02"
         },
         {
             "name": "Петьовка Василь Васильович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "11131"
+            "deputyId": "11131",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Пинзеник Віктор Михайлович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "862"
+            "deputyId": "862",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Пинзеник Павло Васильович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "8125"
+            "deputyId": "8125",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Писаренко Валерій Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "8838"
+            "deputyId": "8838",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Підлісецький Лев Теофілович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18025"
+            "deputyId": "18025",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Побер Ігор Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15680"
+            "deputyId": "15680",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Подоляк Ірина Ігорівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18127"
+            "deputyId": "18127",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Поляков Максим Анатолійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17960"
+            "deputyId": "17960",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Помазанов Андрій Віталійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18164"
+            "deputyId": "18164",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Пономарьов Олександр Сергійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15760"
+            "deputyId": "15760",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Поплавський Михайло Михайлович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "5422"
+            "deputyId": "5422",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Попов Ігор Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18042"
+            "deputyId": "18042",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Порошенко Олексій Петрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18128"
+            "deputyId": "18128",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Пресман Олександр Семенович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15800"
+            "deputyId": "15800",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Присяжнюк Олександр Анатолійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "11620"
+            "deputyId": "11620",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Продан Оксана Петрівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15667"
+            "deputyId": "15667",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Пташник Вікторія Юріївна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18022"
+            "deputyId": "18022",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Рабінович Вадим Зіновійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18032"
+            "deputyId": "18032",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Развадовський Віктор Йосипович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "2308"
+            "deputyId": "2308",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Ревега Олександр Васильович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18414"
+            "deputyId": "18414",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Река Андрій Олександрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18129"
+            "deputyId": "18129",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Рибак Іван Петрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "9123"
+            "deputyId": "9123",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Рибалка Сергій Вікторович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18053"
+            "deputyId": "18053",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Рибчинський Євген Юрійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18130"
+            "deputyId": "18130",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Різаненко Павло Олександрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15774"
+            "deputyId": "15774",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Розенблат Борислав Соломонович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18131"
+            "deputyId": "18131",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Розенко Павло Валерійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "3008"
+            "deputyId": "3008",
+            "dateAuthorityStop": "2014-12-02"
         },
         {
             "name": "Романова Анна Анатоліївна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18029"
+            "deputyId": "18029",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Романовський Олександр Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18245"
+            "deputyId": "18245",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Романюк Віктор Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18132"
+            "deputyId": "18132",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Романюк Роман Сергійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "10096"
+            "deputyId": "10096",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Рудик Сергій Ярославович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "16430"
+            "deputyId": "16430",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Рябчин Олексій Михайлович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18056"
+            "deputyId": "18056",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Сабашук Петро Павлович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "5582"
+            "deputyId": "5582",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Савченко Надія Вікторівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18166"
+            "deputyId": "18166",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Савченко Олексій Юрійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17988"
+            "deputyId": "17988",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Савчук Юрій Петрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15681"
+            "deputyId": "15681",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Сажко Сергій Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18133"
+            "deputyId": "18133",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Святаш Дмитро Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "5541"
+            "deputyId": "5541",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Семенуха Роман Сергійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18026"
+            "deputyId": "18026",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Семенченко Семен Ігорович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18003"
+            "deputyId": "18003",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Семерак Остап Михайлович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "1908"
+            "deputyId": "1908",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Сидорович Руслан Михайлович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18020"
+            "deputyId": "18020",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Сидорчук Вадим Васильович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17954"
+            "deputyId": "17954",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Силантьєв Денис Олегович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18047"
+            "deputyId": "18047",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Сироїд Оксана Іванівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "3180"
+            "deputyId": "3180",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Сисоєнко Ірина Володимирівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18024"
+            "deputyId": "18024",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Скорик Микола Леонідович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18033"
+            "deputyId": "18033",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Скрипник Олексій Олексійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18004"
+            "deputyId": "18004",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Скуратовський Сергій Іванович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18051"
+            "deputyId": "18051",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Соболєв Єгор Вікторович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18012"
+            "deputyId": "18012",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Соболєв Сергій Владиславович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "386"
+            "deputyId": "386",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Соловей Юрій Ігорович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18134"
+            "deputyId": "18134",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Солод Юрій Васильович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18135"
+            "deputyId": "18135",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Сольвар Руслан Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15769"
+            "deputyId": "15769",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Соляр Володимир Миронович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17968"
+            "deputyId": "17968",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Сотник Олена Сергіївна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18010"
+            "deputyId": "18010",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Сочка Олександр Олександрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "12270"
+            "deputyId": "12270",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Співаковський Олександр Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18136"
+            "deputyId": "18136",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Спориш Іван Дмитрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18137"
+            "deputyId": "18137",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Сташук Віталій Филимонович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18138"
+            "deputyId": "18138",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Стеценко Дмитро Олександрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18220"
+            "deputyId": "18220",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Стець Юрій Ярославович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "11129"
+            "deputyId": "11129",
+            "dateAuthorityStop": "2014-12-02"
         },
         {
             "name": "Сторожук Дмитро Анатолійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17379"
+            "deputyId": "17379",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Сугоняко Олександр Леонідович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18139"
+            "deputyId": "18139",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Супруненко Олександр Іванович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "11097"
+            "deputyId": "11097",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Суслова Ірина Миколаївна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "11999"
+            "deputyId": "11999",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Сюмар Вікторія Петрівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17948"
+            "deputyId": "17948",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Тарасюк Борис Іванович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "5486"
+            "deputyId": "5486",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Тарута Сергій Олексійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18140"
+            "deputyId": "18140",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Тетерук Андрій Анатолійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17947"
+            "deputyId": "17947",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Тимошенко Юлія Володимирівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "1792"
+            "deputyId": "1792",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Тимошенко Юрій Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18141"
+            "deputyId": "18141",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Тимчук Дмитро Борисович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17950"
+            "deputyId": "17950",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Тіміш Григорій Іванович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18142"
+            "deputyId": "18142",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Ткачук Геннадій Віталійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15676"
+            "deputyId": "15676",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Томенко Микола Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "5415"
+            "deputyId": "5415",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Третьяков Олександр Юрійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "5504"
+            "deputyId": "5504",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Тригубенко Сергій Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17987"
+            "deputyId": "17987",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Турчинов Олександр Валентинович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "2086"
+            "deputyId": "2086",
+            "dateAuthorityStop": "2015-01-14"
         },
         {
             "name": "Унгурян Павло Якимович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "9540"
+            "deputyId": "9540",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Урбанський Олександр Ігорович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18143"
+            "deputyId": "18143",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Усов Костянтин Глібович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18144"
+            "deputyId": "18144",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Фаєрмарк Сергій Олександрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15653"
+            "deputyId": "15653",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Федорук Микола Трохимович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15831"
+            "deputyId": "15831",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Фельдман Олександр Борисович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "5542"
+            "deputyId": "5542",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Філатов Борис Альбертович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18145"
+            "deputyId": "18145",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Фірсов Єгор Павлович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17047"
+            "deputyId": "17047",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Фріз Ірина Василівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "9684"
+            "deputyId": "9684",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Фролов Микола Олександрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18146"
+            "deputyId": "18146",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Фурсін Іван Геннадійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15799"
+            "deputyId": "15799",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Хлань Сергій Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18147"
+            "deputyId": "18147",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Хміль Михайло Михайлович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15785"
+            "deputyId": "15785",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Хомутиннік Віталій Юрійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "5549"
+            "deputyId": "5549",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Чекіта Геннадій Леонідович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "7741"
+            "deputyId": "7741",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Чепинога Віталій Михайлович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "8715"
+            "deputyId": "8715",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Червакова Ольга Валеріївна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17989"
+            "deputyId": "17989",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Черненко Олександр Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17979"
+            "deputyId": "17979",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Чижмарь Юрій Васильович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18218"
+            "deputyId": "18218",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Чорновол Тетяна Миколаївна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17946"
+            "deputyId": "17946",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Чубаров Рефат Абдурахманович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "2340"
+            "deputyId": "2340",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Чумак Віктор Васильович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15836"
+            "deputyId": "15836",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Шаповалов Юрій Анатолійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15803"
+            "deputyId": "15803",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Шевченко Олександр Леонідович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17650"
+            "deputyId": "17650",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Шенцев Дмитро Олексійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "8885"
+            "deputyId": "8885",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Шинькович Андрій Васильович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "8473"
+            "deputyId": "8473",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Шипко Андрій Федорович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "5785"
+            "deputyId": "5785",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Шкварилюк Володимир Васильович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "15658"
+            "deputyId": "15658",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Шкіря Ігор Миколайович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "5399"
+            "deputyId": "5399",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Шкрум Альона Іванівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "16532"
+            "deputyId": "16532",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Шлемко Дмитро Васильович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "8889"
+            "deputyId": "8889",
+            "dateAuthorityStop": "2015-06-04"
         },
         {
             "name": "Шпенов Дмитро Юрійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "11096"
+            "deputyId": "11096",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Шурма Ігор Михайлович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "6548"
+            "deputyId": "6548",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Шуфрич Нестор Іванович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "2274"
+            "deputyId": "2274",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Шухевич Юрій-Богдан Романович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18041"
+            "deputyId": "18041",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Южаніна Ніна Петрівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "17980"
+            "deputyId": "17980",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Юрик Тарас Зіновійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18148"
+            "deputyId": "18148",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Юринець Оксана Василівна",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18149"
+            "deputyId": "18149",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Юрчишин Петро Васильович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18150"
+            "deputyId": "18150",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Яніцький Василь Петрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18151"
+            "deputyId": "18151",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Яриніч Костянтин Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18152"
+            "deputyId": "18152",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Ярош Дмитро Анатолійович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "18153"
+            "deputyId": "18153",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Яценко Антон Володимирович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "4339"
+            "deputyId": "4339",
+            "dateAuthorityStop": ""
         },
         {
             "name": "Яценюк Арсеній Петрович",
             "type": "deputy-name",
             "typeOrder": 3,
-            "deputyId": "11116"
+            "deputyId": "11116",
+            "dateAuthorityStop": "2014-12-02"
         },
         {
             "name": "Виборчий округ №11 (Вінницька область)",

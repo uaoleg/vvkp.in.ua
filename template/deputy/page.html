@@ -16,6 +16,14 @@
                         <img ng-src="img/parties/100x35/{{deputy.party}}.png" class="deputy-party" style="cursor: default; margin: 0;">
                     </td>
                 </tr>
+                <tr ng-if="deputy.dateAuthorityStop" class="text-warning">
+                    <td>
+                        <span class="glyphicon glyphicon-time" tooltip="Припинено депутатські повноваження" tooltip-placement="left"></span>
+                    </td>
+                    <td>
+                        {{date(deputy.dateAuthorityStop, 'Y-m-d')}}
+                    </td>
+                </tr>
                 <tr style="vertical-align: middle;">
                     <td>
                         <span class="glyphicon glyphicon-globe" tooltip="Офіційна веб-сторінка" tooltip-placement="left"></span>

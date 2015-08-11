@@ -143,10 +143,11 @@ foreach ($data->parties as $i => $party) {
 }
 foreach ($data->deputies as $i => $deputy) {
     $tagsDeputyName[] = array(
-        'name'      => $deputy->name,
-        'type'      => 'deputy-name',
-        'typeOrder' => 3,
-        'deputyId'  => $deputy->id,
+        'name'              => $deputy->name,
+        'type'              => 'deputy-name',
+        'typeOrder'         => 3,
+        'deputyId'          => $deputy->id,
+        'dateAuthorityStop' => $deputy->dateAuthorityStop ? date('Y-m-d', $deputy->dateAuthorityStop) : '',
     );
     if ($deputy->district) {
         $tagsDeputyDistrict[] = array(

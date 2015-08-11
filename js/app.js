@@ -10,6 +10,10 @@
         $scope.searchedDeputiesFiltering = false;
         $scope.searchedDeputiesIncreasingLimit = false;
 
+        $scope.date = function(timestamp, format) {
+            return new Date(timestamp * 1000).format(format);
+        };
+
         $scope.getParty = function(name) {
             var parties = $scope.parties.filter(function(party) {
                 return party.name.indexOf(name) > -1;
@@ -114,7 +118,7 @@
 
         $scope.deputyPage = function(deputy) {
             var modalInstance = $modal.open({
-                templateUrl: 'template/deputy/page.html?vvkp-version-1.6.0',
+                templateUrl: 'template/deputy/page.html?vvkp-version-1.6.3',
                 scope: $scope,
                 animation: true
             });
@@ -307,10 +311,6 @@
                     if (item.name.toLowerCase().indexOf(searchString) > -1) {
                         return true;
                     }
-                    // Check if deputy was fired
-                    if (item.dateAuthorityStop && (item.dateAuthorityStop * 1000 < new Date().getTime())) {
-                        return false;
-                    }
                     // Check law tags
                     tagIndex = item.lawTags.indexOf(searchString);
                     if (tagIndex > -1) {
@@ -334,6 +334,17 @@
                     stats.partiesForTag = option.name;
                 }
             });
+            // Filter fired deputies if no search tag or searched by party
+            if ((searchTags.length === 0) || ((searchTags.length === 1) && (hasParty))) {
+                deputies = deputies.filter(function(deputy) {
+                    if (deputy.dateAuthorityStop && (deputy.dateAuthorityStop * 1000 < new Date().getTime())) {
+                        return false;
+                    } else {
+                        return true;
+                    }
+                });
+            }
+            // Sort deputies
             deputies.sort(function(a, b) {
                 if (a.searchRate < b.searchRate) {
                     return 1;
@@ -455,7 +466,7 @@
         };
 
         // Load data
-        $http.get('data/data' + MIN + '.json?vvkp-version-1.6.0')
+        $http.get('data/data' + MIN + '.json?vvkp-version-1.6.3')
             .then(function(response){
                 $scope.laws = response.data.laws;
                 $scope.lawTags = response.data.lawTags;

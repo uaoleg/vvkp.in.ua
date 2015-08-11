@@ -10,6 +10,10 @@
     box-shadow: 1px 1px 1px #999;
 }
 
+.deputy-info {
+    margin-top: 5px;
+}
+
 .deputy-info a {
     color: rgb(102, 102, 102);
 }
