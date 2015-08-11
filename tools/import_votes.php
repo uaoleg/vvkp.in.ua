@@ -53,12 +53,16 @@ foreach ($data->laws as $law) {
     $deputyNo = 0;
     foreach ($data->deputies as $deputy) {
 
-        if (($deputy->dateAuthorityStart > $law->date) || ($deputy->dateAuthorityStop && ($deputy->dateAuthorityStop < $law->date))) {
-            continue;
-        }
+        $deputy->laws = json_decode(json_encode($deputy->laws), true);
+        $deputy->lawTagsInfo = json_decode(json_encode($deputy->lawTagsInfo), true);
 
-        $deputy->laws = (array)$deputy->laws;
-        $deputy->lawTagsInfo = (array)$deputy->lawTagsInfo;
+        // Check if law voting date is in authority date range
+        if ($law->date) {
+            if (($deputy->dateAuthorityStart > $law->date) || ($deputy->dateAuthorityStop && ($deputy->dateAuthorityStop < $law->date))) {
+                unset($deputy->laws[$law->id]);
+                continue;
+            }
+        }
 
         // Get vote
         $voteStr = strip_tags($votes[$deputyNo]->plaintext);

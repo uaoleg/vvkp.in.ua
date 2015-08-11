@@ -303,7 +303,7 @@
             "residence": "",
             "party": "Народний Фронт",
             "lawTags": [],
-            "laws": {},
+            "laws": [],
             "lawTagsInfo": [],
             "dateAuthorityStart": 1417035600,
             "dateAuthorityStop": 1417467600
@@ -4574,7 +4574,7 @@
             "residence": "",
             "party": "",
             "lawTags": [],
-            "laws": {},
+            "laws": [],
             "lawTagsInfo": [],
             "dateAuthorityStart": 1417035600,
             "dateAuthorityStop": 1417467600
@@ -8427,7 +8427,6 @@
             "party": "Батьківщина",
             "lawTags": [
                 "працює",
-                "новатор",
                 "популіст",
                 "ретроград",
                 "шокін-ок"
@@ -8436,14 +8435,7 @@
                 "відвідуваність": 75,
                 "1558-1": "yes",
                 "2087а": "absent",
-                "шокін": "no",
-                "1058": "yes",
-                "1580": "yes",
-                "1565": "yes",
-                "2250": "no",
-                "2258": "yes",
-                "2172": "absent",
-                "2381": "yes"
+                "шокін": "no"
             },
             "lawTagsInfo": {
                 "працює": {
@@ -8460,27 +8452,15 @@
                 },
                 "ретроград": {
                     "laws": [
-                        "2087а",
-                        "2250",
-                        "2172"
+                        "2087а"
                     ],
-                    "rate": 38
+                    "rate": 13
                 },
                 "шокін-ок": {
                     "laws": [
                         "шокін"
                     ],
                     "rate": 100
-                },
-                "новатор": {
-                    "laws": [
-                        "1058",
-                        "1580",
-                        "1565",
-                        "2258",
-                        "2381"
-                    ],
-                    "rate": 63
                 }
             },
             "dateAuthorityStart": 1434402000
@@ -9329,7 +9309,7 @@
             "residence": "",
             "party": "Батьківщина",
             "lawTags": [],
-            "laws": {},
+            "laws": [],
             "lawTagsInfo": [],
             "dateAuthorityStart": 1417035600,
             "dateAuthorityStop": 1417467600
@@ -9861,21 +9841,13 @@
             "lawTags": [
                 "працює",
                 "новатор",
-                "ретроград",
                 "шокін-геть"
             ],
             "laws": {
                 "відвідуваність": 88,
                 "2087а": "yes",
                 "шокін": "yes",
-                "1058": "no",
-                "1558-1": "absent",
-                "1580": "no",
-                "1565": "no",
-                "2250": "no",
-                "2258": "no",
-                "2172": "no",
-                "2381": "no"
+                "1558-1": "absent"
             },
             "lawTagsInfo": {
                 "працює": {
@@ -9895,18 +9867,6 @@
                         "шокін"
                     ],
                     "rate": 100
-                },
-                "ретроград": {
-                    "laws": [
-                        "1058",
-                        "1580",
-                        "1565",
-                        "2250",
-                        "2258",
-                        "2172",
-                        "2381"
-                    ],
-                    "rate": 88
                 }
             },
             "dateAuthorityStart": 1433451600
@@ -10894,7 +10854,7 @@
             "residence": "",
             "party": "Блок Петра Порошенк",
             "lawTags": [],
-            "laws": {},
+            "laws": [],
             "lawTagsInfo": [],
             "dateAuthorityStart": 1417035600,
             "dateAuthorityStop": 1417467600
@@ -10907,7 +10867,7 @@
             "residence": "",
             "party": "Народний Фронт",
             "lawTags": [],
-            "laws": {},
+            "laws": [],
             "lawTagsInfo": [],
             "dateAuthorityStart": 1417035600,
             "dateAuthorityStop": 1417467600
@@ -11924,7 +11884,7 @@
             "residence": "",
             "party": "Блок Петра Порошенка",
             "lawTags": [],
-            "laws": {},
+            "laws": [],
             "lawTagsInfo": [],
             "dateAuthorityStart": 1417035600,
             "dateAuthorityStop": 1421182800
@@ -19242,21 +19202,13 @@
                 "працює",
                 "новатор",
                 "популіст",
-                "ретроград",
                 "шокін-ок"
             ],
             "laws": {
                 "відвідуваність": 93,
                 "2087а": "yes",
                 "1558-1": "yes",
-                "шокін": "no",
-                "1058": "no",
-                "1580": "yes",
-                "1565": "no",
-                "2250": "yes",
-                "2258": "yes",
-                "2172": "yes",
-                "2381": "yes"
+                "шокін": "no"
             },
             "lawTagsInfo": {
                 "працює": {
@@ -19267,14 +19219,9 @@
                 },
                 "новатор": {
                     "laws": [
-                        "2087а",
-                        "1580",
-                        "2250",
-                        "2258",
-                        "2172",
-                        "2381"
+                        "2087а"
                     ],
-                    "rate": 75
+                    "rate": 13
                 },
                 "популіст": {
                     "laws": [
@@ -19287,13 +19234,6 @@
                         "шокін"
                     ],
                     "rate": 100
-                },
-                "ретроград": {
-                    "laws": [
-                        "1058",
-                        "1565"
-                    ],
-                    "rate": 25
                 }
             },
             "dateAuthorityStart": 1431982800
@@ -20371,7 +20311,7 @@
             "residence": "",
             "party": "Блок Петра Порошенка",
             "lawTags": [],
-            "laws": {},
+            "laws": [],
             "lawTagsInfo": [],
             "dateAuthorityStart": 1417035600,
             "dateAuthorityStop": 1421182800
@@ -21137,7 +21077,7 @@
             "residence": "",
             "party": "Народний Фронт",
             "lawTags": [],
-            "laws": {},
+            "laws": [],
             "lawTagsInfo": [],
             "dateAuthorityStart": 1417035600,
             "dateAuthorityStop": 1417467600
@@ -22917,7 +22857,7 @@
             "residence": "",
             "party": "Блок Петра Порошенка",
             "lawTags": [],
-            "laws": {},
+            "laws": [],
             "lawTagsInfo": [],
             "dateAuthorityStart": 1417035600,
             "dateAuthorityStop": 1417467600
@@ -23403,7 +23343,21 @@
             "party": "Батьківщина",
             "lawTags": [],
             "laws": [],
-            "lawTagsInfo": [],
+            "lawTagsInfo": {
+                "ретроград": {
+                    "laws": [
+                        "1058",
+                        "1565",
+                        "1580",
+                        "2087а",
+                        "2172",
+                        "2250",
+                        "2258",
+                        "2381"
+                    ],
+                    "rate": 100
+                }
+            },
             "lawTagsRate": [],
             "dateAuthorityStart": 1417035600
         },
@@ -25222,7 +25176,7 @@
             "residence": "",
             "party": "Блок Петра Порошенка",
             "lawTags": [],
-            "laws": {},
+            "laws": [],
             "lawTagsInfo": [],
             "dateAuthorityStart": 1417035600,
             "dateAuthorityStop": 1417467600
@@ -26328,7 +26282,7 @@
             "residence": "",
             "party": "Народний Фронт",
             "lawTags": [],
-            "laws": {},
+            "laws": [],
             "lawTagsInfo": [],
             "dateAuthorityStart": 1417035600,
             "dateAuthorityStop": 1421182800
@@ -27737,21 +27691,13 @@
                 "працює",
                 "новатор",
                 "популіст",
-                "ретроград",
                 "шокін-ок"
             ],
             "laws": {
                 "відвідуваність": 71,
                 "2087а": "yes",
                 "1558-1": "yes",
-                "шокін": "no",
-                "1058": "absent",
-                "1580": "yes",
-                "1565": "absent",
-                "2250": "absent",
-                "2258": "yes",
-                "2172": "yes",
-                "2381": "absent"
+                "шокін": "no"
             },
             "lawTagsInfo": {
                 "працює": {
@@ -27762,12 +27708,9 @@
                 },
                 "новатор": {
                     "laws": [
-                        "2087а",
-                        "1580",
-                        "2258",
-                        "2172"
+                        "2087а"
                     ],
-                    "rate": 50
+                    "rate": 13
                 },
                 "популіст": {
                     "laws": [
@@ -27780,15 +27723,6 @@
                         "шокін"
                     ],
                     "rate": 100
-                },
-                "ретроград": {
-                    "laws": [
-                        "1058",
-                        "1565",
-                        "2250",
-                        "2381"
-                    ],
-                    "rate": 50
                 }
             },
             "dateAuthorityStart": 1431637200
@@ -29321,7 +29255,7 @@
             "residence": "",
             "party": "Народний Фронт",
             "lawTags": [],
-            "laws": {},
+            "laws": [],
             "lawTagsInfo": [],
             "dateAuthorityStart": 1417035600,
             "dateAuthorityStop": 1417467600

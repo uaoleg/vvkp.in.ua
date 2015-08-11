@@ -12,7 +12,7 @@ $parser = new \Sunra\PhpSimple\HtmlDomParser();
 foreach ($data->deputies as $deputy) {
 
     echo "{$deputy->id}\n";
-    $deputy->laws = (array)$deputy->laws;
+    $deputy->laws = json_decode(json_encode($deputy->laws), true);
 
     // Get link to registrations
     $url = "http://itd.rada.gov.ua/mps/info/page/{$deputy->id}";
