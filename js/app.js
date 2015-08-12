@@ -557,9 +557,7 @@
         }
     });
 
-    angular.element(document).ready(function() {
-        angular.bootstrap(document, ['vvkp-app']);
-    });
+    angular.bootstrap(document, ['vvkp-app']);
 
 })(window.angular);
 

@@ -56,7 +56,7 @@
                     <h1 style="font-size: 42px; text-align: center;">Універсальний передвиборчий каталог депутатів</h1>
                     <br>
                     <div style="margin-bottom: -23px;">
-                    <table class="table table-striped">
+                    <table ng-cloak class="table table-striped">
                         <thead>
                             <tr>
                                 <td>
@@ -102,6 +102,8 @@
                             </tr>
                         </tbody>
                     </table>
+                    </div>
+                    <div class="row">
                     </div>
                     <table class="table table-striped" ng-cloak>
                         <tbody style="{{searchedDeputiesFiltering ? 'opacity: 0.5' : ''}}">
@@ -189,7 +191,7 @@
                         </tbody>
                     </table>
                     <div ng-show="searchedDeputiesFiltering || searchedDeputiesIncreasingLimit" style="text-align: center;">
-                        <img ng-src="img/loading.gif">
+                        <img src="img/loading.gif">
                     </div>
                     <br>
                     <hr>
