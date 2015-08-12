@@ -54,6 +54,16 @@
             }
         };
 
+        $scope.getDeputyFirstName = function(deputy) {
+            var parts = deputy.name.split(' ');
+            parts.shift();
+            return parts.join(' ');
+        };
+
+        $scope.getDeputyLastName = function(deputy) {
+            return deputy.name.split(' ')[0];
+        };
+
         $scope.getDeputyLawStatus = function(deputy, law) {
             if (law.good && (deputy.lawTagsInfo[law.tagYes] && deputy.lawTagsInfo[law.tagYes].laws.indexOf(law.id) !== -1)) {
                 return 'success';
@@ -237,7 +247,7 @@
         $scope.searchLoadSuggestions = function($query) {
             var types = {},
                 typesNotEmpty = 0,
-                max = 10,
+                max = 12,
                 matchedCount = 0,
                 results = [];
             $scope.searchSuggestions.forEach(function(tag) {

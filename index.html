@@ -51,8 +51,17 @@
     </head>
     <body ng-controller="deputiesListCtrl">
         <div class="container">
+            <div class="row" style="height: 285px;">
+                <div class="col-md-4"></div>
+                <div class="col-md-4" style="text-align: center;">
+                    <div class="fb-page" data-href="https://www.facebook.com/vvkp.in.ua" data-width="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/vvkp.in.ua"><a href="https://www.facebook.com/vvkp.in.ua">VVKP</a></blockquote></div></div>
+                    <br><br>
+                    <a class="github-button" href="https://github.com/uaoleg/vvkp.in.ua" data-style="mega" data-count-href="/uaoleg/vvkp.in.ua/stargazers" data-count-api="/repos/uaoleg/vvkp.in.ua#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star uaoleg/vvkp.in.ua on GitHub">Star</a>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-12">
                     <h1 style="font-size: 42px; text-align: center;">Універсальний передвиборчий каталог депутатів</h1>
                     <br>
                     <div style="margin-bottom: -23px;">
@@ -103,93 +112,18 @@
                         </tbody>
                     </table>
                     </div>
-                    <div class="row">
+                    <div class="row" style="{{searchedDeputiesFiltering ? 'opacity: 0.5' : ''}}">
+                        <div ng-repeat-start="deputy in searchedDeputies | filter:searchText | limitTo:searchedDeputiesLimit"
+                             class="col-lg-3 col-md-4 col-sm-6 col-xs-12 deputy-item">
+                            <ng-include src="'template/deputy/item.html?vvkp-version-1.7.1'"></ng-include>
+                        </div>
+                        <div ng-repeat-end>
+                            <div ng-if="$index % 4 == 3" class="clearfix visible-lg"></div>
+                            <div ng-if="$index % 3 == 2" class="clearfix visible-md"></div>
+                            <div ng-if="$index % 2 == 1" class="clearfix visible-sm"></div>
+                            <div ng-if="$index % 1 == 0" class="clearfix visible-xs"></div>
+                        </div>
                     </div>
-                    <table class="table table-striped" ng-cloak>
-                        <tbody style="{{searchedDeputiesFiltering ? 'opacity: 0.5' : ''}}">
-                            <tr></tr>
-                            <tr ng-repeat="deputy in searchedDeputies | filter:searchText | limitTo:searchedDeputiesLimit"
-                                class="deputy-row">
-                                <td style="height: 84px; text-align: center; vertical-align: middle; width: 60px;">
-                                    <div ng-click="deputyPage(deputy)"
-                                         class="img-deputy-{{deputy.id}}"
-                                         style="cursor: pointer;"></div>
-                                    <img ng-src="img/parties/100x35/{{deputy.party}}.png"
-                                         class="deputy-party fading"
-                                         ng-if="deputy.party"
-                                         ng-click="searchAddTag(deputy.party)">
-                                </td>
-                                <td>
-                                    <h4 style="display: inline-block; margin: 10px 0 0;">
-                                        {{deputy.name}}
-                                    </h4>
-                                    <table class="deputy-info">
-                                        <tr ng-if="deputy.dateAuthorityStop" class="text-warning" style="vertical-align: middle;">
-                                            <td><span class="glyphicon glyphicon-time" tooltip="Припинено депутатські повноваження" tooltip-placement="left" tooltip-popup-delay="1000"></span></td>
-                                            <td class="text-warning">
-                                                {{date(deputy.dateAuthorityStop, 'Y-m-d')}}
-                                            </td>
-                                        </tr>
-                                        <tr style="vertical-align: middle;">
-                                            <td><span class="glyphicon glyphicon-globe" tooltip="Офіційна веб-сторінка" tooltip-placement="left" tooltip-popup-delay="1000"></span></td>
-                                            <td>
-                                                <a href="http://itd.rada.gov.ua/mps/info/page/{{deputy.id}}" target="_blank">
-                                                    Верховна Рада</a><span ng-if="deputy.facebook">,</span>
-                                                <img src="img/icon/facebook-16.png"
-                                                     ng-if="deputy.facebook"
-                                                     tooltip="Персональна веб-сторінка" tooltip-placement="left" tooltip-popup-delay="1000"
-                                                     style="margin: -4px 0 0 5px; opacity: 0.4;">
-                                                <a href="{{deputy.facebook}}" target="_blank" ng-if="deputy.facebook">
-                                                    Facebook</a>
-                                            </td>
-                                        </tr>
-                                        <tr ng-if="deputy.phones.length">
-                                            <td><span class="glyphicon glyphicon-earphone" tooltip="Контактні телефони" tooltip-placement="left" tooltip-popup-delay="1000"></span></td>
-                                            <td>
-                                                <small ng-repeat="phone in deputy.phones">{{deputy.phones[0]}}{{$last ? '' : ', '}}</small>
-                                            </td>
-                                        </tr>
-                                        <tr ng-if="deputy.district">
-                                            <td><span class="glyphicon glyphicon-check" tooltip="Виборчий округ" tooltip-placement="left" tooltip-popup-delay="1000"></span></td>
-                                            <td><small>Округ №{{deputy.district.id}}, {{deputy.district.region}}</small></td>
-                                        </tr>
-                                    </table>
-                                </td>
-                                <td style="text-align: right; vertical-align: middle;">
-                                    <div ng-repeat="lawTagName in deputy.lawTags"
-                                         ng-if="isDeputyLawTagRateBigger(deputy, lawTagName)"
-                                         ng-init="lawTag = getLawTag(lawTagName)">
-                                        <table><tr>
-                                            <td style="padding: 0 10px 8px 0;">
-                                                <div class="deputy-tag-about">
-                                                    <span popover-template="'template/deputy/tag-about.html?vvkp-version-1.7.1'"
-                                                          popover-placement="left"
-                                                          popover-trigger="click"
-                                                          class="glyphicon glyphicon-info-sign fading"
-                                                          style="cursor: pointer;"></span>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div ng-click="searchAddTag(lawTag.name)"
-                                                     class="deputy-tag progress progress-text-centered"
-                                                     style="font-weight: bold; height: 19px; margin: 0 0 10px;">
-                                                    <div role="progressbar" aria-valuenow="{{deputy.lawTagsInfo[lawTag.name].rate}}" aria-valuemin="0" aria-valuemax="100"
-                                                         class="progress-bar progress-bar-success"
-                                                         style="width: {{lawTag.type == 'success' ? deputy.lawTagsInfo[lawTag.name].rate : 100-deputy.lawTagsInfo[lawTag.name].rate}}%;">
-                                                        <span>{{lawTag.name}}</span>
-                                                    </div>
-                                                    <div role="progressbar" aria-valuenow="{{100-deputy.lawTagsInfo[lawTag.name].rate}}" aria-valuemin="0" aria-valuemax="100"
-                                                         class="progress-bar progress-bar-danger"
-                                                         style="width: {{lawTag.type == 'danger' ? deputy.lawTagsInfo[lawTag.name].rate : 100-deputy.lawTagsInfo[lawTag.name].rate}}%;">
-                                                    </div>
-                                                </div>
-                                            </td>
-                                        </tr></table>
-                                    </div>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
                     <div ng-show="searchedDeputiesFiltering || searchedDeputiesIncreasingLimit" style="text-align: center;">
                         <img src="img/loading.gif">
                     </div>
@@ -199,11 +133,6 @@
                     <h3 style="background-image: url(img/logo.png); line-height: 60px; margin: 0; text-align: center;">
                         <a href="https://www.youtube.com/watch?v=1CLBANCVHTw" target="_blank" style="color: white; font-size: 42px; text-shadow: 2px 2px 4px black;">VVKP :-)</a>
                     </h3>
-                </div>
-                <div class="col-md-3" style="padding-top: 25px; text-align: center; z-index: 15;">
-                    <a class="github-button" href="https://github.com/uaoleg/vvkp.in.ua" data-style="mega" data-count-href="/uaoleg/vvkp.in.ua/stargazers" data-count-api="/repos/uaoleg/vvkp.in.ua#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star uaoleg/vvkp.in.ua on GitHub">Star</a>
-                    <br><br>
-                    <div class="fb-page" data-href="https://www.facebook.com/vvkp.in.ua" data-width="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/vvkp.in.ua"><a href="https://www.facebook.com/vvkp.in.ua">VVKP</a></blockquote></div></div>
                 </div>
             </div>
         </div>

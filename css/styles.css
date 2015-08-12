@@ -34,6 +34,16 @@
     opacity: 0.5;
 }
 
+.deputy-item:hover .deputy-tag-about {
+    visibility: visible;
+}
+
+.deputy-item__photo {
+    padding: 13px 10px 0 0;
+    text-align: center;
+    vertical-align: top;
+}
+
 .deputy-party {
     cursor: pointer;
     display: block;
@@ -43,18 +53,12 @@
 }
 
 .deputy-tag {
-    cursor: pointer;
     display: block;
     margin-bottom: 10px;
-    width: 100px;
 }
 
 .deputy-tag-about {
     visibility: hidden;
-}
-
-.deputy-row:hover .deputy-tag-about {
-    visibility: visible;
 }
 
 .fading {
