@@ -1,6 +1,6 @@
 (function (angular) {
 
-    //TODO: Make correct file structure.
+    // TODO: Make correct file structure.
     angular.module('vvkp-app', ['ui.bootstrap', 'ngTagsInput']);
 
     angular.module('vvkp-app')
@@ -555,6 +555,10 @@
                 }
             }
         }
+    });
+
+    angular.element(document).ready(function() {
+        angular.bootstrap(document, ['vvkp-app']);
     });
 
 })(window.angular);

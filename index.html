@@ -15,6 +15,7 @@
             } else {
                 MIN = '';
             }
+            MIN = '';
             function headAppendScript(src, attrs) {
                 var head = document.getElementsByTagName('head')[0];
                 var js = document.createElement('script');
@@ -211,11 +212,6 @@
         <script type="text/javascript">
             headAppendScript('js/app.js');
             headAppendScript('js/extend.js');
-            setTimeout(function() {
-                angular.element(document).ready(function() {
-                  angular.bootstrap(document, ['vvkp-app']);
-                });
-            });
         </script>
 
     </body>
