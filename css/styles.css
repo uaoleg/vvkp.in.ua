@@ -11,7 +11,7 @@
 }
 
 .deputy-info {
-    margin-top: 5px;
+    margin: 5px auto;
 }
 
 .deputy-info a {
@@ -19,11 +19,11 @@
 }
 
 .deputy-info tr {
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 .deputy-info td {
-    padding: 5px 0;
+    padding: 5px;
 }
 
 .deputy-info td:first-child {
@@ -34,14 +34,18 @@
     opacity: 0.5;
 }
 
+.deputy-item {
+    margin: 0 0 20px 0;
+}
+
 .deputy-item:hover .deputy-tag-about {
     visibility: visible;
 }
 
 .deputy-item__photo {
-    padding: 13px 10px 0 0;
     text-align: center;
     vertical-align: top;
+    width: 130px;
 }
 
 .deputy-party {
@@ -77,6 +81,7 @@
     border-radius: 4px;
     -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
             box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    height: 3px;
     z-index: auto;
 }
 
