@@ -120,7 +120,7 @@
 
         $scope.deputyPage = function(deputy) {
             var modalInstance = $modal.open({
-                templateUrl: 'template/deputy/page.html?vvkp-version-1.7.3',
+                templateUrl: 'template/deputy/page.html?vvkp-version-1.7.4',
                 scope: $scope,
                 animation: true
             });
@@ -468,7 +468,7 @@
         };
 
         // Load data
-        $http.get('data/data' + MIN + '.json?vvkp-version-1.7.3')
+        $http.get('data/data' + MIN + '.json?vvkp-version-1.7.4')
             .then(function(response){
                 $scope.laws = response.data.laws;
                 $scope.lawTags = response.data.lawTags;
