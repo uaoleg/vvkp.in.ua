@@ -111,6 +111,8 @@
             var lawTag = $scope.getLawTag(lawTagName);
             if (!deputy.lawTagsInfo[lawTag.opposite]) {
                 return true;
+            } else if (lawTag.type === 'success') {
+                return deputy.lawTagsInfo[lawTag.name].rate >= deputy.lawTagsInfo[lawTag.opposite].rate;
             } else {
                 return deputy.lawTagsInfo[lawTag.name].rate > deputy.lawTagsInfo[lawTag.opposite].rate;
             }
