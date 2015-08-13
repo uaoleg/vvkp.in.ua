@@ -22,7 +22,7 @@
                 if (src.indexOf('://') !== -1) {
                     js.src = src;
                 } else {
-                    js.src = src.replace('.js', MIN + '.js') + '?vvkp-version-1.7.1';
+                    js.src = src.replace('.js', MIN + '.js') + '?vvkp-version-1.7.3';
                 }
                 if (typeof attrs === 'object') {
                     for (var attrName in attrs) {
@@ -38,7 +38,7 @@
                 if (href.indexOf('://') !== -1) {
                     link.href = href;
                 } else {
-                    link.href = href.replace('.css', MIN + '.css') + '?vvkp-version-1.7.1';
+                    link.href = href.replace('.css', MIN + '.css') + '?vvkp-version-1.7.3';
                 }
                 head.appendChild(link);
             }
@@ -76,7 +76,7 @@
                                                 load-on-empty="false"
                                                 select-first-match="true"
                                                 max-results-to-show="100"
-                                                template="template/search/suggestions.html?vvkp-version-1.7.1"></auto-complete>
+                                                template="template/search/suggestions.html?vvkp-version-1.7.3"></auto-complete>
                                         </tags-input>
                                     </div>
                                 </td>
@@ -89,7 +89,7 @@
                                         Знайдено депутатів: {{searchedDeputies.length}}
                                     </b>
                                     <button ng-if="searchStats.parties.length || searchStats.lawTags.length"
-                                            popover-template="'template/search/stats.html?vvkp-version-1.7.1'"
+                                            popover-template="'template/search/stats.html?vvkp-version-1.7.3'"
                                             popover-placement="bottom"
                                             popover-trigger="click"
                                             class="btn btn-default btn-xs"
@@ -162,7 +162,7 @@
                                         <table><tr>
                                             <td style="padding: 0 10px 8px 0;">
                                                 <div class="deputy-tag-about">
-                                                    <span popover-template="'template/deputy/tag-about.html?vvkp-version-1.7.1'"
+                                                    <span popover-template="'template/deputy/tag-about.html?vvkp-version-1.7.3'"
                                                           popover-placement="left"
                                                           popover-trigger="click"
                                                           class="glyphicon glyphicon-info-sign fading"
