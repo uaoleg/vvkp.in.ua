@@ -3,35 +3,28 @@
     <div ng-click="deputyPage(deputy)"
          class="img-deputy-{{deputy.id}}"
          style="cursor: pointer;"></div>
-    <img ng-src="img/parties/100x35/{{deputy.party}}.png"
-         class="deputy-party fading"
-         ng-if="deputy.party"
-         ng-click="searchAddTag(deputy.party)">
-    <div ng-if="deputy.district"
-         tooltip="{{deputy.district.region}}"
-         tooltip-placement="bottom"
-         class="label label-default"
-         style="cursor: default; display: block; margin: 10px auto 0; padding: 2px 0; width: 80px;">
-        <small>Округ №{{deputy.district.id}}</small>
+        <img ng-src="img/parties/100x35/{{deputy.party}}.png"
+             class="deputy-party fading"
+             ng-if="deputy.party"
+             ng-click="searchAddTag(deputy.party)">
+    <div ng-if="!deputy.party" style="height: 40px;"></div>
+    <div class="btn-group-vertical" style="margin: 10px 0 0;">
+        <button
+            ng-repeat="lawTagName in deputy.lawTags"
+            ng-if="isDeputyLawTagRateBigger(deputy, lawTagName)"
+            ng-init="lawTag = getLawTag(lawTagName)"
+            ng-click="searchAddTag(lawTag.name)"
+            type="button"
+            class="btn btn-{{lawTag.type}}"
+            style="font-weight: {{$index == 0 ? 'bold': 'normal'}}; margin: 0 5px 0 0; padding: 3px 5px 2px; text-transform: uppercase;">{{lawTag.name}}</button>
     </div>
-    <table class="deputy-info">
-        <tr>
-            <td>
-                <a href="http://itd.rada.gov.ua/mps/info/page/{{deputy.id}}" target="_blank">
-                    <span class="glyphicon glyphicon-globe" tooltip="Офіційна веб-сторінка"></span></a>
-            </td>
-            <td ng-if="deputy.phones.length">
-                <span ng-click="deputyPage(deputy)" class="glyphicon glyphicon-earphone" style="cursor: pointer;" tooltip="Контактні телефони"></span>
-            </td>
-            <td>
-                <a href="{{deputy.facebook}}" target="_blank" ng-if="deputy.facebook">
-                    <img ng-src="img/icon/facebook-16.png"
-                     ng-if="deputy.facebook"
-                     tooltip="Персональна веб-сторінка"
-                     style="opacity: 0.4;"></a>
-            </td>
-        </tr>
-    </table>
+</td>
+<td style="vertical-align: top;">
+    <h4 style="display: inline-block; margin: 0;">
+        {{getDeputyLastName(deputy)}}
+        <br>
+        <small>{{getDeputyFirstName(deputy)}}</small>
+    </h4>
     <table class="deputy-info">
         <tr ng-if="deputy.dateAuthorityStop" class="text-warning" style="vertical-align: middle;">
             <td><span class="glyphicon glyphicon-time" tooltip="Припинено депутатські повноваження" tooltip-placement="left" tooltip-popup-delay="1000"></span></td>
@@ -40,27 +33,48 @@
             </td>
         </tr>
     </table>
-</td>
-<td style="vertical-align: top;">
-    <h4 style="display: inline-block; margin: 10px 0 0;">
-        {{getDeputyLastName(deputy)}}
-        <br>
-        <small>{{getDeputyFirstName(deputy)}}</small>
-    </h4>
+    <table class="deputy-info">
+        <tr>
+            <td>
+                <a href="http://itd.rada.gov.ua/mps/info/page/{{deputy.id}}" target="_blank">
+                    <span class="glyphicon glyphicon-globe" tooltip="Офіційна веб-сторінка"></span></a>
+            </td>
+            <td ng-if="deputy.phones.length">
+                <span ng-click="deputyItemShowPhones = !deputyItemShowPhones" class="glyphicon glyphicon-earphone" style="cursor: pointer;" tooltip="Контактні телефони"></span>
+            </td>
+            <td ng-if="deputy.facebook">
+                <a href="{{deputy.facebook}}" target="_blank" ng-if="deputy.facebook">
+                    <img ng-src="img/icon/facebook-16.png"
+                     tooltip="Персональна веб-сторінка"
+                     style="opacity: 0.4;"></a>
+            </td>
+            <td ng-if="deputy.district">
+                <span
+                    tooltip="Округ №{{deputy.district.id}}, {{deputy.district.region}}"
+                    class="label label-default"
+                    style="cursor: default; padding: 2px 6px 1px;">
+                    <small><span class="glyphicon glyphicon-check"></span> {{deputy.district.id}}</small>
+                </span>
+            </td>
+        </tr>
+        <tr ng-show="deputyItemShowPhones">
+            <td colspan="3">phones</td>
+        </tr>
+    </table>
     <div ng-repeat="lawTagName in deputy.lawTags"
          ng-if="isDeputyLawTagRateBigger(deputy, lawTagName)"
          ng-init="lawTag = getLawTag(lawTagName)"
-         style="margin: 10px 0 0; max-width: 200px;">
+         class="deputy-item__law-tag">
         <table style="width: 100%"><tr>
             <td>
-                <div class="pull-right text-danger {{lawTag.type == 'success' ? 'hide' : ''}}">
+                <div class="pull-right text-danger {{lawTag.type == 'success' ? 'hide' : ''}} deputy-item__law-tag__name">
                     {{lawTag.type == 'success' ? lawTag.opposite : lawTag.name}}
                 </div>
-                <div class="pull-left text-success {{lawTag.type == 'success' ? '' : 'hide'}}">
+                <div class="pull-left text-success {{lawTag.type == 'success' ? '' : 'hide'}} deputy-item__law-tag__name">
                     {{lawTag.type == 'success' ? lawTag.name : lawTag.opposite}}
                 </div>
                 <div class="clearfix"></div>
-                <div ng-click="searchAddTag(lawTag.name)" class="deputy-tag progress">
+                <div ng-click="searchAddTag(lawTag.name)" class="progress">
                     <div role="progressbar" aria-valuenow="{{deputy.lawTagsInfo[lawTag.name].rate}}" aria-valuemin="0" aria-valuemax="100"
                          class="progress-bar progress-bar-success"
                          style="width: {{lawTag.type == 'success' ? deputy.lawTagsInfo[lawTag.name].rate : 100-deputy.lawTagsInfo[lawTag.name].rate}}%;">
@@ -72,7 +86,7 @@
                 </div>
             </td>
             <td style="padding: 0 0 0 10px; width: 20px;">
-                <div class="deputy-tag-about">
+                <div class="deputy-item__law-tag__about">
                     <span popover-template="'template/deputy/tag-about.html?vvkp-version-1.7.2'"
                           popover-placement="top"
                           popover-trigger="click"
@@ -84,6 +98,3 @@
     </div>
 </td>
 </tr></table>
-
-<div>
-</div>
