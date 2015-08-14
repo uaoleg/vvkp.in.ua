@@ -1,7 +1,7 @@
 (function (angular) {
 
     // TODO: Make correct file structure.
-    angular.module('vvkp-app', ['ui.bootstrap', 'ngTagsInput']);
+    angular.module('vvkp-app', ['ui.bootstrap', 'ngTagsInput', 'angular-progress-arc']);
 
     angular.module('vvkp-app')
       .controller('deputiesListCtrl', ['$scope', '$http', '$timeout', '$location', '$modal', function($scope, $http, $timeout, $location, $modal) {

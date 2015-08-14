@@ -73,6 +73,12 @@
                 <div class="pull-left text-success {{lawTag.type == 'success' ? '' : 'hide'}} deputy-item__law-tag__name">
                     {{lawTag.type == 'success' ? lawTag.name : lawTag.opposite}}
                 </div>
+                <progress-arc complete="(lawTag.type == 'success' ? deputy.lawTagsInfo[lawTag.name].rate : 100-deputy.lawTagsInfo[lawTag.name].rate) / 100"
+                              size="30"
+                              background="rgb(229, 28, 35)"
+                              stroke="rgb(76, 175, 80)"
+                              stroke-width="15"
+                ></progress-arc>
                 <div class="clearfix"></div>
                 <div ng-click="searchAddTag(lawTag.name)" class="progress">
                     <div role="progressbar" aria-valuenow="{{deputy.lawTagsInfo[lawTag.name].rate}}" aria-valuemin="0" aria-valuemax="100"
