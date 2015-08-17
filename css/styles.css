@@ -27,7 +27,7 @@
 }
 
 .deputy-info td:first-child {
-    padding-right: 5px;
+    padding-left: 0px;
 }
 
 .deputy-info .glyphicon {
@@ -38,23 +38,33 @@
     margin: 0 0 30px 0;
 }
 
+.deputy-item__law-tags {
+    margin: 0 0px 0 14px;
+    width: 250px;
+    white-space: nowrap;
+}
+
+.deputy-item__law-tags td:nth-child(1),
+.deputy-item__law-tags td:nth-child(3) {
+    width: 49%;
+}
+
+.deputy-item__law-tags td:nth-child(2) {
+    text-align: center;
+    width: 2%;
+}
+
+.deputy-item__law-tags td:nth-child(1) {
+    text-align: right;
+}
+
+.deputy-item__law-tags td:nth-child(2) {
+    padding: 5px 10px;
+}
+
 .deputy-item__law-tag {
 
     max-width: 200px;
-}
-
-.deputy-item__law-tag:hover .deputy-item__law-tag__name.hide {
-    display: block !important;
-}
-
-.deputy-item__law-tag .progress,
-.deputy-item__law-tag__about {
-    visibility: hidden;
-}
-
-.deputy-item__law-tag:hover .progress,
-.deputy-item__law-tag:hover .deputy-item__law-tag__about {
-    visibility: visible;
 }
 
 .deputy-item__photo {

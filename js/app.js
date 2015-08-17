@@ -163,8 +163,15 @@
         };
 
         $scope.searchAddTag = function(text) {
-            var added = false;
-            for (var i in $scope.searchTags) {
+            var i,
+                added = false,
+                isLawTag = function(text) {
+                    return $scope.lawTags.filter(function(lawTag) {
+                        return lawTag.name.indexOf(text) > -1;
+                    }).length > 0;
+                };
+            // Check if already searched
+            for (i in $scope.searchTags) {
                 if ($scope.searchTags[i].name.indexOf(text) > -1) {
                     added = true;
                 }
@@ -172,6 +179,18 @@
             if (added) {
                 return;
             }
+            // If is law tag than remove all the others
+            if (isLawTag(text)) {
+                i = 0;
+                while (i < $scope.searchTags.length) {
+                    if (isLawTag($scope.searchTags[i].name)) {
+                        $scope.searchTags.splice(i, 1);
+                    } else {
+                        i++;
+                    }
+                }
+            }
+            // Push new tag
             $scope.searchTags.push({name: text});
             $scope.searchReloadResults();
         };
