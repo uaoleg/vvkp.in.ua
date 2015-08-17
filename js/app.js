@@ -191,6 +191,8 @@
                 }
             }
             // Push new tag
+console.log(document.getElementById('tags-input').getBoundingClientRect());
+            window.scrollTo(0, document.getElementById('tags-input').scrollTop);
             $scope.searchTags.push({name: text});
             $scope.searchReloadResults();
         };
@@ -601,7 +603,7 @@ window.onload = function() {
     // Github
     headAppendScript('https://buttons.github.io/buttons.js', {'id': 'github-bjs'});
 
-    // Facebook
+    // Facebook page like
     (function (d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id))

@@ -1,5 +1,6 @@
-@media (max-width: 767px) {
-    body {
+@media (max-width: 991px) {
+    .container {
+        margin: 0 auto;
         width: 400px;
     }
 }
@@ -108,7 +109,7 @@
     max-width: 200px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     .deputy-item__law-tag {
         font-size: 18px;
     }

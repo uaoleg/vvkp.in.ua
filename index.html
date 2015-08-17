@@ -5,6 +5,7 @@
         <meta property="og:image" content="http://vvkp.in.ua/img/rada.jpg" />
         <meta property="og:title" content="Всеукраїнський Вебсайт Контролю Політиків" />
         <meta property="og:description" content="Мета проекту - візуалізація діяльності народних депутатів і політичних партій по найбільш знакових та резонансних законах. Це неодмінно допоможе кожному з нас в очищенні влади на чергових виборах." />
+        <meta name="viewport" content="width=device-width, initial-scale=0.7">
         <title>Всеукраїнський Вебсайт Контролю Політиків</title>
         <link rel="shortcut icon" href="img/icon.ico">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -55,7 +56,7 @@
             <div class="row" style="height: 285px;">
                 <div class="col-md-4"></div>
                 <div class="col-md-4" style="text-align: center;">
-                    <div class="fb-page" data-href="https://www.facebook.com/vvkp.in.ua" data-width="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/vvkp.in.ua"><a href="https://www.facebook.com/vvkp.in.ua">VVKP</a></blockquote></div></div>
+                    <div class="fb-page" data-href="https://www.facebook.com/vvkp.in.ua" data-width="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/vvkp.in.ua"><a href="https://www.facebook.com/vvkp.in.ua">VVKP</a></blockquote></div></div>
                     <br><br>
                     <a class="github-button" href="https://github.com/uaoleg/vvkp.in.ua" data-style="mega" data-count-href="/uaoleg/vvkp.in.ua/stargazers" data-count-api="/repos/uaoleg/vvkp.in.ua#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star uaoleg/vvkp.in.ua on GitHub">Star</a>
                 </div>
@@ -68,7 +69,8 @@
                             <tr>
                                 <td>
                                     <div class="form-group">
-                                        <tags-input on-tag-added="searchReloadResults()"
+                                        <tags-input id="tags-input"
+                                                    on-tag-added="searchReloadResults()"
                                                     on-tag-removed="searchReloadResults()"
                                                     replace-spaces-with-dashes="false"
                                                     add-on-comma="false"
@@ -111,13 +113,12 @@
                     </table>
                     <div class="row" style="{{searchedDeputiesFiltering ? 'opacity: 0.5' : ''}}">
                         <div ng-repeat-start="deputy in searchedDeputies | filter:searchText | limitTo:searchedDeputiesLimit"
-                             class="col-lg-4 col-md-6 col-sm-6 col-xs-12 deputy-item">
+                             class="col-lg-4 col-md-6 col-sm-12 col-xs-12 deputy-item">
                             <div ng-include src="'template/deputy/item.html?vvkp-version-1.7.2'"></div>
                         </div>
                         <div ng-repeat-end>
                             <div ng-if="$index % 3 == 2" class="clearfix visible-lg"></div>
                             <div ng-if="$index % 2 == 1" class="clearfix visible-md"></div>
-                            <div ng-if="$index % 2 == 1" class="clearfix visible-sm"></div>
                         </div>
                     </div>
                     <div ng-show="searchedDeputiesFiltering || searchedDeputiesIncreasingLimit" style="text-align: center;">
