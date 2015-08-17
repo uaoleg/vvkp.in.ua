@@ -306,7 +306,7 @@
         };
 
         function searchedDeputiesLimitReset(){
-            $scope.searchedDeputiesLimit = 10;
+            $scope.searchedDeputiesLimit = 12;
         }
 
         function searchedDeputiesLimitInc(){

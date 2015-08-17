@@ -110,15 +110,9 @@
                         </tbody>
                     </table>
                     <div class="row" style="{{searchedDeputiesFiltering ? 'opacity: 0.5' : ''}}">
-                        <div ng-repeat-start="deputy in searchedDeputies | filter:searchText | limitTo:searchedDeputiesLimit"
-                             ng-init="showPhones = 0"
+                        <div ng-repeat="deputy in searchedDeputies | filter:searchText | limitTo:searchedDeputiesLimit"
                              class="col-lg-4 col-md-6 col-sm-6 col-xs-12 deputy-item">
                             <div ng-include src="'template/deputy/item.html?vvkp-version-1.7.2'"></div>
-                        </div>
-                        <div ng-repeat-end>
-                            <div ng-if="$index % 3 == 2" class="clearfix visible-lg"></div>
-                            <div ng-if="$index % 2 == 1" class="clearfix visible-md"></div>
-                            <div ng-if="$index % 2 == 1" class="clearfix visible-sm"></div>
                         </div>
                     </div>
                     <div ng-show="searchedDeputiesFiltering || searchedDeputiesIncreasingLimit" style="text-align: center;">

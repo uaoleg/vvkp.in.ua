@@ -1,3 +1,8 @@
+<div ng-if="$index > 2" class="visible-lg"><hr class="deputy-item__fancy-line"></div>
+<div ng-if="$index > 1" class="visible-md"><hr class="deputy-item__fancy-line"></div>
+<div ng-if="$index > 1" class="visible-sm"><hr class="deputy-item__fancy-line"></div>
+<div ng-if="$index > 0" class="visible-xs"><hr class="deputy-item__fancy-line"></div>
+
 <table style="width: 100%;"><tr>
 <td class="deputy-item__photo">
     <div ng-click="deputyPage(deputy)"
@@ -10,45 +15,39 @@
     <div ng-if="!deputy.party" style="height: 40px;"></div>
 </td>
 <td style="vertical-align: top;">
-    <h4 style="display: inline-block; margin: 0;">
+    <h4 class="deputy-item__name">
         {{getDeputyLastName(deputy)}}
         <br>
         <small>{{getDeputyFirstName(deputy)}}</small>
     </h4>
-    <table class="deputy-info">
+    <table class="deputy-item__info">
         <tr ng-if="deputy.dateAuthorityStop" class="text-warning" style="vertical-align: middle;">
             <td><span class="glyphicon glyphicon-time" tooltip="Припинено депутатські повноваження" tooltip-placement="left" tooltip-popup-delay="1000"></span></td>
             <td class="text-warning">
                 {{date(deputy.dateAuthorityStop, 'Y-m-d')}}
             </td>
         </tr>
-    </table>
-    <table class="deputy-info">
         <tr>
             <td>
                 <a href="http://itd.rada.gov.ua/mps/info/page/{{deputy.id}}" target="_blank">
                     <span class="glyphicon glyphicon-globe" tooltip="Офіційна веб-сторінка"></span></a>
             </td>
-            <td ng-if="deputy.phones.length">
+            <td ng-if="deputy.phones.length" style="padding-left: 8px;">
                 <span ng-click="deputyItemShowPhones = !deputyItemShowPhones" class="glyphicon glyphicon-earphone" style="cursor: pointer;" tooltip="Контактні телефони"></span>
             </td>
-            <td ng-if="deputy.facebook">
+            <td ng-if="deputy.facebook" style="padding: 2px 0px 5px 2px;">
                 <a href="{{deputy.facebook}}" target="_blank" ng-if="deputy.facebook">
-                    <img ng-src="img/icon/facebook-16.png"
-                     tooltip="Персональна веб-сторінка"
-                     style="opacity: 0.4;"></a>
+                    <img ng-src="img/icon/facebook-32.png"
+                         tooltip="Персональна веб-сторінка"
+                         style="opacity: 0.3"></a>
             </td>
             <td ng-if="deputy.district">
                 <span
                     tooltip="Округ №{{deputy.district.id}}, {{deputy.district.region}}"
-                    class="label label-default"
                     style="cursor: default; padding: 2px 6px 1px;">
                     <small><span class="glyphicon glyphicon-check"></span> {{deputy.district.id}}</small>
                 </span>
             </td>
-        </tr>
-        <tr ng-show="deputyItemShowPhones">
-            <td colspan="3">phones</td>
         </tr>
     </table>
 </td>
@@ -57,14 +56,14 @@
 <table class="deputy-item__law-tags">
     <tr ng-repeat="lawTagName in deputy.lawTags"
         ng-if="isDeputyLawTagRateBigger(deputy, lawTagName)"
-        ng-init="lawTag = getLawTag(lawTagName)"
+        ng-init="lawTag = getLawTag(lawTagName); lawTagGood = lawTag.type == 'success' ? lawTag.name : lawTag.opposite; lawTagBad = lawTag.type == 'success' ? lawTag.opposite : lawTag.name"
         class="deputy-item__law-tag">
         <td>
             <span
-                ng-click="searchAddTag(lawTag.name)"
+                ng-click="searchAddTag(lawTagGood)"
                 class="text-{{lawTag.type == 'success' ? 'success' : 'muted'}}"
                 style="cursor: pointer; font-weight: {{lawTag.type == 'success' ? 'bold' : 'normal'}}">
-                {{lawTag.type == 'success' ? lawTag.name : lawTag.opposite}}
+                {{lawTagGood}}
             </span>
         </td>
         <td popover-template="'template/deputy/tag-about.html?vvkp-version-1.7.2'"
@@ -84,11 +83,15 @@
         </td>
         <td>
             <span
-                ng-href ng-click="searchAddTag(lawTag.opposite)"
+                ng-href ng-click="searchAddTag(lawTagBad)"
                 class="text-{{lawTag.type == 'success' ? 'muted' : 'danger'}}"
                 style="cursor: pointer; font-weight: {{lawTag.type == 'success' ? 'normal' : 'bold'}}">
-                {{lawTag.type == 'success' ? lawTag.opposite : lawTag.name}}
+                {{lawTagBad}}
             </span>
         </td>
     </tr>
 </table>
+
+<div ng-if="$index % 3 == 2" class="clearfix visible-lg"></div>
+<div ng-if="$index % 2 == 1" class="clearfix visible-md"></div>
+<div ng-if="$index % 2 == 1" class="clearfix visible-sm"></div>

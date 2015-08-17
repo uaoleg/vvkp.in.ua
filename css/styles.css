@@ -35,13 +35,72 @@
 }
 
 .deputy-item {
-    margin: 0 0 30px 0;
+    margin: 0;
+}
+
+.deputy-item__fancy-line {
+    border: 0;
+    height: 1px;
+    position: relative;
+    margin: 40px 0 30px 70px;
+    width: 60%;
+    max-width: 200px;
+}
+
+.deputy-item__fancy-line:before {
+    top: -0.5em;
+    height: 1em;
+}
+
+.deputy-item__fancy-line:after {
+    content:'';
+    height: 0.5em;   /* half the height of :before */
+    top: 1px;        /* height of hr*/
+}
+
+.deputy-item__fancy-line:before, .deputy-item__fancy-line:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+}
+
+.deputy-item__fancy-line, .deputy-item__fancy-line:before {
+    background: -moz-radial-gradient(center, ellipse cover, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 75%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 75%, color-stop(0%,rgba(0,0,0,0.1)), color-stop(75%,rgba(0,0,0,0)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0) 75%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0) 75%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0) 75%);
+    background: radial-gradient(ellipse at center, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0) 75%);
+}
+
+.deputy-item__fancy-line:after {
+    background: #fff;
+}
+
+.deputy-item__info {
+    font-size: 28px;
+}
+
+.deputy-item__info a {
+    color: rgb(102, 102, 102);
+}
+
+.deputy-item__info td {
+    padding: 5px;
+}
+
+.deputy-item__info td:first-child {
+    padding-left: 0px;
+}
+
+.deputy-item__info .glyphicon {
+    opacity: 0.5;
 }
 
 .deputy-item__law-tags {
-    margin: 0 0px 0 14px;
-    width: 250px;
+    table-layout: fixed;
     white-space: nowrap;
+    width: 288px;
 }
 
 .deputy-item__law-tags td:nth-child(1),
@@ -51,7 +110,7 @@
 
 .deputy-item__law-tags td:nth-child(2) {
     text-align: center;
-    width: 2%;
+    width: 60px;
 }
 
 .deputy-item__law-tags td:nth-child(1) {
@@ -63,8 +122,25 @@
 }
 
 .deputy-item__law-tag {
-
     max-width: 200px;
+}
+
+.deputy-item__hr {
+    box-shadow:0 0px -4px rgba(0, 0, 0, 0.2);
+    margin: 0px auto 30px;
+    width: 60%;
+}
+
+.deputy-item__name {
+    display: inline-block;
+    font-size: 28px;
+    height: 72px;
+    line-height: 32px;
+    margin: -5px 0 0;
+}
+
+.deputy-item__name small {
+    font-size: 60%;
 }
 
 .deputy-item__photo {
