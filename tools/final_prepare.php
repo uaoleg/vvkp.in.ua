@@ -110,13 +110,21 @@ foreach ($data->deputies as $deputy) {
 
     // Order law tags
     $deputy->lawTags = array_unique($deputy->lawTags);
-    usort($deputy->lawTags, function($a, $b) {
-        if (in_array($a, ['працює', 'прогулює'])) {
+    usort($deputy->lawTags, function($a, $b) use($data) {
+        foreach ($data->lawTags as $lawTag) {
+            if ($lawTag->name === $a) {
+                $orderA = $lawTag->order;
+            }
+            if ($lawTag->name === $b) {
+                $orderB = $lawTag->order;
+            }
+        }
+        if ($orderA < $orderB) {
             return -1;
-        } elseif (in_array($b, ['працює', 'прогулює'])) {
+        } elseif ($orderA > $orderB) {
             return 1;
         } else {
-            return strcmp($a, $b);
+            return 0;
         }
     });
 
