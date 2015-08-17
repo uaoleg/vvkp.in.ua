@@ -1,0 +1,39 @@
+<div ng-if="searchStats.parties.length && !searchStats.lawTags.length">
+    <div ng-repeat="party in searchStats.parties"
+        ng-click="searchAddTag(party.name)"
+        class="col-lg-2 col-md-2 col-sm-4 col-xs-4"
+        style="cursor: pointer;">
+            <img ng-src="img/parties/100x35/{{party.name}}.png" class="deputy-party">
+            <progress max="party.total" style="margin: 10px 0 0; opacity: 0.5;">
+                <bar value="party.count.success" type="success"></bar>
+                <bar value="party.count.danger" type="danger"></bar>
+            </progress>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+<div ng-if="searchStats.lawTags.length">
+    <div ng-repeat="statsLawTag in searchStats.lawTags"
+        ng-init="lawTag1 = getLawTag(statsLawTag.name); lawTag2 = getLawTag(lawTag1.opposite)"
+        class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+        <progress max="statsLawTag.total" style="height: 24px; margin: 10px 0 0; width: 100%;">
+            <bar value="statsLawTag.count[statsLawTag.types[0]]" type="{{statsLawTag.types[0]}}"
+                 ng-click="searchAddTag(lawTag1.name)"
+                 tooltip="{{lawTag1.desc}}"
+                 tooltip-placement="top"
+                 tooltip-popup-delay="500"
+                 tooltip-append-to-body="true"
+                 style="cursor: pointer; padding: 0 7px; text-align: left; white-space: nowrap;">
+                <span style="position: absolute;"><b>{{lawTag1.name}}</b></span>
+            </bar>
+            <bar value="statsLawTag.count[statsLawTag.types[1]]" type="{{statsLawTag.types[1]}}"
+                 ng-click="searchAddTag(lawTag2.name)"
+                 tooltip="{{lawTag2.desc}}"
+                 tooltip-placement="top"
+                 tooltip-popup-delay="500"
+                 tooltip-append-to-body="true"
+                 style="cursor: pointer;"></bar>
+        </progress>
+    </div>
+    <div class="clearfix"></div>
+</div>

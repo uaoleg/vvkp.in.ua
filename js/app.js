@@ -482,6 +482,7 @@
                     return b.count[type] / b.total - a.count[type] / a.total;
                 });
             }
+            stats.show = (!searchTags.length || hasLawTag || hasParty);
             $scope.searchStats = stats;
 
             return deputies;

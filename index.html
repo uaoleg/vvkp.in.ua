@@ -63,50 +63,43 @@
                 <div class="col-md-4"></div>
             </div>
             <div class="row">
+                <div class="col-md-12" style="height: 34px;">
+                    <tags-input id="tags-input"
+                                on-tag-added="searchReloadResults()"
+                                on-tag-removed="searchReloadResults()"
+                                replace-spaces-with-dashes="false"
+                                add-on-comma="false"
+                                display-property="name"
+                                key-property="name"
+                                ng-model="searchTags"
+                                placeholder="Партія, Округ, Тег або Прізвище">
+                        <auto-complete
+                            source="searchLoadSuggestions($query)"
+                            min-length="0"
+                            load-on-focus="false"
+                            load-on-empty="false"
+                            select-first-match="true"
+                            max-results-to-show="100"
+                            template="template/search/suggestions.html?vvkp-version-1.7.2"></auto-complete>
+                    </tags-input>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div ng-if="searchStats.show"
+                         ng-include src="'template/search/stats2.html?vvkp-version-1.7.2'"
+                         style="margin-top: 20px;"></div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 20px;">
                 <div class="col-md-12">
                     <table ng-cloak class="table table-striped">
-                        <thead>
-                            <tr>
-                                <td>
-                                    <div class="form-group">
-                                        <tags-input id="tags-input"
-                                                    on-tag-added="searchReloadResults()"
-                                                    on-tag-removed="searchReloadResults()"
-                                                    replace-spaces-with-dashes="false"
-                                                    add-on-comma="false"
-                                                    display-property="name"
-                                                    key-property="name"
-                                                    ng-model="searchTags"
-                                                    placeholder="Партія, Округ, Тег або Прізвище">
-                                            <auto-complete
-                                                source="searchLoadSuggestions($query)"
-                                                min-length="0"
-                                                load-on-focus="false"
-                                                load-on-empty="false"
-                                                select-first-match="true"
-                                                max-results-to-show="100"
-                                                template="template/search/suggestions.html?vvkp-version-1.7.2"></auto-complete>
-                                        </tags-input>
-                                    </div>
-                                </td>
-                            </tr>
-                        </thead>
                         <tbody>
                             <tr>
                                 <td>
                                     <b style="display: inline-block; height: 28px; vertical-align: middle;">
                                         Знайдено депутатів: {{searchedDeputies.length}}
                                     </b>
-                                    <button ng-if="searchStats.parties.length || searchStats.lawTags.length"
-                                            popover-template="'template/search/stats.html?vvkp-version-1.7.4'"
-                                            popover-placement="bottom"
-                                            popover-trigger="click"
-                                            class="btn btn-default btn-xs"
-                                            style="margin-left: 10px;"
-                                    >
-                                        <span class="glyphicon glyphicon-stats"></span>
-                                        <b>Статистика</b>
-                                    </button>
                                 </td>
                             </tr>
                         </tbody>
