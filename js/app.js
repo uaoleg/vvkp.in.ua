@@ -191,8 +191,7 @@
                 }
             }
             // Push new tag
-console.log(document.getElementById('tags-input').getBoundingClientRect());
-            window.scrollTo(0, document.getElementById('tags-input').scrollTop);
+            window.scrollTo(0, document.getElementById('tags-input').getBoundingClientRect().top - document.body.getBoundingClientRect().top);
             $scope.searchTags.push({name: text});
             $scope.searchReloadResults();
         };
