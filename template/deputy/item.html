@@ -5,7 +5,7 @@
 
 <table style="width: 100%;"><tr>
 <td class="deputy-item__photo">
-    <div ng-click="deputyPage(deputy)"
+    <div ng-click="deputy.lawTagName = ''; deputyPage(deputy)"
          class="img-deputy-{{deputy.id}}"
          style="cursor: pointer;"></div>
         <img ng-src="img/parties/100x35/{{deputy.party}}.png"
@@ -33,7 +33,9 @@
                     <span class="glyphicon glyphicon-globe" tooltip="Офіційна веб-сторінка"></span></a>
             </td>
             <td ng-if="deputy.phones.length" style="padding-left: 8px;">
-                <span ng-click="deputyItemShowPhones = !deputyItemShowPhones" class="glyphicon glyphicon-earphone" style="cursor: pointer;" tooltip="Контактні телефони"></span>
+                <span
+                    tooltip="{{deputy.phones.join(', ')}}"
+                    class="glyphicon glyphicon-earphone"></span>
             </td>
             <td ng-if="deputy.facebook" style="padding: 2px 0px 5px 2px;">
                 <a href="{{deputy.facebook}}" target="_blank" ng-if="deputy.facebook">
@@ -66,10 +68,10 @@
                 {{lawTagGood}}
             </span>
         </td>
-        <td popover-template="'template/deputy/tag-about.html?vvkp-version-1.7.2'"
-            popover-placement="top"
-            popover-trigger="click"
-            popover-append-to-body="true"
+        <td tooltip="Голосування депутата"
+            tooltip-popup-delay="1000"
+            tooltip-append-to-body="true"
+            ng-click="deputy.lawTagName = lawTagName; deputyPage(deputy)"
             class="fading"
             style="cursor: pointer;">
             <progress-arc
@@ -91,7 +93,3 @@
         </td>
     </tr>
 </table>
-
-<div ng-if="$index % 3 == 2" class="clearfix visible-lg"></div>
-<div ng-if="$index % 2 == 1" class="clearfix visible-md"></div>
-<div ng-if="$index % 2 == 1" class="clearfix visible-sm"></div>

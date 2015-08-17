@@ -62,6 +62,7 @@
     <table class="table">
         <tr ng-repeat="lawTagName in deputy.lawTags"
             ng-if="isDeputyLawTagRateBigger(deputy, lawTagName)"
+            ng-show="!deputy.lawTagName || deputy.lawTagName && deputy.lawTagName == lawTagName"
             ng-init="lawTag = getLawTag(lawTagName); laws = getDeputyLaws(deputy, lawTagName)">
             <td>
                 <p ng-repeat="law in laws"
@@ -90,5 +91,10 @@
     </table>
 <!--    <div id="deputy-page-comments" class="clearfix"></div>-->
 </div>
+<button ng-show="deputy.lawTagName" ng-click="deputy.lawTagName = ''"
+        class="btn btn-default btn-lg btn-block"
+        style="margin: 0 auto; width: 50%; ">
+    Всі закони
+</button>
 <div class="modal-footer">
 </div>

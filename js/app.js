@@ -525,7 +525,8 @@
             }
         };
     }])
-      .directive('stickyElm', function(){
+
+    .directive('stickyElm', function(){
         return {
             restrict: 'A',
             scope:{
