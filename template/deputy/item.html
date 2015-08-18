@@ -13,14 +13,6 @@
          ng-if="deputy.party"
          ng-click="searchAddTag(deputy.party)">
     <div ng-if="!deputy.party" style="height: 40px;"></div>
-    <br>
-    <div ng-if="deputy.dateAuthorityStop"
-           tooltip="Припинено депутатські повноваження"
-           class="label label-warning"
-           style="cursor: default; display: inline-block; margin-top: -16px; padding: 2px 4px;">
-        <span class="glyphicon glyphicon-time"></span>
-        {{date(deputy.dateAuthorityStop, 'Y-m-d')}}
-    </div>
 </td>
 <td style="vertical-align: top;">
     <h4 class="deputy-item__name">
@@ -51,6 +43,10 @@
                     style="cursor: default; padding: 2px 6px 1px;">
                     <small><span class="glyphicon glyphicon-check"></span> {{deputy.district.id}}</small>
                 </span>
+            </td>
+            <td ng-if="deputy.dateAuthorityStop" class="text-warning">
+                <span class="glyphicon glyphicon-time"
+                      tooltip="Припинено депутатські повноваження {{date(deputy.dateAuthorityStop, 'Y-m-d')}}"></span>
             </td>
         </tr>
     </table>
