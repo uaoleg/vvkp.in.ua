@@ -15,7 +15,7 @@
 <div ng-if="searchStats.lawTags.length">
     <div ng-repeat="statsLawTag in searchStats.lawTags"
         ng-init="lawTag1 = getLawTag(statsLawTag.name); lawTag2 = getLawTag(lawTag1.opposite)"
-        class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+        class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
         <div class="btn-group search-stats__law-tag">
             <button type="button"
                     ng-click="searchAddTag(lawTag1.name)"
