@@ -23,7 +23,7 @@
                 if (src.indexOf('://') !== -1) {
                     js.src = src;
                 } else {
-                    js.src = src.replace('.js', MIN + '.js') + '?vvkp-version-1.7.2';
+                    js.src = src.replace('.js', MIN + '.js') + '?vvkp-version-1.8.0';
                 }
                 if (typeof attrs === 'object') {
                     for (var attrName in attrs) {
@@ -39,7 +39,7 @@
                 if (href.indexOf('://') !== -1) {
                     link.href = href;
                 } else {
-                    link.href = href.replace('.css', MIN + '.css') + '?vvkp-version-1.7.2';
+                    link.href = href.replace('.css', MIN + '.css') + '?vvkp-version-1.8.0';
                 }
                 head.appendChild(link);
             }
@@ -83,14 +83,14 @@
                             load-on-empty="false"
                             select-first-match="true"
                             max-results-to-show="100"
-                            template="template/search/suggestions.html?vvkp-version-1.7.2"></auto-complete>
+                            template="template/search/suggestions.html?vvkp-version-1.8.0"></auto-complete>
                     </tags-input>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
                     <div ng-if="searchStats.show"
-                         ng-include src="'template/search/stats2' + MIN + '.html?vvkp-version-1.7.2'"
+                         ng-include src="'template/search/stats2' + MIN + '.html?vvkp-version-1.8.0'"
                          style="margin-top: 20px;"></div>
                 </div>
             </div>
@@ -110,7 +110,7 @@
                     <div class="row" style="{{searchedDeputiesFiltering ? 'opacity: 0.5' : ''}}">
                         <div ng-repeat-start="deputy in searchedDeputies | filter:searchText | limitTo:searchedDeputiesLimit"
                              class="col-lg-4 col-md-6 col-sm-12 col-xs-12 deputy-item">
-                            <div ng-include src="'template/deputy/item' + MIN + '.html?vvkp-version-1.7.2'"></div>
+                            <div ng-include src="'template/deputy/item' + MIN + '.html?vvkp-version-1.8.0'"></div>
                         </div>
                         <div ng-repeat-end>
                             <div ng-if="$index % 3 == 2" class="clearfix visible-lg"></div>
