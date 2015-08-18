@@ -2,10 +2,8 @@
 namespace console\controllers;
 
 use \common\models\Deputy;
+use \common\models\Deputy\Registration;
 use \common\models\District;
-use \common\models\Law;
-use \common\models\LawTag;
-use \common\models\Party;
 
 /**
  * Import data from rada.gov.ua
@@ -126,6 +124,78 @@ class RadaController extends BaseController
                     ], false);
                     $district->save();
                 }
+            }
+        }
+
+    }
+
+    /**
+     * Import deputies' registrations
+     */
+    public function actionDeputyRegistrations()
+    {
+        foreach (Deputy::find()->all() as $deputy) {
+
+            echo "{$deputy->id}\n";
+
+            // Get last reg
+            $lastReg = Registration::find()
+                ->where(['deputyId'  => $deputy->id])
+                ->orderBy([
+                    'date' => \SORT_DESC,
+                    'time' => \SORT_DESC,
+                ])
+                ->one();
+            $startDate = $lastReg ? date('d.m.Y', strtotime($lastReg->date)) : '01.01.2010';
+            $endDate = date('d.m.Y');
+
+            // Get link to registrations
+            $url = "http://itd.rada.gov.ua/mps/info/page/{$deputy->id}";
+            $content = file_get_contents($url);
+            $html = $this->parser->str_get_html($content);
+            $link = $html->find('.topTitle a', 1); // Реєстрація депутата за допомогою електронної системи
+            $url = parse_url($link->href);
+            $url['path'] = str_replace('ns_dep', 'ns_dep_reg_list', $url['path']);
+            $url['query'] = mb_substr($url['query'], 10); // Remove "vid=2&"
+            $url['query'] .= "&startDate={$startDate}&endDate={$endDate}&nom_str=0";
+            $url = "{$url['scheme']}://{$url['host']}{$url['path']}?{$url['query']}";
+
+            // Get registrations
+            $content = file_get_contents($url);
+            $content = iconv('windows-1251', 'utf-8', $content);
+            $html = $this->parser->str_get_html($content);
+            $htmlRegistrations = $html->find('ul > li');
+            foreach ($htmlRegistrations as $htmlRegistration) {
+
+                // Regular registration
+                if ($htmlRegistration->find('.strdate b')[0]->plaintext) {
+                    $regDate = date('Y-m-d', strtotime($htmlRegistration->find('.strdate b')[0]->plaintext));
+                    $regType = mb_strpos($htmlRegistration->find('.zname a')[0]->plaintext, 'Ранкова') !== false
+                        ? Registration::TYPE_MORNING
+                        : Registration::TYPE_EVENING;
+                    $regTime = mb_substr($htmlRegistration->find('.strdate')[0]->plaintext, -8);
+                    Registration::deleteAll([
+                        'deputyId'  => $deputy->id,
+                        'date'      => $regDate,
+                        'type'      => $regType,
+                    ]);
+                    $registration = new Registration();
+                    $registration->setAttributes([
+                        'deputyId'  => $deputy->id,
+                        'date'      => $regDate,
+                        'type'      => $regType,
+                        'time'      => $regTime,
+                        'isPresent' => mb_strpos($htmlRegistration->plaintext, 'Присут') !== false,
+                    ], false);
+                    $registration->save();
+                }
+
+                // Application for previous registration (http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_dep_reg_list?kod=242&startDate=04.12.2014&endDate=18.08.2015&nom_str=0)
+                elseif (mb_strpos($htmlRegistration->plaintext, 'Присут') !== false) {
+                    $registration->isPresent = true;
+                    $registration->save();
+                }
+
             }
         }
 
