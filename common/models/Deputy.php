@@ -19,6 +19,9 @@ namespace common\models;
 class Deputy extends BaseActiveRecord
 {
 
+    /**
+     * Returns related district
+     */
     public function getDistrict()
     {
         return $this->hasOne(District::className(), ['id' => 'districtId']);
