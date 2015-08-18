@@ -53,14 +53,17 @@
     </head>
     <body ng-controller="deputiesListCtrl">
         <div class="container">
-            <div class="row" style="height: 285px;">
-                <div class="col-md-4"></div>
+            <div class="row" style="height: 260px;">
+                <div class="col-md-4">
+
+                </div>
                 <div class="col-md-4" style="text-align: center;">
-                    <div class="fb-page" data-href="https://www.facebook.com/vvkp.in.ua" data-width="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/vvkp.in.ua"><a href="https://www.facebook.com/vvkp.in.ua">VVKP</a></blockquote></div></div>
-                    <br><br>
+                    <div class="fb-page" data-href="https://www.facebook.com/vvkp.in.ua" data-width="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false" style="margin-bottom: 10px;"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/vvkp.in.ua"><a href="https://www.facebook.com/vvkp.in.ua">VVKP</a></blockquote></div></div>
                     <a class="github-button" href="https://github.com/uaoleg/vvkp.in.ua" data-style="mega" data-count-href="/uaoleg/vvkp.in.ua/stargazers" data-count-api="/repos/uaoleg/vvkp.in.ua#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star uaoleg/vvkp.in.ua on GitHub">Star</a>
                 </div>
-                <div class="col-md-4"></div>
+                <div class="col-md-4">
+
+                </div>
             </div>
             <div class="row">
                 <div class="col-md-12" style="height: 34px;">
@@ -87,7 +90,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div ng-if="searchStats.show"
-                         ng-include src="'template/search/stats2.html?vvkp-version-1.7.2'"
+                         ng-include src="'template/search/stats2' + MIN + '.html?vvkp-version-1.7.2'"
                          style="margin-top: 20px;"></div>
                 </div>
             </div>
@@ -107,7 +110,7 @@
                     <div class="row" style="{{searchedDeputiesFiltering ? 'opacity: 0.5' : ''}}">
                         <div ng-repeat-start="deputy in searchedDeputies | filter:searchText | limitTo:searchedDeputiesLimit"
                              class="col-lg-4 col-md-6 col-sm-12 col-xs-12 deputy-item">
-                            <div ng-include src="'template/deputy/item.html?vvkp-version-1.7.2'"></div>
+                            <div ng-include src="'template/deputy/item' + MIN + '.html?vvkp-version-1.7.2'"></div>
                         </div>
                         <div ng-repeat-end>
                             <div ng-if="$index % 3 == 2" class="clearfix visible-lg"></div>

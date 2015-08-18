@@ -211,6 +211,6 @@ $compressDir = function($dir) use(&$compressDir, $s3) {
     }
 };
 system("gzip --best < ../index.html > ../index.min.html");
-foreach (['../data', '../js', '../css'] as $dir) {
+foreach (['../data', '../js', '../css', '../template'] as $dir) {
     $compressDir($dir);
 }
