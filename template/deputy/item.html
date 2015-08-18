@@ -8,11 +8,19 @@
     <div ng-click="deputy.lawTagName = ''; deputyPage(deputy)"
          class="img-deputy-{{deputy.id}}"
          style="cursor: pointer;"></div>
-        <img ng-src="img/parties/100x35/{{deputy.party}}.png"
-             class="deputy-party fading"
-             ng-if="deputy.party"
-             ng-click="searchAddTag(deputy.party)">
+    <img ng-src="img/parties/100x35/{{deputy.party}}.png"
+         class="deputy-party fading"
+         ng-if="deputy.party"
+         ng-click="searchAddTag(deputy.party)">
     <div ng-if="!deputy.party" style="height: 40px;"></div>
+    <br>
+    <div ng-if="deputy.dateAuthorityStop"
+           tooltip="Припинено депутатські повноваження"
+           class="label label-warning"
+           style="cursor: default; display: inline-block; margin-top: -16px; padding: 2px 4px;">
+        <span class="glyphicon glyphicon-time"></span>
+        {{date(deputy.dateAuthorityStop, 'Y-m-d')}}
+    </div>
 </td>
 <td style="vertical-align: top;">
     <h4 class="deputy-item__name">
@@ -21,12 +29,6 @@
         <small>{{getDeputyFirstName(deputy)}}</small>
     </h4>
     <table class="deputy-item__info">
-        <tr ng-if="deputy.dateAuthorityStop" class="text-warning" style="vertical-align: middle;">
-            <td><span class="glyphicon glyphicon-time" tooltip="Припинено депутатські повноваження" tooltip-placement="left" tooltip-popup-delay="1000"></span></td>
-            <td class="text-warning">
-                {{date(deputy.dateAuthorityStop, 'Y-m-d')}}
-            </td>
-        </tr>
         <tr>
             <td>
                 <a href="http://itd.rada.gov.ua/mps/info/page/{{deputy.id}}" target="_blank">
