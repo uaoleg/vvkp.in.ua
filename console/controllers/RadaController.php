@@ -3,7 +3,9 @@ namespace console\controllers;
 
 use \common\models\Deputy;
 use \common\models\Deputy\Registration;
+use \common\models\Deputy\Law as DeputyLaw;
 use \common\models\District;
+use \common\models\Law;
 
 /**
  * Import data from rada.gov.ua
@@ -29,7 +31,7 @@ class RadaController extends BaseController
     /**
      * Import deputies' info
      */
-    public function actionDeputyInfo()
+    public function actionInfo()
     {
         // Authority dates
         echo "Authority dates...\n";
@@ -126,13 +128,12 @@ class RadaController extends BaseController
                 }
             }
         }
-
     }
 
     /**
      * Import deputies' registrations
      */
-    public function actionDeputyRegistrations()
+    public function actionRegistrations()
     {
         foreach (Deputy::find()->all() as $deputy) {
 
@@ -195,10 +196,97 @@ class RadaController extends BaseController
                     $registration->isPresent = true;
                     $registration->save();
                 }
-
             }
         }
+    }
 
+    /**
+     * Import deputies' votes
+     */
+    public function actionVotes($url = '')
+    {
+        foreach (Law::find()->all() as $law) {
+
+            // Skip
+            if (!$law->urlVoting) {
+                continue;
+            }
+            if ($url && ($url !== $law->urlVoting)) {
+                continue;
+            }
+
+            // Get votes
+            echo "{$law->id}\n";
+            $content = file_get_contents($law->urlVoting);
+            $content = iconv('windows-1251', 'utf-8', $content);
+            $html = $this->parser->str_get_html($content);
+
+            // Parse date
+            $lawInfo = $html->find('.head_gol', 0)->plaintext;
+            preg_match('/\d\d\.\d\d\.\d\d\d\d \d\d:\d\d/', $lawInfo, $matches);
+            $law->dateVoting = date('Y-m-d H:i:s', strtotime($matches[0]));
+            $law->save();
+
+            // Parse votes
+            $votes = $html->find('.golos');
+            $deputyNo = 0;
+            foreach (Deputy::find()->orderBy('name')->all() as $deputy) {
+
+                // Delete voting
+                DeputyLaw::deleteAll([
+                    'deputyId'  => $deputy->id,
+                    'lawId'     => $law->id,
+                ]);
+
+                // Check if law voting date is in authority date range
+                if ($law->dateVoting) {
+                    if (($deputy->dateAuthorityStart > $law->dateVoting) || ($deputy->dateAuthorityStop && ($deputy->dateAuthorityStop < $law->dateVoting))) {
+                        continue;
+                    }
+                }
+
+                // Get vote
+                $voteStr = strip_tags($votes[$deputyNo]->plaintext);
+                if (($law->urlVoting === 'http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_golos?g_id=3049') && in_array($deputy->name, array('Кулініч Олег Іванович', 'Мельничук Сергій Петрович', 'Рудик Сергій Ярославович'))) {
+                    $vote = DeputyLaw::VOTE_YES;
+                } else {
+                    switch ($voteStr) {
+                        case 'За':
+                        case 'За*':
+                            $vote = DeputyLaw::VOTE_YES;
+                            break;
+                        default:
+                            $registration = Registration::find()
+                                ->where([
+                                    'deputyId'  => $deputy->id,
+                                    'date'      => date('Y-m-d', strtotime($law->dateVoting)),
+                                ])
+                                ->andWhere(['<=', 'time', date('H:i:s', strtotime($law->dateVoting))])
+                                ->orderBy('time DESC')
+                                ->one();
+                            if ($registration->isPresent) {
+                                $vote = DeputyLaw::VOTE_NO;
+                            } else {
+                                $vote = DeputyLaw::VOTE_ABSENT;
+                            }
+                            break;
+                    }
+                }
+
+                // Save law vote
+                $deputyLaw = new DeputyLaw();
+                $deputyLaw->setAttributes([
+                    'deputyId'  => $deputy->id,
+                    'lawId'     => $law->id,
+                    'vote'      => $vote,
+                ], false);
+                $deputyLaw->save();
+
+                // Next deputy index
+                $deputyNo++;
+            }
+
+        }
     }
 
 }
