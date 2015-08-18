@@ -264,6 +264,16 @@
     border-bottom-right-radius: 4px;
 }
 
+.search-stats__law-tag {
+    margin: 10px 0 0;
+    width: 100%;
+}
+
+.search-stats__law-tag .btn {
+    padding: 5px 0 4px 7px;
+    text-align: left;
+}
+
 .table-no-border th, .table-no-border td {
     border-top: none !important;
 }

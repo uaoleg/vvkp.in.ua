@@ -16,24 +16,33 @@
     <div ng-repeat="statsLawTag in searchStats.lawTags"
         ng-init="lawTag1 = getLawTag(statsLawTag.name); lawTag2 = getLawTag(lawTag1.opposite)"
         class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
-        <progress max="statsLawTag.total" style="height: 24px; margin: 10px 0 0; width: 100%;">
-            <bar value="statsLawTag.count[statsLawTag.types[0]]" type="{{statsLawTag.types[0]}}"
-                 ng-click="searchAddTag(lawTag1.name)"
-                 tooltip="{{lawTag1.desc}}"
-                 tooltip-placement="top"
-                 tooltip-popup-delay="500"
-                 tooltip-append-to-body="true"
-                 style="cursor: pointer; padding: 0 7px; text-align: left; white-space: nowrap;">
-                <span style="position: absolute;"><b>{{lawTag1.name}}</b></span>
-            </bar>
-            <bar value="statsLawTag.count[statsLawTag.types[1]]" type="{{statsLawTag.types[1]}}"
-                 ng-click="searchAddTag(lawTag2.name)"
-                 tooltip="{{lawTag2.desc}}"
-                 tooltip-placement="top"
-                 tooltip-popup-delay="500"
-                 tooltip-append-to-body="true"
-                 style="cursor: pointer;"></bar>
-        </progress>
+        <div class="btn-group search-stats__law-tag">
+            <button type="button"
+                    ng-click="searchAddTag(lawTag1.name)"
+                    tooltip="{{lawTag1.desc}}"
+                    tooltip-placement="top"
+                    tooltip-popup-delay="500"
+                    tooltip-append-to-body="true"
+                    class="btn btn-sm btn-{{statsLawTag.types[0]}}"
+                    style="width: {{statsLawTag.count[statsLawTag.types[0]]/statsLawTag.total*100}}%;">
+                {{lawTag1.name}}
+            </button>
+            <button type="button"
+                    ng-click="searchAddTag(lawTag2.name)"
+                    tooltip="{{lawTag2.desc}}"
+                    tooltip-placement="top"
+                    tooltip-popup-delay="500"
+                    tooltip-append-to-body="true"
+                    class="btn btn-sm btn-{{statsLawTag.types[1]}}"
+                    style="padding-left: 0; width: {{statsLawTag.count[statsLawTag.types[1]]/statsLawTag.total*100}}%;">
+                &nbsp;
+            </button>
+            <button type="button"
+                    class="btn btn-sm btn-default"
+                    style="padding-left: 0; width: {{(statsLawTag.total-statsLawTag.count[statsLawTag.types[0]]-statsLawTag.count[statsLawTag.types[1]])/statsLawTag.total*100}}%;">
+                &nbsp;
+            </button>
+        </div>
     </div>
     <div class="clearfix"></div>
 </div>
