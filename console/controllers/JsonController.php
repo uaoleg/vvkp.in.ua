@@ -10,15 +10,6 @@ class JsonController extends BaseController
 {
 
     /**
-     * Returns path to data file
-     * @return string
-     */
-    public static function getDataPath()
-    {
-        return \yii::getAlias('@frontend') . '/data/data.json';;
-    }
-
-    /**
      * JSON => DB
      */
     public function actionImport()

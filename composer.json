@@ -17,7 +17,8 @@
         "php": ">=5.4.0",
         "yiisoft/yii2": ">=2.0.6",
         "yiisoft/yii2-bootstrap": "*",
-        "yiisoft/yii2-swiftmailer": "*"
+        "yiisoft/yii2-swiftmailer": "*",
+        "sunra/php-simple-html-dom-parser": "v1.5.0"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
