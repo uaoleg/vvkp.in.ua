@@ -518,6 +518,8 @@
                 }
                 // Filter
                 $scope.searchReloadResults();
+                // Load the rest of scripts and styles
+                loadSecondaryScriptsAndStyles()
             });
 
         // Lazy loading
@@ -593,47 +595,47 @@
 
     angular.bootstrap(document, ['vvkp-app']);
 
+    function loadSecondaryScriptsAndStyles() {
+
+        // Secondary styles
+        headAppendStyle('css/deputies.css');
+
+        // Github
+        headAppendScript('https://buttons.github.io/buttons.js', {'id': 'github-bjs'});
+
+        // Facebook page like
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id))
+                return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=576873339001045";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+        // Google Analytics
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        switch (document.domain) {
+            case 'peremoga.today':
+                ga('create', 'UA-64746354-4', 'auto');
+                break;
+            case 'zrada.today':
+                ga('create', 'UA-64746354-5', 'auto');
+                break;
+            case 'dev.vvkp.in.ua':
+            case 'vvkp.dev':
+                ga('create', 'UA-64746354-6', 'auto');
+                break;
+            default:
+                ga('create', 'UA-64746354-1', 'auto');
+                break;
+        }
+        ga('send', 'pageview');
+
+    };
+
 })(window.angular);
-
-window.onload = function() {
-
-    // Secondary styles
-    headAppendStyle('css/deputies.css');
-
-    // Github
-    headAppendScript('https://buttons.github.io/buttons.js', {'id': 'github-bjs'});
-
-    // Facebook page like
-    (function (d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id))
-            return;
-        js = d.createElement(s);
-        js.id = id;
-        js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=576873339001045";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-
-    // Google Analytics
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    switch (document.domain) {
-        case 'peremoga.today':
-            ga('create', 'UA-64746354-4', 'auto');
-            break;
-        case 'zrada.today':
-            ga('create', 'UA-64746354-5', 'auto');
-            break;
-        case 'dev.vvkp.in.ua':
-        case 'vvkp.dev':
-            ga('create', 'UA-64746354-6', 'auto');
-            break;
-        default:
-            ga('create', 'UA-64746354-1', 'auto');
-            break;
-    }
-    ga('send', 'pageview');
-
-};
