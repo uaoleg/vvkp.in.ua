@@ -87,14 +87,14 @@
                     </tags-input>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" style="{{searchedDeputiesFiltering ? 'opacity: 0.5' : ''}};">
                 <div class="col-md-12">
                     <div ng-if="searchStats.show"
                          ng-include src="'template/search/stats2' + MIN + '.html?vvkp-version-1.8.0'"
                          style="margin-top: 20px;"></div>
                 </div>
             </div>
-            <div class="row" style="margin-top: 20px;">
+            <div class="row" style="{{searchedDeputiesFiltering ? 'opacity: 0.5' : ''}}; margin-top: 20px;">
                 <div class="col-md-12">
                     <table ng-cloak class="table table-striped">
                         <tbody>
@@ -107,7 +107,7 @@
                             </tr>
                         </tbody>
                     </table>
-                    <div class="row" style="{{searchedDeputiesFiltering ? 'opacity: 0.5' : ''}}">
+                    <div class="row">
                         <div ng-repeat-start="deputy in searchedDeputies | filter:searchText | limitTo:searchedDeputiesLimit"
                              class="col-lg-4 col-md-6 col-sm-12 col-xs-12 deputy-item">
                             <div ng-include src="'template/deputy/item' + MIN + '.html?vvkp-version-1.8.0'"></div>
