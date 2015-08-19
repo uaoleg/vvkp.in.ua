@@ -53,17 +53,17 @@
             </table>
         </td>
 
-        <td ng-if="searchStats.lawTagsForParty || searchStats.partiesForTag" style="padding: 10px; border-right: 1px solid #ccc;"></td>
-        <td ng-if="searchStats.lawTagsForParty || searchStats.partiesForTag" style="padding: 10px;"></td>
+        <td ng-if="searchStats.selectedParty || searchStats.partiesForTag" style="padding: 10px; border-right: 1px solid #ccc;"></td>
+        <td ng-if="searchStats.selectedParty || searchStats.partiesForTag" style="padding: 10px;"></td>
 
-        <td ng-if="searchStats.lawTagsForParty" style="max-width: 250px; text-align: center; vertical-align: middle; width: 150px;">
-            <div ng-click="searchNextParty(searchStats.lawTagsForParty, -1); $event.stopPropagation();" style="cursor: pointer; margin-bottom: 15px;">
+        <td ng-if="searchStats.selectedParty" style="max-width: 250px; text-align: center; vertical-align: middle; width: 150px;">
+            <div ng-click="searchNextParty(searchStats.selectedParty, -1); $event.stopPropagation();" style="cursor: pointer; margin-bottom: 15px;">
                 <span class="glyphicon glyphicon-menu-up"></span>
             </div>
             <div>
-                <img ng-src="../../img/parties/100x35/{{searchStats.lawTagsForParty}}.png" class="deputy-party" style="cursor: default;">
+                <img ng-src="../../img/parties/100x35/{{searchStats.selectedParty}}.png" class="deputy-party" style="cursor: default;">
             </div>
-            <div ng-click="searchNextParty(searchStats.lawTagsForParty); $event.stopPropagation();" style="cursor: pointer; margin-top: 20px;">
+            <div ng-click="searchNextParty(searchStats.selectedParty); $event.stopPropagation();" style="cursor: pointer; margin-top: 20px;">
                 <span class="glyphicon glyphicon-menu-down"></span>
             </div>
         </td>

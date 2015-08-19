@@ -87,12 +87,10 @@
                     </tags-input>
                 </div>
             </div>
-            <div class="row" style="{{searchedDeputiesFiltering ? 'opacity: 0.5' : ''}};">
-                <div class="col-md-12">
-                    <div ng-if="searchStats.show"
-                         ng-include src="'template/search/stats2' + MIN + '.html?vvkp-version-1.8.0'"
-                         style="margin-top: 20px;"></div>
-                </div>
+            <div style="{{searchedDeputiesFiltering ? 'opacity: 0.5' : ''}};">
+                <div ng-if="searchStats.show"
+                     ng-include src="'template/search/stats2' + MIN + '.html?vvkp-version-1.8.0'"
+                     style="margin-top: 20px;"></div>
             </div>
             <div class="row" style="{{searchedDeputiesFiltering ? 'opacity: 0.5' : ''}}; margin-top: 20px;">
                 <div class="col-md-12">
