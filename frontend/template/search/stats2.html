@@ -1,4 +1,4 @@
-<div ng-if="searchStats.parties.length && !searchStats.lawTags.length">
+<div ng-if="searchStats.parties.length && searchTags.length === 1">
     <div ng-repeat="party in searchStats.parties"
         ng-click="searchAddTag(party.name)"
         class="col-lg-2 col-md-2 col-sm-4 col-xs-4"
@@ -12,7 +12,7 @@
     <div class="clearfix"></div>
 </div>
 
-<div ng-if="searchStats.lawTags.length">
+<div ng-if="searchStats.lawTags.length && searchTags.length <= 1">
     <div ng-repeat="statsLawTag in searchStats.lawTags"
         ng-init="lawTag1 = getLawTag(statsLawTag.name); lawTag2 = getLawTag(lawTag1.opposite)"
         class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
@@ -35,11 +35,6 @@
                     tooltip-append-to-body="true"
                     class="btn btn-sm btn-{{statsLawTag.types[1]}}"
                     style="padding-left: 0; width: {{statsLawTag.count[statsLawTag.types[1]]/statsLawTag.total*100}}%;">
-                &nbsp;
-            </button>
-            <button type="button"
-                    class="btn btn-sm btn-default"
-                    style="padding-left: 0; width: {{(statsLawTag.total-statsLawTag.count[statsLawTag.types[0]]-statsLawTag.count[statsLawTag.types[1]])/statsLawTag.total*100}}%;">
                 &nbsp;
             </button>
         </div>

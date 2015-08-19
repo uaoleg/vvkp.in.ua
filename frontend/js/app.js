@@ -25,7 +25,7 @@
             var lawTags = $scope.lawTags.filter(function(lawTag) {
                 return lawTag.name.indexOf(name) > -1;
             });
-            return lawTags[0];
+            return lawTags.length ? lawTags[0] : false;
         };
 
         $scope.getLaws = function(tagName) {
@@ -180,10 +180,11 @@
                 return;
             }
             // If is law tag than remove all the others
-            if (isLawTag(text)) {
+            var lawTag = $scope.getLawTag(text);
+            if (lawTag) {
                 i = 0;
                 while (i < $scope.searchTags.length) {
-                    if (isLawTag($scope.searchTags[i].name)) {
+                    if ($scope.searchTags[i].name === lawTag.opposite) {
                         $scope.searchTags.splice(i, 1);
                     } else {
                         i++;
@@ -351,9 +352,7 @@
                     // Check law tags
                     tagIndex = item.lawTags.indexOf(searchString);
                     if (tagIndex > -1) {
-                        if (!item.searchRate) {
-                            item.searchRate = item.lawTagsInfo[item.lawTags[tagIndex]].rate;
-                        }
+                        item.searchRate = item.lawTagsInfo[item.lawTags[tagIndex]].rate;
                         return true;
                     }
                     // Check party
@@ -473,7 +472,7 @@
                     stats.lawTags.push({
                         name: statsName,
                         count: count,
-                        total: statsTotal,
+                        total: count[lawTag.type] + count[lawTagOpposite.type],
                         types: statsTypes
                     });
                 }
