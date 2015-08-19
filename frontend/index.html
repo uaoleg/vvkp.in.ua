@@ -120,6 +120,7 @@
                                      style="cursor: pointer;"></div>
                                 <img ng-src="img/parties/100x35/{{deputy.party}}.png"
                                      class="deputy-party fading"
+                                     style="{{deputy.party == searchStats.selectedParty ? 'cursor: default;' : ''}}"
                                      ng-if="deputy.party"
                                      ng-click="searchAddTag(deputy.party)">
                                 <div ng-if="!deputy.party" style="height: 40px;"></div>
