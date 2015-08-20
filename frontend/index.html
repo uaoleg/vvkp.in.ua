@@ -89,8 +89,8 @@
             </div>
             <div style="{{searchedDeputiesFiltering ? 'opacity: 0.5' : ''}};">
                 <div ng-if="searchStats.show"
-                     ng-include src="'template/search/stats2' + MIN + '.html?vvkp-version-1.8.0'"
-                     style="margin-top: 20px;"></div>
+                     ng-include src="'template/search/stats' + MIN + '.html?vvkp-version-1.8.0'"
+                     style="margin: 20px 0;"></div>
             </div>
             <div class="row" style="{{searchedDeputiesFiltering ? 'opacity: 0.5' : ''}}; margin-top: 20px;">
                 <div class="col-md-12">
@@ -98,9 +98,15 @@
                         <tbody>
                             <tr>
                                 <td>
-                                    <b style="display: inline-block; height: 28px; vertical-align: middle;">
-                                        Знайдено депутатів: {{searchedDeputies.length}}
-                                    </b>
+                                    <div style="display: inline-block;">Депутатів <br> {{searchedDeputies.length}},</div>
+                                    <div ng-repeat="lawTag in searchStats.lawTags" style="display: inline-block;">
+                                        {{lawTag.name}}
+                                        <br>
+                                        <span
+                                            ng-click="searchAddTag(lawTag.name)"
+                                            class="text-{{lawTag.type}}"
+                                            style="cursor: pointer;">{{lawTag.count}}</span>/<span>{{lawTag.countOpposite}}</span>
+                                    </div>
                                 </td>
                             </tr>
                         </tbody>
@@ -176,12 +182,8 @@
                                             {{lawTagGood}}
                                         </span>
                                     </td>
-                                    <td tooltip="Голосування депутата"
-                                        tooltip-popup-delay="1000"
-                                        tooltip-append-to-body="true"
-                                        ng-click="deputy.lawTagName = lawTagName; deputyPage(deputy)"
-                                        class="fading"
-                                        style="cursor: pointer;">
+                                    <td ng-click="deputy.lawTagName = lawTagName; deputyPage(deputy)"
+                                        class="fading deputy-item__law-tag__progress-info">
                                         <progress-arc
                                             complete="(lawTag.type == 'success' ? deputy.lawTagsInfo[lawTag.name].rate : 100-deputy.lawTagsInfo[lawTag.name].rate) / 100"
                                             size="30"
@@ -189,7 +191,9 @@
                                             stroke="rgb(76, 175, 80)"
                                             stroke-width="15"
                                             stroke-width-bg="3"
+                                            class="deputy-item__law-tag__progress"
                                         ></progress-arc>
+                                        <span class="glyphicon glyphicon-info-sign deputy-item__law-tag__info"></span>
                                     </td>
                                     <td>
                                         <span

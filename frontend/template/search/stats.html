@@ -1,92 +1,13 @@
-<table>
-    <tr style="vertical-align: top;">
-
-        <td ng-if="searchStats.parties.length">
-            <table class="table table-hover table-no-border">
-                <tr ng-repeat="party in searchStats.parties"
-                    ng-click="searchAddTag(party.name)" style="cursor: pointer;">
-                    <td style="height: 57px;">
-                        <img ng-src="img/parties/100x35/{{party.name}}.png" class="deputy-party">
-                        <progress max="party.total" style="margin: 10px 0 0; opacity: 0.5;">
-                            <bar value="party.count.success" type="success"></bar>
-                            <bar value="party.count.danger" type="danger"></bar>
-                        </progress>
-                    </td>
-                    <td style="padding: 10px 10px 10px 30px; vertical-align: middle;">
-                        &nbsp;
-                    </td>
-                </tr>
-            </table>
-        </td>
-
-        <td ng-if="searchStats.parties.length && searchStats.lawTags.length" style="padding: 10px; border-right: 1px solid #ccc;"></td>
-        <td ng-if="searchStats.parties.length && searchStats.lawTags.length" style="padding: 10px;"></td>
-
-        <td ng-if="searchStats.lawTags.length">
-            <table class="table table-hover table-no-border">
-                <tr ng-repeat="statsLawTag in searchStats.lawTags"
-                    ng-init="lawTag1 = getLawTag(statsLawTag.name); lawTag2 = getLawTag(lawTag1.opposite)">
-                    <td style="height: 68px;">
-                        <progress max="statsLawTag.total" style="height: 24px; margin: 10px 0 0; width: 200px;">
-                            <bar value="statsLawTag.count[statsLawTag.types[0]]" type="{{statsLawTag.types[0]}}"
-                                 ng-click="searchAddTag(lawTag1.name)"
-                                 tooltip="{{lawTag1.desc}}"
-                                 tooltip-placement="top"
-                                 tooltip-popup-delay="500"
-                                 tooltip-append-to-body="true"
-                                 style="cursor: pointer; padding: 0 10px; text-align: left;">
-                                <span><b>{{lawTag1.name}}</b></span>
-                            </bar>
-                            <bar value="statsLawTag.count[statsLawTag.types[1]]" type="{{statsLawTag.types[1]}}"
-                                 ng-click="searchAddTag(lawTag2.name)"
-                                 tooltip="{{lawTag2.desc}}"
-                                 tooltip-placement="top"
-                                 tooltip-popup-delay="500"
-                                 tooltip-append-to-body="true"
-                                 style="cursor: pointer;"></bar>
-                        </progress>
-                    </td>
-                    <td style="padding: 10px 10px 10px 30px; vertical-align: middle;">
-                        &nbsp;
-                    </td>
-                </tr>
-            </table>
-        </td>
-
-        <td ng-if="searchStats.selectedParty || searchStats.partiesForTag" style="padding: 10px; border-right: 1px solid #ccc;"></td>
-        <td ng-if="searchStats.selectedParty || searchStats.partiesForTag" style="padding: 10px;"></td>
-
-        <td ng-if="searchStats.selectedParty" style="max-width: 250px; text-align: center; vertical-align: middle; width: 150px;">
-            <div ng-click="searchNextParty(searchStats.selectedParty, -1); $event.stopPropagation();" style="cursor: pointer; margin-bottom: 15px;">
-                <span class="glyphicon glyphicon-menu-up"></span>
-            </div>
-            <div>
-                <img ng-src="../../img/parties/100x35/{{searchStats.selectedParty}}.png" class="deputy-party" style="cursor: default;">
-            </div>
-            <div ng-click="searchNextParty(searchStats.selectedParty); $event.stopPropagation();" style="cursor: pointer; margin-top: 20px;">
-                <span class="glyphicon glyphicon-menu-down"></span>
-            </div>
-        </td>
-
-        <td ng-if="searchStats.partiesForTag" style="max-width: 250px;">
-            <div ng-repeat="(key, searchTag) in searchTags"
-                 ng-init="lawTag = getLawTag(searchTag.name); lawTag.showLaws = false; laws = getLaws(searchTag.name)">
-                <p>
-                    {{lawTag.desc}}
-                    <span ng-if="lawTag.laws > 1">
-                        (<a href ng-click="lawTag.showLaws = true; $event.stopPropagation()">список законів</a>)
-                    </span>
-                </p>
-                <ul ng-show="lawTag.showLaws">
-                    <li ng-repeat="law in laws">
-                        {{law.desc}}
-                        <span ng-if="law.url">
-                            (<a href="{{law.url}}" target="_blank" ng-click="$event.stopPropagation()">{{law.no || 'деталі'}}</a>)
-                        </span>
-                    </li>
-                </ul>
-            </div>
-        </td>
-
-    </tr>
-</table>
+<div>
+    <div ng-repeat="party in searchStats.parties"
+        ng-click="searchAddTag(party.name)"
+        class="col-lg-2 col-md-2 col-sm-4 col-xs-4"
+        style="border-radius: 2px; cursor: pointer; {{party.name == searchStats.selectedParty ? 'box-shadow: 1px 1px 4px gray;' : ''}}">
+            <img ng-src="img/parties/100x35/{{party.name}}.png" class="deputy-party">
+            <progress max="party.total" style="margin: 10px 0; opacity: 0.5;">
+                <bar value="party.count.success" type="success"></bar>
+                <bar value="party.count.danger" type="danger"></bar>
+            </progress>
+    </div>
+    <div class="clearfix"></div>
+</div>

@@ -115,6 +115,23 @@
     }
 }
 
+.deputy-item__law-tag:hover .deputy-item__law-tag__info {
+    display: block;
+}
+
+.deputy-item__law-tag:hover .deputy-item__law-tag__progress {
+    display: none;
+}
+
+.deputy-item__law-tag__progress-info {
+    cursor: pointer;
+}
+
+.deputy-item__law-tag__info {
+    display: none;
+    font-size: 30px;
+}
+
 .deputy-item__law-tags {
     table-layout: fixed;
     white-space: nowrap;

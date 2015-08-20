@@ -344,7 +344,7 @@
                 statsPartiesLawTags = [],
                 statsPartiesLawCount = 0,
                 statsLawTags = {},
-                stats = {parties: [], lawTags: [], partiesForTag: '', selectedParty: ''};
+                stats = {parties: [], lawTags: [], selectedParty: '', selectedLawTag: ''};
 
             searchTags.forEach(function(option) {
                 searchString = option.name.toLowerCase();
@@ -373,7 +373,7 @@
                 }
                 if (lawTags_lc.indexOf(searchString) > -1) {
                     hasLawTag = true;
-                    stats.partiesForTag = option.name;
+                    stats.selectedLawTag = option.name;
                 }
             });
             // Filter fired deputies if no search tag or searched by party
@@ -436,61 +436,40 @@
             }
             stats.parties.sort(function(a, b) {
                 var type = 'success';
-                if (stats.partiesForTag) {
-                    type = $scope.getLawTag(stats.partiesForTag).type;
+                if (stats.selectedLawTag) {
+                    type = $scope.getLawTag(stats.selectedLawTag).type;
                 }
                 return b.count[type] / b.total - a.count[type] / a.total;
             });
 
-            if (!hasLawTag) {
-                $scope.lawTags.forEach(function(lawTag) {
-                    statsLawTags[lawTag.name] = 0;
-                });
-                deputies.forEach(function(deputy) {
-                    deputy.lawTags.forEach(function(lawTagName) {
-                        var lawTag = $scope.getLawTag(lawTagName);
-                        statsLawTags[lawTag.name] += deputy.lawTagsInfo[lawTag.name].laws.length;
-                    });
-                });
-                for (var lawTagName in statsLawTags) {
+            // Stats for law tags
+            $scope.lawTags.forEach(function(lawTag) {
+                statsLawTags[lawTag.name] = 0;
+            });
+            deputies.forEach(function(deputy) {
+                deputy.lawTags.forEach(function(lawTagName) {
                     var lawTag = $scope.getLawTag(lawTagName),
-                        lawTagOpposite = $scope.getLawTag(lawTag.opposite),
-                        count = {},
-                        statsName = '',
-                        statsTypes = [],
-                        statsTotal = 0;
-                    count[lawTag.type] = statsLawTags[lawTag.name];
-                    count[lawTagOpposite.type] = statsLawTags[lawTagOpposite.name];
-                    delete statsLawTags[lawTagOpposite.name];
-                    if (count[lawTag.type] > count[lawTagOpposite.type]) {
-                        statsName = lawTag.name;
-                        statsTypes.push(lawTag.type, lawTagOpposite.type);
-                    } else {
-                        statsName = lawTagOpposite.name;
-                        statsTypes.push(lawTagOpposite.type, lawTag.type);
+                        rate = deputy.lawTagsInfo[lawTagName].rate;
+                    if ((lawTag.type === 'success' && rate >= 50) || (lawTag.type === 'danger' && rate > 50)) {
+                        statsLawTags[lawTagName] += 1;
                     }
-                    if (hasParty) {
-                        statsTotal = $scope.getLawTag(lawTag.name).laws * $scope.getParty(stats.selectedParty).deputies;
-                    } else {
-                        statsTotal = $scope.getLawTag(lawTag.name).laws * $scope.deputies.length;
-                    }
-                    stats.lawTags.push({
-                        name: statsName,
-                        count: count,
-                        total: count[lawTag.type] + count[lawTagOpposite.type],
-                        types: statsTypes
-                    });
-                }
-                stats.lawTags.sort(function(a, b) {
-                    var type;
-                    if ($location.host().indexOf('zrada.today') !== -1) {
-                        type = 'danger';
-                    } else {
-                        type = 'success';
-                    }
-                    return b.count[type] / b.total - a.count[type] / a.total;
+                });
+            });
+            for (var lawTagName in statsLawTags) {
+                var lawTag = $scope.getLawTag(lawTagName);
+                stats.lawTags.push({
+                    name: lawTag.name,
+                    nameOpposite: lawTag.opposite,
+                    count: statsLawTags[lawTag.name],
+                    countOpposite: statsLawTags[lawTag.opposite],
+                    type: lawTag.type
                 });
             }
+            stats.lawTags.sort(function(a, b) {
+                return b.count - a.count;
+            });
+            stats.lawTags = stats.lawTags.slice(0, stats.lawTags.length / 2);
+
             stats.show = (!searchTags.length || hasLawTag || hasParty);
             $scope.searchStats = stats;
 
