@@ -198,8 +198,17 @@
                 }
             }
             // Push new tag
-            window.scrollTo(0, document.getElementById('tags-input').getBoundingClientRect().top - document.body.getBoundingClientRect().top);
+            window.scrollTo(0, document.getElementById('tags-input').getBoundingClientRect().top - document.body.getBoundingClientRect().top - 10);
             $scope.searchTags.push({name: text});
+            $scope.searchReloadResults();
+        };
+
+        $scope.searchRemoveTag = function(text) {
+            for (var i in $scope.searchTags) {
+                if ($scope.searchTags[i].name.indexOf(text) > -1) {
+                    $scope.searchTags.splice(i, 1);
+                }
+            }
             $scope.searchReloadResults();
         };
 

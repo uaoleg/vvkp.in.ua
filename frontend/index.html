@@ -89,138 +89,140 @@
             </div>
             <div style="{{searchedDeputiesFiltering ? 'opacity: 0.5' : ''}};">
                 <div ng-if="searchStats.show"
-                     ng-include src="'template/search/stats' + MIN + '.html?vvkp-version-1.8.0'"
-                     style="margin: 20px 0;"></div>
+                     style="margin: 20px 0;">
+                    <div ng-repeat="party in searchStats.parties"
+                        ng-click="party.name != searchStats.selectedParty ? searchAddTag(party.name) : searchRemoveTag(party.name)"
+                        class="col-lg-2 col-md-2 col-sm-4 col-xs-4"
+                        style="border-radius: 2px; cursor: pointer; {{party.name == searchStats.selectedParty ? 'box-shadow: 1px 1px 4px gray;' : ''}}">
+                            <img ng-src="img/parties/100x35/{{party.name}}.png" class="deputy-party">
+                            <progress max="party.total" style="margin: 10px 0; opacity: 0.5;">
+                                <bar value="party.count.success" type="success"></bar>
+                                <bar value="party.count.danger" type="danger"></bar>
+                            </progress>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
             </div>
+            <ul ng-if="searchedDeputies.length" class="nav nav-pills">
+                <li class="{{searchStats.selectedLawTag ? '' : 'active'}}">
+                    <a href>
+                        Всього <br> {{searchedDeputies.length}}
+                    </a>
+                </li>
+                <li ng-repeat="lawTag in searchStats.lawTags"  class="{{searchStats.selectedLawTag == lawTag.name ? 'active' : ''}}">
+                    <a href ng-click="searchAddTag(lawTag.name)" style="text-transform: capitalize;">
+                    {{lawTag.name}} <br> {{lawTag.count}}
+                    </a>
+                </li>
+            </ul>
             <div class="row" style="{{searchedDeputiesFiltering ? 'opacity: 0.5' : ''}}; margin-top: 20px;">
-                <div class="col-md-12">
-                    <table ng-cloak class="table table-striped">
-                        <tbody>
+                <div ng-repeat-start="deputy in searchedDeputies | filter:searchText | limitTo:searchedDeputiesLimit"
+                     class="col-lg-4 col-md-6 col-sm-12 col-xs-12 deputy-item">
+                    <div ng-if="$index > 2" class="visible-lg"><hr class="deputy-item__fancy-line"></div>
+                    <div ng-if="$index > 1" class="visible-md"><hr class="deputy-item__fancy-line"></div>
+                    <div ng-if="$index > 0" class="visible-sm"><hr class="deputy-item__fancy-line"></div>
+                    <div ng-if="$index > 0" class="visible-xs"><hr class="deputy-item__fancy-line"></div>
+
+                    <table style="width: 100%;"><tr>
+                    <td class="deputy-item__photo">
+                        <div ng-click="deputy.lawTagName = ''; deputyPage(deputy)"
+                             class="img-deputy-{{deputy.id}}"
+                             style="cursor: pointer;"></div>
+                        <img ng-src="img/parties/100x35/{{deputy.party}}.png"
+                             class="deputy-party fading"
+                             style="{{deputy.party == searchStats.selectedParty ? 'cursor: default;' : ''}}"
+                             ng-if="deputy.party"
+                             ng-click="searchAddTag(deputy.party)">
+                        <div ng-if="!deputy.party" style="height: 40px;"></div>
+                    </td>
+                    <td style="vertical-align: top;">
+                        <h4 class="deputy-item__name">
+                            {{getDeputyLastName(deputy)}}
+                            <br>
+                            <small>{{getDeputyFirstName(deputy)}}</small>
+                        </h4>
+                        <table class="deputy-item__info">
                             <tr>
                                 <td>
-                                    <div style="display: inline-block;">Депутатів <br> {{searchedDeputies.length}},</div>
-                                    <div ng-repeat="lawTag in searchStats.lawTags" style="display: inline-block;">
-                                        {{lawTag.name}}
-                                        <br>
-                                        <span
-                                            ng-click="searchAddTag(lawTag.name)"
-                                            class="text-{{lawTag.type}}"
-                                            style="cursor: pointer;">{{lawTag.count}}</span>/<span>{{lawTag.countOpposite}}</span>
-                                    </div>
+                                    <a href="http://itd.rada.gov.ua/mps/info/page/{{deputy.id}}" target="_blank">
+                                        <span class="glyphicon glyphicon-globe" tooltip="Офіційна веб-сторінка"></span></a>
+                                </td>
+                                <td ng-if="deputy.phones.length" style="padding-left: 8px;">
+                                    <span
+                                        tooltip="{{deputy.phones.join(', ')}}"
+                                        class="glyphicon glyphicon-earphone"></span>
+                                </td>
+                                <td ng-if="deputy.facebook" style="padding: 2px 0px 5px 2px;">
+                                    <a href="{{deputy.facebook}}" target="_blank" ng-if="deputy.facebook">
+                                        <img ng-src="img/icon/facebook-32.png"
+                                             tooltip="Персональна веб-сторінка"
+                                             style="opacity: 0.3"></a>
+                                </td>
+                                <td ng-if="deputy.district">
+                                    <span
+                                        tooltip="Округ №{{deputy.district.id}}, {{deputy.district.region}}"
+                                        style="cursor: default; padding: 2px 6px 1px;">
+                                        <small><span class="glyphicon glyphicon-check"></span> {{deputy.district.id}}</small>
+                                    </span>
+                                </td>
+                                <td ng-if="deputy.dateAuthorityStop" class="text-warning">
+                                    <span class="glyphicon glyphicon-time"
+                                          tooltip="Припинено депутатські повноваження {{date(deputy.dateAuthorityStop, 'Y-m-d')}}"></span>
                                 </td>
                             </tr>
-                        </tbody>
+                        </table>
+                    </td>
+                    </tr></table>
+                    <table class="deputy-item__law-tags">
+                        <tr ng-repeat="lawTagName in deputy.lawTags"
+                            ng-if="isDeputyLawTagRateBigger(deputy, lawTagName)"
+                            ng-init="lawTag = getLawTag(lawTagName); lawTagGood = lawTag.type == 'success' ? lawTag.name : lawTag.opposite; lawTagBad = lawTag.type == 'success' ? lawTag.opposite : lawTag.name"
+                            class="deputy-item__law-tag">
+                            <td>
+                                <span
+                                    ng-click="searchAddTag(lawTagGood)"
+                                    class="text-{{lawTag.type == 'success' ? 'success' : 'muted'}}"
+                                    style="cursor: pointer; font-weight: {{lawTag.type == 'success' ? 'bold' : 'normal'}}">
+                                    {{lawTagGood}}
+                                </span>
+                            </td>
+                            <td ng-click="deputy.lawTagName = lawTagName; deputyPage(deputy)"
+                                class="fading deputy-item__law-tag__progress-info">
+                                <progress-arc
+                                    complete="(lawTag.type == 'success' ? deputy.lawTagsInfo[lawTag.name].rate : 100-deputy.lawTagsInfo[lawTag.name].rate) / 100"
+                                    size="30"
+                                    background="rgb(229, 28, 35)"
+                                    stroke="rgb(76, 175, 80)"
+                                    stroke-width="15"
+                                    stroke-width-bg="3"
+                                    class="deputy-item__law-tag__progress"
+                                ></progress-arc>
+                                <span class="glyphicon glyphicon-info-sign deputy-item__law-tag__info"></span>
+                            </td>
+                            <td>
+                                <span
+                                    ng-href ng-click="searchAddTag(lawTagBad)"
+                                    class="text-{{lawTag.type == 'success' ? 'muted' : 'danger'}}"
+                                    style="cursor: pointer; font-weight: {{lawTag.type == 'success' ? 'normal' : 'bold'}}">
+                                    {{lawTagBad}}
+                                </span>
+                            </td>
+                        </tr>
                     </table>
-                    <div class="row">
-                        <div ng-repeat-start="deputy in searchedDeputies | filter:searchText | limitTo:searchedDeputiesLimit"
-                             class="col-lg-4 col-md-6 col-sm-12 col-xs-12 deputy-item">
-                            <div ng-if="$index > 2" class="visible-lg"><hr class="deputy-item__fancy-line"></div>
-                            <div ng-if="$index > 1" class="visible-md"><hr class="deputy-item__fancy-line"></div>
-                            <div ng-if="$index > 0" class="visible-sm"><hr class="deputy-item__fancy-line"></div>
-                            <div ng-if="$index > 0" class="visible-xs"><hr class="deputy-item__fancy-line"></div>
-
-                            <table style="width: 100%;"><tr>
-                            <td class="deputy-item__photo">
-                                <div ng-click="deputy.lawTagName = ''; deputyPage(deputy)"
-                                     class="img-deputy-{{deputy.id}}"
-                                     style="cursor: pointer;"></div>
-                                <img ng-src="img/parties/100x35/{{deputy.party}}.png"
-                                     class="deputy-party fading"
-                                     style="{{deputy.party == searchStats.selectedParty ? 'cursor: default;' : ''}}"
-                                     ng-if="deputy.party"
-                                     ng-click="searchAddTag(deputy.party)">
-                                <div ng-if="!deputy.party" style="height: 40px;"></div>
-                            </td>
-                            <td style="vertical-align: top;">
-                                <h4 class="deputy-item__name">
-                                    {{getDeputyLastName(deputy)}}
-                                    <br>
-                                    <small>{{getDeputyFirstName(deputy)}}</small>
-                                </h4>
-                                <table class="deputy-item__info">
-                                    <tr>
-                                        <td>
-                                            <a href="http://itd.rada.gov.ua/mps/info/page/{{deputy.id}}" target="_blank">
-                                                <span class="glyphicon glyphicon-globe" tooltip="Офіційна веб-сторінка"></span></a>
-                                        </td>
-                                        <td ng-if="deputy.phones.length" style="padding-left: 8px;">
-                                            <span
-                                                tooltip="{{deputy.phones.join(', ')}}"
-                                                class="glyphicon glyphicon-earphone"></span>
-                                        </td>
-                                        <td ng-if="deputy.facebook" style="padding: 2px 0px 5px 2px;">
-                                            <a href="{{deputy.facebook}}" target="_blank" ng-if="deputy.facebook">
-                                                <img ng-src="img/icon/facebook-32.png"
-                                                     tooltip="Персональна веб-сторінка"
-                                                     style="opacity: 0.3"></a>
-                                        </td>
-                                        <td ng-if="deputy.district">
-                                            <span
-                                                tooltip="Округ №{{deputy.district.id}}, {{deputy.district.region}}"
-                                                style="cursor: default; padding: 2px 6px 1px;">
-                                                <small><span class="glyphicon glyphicon-check"></span> {{deputy.district.id}}</small>
-                                            </span>
-                                        </td>
-                                        <td ng-if="deputy.dateAuthorityStop" class="text-warning">
-                                            <span class="glyphicon glyphicon-time"
-                                                  tooltip="Припинено депутатські повноваження {{date(deputy.dateAuthorityStop, 'Y-m-d')}}"></span>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                            </tr></table>
-                            <table class="deputy-item__law-tags">
-                                <tr ng-repeat="lawTagName in deputy.lawTags"
-                                    ng-if="isDeputyLawTagRateBigger(deputy, lawTagName)"
-                                    ng-init="lawTag = getLawTag(lawTagName); lawTagGood = lawTag.type == 'success' ? lawTag.name : lawTag.opposite; lawTagBad = lawTag.type == 'success' ? lawTag.opposite : lawTag.name"
-                                    class="deputy-item__law-tag">
-                                    <td>
-                                        <span
-                                            ng-click="searchAddTag(lawTagGood)"
-                                            class="text-{{lawTag.type == 'success' ? 'success' : 'muted'}}"
-                                            style="cursor: pointer; font-weight: {{lawTag.type == 'success' ? 'bold' : 'normal'}}">
-                                            {{lawTagGood}}
-                                        </span>
-                                    </td>
-                                    <td ng-click="deputy.lawTagName = lawTagName; deputyPage(deputy)"
-                                        class="fading deputy-item__law-tag__progress-info">
-                                        <progress-arc
-                                            complete="(lawTag.type == 'success' ? deputy.lawTagsInfo[lawTag.name].rate : 100-deputy.lawTagsInfo[lawTag.name].rate) / 100"
-                                            size="30"
-                                            background="rgb(229, 28, 35)"
-                                            stroke="rgb(76, 175, 80)"
-                                            stroke-width="15"
-                                            stroke-width-bg="3"
-                                            class="deputy-item__law-tag__progress"
-                                        ></progress-arc>
-                                        <span class="glyphicon glyphicon-info-sign deputy-item__law-tag__info"></span>
-                                    </td>
-                                    <td>
-                                        <span
-                                            ng-href ng-click="searchAddTag(lawTagBad)"
-                                            class="text-{{lawTag.type == 'success' ? 'muted' : 'danger'}}"
-                                            style="cursor: pointer; font-weight: {{lawTag.type == 'success' ? 'normal' : 'bold'}}">
-                                            {{lawTagBad}}
-                                        </span>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-                        <div ng-repeat-end>
-                            <div ng-if="$index % 3 == 2" class="clearfix visible-lg"></div>
-                            <div ng-if="$index % 2 == 1" class="clearfix visible-md"></div>
-                        </div>
-                    </div>
-                    <div ng-show="searchedDeputiesFiltering || searchedDeputiesIncreasingLimit" style="text-align: center;">
-                        <img src="img/loading.gif">
-                    </div>
-                    <br>
-                    <hr>
-                    <br>
-                    <h3 style="background-image: url(img/logo.png); line-height: 60px; margin: 0; text-align: center;">
-                        <a href="https://www.youtube.com/watch?v=1CLBANCVHTw" target="_blank" style="color: white; font-size: 42px; text-shadow: 2px 2px 4px black;">VVKP :-)</a>
-                    </h3>
                 </div>
+                <div ng-repeat-end>
+                    <div ng-if="$index % 3 == 2" class="clearfix visible-lg"></div>
+                    <div ng-if="$index % 2 == 1" class="clearfix visible-md"></div>
+                </div>
+                <div ng-show="searchedDeputiesFiltering || searchedDeputiesIncreasingLimit" style="text-align: center;">
+                    <img src="img/loading.gif">
+                </div>
+                <br>
+                <hr>
+                <br>
+                <h3 style="background-image: url(img/logo.png); line-height: 60px; margin: 0; text-align: center;">
+                    <a href="https://www.youtube.com/watch?v=1CLBANCVHTw" target="_blank" style="color: white; font-size: 42px; text-shadow: 2px 2px 4px black;">VVKP :-)</a>
+                </h3>
             </div>
         </div>
 
