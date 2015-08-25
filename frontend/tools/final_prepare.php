@@ -6,22 +6,6 @@ $datafile = '../data/data.json';
 $data = file_get_contents($datafile);
 $data = json_decode($data);
 
-// Recount parties' deputy count
-foreach ($data->parties as $party) {
-    $party->deputies = 0;
-    foreach ($data->deputies as $i => $deputy) {
-        if ($deputy->dateAuthorityStop && ($deputy->dateAuthorityStop < time())) {
-            continue;
-        }
-        if ($deputy->party === $party->name)  {
-            $party->deputies++;
-        }
-    }
-}
-usort($data->parties, function($a, $b) {
-    return $b->deputies - $a->deputies;
-});
-
 // Recount law tags' law count
 foreach ($data->lawTags as $lawTag) {
     $lawTag->laws = 0;
@@ -31,11 +15,6 @@ foreach ($data->lawTags as $lawTag) {
         }
     }
 }
-usort($data->parties, function($a, $b) {
-    return $b->deputies - $a->deputies;
-});
-
-
 
 // Law tags
 foreach ($data->deputies as $deputy) {
@@ -121,6 +100,59 @@ foreach ($data->deputies as $deputy) {
     });
 
 }
+
+// Recount parties' deputy count and law tags info
+foreach ($data->parties as $party) {
+    $party->deputies = 0;
+    $party->lawTagsInfo = array();
+    foreach ($data->deputies as $i => $deputy) {
+        if ($deputy->party !== $party->name)  {
+            continue;
+        }
+        if (!$deputy->dateAuthorityStop || ($deputy->dateAuthorityStop >= time())) {
+            $party->deputies++;
+        }
+        foreach ($deputy->lawTagsInfo as $lawTagName => $lawTagInfo) {
+            foreach ($data->lawTags as $lawTag) {
+                if ($lawTag->name === $lawTagName) {
+                    break;
+                }
+            }
+            $lawTagGood = ($lawTag->type === 'success') ? $lawTag->name : $lawTag->opposite;
+            $lawTagBad  = ($lawTag->type === 'success') ? $lawTag->opposite : $lawTag->name;
+            if (!isset($party->lawTagsInfo[$lawTagGood])) {
+                $party->lawTagsInfo[$lawTagGood] = [
+                    'good'  => $lawTagGood,
+                    'bad'   => $lawTagBad,
+                    'rates' => [],
+                ];
+            }
+            if ($lawTag->type === 'success') {
+                $party->lawTagsInfo[$lawTagGood]['rates'][] = $lawTagInfo['rate'];
+                if (isset($deputy->lawTagsInfo[$lawTag->opposite])) {
+                    $party->lawTagsInfo[$lawTagGood]['rates'][] = 100 - $deputy->lawTagsInfo[$lawTag->opposite]['rate'];
+                }
+            } else {
+                $party->lawTagsInfo[$lawTagGood]['rates'][] = 100 - $lawTagInfo['rate'];
+                if (isset($deputy->lawTagsInfo[$lawTag->opposite])) {
+                    $party->lawTagsInfo[$lawTagGood]['rates'][] = $deputy->lawTagsInfo[$lawTag->opposite]['rate'];
+                }
+            }
+        }
+    }
+
+    foreach ($party->lawTagsInfo as $lawTagName => $lawTagInfo) {
+        if (count($lawTagInfo['rates'])) {
+            $party->lawTagsInfo[$lawTagName]['rate'] = round(array_sum($lawTagInfo['rates']) / count($lawTagInfo['rates']));
+        } else {
+            $party->lawTagsInfo[$lawTagName]['rate'] = 0;
+        }
+        unset($party->lawTagsInfo[$lawTagName]['rates']);
+    }
+}
+usort($data->parties, function($a, $b) {
+    return $b->deputies - $a->deputies;
+});
 
 // Search suggestions
 $tags = array();

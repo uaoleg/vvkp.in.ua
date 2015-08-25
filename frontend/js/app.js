@@ -5,6 +5,7 @@
 
     angular.module('vvkp-app')
       .controller('deputiesListCtrl', ['$scope', '$http', '$timeout', '$location', '$modal', function($scope, $http, $timeout, $location, $modal) {
+        $scope.mainTabRadio = 'deputies';
         $scope.searchedDeputies = [];
         $scope.searchTags = [];
         $scope.searchedDeputiesFiltering = false;
@@ -198,9 +199,19 @@
                 }
             }
             // Push new tag
-            window.scrollTo(0, document.getElementById('tags-input').getBoundingClientRect().top - document.body.getBoundingClientRect().top - 10);
             $scope.searchTags.push({name: text});
             $scope.searchReloadResults();
+            window.scrollTo(0, document.getElementById('tags-input').getBoundingClientRect().top - document.body.getBoundingClientRect().top - 10);
+        };
+
+        $scope.searchSetTags = function(tags) {
+            $scope.mainTabRadio = 'deputies';
+            $scope.searchTags = [];
+            for (var i in tags) {
+                $scope.searchTags.push({name: tags[i]});
+            }
+            $scope.searchReloadResults();
+            window.scrollTo(0, document.getElementById('tags-input').getBoundingClientRect().top - document.body.getBoundingClientRect().top - 10);
         };
 
         $scope.searchRemoveTag = function(text) {
