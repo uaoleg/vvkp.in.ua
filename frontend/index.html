@@ -260,24 +260,27 @@
             </div>
             <div ng-if="mainTabRadio == 'laws'" class="row">
                 <table class="table">
-                    <tr ng-repeat="law in laws" ng-init="lawTagGood = law.good ? law.tagYes : law.tagNo; lawTagBad = law.good ? law.tagNo : law.tagYes">
-                        <td>
-                            {{law.name}} <a ng-href="{{law.url}}" target="_blank">{{law.no}}</a>
-                            <br>
+                    <tr ng-repeat="law in laws"
+                        ng-init="lawTagGood = law.good ? law.tagYes : law.tagNo; lawTagBad = law.good ? law.tagNo : law.tagYes">
+                        <td style="line-height: 16px; vertical-align: middle;">
+                            {{law.name}} <a ng-if="law.no" ng-href="{{law.url}}" target="_blank">#{{law.no}}</a>
+                        </td>
+                        <td style="padding: 0 10px; vertical-align: middle;">
                             <span ng-click="searchSetTags(lawTagGood)"
                                   tooltip="Показати депутів з тегом {{lawTagGood}}"
                                   class="label label-success"
-                                  style="cursor: pointer;">
+                                  style="cursor: pointer; display: inline-block; margin: 10px auto 5px; width: 100%;">
                                 {{lawTagGood}}
                             </span>
+                            <br>
                             <span ng-click="searchSetTags(lawTagBad)"
                                   tooltip="Показати депутів з тегом {{lawTagBad}}"
                                   class="label label-danger"
-                                  style="cursor: pointer; margin-left: 15px;">
+                                  style="cursor: pointer; display: block; margin: 5px auto 10px; width: 100%;">
                                 {{lawTagBad}}
                             </span>
                         </td>
-                        <td style="white-space: nowrap;">
+                        <td style="padding: 0 10px; vertical-align: middle; white-space: nowrap;">
                             <div ng-if="law.date">
                                 <i>{{date(law.date, 'Y-m-d')}}</i>
                             </div>
