@@ -101,7 +101,22 @@ foreach ($data->deputies as $deputy) {
 
 }
 
-// Recount parties' deputy count and law tags info
+// Laws: recoutnd deputy count
+usort($data->laws, function($a, $b) {
+    if (!$a->date) {
+        return -1;
+    } elseif (!$b->date) {
+        return 1;
+    } elseif ($a->date < $b->date) {
+        return 1;
+    } elseif ($a->date > $b->date) {
+        return -1;
+    } else {
+        return 0;
+    }
+});
+
+// Parties: recount deputy count and law tags info
 foreach ($data->parties as $party) {
     $party->deputies = 0;
     $party->lawTagsInfo = array();

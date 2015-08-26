@@ -5,11 +5,17 @@
 
     angular.module('vvkp-app')
       .controller('deputiesListCtrl', ['$scope', '$http', '$timeout', '$location', '$modal', function($scope, $http, $timeout, $location, $modal) {
-        $scope.mainTabRadio = 'deputies';
+        $scope.mainTabRadio;
         $scope.searchedDeputies = [];
         $scope.searchTags = [];
         $scope.searchedDeputiesFiltering = false;
         $scope.searchedDeputiesIncreasingLimit = false;
+
+        $scope.$watch('mainTabRadio', function(val) {
+            if (val !== undefined) {
+                $scope.updateUrl();
+            }
+        });
 
         $scope.date = function(timestamp, format) {
             return new Date(timestamp * 1000).format(format);
@@ -249,6 +255,10 @@
             var path =  '';
             if ($scope.deputy) {
                 path = 'deputy/' + transliterate($scope.deputy.name) + '/' + $scope.deputy.id;
+            } else if ($scope.mainTabRadio === 'parties') {
+                path = 'parties';
+            } else if ($scope.mainTabRadio === 'laws') {
+                path = 'laws';
             } else if ($scope.searchTags.length) {
                 path = 'search/' + $scope.searchTags.map(function(tag){
                     return transliterate(tag.name);
@@ -268,6 +278,10 @@
                         $scope.deputyPage(deputy);
                     }
                     break;
+                case 'laws':
+                case 'parties':
+                    $scope.mainTabRadio = action;
+                    break;
                 case 'search':
                     $scope.searchTags = [];
                     if (path[2]) {
@@ -278,6 +292,9 @@
                             }
                         });
                     }
+                    break;
+                default:
+                    $scope.mainTabRadio = 'deputies';
                     break;
             }
         };
@@ -338,6 +355,9 @@
         }
 
         function searchedDeputiesLimitInc(){
+            if ($scope.mainTabRadio !== 'deputies') {
+                return;
+            }
             if ($scope.searchedDeputiesLimit >= $scope.searchedDeputies.length) {
                 return;
             }

@@ -65,8 +65,19 @@
 
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12" style="height: 34px;">
+            <div class="btn-group btn-group-justified" style="margin: 20px 0;">
+                <label class="btn btn-default" ng-model="mainTabRadio" btn-radio="'deputies'">
+                    Депутати <span class="label label-default">{{searchedDeputies.length}}</span>
+                </label>
+                <label class="btn btn-default" ng-model="mainTabRadio" btn-radio="'parties'">
+                    Партії <span class="label label-default">{{parties.length}}</span>
+                </label>
+                <label class="btn btn-default" ng-model="mainTabRadio" btn-radio="'laws'">
+                    Закони <span class="label label-default">{{laws.length}}</span>
+                </label>
+            </div>
+            <div ng-if="mainTabRadio == 'deputies'" class="row" style="{{searchedDeputiesFiltering ? 'opacity: 0.5' : ''}};">
+                <div class="col-md-12" style="height: 34px; margin-bottom: 20px;">
                     <tags-input id="tags-input"
                                 on-tag-added="searchReloadResults()"
                                 on-tag-removed="searchReloadResults()"
@@ -86,19 +97,7 @@
                             template="template/search/suggestions.html?vvkp-version-1.8.0"></auto-complete>
                     </tags-input>
                 </div>
-            </div>
-            <div class="btn-group btn-group-justified" style="margin: 20px 0;">
-                <label class="btn btn-default" ng-model="mainTabRadio" btn-radio="'deputies'">
-                    Депутати <span class="label label-default">{{searchedDeputies.length}}</span>
-                </label>
-                <label class="btn btn-default" ng-model="mainTabRadio" btn-radio="'parties'">
-                    Партії <span class="label label-default">{{parties.length}}</span>
-                </label>
-                <label class="btn btn-default" ng-model="mainTabRadio" btn-radio="'laws'">
-                    Закони <span class="label label-default">{{laws.length}}</span>
-                </label>
-            </div>
-            <div ng-if="mainTabRadio == 'deputies'" class="row" style="{{searchedDeputiesFiltering ? 'opacity: 0.5' : ''}};">
+
                 <div ng-repeat-start="deputy in searchedDeputies | filter:searchText | limitTo:searchedDeputiesLimit"
                      class="col-lg-4 col-md-6 col-sm-12 col-xs-12 deputy-item">
                     <div ng-if="$index > 2" class="visible-lg"><hr class="deputy-item__fancy-line"></div>
@@ -113,8 +112,7 @@
                         <img ng-src="img/parties/100x35/{{deputy.party}}.png"
                              ng-if="deputy.party"
                              ng-click="searchAddTag(deputy.party)"
-                             tooltip="Тільки депути партії {{deputy.party}}"
-                             tooltip-popup-delay="1000"
+                             tooltip="Показати депутів партії {{deputy.party}}"
                              tooltip-enable="deputy.party != searchStats.selectedParty"
                              class="deputy-party fading"
                              style="{{deputy.party == searchStats.selectedParty ? 'cursor: default;' : ''}}">
@@ -214,7 +212,7 @@
                         <td style="width: 110px;">
                             <img ng-src="img/parties/100x35/{{party.name}}.png"
                                  ng-click="searchSetTags([party.name])"
-                                 tooltip="Всі депути партії ({{party.deputies}})"
+                                 tooltip="Показати депутів партії {{party.name}} ({{party.deputies}})"
                                  class="deputy-party"
                                  style="margin: 0;">
                         </td>
@@ -261,6 +259,31 @@
                 </div>
             </div>
             <div ng-if="mainTabRadio == 'laws'" class="row">
+                <table class="table">
+                    <tr ng-repeat="law in laws" ng-init="lawTagGood = law.good ? law.tagYes : law.tagNo; lawTagBad = law.good ? law.tagNo : law.tagYes">
+                        <td>
+                            {{law.name}} <a ng-href="{{law.url}}" target="_blank">{{law.no}}</a>
+                            <br>
+                            <span ng-click="searchSetTags(lawTagGood)"
+                                  tooltip="Показати депутів з тегом {{lawTagGood}}"
+                                  class="label label-success"
+                                  style="cursor: pointer;">
+                                {{lawTagGood}}
+                            </span>
+                            <span ng-click="searchSetTags(lawTagBad)"
+                                  tooltip="Показати депутів з тегом {{lawTagBad}}"
+                                  class="label label-danger"
+                                  style="cursor: pointer; margin-left: 15px;">
+                                {{lawTagBad}}
+                            </span>
+                        </td>
+                        <td style="white-space: nowrap;">
+                            <div ng-if="law.date">
+                                <i>{{date(law.date, 'Y-m-d')}}</i>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
             </div>
             <br>
             <hr>
