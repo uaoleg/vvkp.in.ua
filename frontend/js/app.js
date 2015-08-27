@@ -293,9 +293,9 @@
                         });
                     }
                     break;
-                default:
-                    $scope.mainTabRadio = 'deputies';
-                    break;
+            }
+            if (!$scope.mainTabRadio) {
+                $scope.mainTabRadio = 'deputies';
             }
         };
 
@@ -527,28 +527,29 @@
         };
 
         // Load data
-        $http.get('data/data' + MIN + '.json?vvkp-version-1.8.0')
-            .then(function(response){
-                $scope.laws = response.data.laws;
-                $scope.lawTags = response.data.lawTags;
-                $scope.parties = response.data.parties;
-                $scope.deputies = response.data.deputies;
-                $scope.searchSuggestions = response.data.searchSuggestions;
-                // Parse URL
-                $scope.getUrlData();
-                // Load default tag for domain
-                if ($scope.searchTags.length === 0) {
-                    if ($location.host().indexOf('zrada.today') !== -1) {
-                        $scope.searchAddTag('шокін-ок');
-                    } else if ($location.host().indexOf('peremoga') !== -1) {
-                        $scope.searchAddTag('шокін-геть');
-                    }
-                }
-                // Filter
-                $scope.searchReloadResults();
-                // Load the rest of scripts and styles
-                loadSecondaryScriptsAndStyles()
-            });
+        $scope.laws = VVKP_DATA.laws;
+        $scope.lawTags = VVKP_DATA.lawTags;
+        $scope.parties = VVKP_DATA.parties;
+        $scope.deputies = VVKP_DATA.deputies;
+        $scope.searchSuggestions = VVKP_DATA.searchSuggestions;
+
+        // Parse URL
+        $scope.getUrlData();
+
+        // Load default tag for domain
+        if ($scope.searchTags.length === 0) {
+            if ($location.host().indexOf('zrada.today') !== -1) {
+                $scope.searchAddTag('шокін-ок');
+            } else if ($location.host().indexOf('peremoga') !== -1) {
+                $scope.searchAddTag('шокін-геть');
+            }
+        }
+
+        // Filter
+        $scope.searchReloadResults();
+
+        // Load the rest of scripts and styles
+        loadSecondaryScriptsAndStyles()
 
         // Lazy loading
         window.onscroll = function() {
@@ -624,9 +625,6 @@
     angular.bootstrap(document, ['vvkp-app']);
 
     function loadSecondaryScriptsAndStyles() {
-
-        // Secondary styles
-        headAppendStyle('css/deputies.css');
 
         // Github
         headAppendScript('https://buttons.github.io/buttons.js', {'id': 'github-bjs'});

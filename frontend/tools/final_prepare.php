@@ -227,12 +227,13 @@ foreach ($data->deputies as $deputy) {
 
 $json = json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 file_put_contents($datafile, $json);
+file_put_contents('../js/0-data.js', "VVKP_DATA = {$json};");
 
-// gzip
-$compressDir = function($dir) use(&$compressDir, $s3) {
+// Concat all files into one
+$concatFiles = function($dir, $content = '') use(&$concatFiles, $s3) {
     foreach (new DirectoryIterator($dir) as $file) {
         if ($file->isDir() && (!$file->isDot())) {
-            $compressDir($file->getPathname());
+            $concatFiles($file->getPathname(), $content);
             continue;
         }
         if (!$file->isFile()) {
@@ -244,12 +245,16 @@ $compressDir = function($dir) use(&$compressDir, $s3) {
         if (mb_strpos($file->getFilename(), '.min.') !== false) {
             continue;
         }
-        $minName = mb_substr($file->getFilename(), 0, -mb_strlen($file->getExtension())) . 'min.' . $file->getExtension();
-        $minPath = str_replace($file->getFilename(), $minName, $file->getRealPath());
-        system("gzip --best < {$file->getRealPath()} > {$minPath}");
+        $content .= file_get_contents($file->getRealPath());
     }
+    return $content;
 };
+file_put_contents('../all.js', $concatFiles('../js'));
+file_put_contents('../all.css', $concatFiles('../css'));
+
+// gzip
 system("gzip --best < ../index.html > ../index.min.html");
-foreach (['../data', '../js', '../css'] as $dir) {
-    $compressDir($dir);
-}
+system("gzip --best < ../all.js > ../all.min.js");
+system("gzip --best < ../all.css > ../all.min.css");
+unlink('../all.js');
+unlink('../all.css');
