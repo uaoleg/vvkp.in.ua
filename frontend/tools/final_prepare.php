@@ -1,5 +1,7 @@
 <?php
 
+error_reporting(E_ALL & ~E_NOTICE);
+
 $datafile = '../data/data.json';
 
 // Get data
@@ -120,6 +122,15 @@ usort($data->laws, function($a, $b) {
 foreach ($data->parties as $party) {
     $party->deputies = 0;
     $party->lawTagsInfo = array();
+    foreach ($data->lawTags as $lawTag) {
+        $lawTagGood = ($lawTag->type === 'success') ? $lawTag->name : $lawTag->opposite;
+        $lawTagBad  = ($lawTag->type === 'success') ? $lawTag->opposite : $lawTag->name;
+        $party->lawTagsInfo[$lawTagGood] = [
+            'good'  => $lawTagGood,
+            'bad'   => $lawTagBad,
+            'rates' => [],
+        ];
+    }
     foreach ($data->deputies as $i => $deputy) {
         if ($deputy->party !== $party->name)  {
             continue;
@@ -135,13 +146,6 @@ foreach ($data->parties as $party) {
             }
             $lawTagGood = ($lawTag->type === 'success') ? $lawTag->name : $lawTag->opposite;
             $lawTagBad  = ($lawTag->type === 'success') ? $lawTag->opposite : $lawTag->name;
-            if (!isset($party->lawTagsInfo[$lawTagGood])) {
-                $party->lawTagsInfo[$lawTagGood] = [
-                    'good'  => $lawTagGood,
-                    'bad'   => $lawTagBad,
-                    'rates' => [],
-                ];
-            }
             if ($lawTag->type === 'success') {
                 $party->lawTagsInfo[$lawTagGood]['rates'][] = $lawTagInfo['rate'];
                 if (isset($deputy->lawTagsInfo[$lawTag->opposite])) {
