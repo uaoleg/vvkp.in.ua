@@ -15,9 +15,9 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ng-tags-input/3.0.0/ng-tags-input.min.js"></script>
         <script type="text/javascript">
             if (['dev.vvkp.in.ua', 'vvkp.in.ua', 'zrada.today', 'peremoga.today'].indexOf(document.domain) !== -1) {
-                MIN = true;
+                MIN = '.min';
             } else {
-                MIN = false;
+                MIN = '';
             }
             function headAppendScript(src, attrs) {
                 var head = document.getElementsByTagName('head')[0];
@@ -26,7 +26,7 @@
                 if (src.indexOf('://') !== -1) {
                     js.src = src;
                 } else {
-                    js.src = src + '?vvkp-version-1.8.0';
+                    js.src = src.replace('.js', MIN + '.js') + '?vvkp-version-1.8.0';
                 }
                 if (typeof attrs === 'object') {
                     for (var attrName in attrs) {
@@ -35,14 +35,7 @@
                 }
                 head.appendChild(js);
             }
-            if (MIN) {
-                headAppendScript('all.min.js');
-            } else {
-                headAppendScript('js/0-data.js');
-                headAppendScript('js/angular-progress-arc.js');
-                headAppendScript('js/app.js');
-                headAppendScript('js/extend.js');
-            }
+            headAppendScript('js/_/all.js');
             function headAppendStyle(href) {
                 var head = document.getElementsByTagName('head')[0];
                 var link = document.createElement('link');
@@ -50,17 +43,11 @@
                 if (href.indexOf('://') !== -1) {
                     link.href = href;
                 } else {
-                    link.href = href + '?vvkp-version-1.8.0';
+                    link.href = href.replace('.css', MIN + '.css') + '?vvkp-version-1.8.0';
                 }
                 head.appendChild(link);
             }
-            if (MIN) {
-                headAppendStyle('all.min.css');
-            } else {
-                headAppendStyle('css/bootstrap-theme-paper.css');
-                headAppendStyle('css/styles.css');
-                headAppendStyle('css/deputies.css');
-            }
+            headAppendStyle('css/_/all.css');
         </script>
     </head>
     <body ng-controller="deputiesListCtrl">

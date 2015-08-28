@@ -227,34 +227,9 @@ foreach ($data->deputies as $deputy) {
 
 $json = json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 file_put_contents($datafile, $json);
-file_put_contents('../js/0-data.js', "VVKP_DATA = {$json};");
-
-// Concat all files into one
-$concatFiles = function($dir, $content = '') use(&$concatFiles, $s3) {
-    foreach (new DirectoryIterator($dir) as $file) {
-        if ($file->isDir() && (!$file->isDot())) {
-            $concatFiles($file->getPathname(), $content);
-            continue;
-        }
-        if (!$file->isFile()) {
-            continue;
-        }
-        if (!in_array($file->getExtension(), ['html', 'js', 'css', 'json'])) {
-            continue;
-        }
-        if (mb_strpos($file->getFilename(), '.min.') !== false) {
-            continue;
-        }
-        $content .= file_get_contents($file->getRealPath());
-    }
-    return $content;
-};
-file_put_contents('../all.js', $concatFiles('../js'));
-file_put_contents('../all.css', $concatFiles('../css'));
+file_put_contents('../js/data.js', "VVKP_DATA = {$json};");
 
 // gzip
 system("gzip --best < ../index.html > ../index.min.html");
-system("gzip --best < ../all.js > ../all.min.js");
-system("gzip --best < ../all.css > ../all.min.css");
-unlink('../all.js');
-unlink('../all.css');
+system("gzip --best < ../js/_/all.js > ../js/_/all.min.js");
+system("gzip --best < ../css/_/all.css > ../css/_/all.min.css");
