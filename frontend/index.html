@@ -64,7 +64,7 @@
 
                 </div>
             </div>
-            <div class="btn-group btn-group-justified" style="margin: 20px 0;">
+            <div id="js-main-tab" class="btn-group btn-group-justified" style="margin: 20px 0;">
                 <label class="btn btn-default" ng-model="mainTabRadio" btn-radio="'deputies'">
                     Депутати <span ng-cloak class="label label-default">{{searchedDeputies.length}}</span>
                 </label>
@@ -265,14 +265,14 @@
                             {{law.name}} <a ng-if="law.no" ng-href="{{law.url}}" target="_blank">#{{law.no}}</a>
                         </td>
                         <td style="padding: 0 10px; vertical-align: middle;">
-                            <span ng-click="searchSetTags(lawTagGood)"
+                            <span ng-click="searchSetTags([lawTagGood])"
                                   tooltip="Показати депутів з тегом {{lawTagGood}}"
                                   class="label label-success"
                                   style="cursor: pointer; display: inline-block; margin: 10px auto 5px; width: 100%;">
                                 {{lawTagGood}}
                             </span>
                             <br>
-                            <span ng-click="searchSetTags(lawTagBad)"
+                            <span ng-click="searchSetTags([lawTagBad])"
                                   tooltip="Показати депутів з тегом {{lawTagBad}}"
                                   class="label label-danger"
                                   style="cursor: pointer; display: block; margin: 5px auto 10px; width: 100%;">

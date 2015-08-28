@@ -207,7 +207,7 @@
             // Push new tag
             $scope.searchTags.push({name: text});
             $scope.searchReloadResults();
-            window.scrollTo(0, document.getElementById('tags-input').getBoundingClientRect().top - document.body.getBoundingClientRect().top - 10);
+            window.scrollTo(0, document.getElementById('js-main-tab').getBoundingClientRect().top - document.body.getBoundingClientRect().top - 10);
         };
 
         $scope.searchSetTags = function(tags) {
@@ -217,7 +217,7 @@
                 $scope.searchTags.push({name: tags[i]});
             }
             $scope.searchReloadResults();
-            window.scrollTo(0, document.getElementById('tags-input').getBoundingClientRect().top - document.body.getBoundingClientRect().top - 10);
+            window.scrollTo(0, document.getElementById('js-main-tab').getBoundingClientRect().top - document.body.getBoundingClientRect().top - 10);
         };
 
         $scope.searchRemoveTag = function(text) {
