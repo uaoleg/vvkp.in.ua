@@ -66,13 +66,13 @@
             </div>
             <div class="btn-group btn-group-justified" style="margin: 20px 0;">
                 <label class="btn btn-default" ng-model="mainTabRadio" btn-radio="'deputies'">
-                    Депутати <span class="label label-default">{{searchedDeputies.length}}</span>
+                    Депутати <span ng-cloak class="label label-default">{{searchedDeputies.length}}</span>
                 </label>
                 <label class="btn btn-default" ng-model="mainTabRadio" btn-radio="'parties'">
-                    Партії <span class="label label-default">{{parties.length}}</span>
+                    Партії <span ng-cloak class="label label-default">{{parties.length}}</span>
                 </label>
                 <label class="btn btn-default" ng-model="mainTabRadio" btn-radio="'laws'">
-                    Закони <span class="label label-default">{{laws.length}}</span>
+                    Закони <span ng-cloak class="label label-default">{{laws.length}}</span>
                 </label>
             </div>
             <div ng-if="mainTabRadio == 'deputies'" class="row" style="{{searchedDeputiesFiltering ? 'opacity: 0.5' : ''}};">
@@ -96,8 +96,8 @@
                             template="template/search/suggestions.html?vvkp-version-1.8.0"></auto-complete>
                     </tags-input>
                 </div>
-
                 <div ng-repeat-start="deputy in searchedDeputies | filter:searchText | limitTo:searchedDeputiesLimit"
+                     ng-cloak
                      class="col-lg-4 col-md-6 col-sm-12 col-xs-12 deputy-item">
                     <div ng-if="$index > 2" class="visible-lg"><hr class="deputy-item__fancy-line"></div>
                     <div ng-if="$index > 1" class="visible-md"><hr class="deputy-item__fancy-line"></div>
@@ -200,7 +200,7 @@
                     <img src="img/loading.gif">
                 </div>
             </div>
-            <div ng-if="mainTabRadio == 'parties'" class="row">
+            <div ng-if="mainTabRadio == 'parties'" ng-cloak class="row">
                 <div ng-repeat-start="party in parties"
                      class="col-lg-4 col-md-6 col-sm-12 col-xs-12 deputy-item">
                     <div ng-if="$index > 2" class="visible-lg"><hr class="deputy-item__fancy-line"></div>
@@ -257,7 +257,7 @@
                     <div ng-if="$index % 2 == 1" class="clearfix visible-md"></div>
                 </div>
             </div>
-            <div ng-if="mainTabRadio == 'laws'" class="row">
+            <div ng-if="mainTabRadio == 'laws'" ng-cloak class="row">
                 <table class="table">
                     <tr ng-repeat="law in laws"
                         ng-init="lawTagGood = law.good ? law.tagYes : law.tagNo; lawTagBad = law.good ? law.tagNo : law.tagYes">
