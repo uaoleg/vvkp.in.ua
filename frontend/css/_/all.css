@@ -7765,6 +7765,14 @@ input[type="checkbox"]:disabled:checked:after,
     margin: 0 0 0 3px;
 }
 
+@media (max-width: 991px) {
+    .main-tab .btn .label {
+        display: block;
+        margin: 0;
+        padding: 2px;
+    }
+}
+
 .popover{
     max-width: 100%; /* Max Width of the popover (depending on the container!) */
 }
