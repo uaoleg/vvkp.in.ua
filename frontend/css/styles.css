@@ -1,0 +1,341 @@
+@media (max-width: 991px) {
+    .container {
+        margin: 0 auto;
+        width: 400px;
+    }
+}
+
+[ng\:cloak],
+[ng-cloak],
+.ng-cloak {
+    display: none !important;
+}
+
+[class^="img-deputy-"],
+[class*=" img-deputy-"] {
+    border-radius: 4px 0;
+    box-shadow: 1px 1px 1px #999;
+}
+
+.deputy-info {
+    margin: 0;
+}
+
+.deputy-info a {
+    color: rgb(102, 102, 102);
+}
+
+.deputy-info tr {
+    vertical-align: middle;
+}
+
+.deputy-info td {
+    padding: 5px;
+}
+
+.deputy-info td:first-child {
+    padding-left: 0px;
+}
+
+.deputy-info .glyphicon {
+    opacity: 0.5;
+}
+
+.deputy-item {
+    margin: 0;
+}
+
+.deputy-item__fancy-line {
+    border: 0;
+    height: 1px;
+    position: relative;
+    margin: 40px 0 30px 70px;
+    width: 60%;
+    max-width: 200px;
+}
+
+.deputy-item__fancy-line:before {
+    top: -0.5em;
+    height: 1em;
+}
+
+.deputy-item__fancy-line:after {
+    content:'';
+    height: 0.5em;   /* half the height of :before */
+    top: 1px;        /* height of hr*/
+}
+
+.deputy-item__fancy-line:before, .deputy-item__fancy-line:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+}
+
+.deputy-item__fancy-line, .deputy-item__fancy-line:before {
+    background: -moz-radial-gradient(center, ellipse cover, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 75%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 75%, color-stop(0%,rgba(0,0,0,0.1)), color-stop(75%,rgba(0,0,0,0)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0) 75%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0) 75%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0) 75%);
+    background: radial-gradient(ellipse at center, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0) 75%);
+}
+
+.deputy-item__fancy-line:after {
+    background: #fff;
+}
+
+.deputy-item__info {
+    font-size: 28px;
+}
+
+.deputy-item__info a {
+    color: rgb(102, 102, 102);
+}
+
+.deputy-item__info td {
+    padding: 5px;
+}
+
+.deputy-item__info td:first-child {
+    padding-left: 0px;
+}
+
+.deputy-item__info .glyphicon {
+    opacity: 0.5;
+}
+
+
+.deputy-item__law-tag {
+    max-width: 200px;
+}
+
+@media (max-width: 991px) {
+    .deputy-item__law-tag {
+        font-size: 18px;
+    }
+}
+
+.deputy-item__law-tag:hover .deputy-item__law-tag__info {
+    display: block;
+}
+
+.deputy-item__law-tag:hover .deputy-item__law-tag__progress {
+    display: none;
+}
+
+.deputy-item__law-tag__progress-info {
+    cursor: pointer;
+}
+
+.deputy-item__law-tag__info {
+    display: none;
+    font-size: 30px;
+}
+
+.deputy-item__law-tags {
+    table-layout: fixed;
+    white-space: nowrap;
+    width: 288px;
+}
+
+.deputy-item__law-tags td:nth-child(1),
+.deputy-item__law-tags td:nth-child(3) {
+    width: 49%;
+}
+
+.deputy-item__law-tags td:nth-child(2) {
+    text-align: center;
+    width: 60px;
+}
+
+.deputy-item__law-tags td:nth-child(1) {
+    text-align: right;
+}
+
+.deputy-item__law-tags td:nth-child(2) {
+    padding: 5px 10px;
+}
+
+.deputy-item__hr {
+    box-shadow:0 0px -4px rgba(0, 0, 0, 0.2);
+    margin: 0px auto 30px;
+    width: 60%;
+}
+
+.deputy-item__name {
+    display: inline-block;
+    font-size: 28px;
+    height: 72px;
+    line-height: 32px;
+    margin: -5px 0 0;
+}
+
+.deputy-item__name small {
+    font-size: 60%;
+}
+
+.deputy-item__photo {
+    text-align: center;
+    vertical-align: top;
+    width: 130px;
+}
+
+.deputy-party {
+    cursor: pointer;
+    display: block;
+    margin: 5px auto 0;
+    max-height: 35px;
+    max-width: 100px;
+}
+
+.deputy-tag {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.fading {
+    opacity: 0.5;
+}
+
+.fading:hover {
+    opacity: 1;
+}
+
+.main-tab .btn {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.main-tab .btn .label {
+    font-size: 12px;
+    padding: 0px 5px;
+    margin: 0 0 0 3px;
+}
+
+@media (max-width: 991px) {
+    .main-tab .btn .label {
+        display: block;
+        margin: 0;
+        padding: 2px;
+    }
+}
+
+.popover{
+    max-width: 100%; /* Max Width of the popover (depending on the container!) */
+}
+
+.progress {
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+            box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    height: 3px;
+    z-index: auto;
+}
+
+.progress-text-centered {
+    position: relative;
+}
+
+.progress-text-centered span {
+    color: #fff;
+    display: block;
+    margin-top: -1px;
+    position: absolute;
+    text-shadow: 0px 0px 3px #000;
+    text-transform: uppercase;
+    width: 100%;
+ }
+
+.progress-title {
+    color: #bbbbbb;
+    display: block;
+    font-size: 80%;
+    margin-top: -18px;
+    text-align: right;
+ }
+
+.progress-title:before {
+     content: '\2014 \00A0';
+ }
+
+.progress-bar {
+    overflow: hidden;
+}
+
+.progress-bar:last-child {
+    border-radius: 0;
+}
+
+
+.searchbar--sticky {
+    position: fixed;
+    left: 0;
+    background: #ffffff;
+    top: 0;
+    margin-left: 0;
+    width: 100%;
+    z-index: 14;
+}
+
+.searchbar--sticky .host {
+    margin-bottom: 0;
+}
+
+.searchbar--sticky .table {
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0px 2px 4px #999;
+    width: 750px;
+    margin: 0 auto;
+    left: -195px;
+    position: relative;
+}
+
+.searchbar--sticky .table tr:last-child,
+.searchbar--sticky .table tr:last-child td:first-child {
+    border-bottom-left-radius: 4px;
+}
+
+.searchbar--sticky .table tr:last-child,
+.searchbar--sticky .table tr:last-child td:last-child {
+    border-bottom-right-radius: 4px;
+}
+
+.search-stats__law-tag {
+    margin: 10px 0 0;
+    width: 100%;
+}
+
+.search-stats__law-tag .btn {
+    padding: 5px 0 4px 7px;
+    text-align: left;
+}
+
+.table-no-border th, .table-no-border td {
+    border-top: none !important;
+}
+
+.tooltip {
+    line-height: 16px;
+}
+
+tags-input .tags {
+    background-image: url("../../img/icon/search.png");
+    background-position: 5px center;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    padding-left: 30px;
+}
+
+tags-input .tags .input {
+    box-shadow: none;
+}
+
+tags-input .tags .tag-item {
+    color: #ffffff;
+    background: #2196f3;
+    border-color: transparent;
+}
+
+tags-input .tags .tag-item .remove-button {
+    color: #ffffff;
+}

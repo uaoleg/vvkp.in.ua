@@ -1,3 +1,5 @@
 /nbproject/private/
 /nbproject
 .idea
+/vendor
+/frontend/node_modules
