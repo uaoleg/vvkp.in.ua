@@ -203,7 +203,7 @@ foreach ($data->deputies as $i => $deputy) {
     if ($deputy->district) {
         $tagsDeputyDistrict[] = array(
             'name'          => "Виборчий округ №{$deputy->district->id} ({$deputy->district->region})",
-            'type'          => 'deputy-district',
+            'type'          => 'district',
             'typeOrder'     => 4,
             'districtId'    => (int)$deputy->district->id,
         );

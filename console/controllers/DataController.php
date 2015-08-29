@@ -3,6 +3,7 @@ namespace console\controllers;
 
 use \common\models\Deputy;
 use \common\models\Deputy\Law as DeputyLaw;
+use \common\models\District;
 use \common\models\Law;
 use \common\models\LawTag;
 use \common\models\Party;
@@ -39,6 +40,7 @@ class DataController extends BaseController
             $deputyData->phones = $deputyData->phones ? implode(',', $deputyData->phones) : null;
             $deputyData->dateAuthorityStart = date('Y-m-d', $deputyData->dateAuthorityStart);
             $deputyData->dateAuthorityStop = $deputyData->dateAuthorityStop ? date('Y-m-d', $deputyData->dateAuthorityStop) : null;
+            $deputyData->districtId = $deputyData->district->id ?: null;
             $deputy = new Deputy();
             $deputy->setAttributes((array)$deputyData, false);
             $deputy->save();
@@ -209,23 +211,15 @@ class DataController extends BaseController
                 'deputyId'          => $deputy->id,
                 'dateAuthorityStop' => $deputy->dateAuthorityStop ? $deputy->dateAuthorityStop : '',
             );
-var_dump($deputy->district);
-            if ($deputy->district) {
-                $tagsDeputyDistrict[] = array(
-                    'name'          => "Виборчий округ №{$deputy->district->id} ({$deputy->district->region})",
-                    'type'          => 'deputy-district',
-                    'typeOrder'     => 4,
-                    'districtId'    => (int)$deputy->district->id,
-                );
-            }
         }
-        usort($tagsDeputyDistrict, function($a, $b) {
-            if ($a['districtId'] === $b['districtId']) {
-                return 0;
-            } else {
-                return ($a['districtId'] < $b['districtId']) ? -1 : 1;
-            }
-        });
+        foreach (District::find()->orderBy('id')->all() as $district) {
+            $tagsDeputyDistrict[] = array(
+                'name'          => "Виборчий округ №{$district->id} ({$district->region})",
+                'type'          => 'district',
+                'typeOrder'     => 4,
+                'districtId'    => (int)$district->id,
+            );
+        }
         $data['searchSuggestions'] = array_merge($tags, $tagsDeputyName, $tagsDeputyDistrict);
 
         $json = json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
