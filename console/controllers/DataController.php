@@ -182,50 +182,51 @@ class DataController extends BaseController
             $data['deputies'][] = $deputyData;
         }
 
-//        // Search suggestions
-//        $tags = array();
-//        $tagsDeputyName = array();
-//        $tagsDeputyDistrict = array();
-//        foreach ($data->lawTags as $i => $lawTag) {
-//            $tags[] = array(
-//                'name'          => $lawTag->name,
-//                'type'          => 'law-tag',
-//                'typeOrder'     => 1,
-//                'lawTagType'    => $lawTag->type,
-//            );
-//        }
-//        foreach ($data->parties as $i => $party) {
-//            $tags[] = array(
-//                'name'      => $party->name,
-//                'type'      => 'party',
-//                'typeOrder' => 2,
-//            );
-//        }
-//        foreach ($data->deputies as $i => $deputy) {
-//            $tagsDeputyName[] = array(
-//                'name'              => $deputy->name,
-//                'type'              => 'deputy-name',
-//                'typeOrder'         => 3,
-//                'deputyId'          => $deputy->id,
-//                'dateAuthorityStop' => $deputy->dateAuthorityStop ? date('Y-m-d', $deputy->dateAuthorityStop)  => '',
-//            );
-//            if ($deputy->district) {
-//                $tagsDeputyDistrict[] = array(
-//                    'name'          => "Виборчий округ №{$deputy->district->id} ({$deputy->district->region})",
-//                    'type'          => 'deputy-district',
-//                    'typeOrder'     => 4,
-//                    'districtId'    => (int)$deputy->district->id,
-//                );
-//            }
-//        }
-//        usort($tagsDeputyDistrict, function($a, $b) {
-//            if ($a['districtId'] === $b['districtId']) {
-//                return 0;
-//            } else {
-//                return ($a['districtId'] < $b['districtId']) ? -1  => 1;
-//            }
-//        });
-//        $data->searchSuggestions = array_merge($tags, $tagsDeputyName, $tagsDeputyDistrict);
+        // Search suggestions
+        $tags = array();
+        $tagsDeputyName = array();
+        $tagsDeputyDistrict = array();
+        foreach (LawTag::find()->orderBy('name')->all() as $lawTag) {
+            $tags[] = array(
+                'name'          => $lawTag->name,
+                'type'          => 'law-tag',
+                'typeOrder'     => 1,
+                'lawTagType'    => $lawTag->type,
+            );
+        }
+        foreach (Party::find()->orderBy('name')->all() as $party) {
+            $tags[] = array(
+                'name'      => $party->name,
+                'type'      => 'party',
+                'typeOrder' => 2,
+            );
+        }
+        foreach (Deputy::find()->orderBy('name')->all() as $deputy) {
+            $tagsDeputyName[] = array(
+                'name'              => $deputy->name,
+                'type'              => 'deputy-name',
+                'typeOrder'         => 3,
+                'deputyId'          => $deputy->id,
+                'dateAuthorityStop' => $deputy->dateAuthorityStop ? $deputy->dateAuthorityStop : '',
+            );
+var_dump($deputy->district);
+            if ($deputy->district) {
+                $tagsDeputyDistrict[] = array(
+                    'name'          => "Виборчий округ №{$deputy->district->id} ({$deputy->district->region})",
+                    'type'          => 'deputy-district',
+                    'typeOrder'     => 4,
+                    'districtId'    => (int)$deputy->district->id,
+                );
+            }
+        }
+        usort($tagsDeputyDistrict, function($a, $b) {
+            if ($a['districtId'] === $b['districtId']) {
+                return 0;
+            } else {
+                return ($a['districtId'] < $b['districtId']) ? -1 : 1;
+            }
+        });
+        $data['searchSuggestions'] = array_merge($tags, $tagsDeputyName, $tagsDeputyDistrict);
 
         $json = json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
         file_put_contents(static::getDataPath(), $json);
