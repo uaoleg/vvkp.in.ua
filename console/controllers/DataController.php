@@ -64,6 +64,7 @@ class DataController extends BaseController
         foreach ($data->laws as $lawData) {
             $law = new Law();
             $law->setAttributes((array)$lawData, false);
+            $law->dateVoting = $lawData->date ? date('Y-m-d H:i:s', $lawData->date) : null;
             $law->save();
         }
 
@@ -106,8 +107,8 @@ class DataController extends BaseController
 
         // Laws
         $data['laws'] = [];
-        foreach (Law::find()->all() as $law) {
-            $data['laws'][] = [
+        foreach (Law::find()->orderBy('no, id')->all() as $law) {
+            $lawData = [
                 'id'        => $law->id,
                 'no'        => $law->no,
                 'name'      => $law->name,
@@ -120,6 +121,13 @@ class DataController extends BaseController
                 'descNo'    => $law->descNo,
                 'date'      => strtotime($law->dateVoting),
             ];
+            if (!$law->urlVoting) {
+                unset($lawData['urlVoting']);
+            }
+            if (!$law->dateVoting) {
+                unset($lawData['date']);
+            }
+            $data['laws'][] = $lawData;
         }
 
         // Law tags
