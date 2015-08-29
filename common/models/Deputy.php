@@ -75,9 +75,9 @@ class Deputy extends BaseActiveRecord
 
         // Registratoin rate
         if ($this->registrationRate >= Deputy\Registration::MIN_RATE) {
-            $lawTags[] = 'працює';
+            $lawTags['працює'] = 1;
         } else {
-            $lawTags[] = 'прогулює';
+            $lawTags['прогулює'] = 1;
         }
 
         // Law votings

@@ -132,7 +132,7 @@ class DataController extends BaseController
 
         // Law tags
         $data['lawTags'] = [];
-        foreach (LawTag::find()->all() as $lawTag) {
+        foreach (LawTag::find()->orderBy('order')->all() as $lawTag) {
             $data['lawTags'][] = [
                 'name'      => $lawTag->name,
                 'desc'      => $lawTag->desc,
@@ -150,12 +150,16 @@ class DataController extends BaseController
                 'id'        => $deputy->id,
                 'name'      => $deputy->name,
                 'party'     => $deputy->partyName,
-                'facebook'  => $deputy->facebook,
                 'phones'    => $deputy->phones ? explode(',', $deputy->phones) : [],
                 'residence' => $deputy->residence,
-                'dateAuthorityStart'    => strtotime($deputy->dateAuthorityStart),
-                'dateAuthorityStop'     => $deputy->dateAuthorityStop ? strtotime($deputy->dateAuthorityStop) : null,
+                'dateAuthorityStart' => strtotime($deputy->dateAuthorityStart),
             ];
+            if ($deputy->dateAuthorityStop) {
+                $deputyData['dateAuthorityStop'] = strtotime($deputy->dateAuthorityStop);
+            }
+            if ($deputy->facebook) {
+                $deputyData['facebook'] = $deputy->facebook;
+            }
             if ($deputy->district) {
                 $deputyData['district'] = [
                     'id'        => $deputy->district->id,
@@ -166,6 +170,7 @@ class DataController extends BaseController
 
             // Deputy laws
             $deputyData['laws'] = [];
+            $deputyData['laws']['відвідуваність'] = $deputy->registrationRate;
             foreach ($deputy->laws as $deputyLaw) {
                 $deputyData['laws'][$deputyLaw->lawId] = $deputyLaw->vote;
             }
