@@ -18,6 +18,8 @@ class Registration extends \common\models\BaseActiveRecord
     const TYPE_MORNING = 'ранкова';
     const TYPE_EVENING = 'вечірня';
 
+    const MIN_RATE = 50;
+
     /**
      * @return string the table name
      */

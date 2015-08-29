@@ -10,10 +10,14 @@ namespace common\models;
  * @property string $type
  * @property string $opposite
  * @property int $order
+ * 
  * @property-read int $lawCount
  */
 class LawTag extends BaseActiveRecord
 {
+
+    const TYPE_SUCCESS = 'success';
+    const TYPE_DANGER  = 'danger';
 
     /**
      * Returns count of tag's laws
