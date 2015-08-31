@@ -163,12 +163,17 @@
                             <td>
                                 <span
                                     ng-click="searchAddTag(lawTagGood)"
+                                    tooltip='Фільтрувати депутатів за тегом "{{lawTagGood}}"'
+                                    tooltip-popup-delay="500"
                                     class="text-{{lawTag.type == 'success' ? 'success' : 'muted'}}"
                                     style="cursor: pointer; font-weight: {{lawTag.type == 'success' ? 'bold' : 'normal'}}">
                                     {{lawTagGood}}
                                 </span>
                             </td>
                             <td ng-click="deputy.lawTagName = lawTagName; deputyPage(deputy)"
+                                tooltip="Голосування депутата"
+                                tooltip-popup-delay="500"
+                                tooltip-append-to-body="true"
                                 class="fading deputy-item__law-tag__progress-info">
                                 <progress-arc
                                     complete="(lawTag.type == 'success' ? deputy.lawTagsInfo[lawTag.name].rate : 100-deputy.lawTagsInfo[lawTag.name].rate) / 100"
@@ -184,6 +189,8 @@
                             <td>
                                 <span
                                     ng-href ng-click="searchAddTag(lawTagBad)"
+                                    tooltip='Фільтрувати депутатів за тегом "{{lawTagBad}}"'
+                                    tooltip-popup-delay="500"
                                     class="text-{{lawTag.type == 'success' ? 'muted' : 'danger'}}"
                                     style="cursor: pointer; font-weight: {{lawTag.type == 'success' ? 'normal' : 'bold'}}">
                                     {{lawTagBad}}
@@ -225,6 +232,8 @@
                             <td>
                                 <span
                                     ng-click="searchSetTags([party.name, lawTag.good])"
+                                    tooltip='Показати депутів партії {{party.name}} з тегом "{{lawTag.good}}"'
+                                    tooltip-popup-delay="500"
                                     class="text-{{lawTag.rate >= 50 ? 'success' : 'muted'}}"
                                     style="cursor: pointer; font-weight: {{lawTag.rate >= 50 ? 'bold' : 'normal'}}">
                                     {{lawTag.good}}
@@ -244,6 +253,8 @@
                             <td>
                                 <span
                                     ng-click="searchSetTags([party.name, lawTag.bad])"
+                                    tooltip='Показати депутів партії {{party.name}} з тегом "{{lawTag.bad}}"'
+                                    tooltip-popup-delay="500"
                                     class="text-{{lawTag.rate >= 50 ? 'muted' : 'danger'}}"
                                     style="cursor: pointer; font-weight: {{lawTag.rate >= 50 ? 'normal' : 'bold'}}">
                                     {{lawTag.bad}}
