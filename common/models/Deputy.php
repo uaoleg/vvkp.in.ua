@@ -22,6 +22,7 @@ use \yii\db\ActiveQuery;
  * @property-read array     $laws
  * @property-read array     $lawTags
  * @property-read array     $lawTagsInfo
+ * @property-read array     $phoneList
  */
 class Deputy extends BaseActiveRecord
 {
@@ -147,6 +148,15 @@ class Deputy extends BaseActiveRecord
         }
 
         return $lawTagsInfo;
+    }
+
+    /**
+     * Returns phones as array
+     * @return array
+     */
+    public function getPhoneList()
+    {
+        return explode(',', $this->phones);
     }
 
 }

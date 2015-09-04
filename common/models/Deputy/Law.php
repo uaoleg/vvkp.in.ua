@@ -13,8 +13,9 @@ use \yii\db\ActiveQuery;
  * @property string $lawId
  * @property string $vote
  *
- * @property-read \common\models\Law $law
- * @property-read LawTag $lawTag
+ * @property-read string                $lawDesc
+ * @property-read \common\models\Law    $law
+ * @property-read LawTag                $lawTag
  */
 class Law extends \common\models\BaseActiveRecord
 {
@@ -29,6 +30,23 @@ class Law extends \common\models\BaseActiveRecord
     public static function tableName()
     {
         return '{{%deputy_law}}';
+    }
+
+    /**
+     * Return law description based on deputy vote
+     * @return string
+     */
+    public function getLawDesc()
+    {
+        $law = $this->law;
+        if (!$law->good && ($this->vote === Law::VOTE_ABSENT)) {
+            $lawDesc = '';
+        } elseif ($this->vote === Law::VOTE_YES) {
+            $lawDesc = $law->descYes;
+        } else {
+            $lawDesc = $law->descNo;
+        }
+        return $lawDesc;
     }
 
     /**
