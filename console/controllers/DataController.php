@@ -12,15 +12,6 @@ class DataController extends BaseController
 {
 
     /**
-     * Returns path to data file
-     * @return string
-     */
-    public static function getDataPath()
-    {
-        return \yii::getAlias('@frontend') . '/data/data.json';;
-    }
-
-    /**
      * JSON => DB
      */
     public function actionImport()
@@ -28,7 +19,7 @@ class DataController extends BaseController
         error_reporting(E_ALL & ~E_NOTICE);
 
         // Get data
-        $data = json_decode(file_get_contents(static::getDataPath()));
+        $data = json_decode(file_get_contents(\yii::getAlias('@frontend') . '/data/data.json'));
 
         // Deputies
         Deputy::deleteAll();
@@ -109,7 +100,7 @@ class DataController extends BaseController
 
         // Laws
         $data['laws'] = [];
-        foreach (Law::find()->orderBy('no, id')->all() as $law) {
+        foreach (Law::find()->orderBy('(dateVoting IS NOT NULL), dateVoting DESC')->all() as $law) {
             $lawData = [
                 'id'        => $law->id,
                 'no'        => $law->no,
@@ -222,8 +213,26 @@ class DataController extends BaseController
         }
         $data['searchSuggestions'] = array_merge($tags, $tagsDeputyName, $tagsDeputyDistrict);
 
+        // Array data to json
         $json = json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
-        file_put_contents(static::getDataPath(), $json);
+
+        // Save data
+        chdir(\yii::getAlias('@frontend'));
+        file_put_contents('data/data.json', $json);
+        file_put_contents('js/data.js', "VVKP_DATA = {$json};");
+        $this->actionGzip();
+    }
+
+    /**
+     * Build and gzip files
+     */
+    public function actionGzip()
+    {
+        chdir(\yii::getAlias('@frontend'));
+        system('grunt');
+        system('gzip --best < index.html > index.min.html');
+        system('gzip --best < js/_/all.js > js/_/all.min.js');
+        system('gzip --best < css/_/all.css > css/_/all.min.css');
     }
 
 }
