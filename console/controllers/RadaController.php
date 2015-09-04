@@ -169,7 +169,13 @@ class RadaController extends BaseController
             foreach ($htmlRegistrations as $htmlRegistration) {
 
                 // Regular registration
-                if ($htmlRegistration->find('.strdate b')[0]->plaintext) {
+                if (!isset($htmlRegistration->find('.strdate b')[0])) {
+                    // Application for previous registration (http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_dep_reg_list?kod=242&startDate=04.12.2014&endDate=18.08.2015&nom_str=0)
+                    if (mb_strpos($htmlRegistration->plaintext, 'Присут') !== false) {
+                        $registration->isPresent = true;
+                        $registration->save();
+                    }
+                } else {
                     $regDate = date('Y-m-d', strtotime($htmlRegistration->find('.strdate b')[0]->plaintext));
                     $regType = mb_strpos($htmlRegistration->find('.zname a')[0]->plaintext, 'Ранкова') !== false
                         ? Registration::TYPE_MORNING
@@ -191,11 +197,6 @@ class RadaController extends BaseController
                     $registration->save();
                 }
 
-                // Application for previous registration (http://w1.c1.rada.gov.ua/pls/radan_gs09/ns_dep_reg_list?kod=242&startDate=04.12.2014&endDate=18.08.2015&nom_str=0)
-                elseif (mb_strpos($htmlRegistration->plaintext, 'Присут') !== false) {
-                    $registration->isPresent = true;
-                    $registration->save();
-                }
             }
         }
     }
