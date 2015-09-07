@@ -56,7 +56,11 @@ class Deputy extends BaseActiveRecord
      */
     public function getLaws()
     {
-        return $this->hasMany(Deputy\Law::class, ['deputyId' => 'id']);
+        $deputyLawTable = Deputy\Law::tableName();
+        $lawTable = Law::tableName();
+        return $this->hasMany(Deputy\Law::class, ['deputyId' => 'id'])
+            ->join('INNER JOIN', $lawTable, "{$lawTable}.id = {$deputyLawTable}.lawId")
+            ->orderBy("{$lawTable}.dateVoting DESC");
     }
 
     /**

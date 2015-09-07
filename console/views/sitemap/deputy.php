@@ -7,10 +7,11 @@ use common\models\LawTag;
 
 ?>
 
-<div modal-render="true" tabindex="-1" role="dialog" class="modal fade ng-isolate-scope in" modal-animation-class="fade" modal-in-class="in" ng-style="{&#39;z-index&#39;: 1050 + index*10, display: &#39;block&#39;}" ng-click="close($event)" modal-window="modal-window" index="0" animate="animate" modal-animation="true" style="z-index: 1050; display: block;">
-    <div class="modal-dialog" ng-class="size ? &#39;modal-&#39; + size : &#39;&#39;"><div class="modal-content" modal-transclude="">
+<div class="modal fade in" modal-animation-class="fade" modal-in-class="in" modal-window="modal-window" index="0" animate="animate" modal-animation="true" style="z-index: 1050; display: block;"
+     onclick="location.href = 'http://vvkp.in.ua'">
+    <div class="modal-dialog" onclick="event.stopPropagation();"><div class="modal-content" modal-transclude="">
     <div class="modal-header ng-scope">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true" ng-click="deputy.modalInstance.dismiss(&#39;cancel&#39;)">×</button>
+        <a type="button" class="close" data-dismiss="modal" aria-hidden="true" href="http://vvkp.in.ua">×</a>
         <table><tbody><tr>
             <td style="padding-right: 20px;">
                 <img ng-src="img/deputies/origin/2524.jpg" style="border-radius: 4px 0; box-shadow: 1px 1px 1px #999;" src="/img/deputies/origin/<?= $deputy->id ?>.jpg">
@@ -65,17 +66,25 @@ use common\models\LawTag;
             <tbody>
                 <?php foreach ($deputy->lawTags as $lawTagName): ?>
                     <?php
-                        $lawTagOpposite = LawTag::findOne(['name' => $lawTagName])->opposite;
-                        if (isset($deputy->lawTagsInfo[$lawTagOpposite]) && ($deputy->lawTagsInfo[$lawTagOpposite]['rate'] > $deputy->lawTagsInfo[$lawTagName]['rate'])) {
-                            continue;
+                        $tagLawIds = $deputy->lawTagsInfo[$lawTagName]['laws'];
+                        $lawTagOpposite = LawTag::findOne(['opposite' => $lawTagName]);
+                        if (isset($deputy->lawTagsInfo[$lawTagOpposite->name])) {
+                            if (($lawTagOpposite->type === LawTag::TYPE_SUCCESS) && $deputy->lawTagsInfo[$lawTagOpposite->name]['rate'] >= $deputy->lawTagsInfo[$lawTagName]['rate']) {
+                                continue;
+                            } elseif (($lawTagOpposite->type === LawTag::TYPE_DANGER) && $deputy->lawTagsInfo[$lawTagOpposite->name]['rate'] > $deputy->lawTagsInfo[$lawTagName]['rate']) {
+                                continue;
+                            }
+                            $tagLawIds = \yii\helpers\ArrayHelper::merge($tagLawIds, $deputy->lawTagsInfo[$lawTagOpposite->name]['laws']);
                         }
                     ?>
                     <tr ng-repeat="lawTagName in deputy.lawTags" ng-if="isDeputyLawTagRateBigger(deputy, lawTagName)" ng-show="!deputy.lawTagName || deputy.lawTagName &amp;&amp; deputy.lawTagName == lawTagName" ng-init="lawTag = getLawTag(lawTagName); laws = getDeputyLaws(deputy, lawTagName)" class="ng-scope">
                         <td>
-                            <?php foreach ($deputy->laws as $deputyLaw): ?>
+                            <?php foreach ($deputy->getLaws()->andWhere([
+                                'lawId' => $tagLawIds,
+                            ])->all() as $deputyLaw): ?>
                                 <?php /* @var $deputyLaw \common\models\Deputy\Law */ ?>
                                 <p ng-repeat="law in laws" style="font-size: 14px; line-height: 18px;" class="ng-scope">
-                                    <b class="text-success">
+                                    <b class="text-<?= $deputyLaw->lawTag->type ?>">
                                         <?= $deputyLaw->lawDesc ?>
                                         <?php if ($deputyLaw->lawId === 'відвідуваність'): ?>
                                         <span ng-if="law.id === &#39;відвідуваність&#39;" class="ng-binding ng-scope">
@@ -85,7 +94,6 @@ use common\models\LawTag;
                                     </b>
                                     /
                                     <i class="ng-binding">Реєстрація депутата за допомогою електронної системи</i>
-                                    <!-- ngIf: law.url -->
                                 </p>
                             <?php endforeach; ?>
                         </td>
@@ -106,3 +114,7 @@ use common\models\LawTag;
 </div>
 </div>
 </div>
+
+<script>
+</script>
+

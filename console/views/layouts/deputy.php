@@ -35,7 +35,7 @@ $deputy = $this->params['deputy'];
           background-position: top center;
     ">
 
-        <div class="modal-backdrop fade in" modal-animation-class="fade" modal-in-class="in" ng-style="{&#39;z-index&#39;: 1040 + (index &amp;&amp; 1 || 0) + index*10}" modal-backdrop="modal-backdrop" modal-animation="true" style="z-index: 1040;"></div>
+        <div class="modal-backdrop fade in" modal-animation-class="fade" modal-in-class="in" modal-backdrop="modal-backdrop" modal-animation="true" style="z-index: 1040;"></div>
 
         <?= $content ?>
 
