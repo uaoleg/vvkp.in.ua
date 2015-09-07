@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /депутати
+Disallow: /css
+Disallow: /data
+Disallow: /fonts
+Disallow: /img
+Disallow: /js
+Disallow: /template

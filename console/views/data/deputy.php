@@ -2,7 +2,7 @@
 
 /* @var $deputy \common\models\Deputy */
 
-use common\models\Law;
+use common\models\Deputy;
 use common\models\LawTag;
 
 ?>
@@ -67,6 +67,7 @@ use common\models\LawTag;
                 <?php foreach ($deputy->lawTags as $lawTagName): ?>
                     <?php
                         $tagLawIds = $deputy->lawTagsInfo[$lawTagName]['laws'];
+                        $lawTag = LawTag::findOne(['name' => $lawTagName]);
                         $lawTagOpposite = LawTag::findOne(['opposite' => $lawTagName]);
                         if (isset($deputy->lawTagsInfo[$lawTagOpposite->name])) {
                             if (($lawTagOpposite->type === LawTag::TYPE_SUCCESS) && $deputy->lawTagsInfo[$lawTagOpposite->name]['rate'] >= $deputy->lawTagsInfo[$lawTagName]['rate']) {
@@ -77,25 +78,33 @@ use common\models\LawTag;
                             $tagLawIds = \yii\helpers\ArrayHelper::merge($tagLawIds, $deputy->lawTagsInfo[$lawTagOpposite->name]['laws']);
                         }
                     ?>
-                    <tr ng-repeat="lawTagName in deputy.lawTags" ng-if="isDeputyLawTagRateBigger(deputy, lawTagName)" ng-show="!deputy.lawTagName || deputy.lawTagName &amp;&amp; deputy.lawTagName == lawTagName" ng-init="lawTag = getLawTag(lawTagName); laws = getDeputyLaws(deputy, lawTagName)" class="ng-scope">
+                    <tr>
                         <td>
-                            <?php foreach ($deputy->getLaws()->andWhere([
-                                'lawId' => $tagLawIds,
-                            ])->all() as $deputyLaw): ?>
-                                <?php /* @var $deputyLaw \common\models\Deputy\Law */ ?>
-                                <p ng-repeat="law in laws" style="font-size: 14px; line-height: 18px;" class="ng-scope">
-                                    <b class="text-<?= $deputyLaw->lawTag->type ?>">
-                                        <?= $deputyLaw->lawDesc ?>
-                                        <?php if ($deputyLaw->lawId === 'відвідуваність'): ?>
-                                        <span ng-if="law.id === &#39;відвідуваність&#39;" class="ng-binding ng-scope">
-                                            (83%)
+                            <?php if (in_array($lawTagName, ['працює', 'прогулює'])): ?>
+                                <p style="font-size: 14px; line-height: 18px;">
+                                    <b class="text-<?= $lawTag->type ?>">
+                                        <?= $lawTag->desc ?>
+                                        <span>
+                                            (<?= $deputy->registrationRate ?>%)
                                         </span>
-                                        <?php endif; ?>
                                     </b>
                                     /
                                     <i class="ng-binding">Реєстрація депутата за допомогою електронної системи</i>
                                 </p>
-                            <?php endforeach; ?>
+                            <?php else: ?>
+                                <?php foreach ($deputy->getLaws()->andWhere([
+                                    'lawId' => $tagLawIds,
+                                ])->all() as $deputyLaw): ?>
+                                    <?php /* @var $deputyLaw \common\models\Deputy\Law */ ?>
+                                    <p ng-repeat="law in laws" style="font-size: 14px; line-height: 18px;" class="ng-scope">
+                                        <b class="text-<?= $deputyLaw->lawTag->type ?>">
+                                            <?= $deputyLaw->lawDesc ?>
+                                        </b>
+                                        /
+                                        <i class="ng-binding">Реєстрація депутата за допомогою електронної системи</i>
+                                    </p>
+                                <?php endforeach; ?>
+                            <?php endif; ?>
                         </td>
                         <td style="width: 200px;">
                             <div class="progress ng-isolate-scope" ng-transclude="">

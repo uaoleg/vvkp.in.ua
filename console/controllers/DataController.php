@@ -83,6 +83,7 @@ class DataController extends BaseController
      */
     public function actionExport()
     {
+        echo "Export to data.json...";
         $data = [];
 
         // Parties
@@ -220,6 +221,7 @@ class DataController extends BaseController
         chdir(\yii::getAlias('@frontend'));
         file_put_contents('data/data.json', $json);
         file_put_contents('js/data.js', "VVKP_DATA = {$json};");
+        $this->actionStatic();
         $this->actionGzip();
     }
 
@@ -228,11 +230,33 @@ class DataController extends BaseController
      */
     public function actionGzip()
     {
+        echo "gzip...\n";
         chdir(\yii::getAlias('@frontend'));
         system('grunt');
         system('gzip --best < index.html > index.min.html');
         system('gzip --best < js/_/all.js > js/_/all.min.js');
         system('gzip --best < css/_/all.css > css/_/all.min.css');
+    }
+
+    /**
+     * Render static pages
+     */
+    public function actionStatic()
+    {
+        echo "Static pages for deputies...\n";
+        $this->layout = 'deputy';
+        $dir = \yii::getAlias('@frontend/депутати');
+        $deputies = Deputy::find()->orderBy('name')->all();
+        foreach ($deputies as $deputy) {
+            $this->view->params['deputy'] = $deputy;
+            $pageHtml = $this->render('deputy', [
+                'deputy' => $deputy,
+            ]);
+            $fileName = str_replace(' ', '-', "{$deputy->name} {$deputy->id}");
+			$file = fopen("wfio://{$dir}/{$fileName}.html", 'w');
+            fwrite($file, $pageHtml);
+            fclose($file);
+        }
     }
 
 }

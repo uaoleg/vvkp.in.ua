@@ -61,8 +61,17 @@
     <div class="modal-body ng-scope">
         <table class="table">
             <tbody>
-                                                        <tr ng-repeat="lawTagName in deputy.lawTags" ng-if="isDeputyLawTagRateBigger(deputy, lawTagName)" ng-show="!deputy.lawTagName || deputy.lawTagName &amp;&amp; deputy.lawTagName == lawTagName" ng-init="lawTag = getLawTag(lawTagName); laws = getDeputyLaws(deputy, lawTagName)" class="ng-scope">
+                                                        <tr>
                         <td>
+                                                            <p style="font-size: 14px; line-height: 18px;">
+                                    <b class="text-success">
+                                        Відвідано не менше половини засідань                                        <span>
+                                            (78%)
+                                        </span>
+                                    </b>
+                                    /
+                                    <i class="ng-binding">Реєстрація депутата за допомогою електронної системи</i>
+                                </p>
                                                     </td>
                         <td style="width: 200px;">
                             <div class="progress ng-isolate-scope" ng-transclude="">
@@ -72,57 +81,57 @@
                             <div class="progress-title ng-binding">працює</div>
                         </td>
                     </tr>
-                                                                            <tr ng-repeat="lawTagName in deputy.lawTags" ng-if="isDeputyLawTagRateBigger(deputy, lawTagName)" ng-show="!deputy.lawTagName || deputy.lawTagName &amp;&amp; deputy.lawTagName == lawTagName" ng-init="lawTag = getLawTag(lawTagName); laws = getDeputyLaws(deputy, lawTagName)" class="ng-scope">
+                                                                            <tr>
                         <td>
-                                                                                            <p ng-repeat="law in laws" style="font-size: 14px; line-height: 18px;" class="ng-scope">
-                                    <b class="text-success">
-                                        Підтримано спрощення процедури держзакупівель                                                                            </b>
-                                    /
-                                    <i class="ng-binding">Реєстрація депутата за допомогою електронної системи</i>
-                                </p>
-                                                                                            <p ng-repeat="law in laws" style="font-size: 14px; line-height: 18px;" class="ng-scope">
-                                    <b class="text-success">
-                                        Підтримано ліквідацію монополії ЖЕКів                                                                            </b>
-                                    /
-                                    <i class="ng-binding">Реєстрація депутата за допомогою електронної системи</i>
-                                </p>
-                                                                                            <p ng-repeat="law in laws" style="font-size: 14px; line-height: 18px;" class="ng-scope">
-                                    <b class="text-success">
-                                        Підтримано зменшення кількості процедур і часу реєстрації суб'єктів господарювання у фіскальній сфері та покращення позиції України в рейтингу Doing Business                                                                            </b>
-                                    /
-                                    <i class="ng-binding">Реєстрація депутата за допомогою електронної системи</i>
-                                </p>
-                                                                                            <p ng-repeat="law in laws" style="font-size: 14px; line-height: 18px;" class="ng-scope">
-                                    <b class="text-success">
-                                        Підтримано доступ до інформації про бюджетні показники у формі відкритих даних                                                                            </b>
-                                    /
-                                    <i class="ng-binding">Реєстрація депутата за допомогою електронної системи</i>
-                                </p>
-                                                                                            <p ng-repeat="law in laws" style="font-size: 14px; line-height: 18px;" class="ng-scope">
-                                    <b class="text-success">
-                                        Підтримано демонополізацію ринку природного газу                                                                            </b>
-                                    /
-                                    <i class="ng-binding">Реєстрація депутата за допомогою електронної системи</i>
-                                </p>
-                                                                                            <p ng-repeat="law in laws" style="font-size: 14px; line-height: 18px;" class="ng-scope">
-                                    <b class="text-success">
-                                        Сприяння в отриманні інвестицій на 800 мільйонів доларів Світового банку і японського уряду                                                                            </b>
-                                    /
-                                    <i class="ng-binding">Реєстрація депутата за допомогою електронної системи</i>
-                                </p>
-                                                                                            <p ng-repeat="law in laws" style="font-size: 14px; line-height: 18px;" class="ng-scope">
-                                    <b class="text-danger">
-                                        Не підтримано зняття регуляторних бар'єрів для розвитку державно-приватного партнерства в Україні та стимулювання інвестицій                                                                            </b>
-                                    /
-                                    <i class="ng-binding">Реєстрація депутата за допомогою електронної системи</i>
-                                </p>
-                                                                                            <p ng-repeat="law in laws" style="font-size: 14px; line-height: 18px;" class="ng-scope">
-                                    <b class="text-success">
-                                        Підтримано дерегуляцію                                                                            </b>
-                                    /
-                                    <i class="ng-binding">Реєстрація депутата за допомогою електронної системи</i>
-                                </p>
-                                                    </td>
+                                                                                                                                    <p ng-repeat="law in laws" style="font-size: 14px; line-height: 18px;" class="ng-scope">
+                                        <b class="text-success">
+                                            Підтримано спрощення процедури держзакупівель                                        </b>
+                                        /
+                                        <i class="ng-binding">Реєстрація депутата за допомогою електронної системи</i>
+                                    </p>
+                                                                                                        <p ng-repeat="law in laws" style="font-size: 14px; line-height: 18px;" class="ng-scope">
+                                        <b class="text-success">
+                                            Підтримано ліквідацію монополії ЖЕКів                                        </b>
+                                        /
+                                        <i class="ng-binding">Реєстрація депутата за допомогою електронної системи</i>
+                                    </p>
+                                                                                                        <p ng-repeat="law in laws" style="font-size: 14px; line-height: 18px;" class="ng-scope">
+                                        <b class="text-success">
+                                            Підтримано зменшення кількості процедур і часу реєстрації суб'єктів господарювання у фіскальній сфері та покращення позиції України в рейтингу Doing Business                                        </b>
+                                        /
+                                        <i class="ng-binding">Реєстрація депутата за допомогою електронної системи</i>
+                                    </p>
+                                                                                                        <p ng-repeat="law in laws" style="font-size: 14px; line-height: 18px;" class="ng-scope">
+                                        <b class="text-success">
+                                            Підтримано доступ до інформації про бюджетні показники у формі відкритих даних                                        </b>
+                                        /
+                                        <i class="ng-binding">Реєстрація депутата за допомогою електронної системи</i>
+                                    </p>
+                                                                                                        <p ng-repeat="law in laws" style="font-size: 14px; line-height: 18px;" class="ng-scope">
+                                        <b class="text-success">
+                                            Підтримано демонополізацію ринку природного газу                                        </b>
+                                        /
+                                        <i class="ng-binding">Реєстрація депутата за допомогою електронної системи</i>
+                                    </p>
+                                                                                                        <p ng-repeat="law in laws" style="font-size: 14px; line-height: 18px;" class="ng-scope">
+                                        <b class="text-success">
+                                            Сприяння в отриманні інвестицій на 800 мільйонів доларів Світового банку і японського уряду                                        </b>
+                                        /
+                                        <i class="ng-binding">Реєстрація депутата за допомогою електронної системи</i>
+                                    </p>
+                                                                                                        <p ng-repeat="law in laws" style="font-size: 14px; line-height: 18px;" class="ng-scope">
+                                        <b class="text-danger">
+                                            Не підтримано зняття регуляторних бар'єрів для розвитку державно-приватного партнерства в Україні та стимулювання інвестицій                                        </b>
+                                        /
+                                        <i class="ng-binding">Реєстрація депутата за допомогою електронної системи</i>
+                                    </p>
+                                                                                                        <p ng-repeat="law in laws" style="font-size: 14px; line-height: 18px;" class="ng-scope">
+                                        <b class="text-success">
+                                            Підтримано дерегуляцію                                        </b>
+                                        /
+                                        <i class="ng-binding">Реєстрація депутата за допомогою електронної системи</i>
+                                    </p>
+                                                                                    </td>
                         <td style="width: 200px;">
                             <div class="progress ng-isolate-scope" ng-transclude="">
                                 <div class="progress-bar ng-isolate-scope progress-bar-success" ng-class="type &amp;&amp; &#39;progress-bar-&#39; + type" role="progressbar" aria-valuenow="83" aria-valuemin="0" aria-valuemax="100" ng-style="{width: (percent &lt; 100 ? percent : 100) + &#39;%&#39;}" aria-valuetext="83%" ng-transclude="" value="lawTag.type == &#39;success&#39; ? deputy.lawTagsInfo[lawTag.name].rate : 100-deputy.lawTagsInfo[lawTag.name].rate" type="success" style="width: 83%;"></div>
@@ -131,15 +140,15 @@
                             <div class="progress-title ng-binding">новатор</div>
                         </td>
                     </tr>
-                                                        <tr ng-repeat="lawTagName in deputy.lawTags" ng-if="isDeputyLawTagRateBigger(deputy, lawTagName)" ng-show="!deputy.lawTagName || deputy.lawTagName &amp;&amp; deputy.lawTagName == lawTagName" ng-init="lawTag = getLawTag(lawTagName); laws = getDeputyLaws(deputy, lawTagName)" class="ng-scope">
+                                                        <tr>
                         <td>
-                                                                                            <p ng-repeat="law in laws" style="font-size: 14px; line-height: 18px;" class="ng-scope">
-                                    <b class="text-success">
-                                        Підписано постанову про звільнення гепрокурора Віктора Шокіна                                                                            </b>
-                                    /
-                                    <i class="ng-binding">Реєстрація депутата за допомогою електронної системи</i>
-                                </p>
-                                                    </td>
+                                                                                                                                    <p ng-repeat="law in laws" style="font-size: 14px; line-height: 18px;" class="ng-scope">
+                                        <b class="text-success">
+                                            Підписано постанову про звільнення гепрокурора Віктора Шокіна                                        </b>
+                                        /
+                                        <i class="ng-binding">Реєстрація депутата за допомогою електронної системи</i>
+                                    </p>
+                                                                                    </td>
                         <td style="width: 200px;">
                             <div class="progress ng-isolate-scope" ng-transclude="">
                                 <div class="progress-bar ng-isolate-scope progress-bar-success" ng-class="type &amp;&amp; &#39;progress-bar-&#39; + type" role="progressbar" aria-valuenow="83" aria-valuemin="0" aria-valuemax="100" ng-style="{width: (percent &lt; 100 ? percent : 100) + &#39;%&#39;}" aria-valuetext="83%" ng-transclude="" value="lawTag.type == &#39;success&#39; ? deputy.lawTagsInfo[lawTag.name].rate : 100-deputy.lawTagsInfo[lawTag.name].rate" type="success" style="width: 83%;"></div>

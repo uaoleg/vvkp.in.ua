@@ -68,8 +68,17 @@
     <div class="modal-body ng-scope">
         <table class="table">
             <tbody>
-                                                        <tr ng-repeat="lawTagName in deputy.lawTags" ng-if="isDeputyLawTagRateBigger(deputy, lawTagName)" ng-show="!deputy.lawTagName || deputy.lawTagName &amp;&amp; deputy.lawTagName == lawTagName" ng-init="lawTag = getLawTag(lawTagName); laws = getDeputyLaws(deputy, lawTagName)" class="ng-scope">
+                                                        <tr>
                         <td>
+                                                            <p style="font-size: 14px; line-height: 18px;">
+                                    <b class="text-success">
+                                        Відвідано не менше половини засідань                                        <span>
+                                            (100%)
+                                        </span>
+                                    </b>
+                                    /
+                                    <i class="ng-binding">Реєстрація депутата за допомогою електронної системи</i>
+                                </p>
                                                     </td>
                         <td style="width: 200px;">
                             <div class="progress ng-isolate-scope" ng-transclude="">
