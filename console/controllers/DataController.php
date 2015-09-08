@@ -243,11 +243,17 @@ class DataController extends BaseController
      */
     public function actionStatic()
     {
+        $sitemap =
+            '<?xml version="1.0" encoding="UTF-8"?>' .
+                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';
+
         echo "Static pages for deputies...\n";
         $this->layout = 'deputy';
         $dir = \yii::getAlias('@frontend/депутати');
         $deputies = Deputy::find()->orderBy('name')->all();
         foreach ($deputies as $deputy) {
+
+            // Save deputy page
             $this->view->params['deputy'] = $deputy;
             $pageHtml = $this->render('deputy', [
                 'deputy' => $deputy,
@@ -256,7 +262,14 @@ class DataController extends BaseController
 			$file = fopen("wfio://{$dir}/{$fileName}.html", 'w');
             fwrite($file, $pageHtml);
             fclose($file);
+
+            // Append to sitemap
+            $sitemap .= "<url><loc>http://vvkp.in.ua/депутати/{$fileName}.html</loc></url>";
         }
+
+        echo "Sitemap...\n";
+        $sitemap .= '</urlset>';
+        file_put_contents(\yii::getAlias('@frontend') . '/sitemap.xml', $sitemap);
     }
 
 }
