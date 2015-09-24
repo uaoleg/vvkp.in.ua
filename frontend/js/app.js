@@ -384,27 +384,32 @@
                 statsPartiesLawTags = [],
                 statsPartiesLawCount = 0,
                 statsLawTags = {},
-                stats = {parties: [], lawTags: [], selectedParty: '', selectedLawTag: ''};
+                stats = {parties: [], lawTags: [], selectedParty: '', selectedLawTag: ''},
+                dateNow = new Date().getTime() / 1000;
 
             searchTags.forEach(function(option) {
                 searchString = option.name.toLowerCase();
                 searchTags_lc.push(searchString);
-                deputies = deputies.filter(function(item) {
+                deputies = deputies.filter(function(deputy) {
                     var tagIndex;
                     // Check name
-                    if (item.name.toLowerCase().indexOf(searchString) > -1) {
+                    if (deputy.name.toLowerCase().indexOf(searchString) > -1) {
                         return true;
                     }
+                    // Filter fired deputies
+                    if (deputy.dateAuthorityStop && (deputy.dateAuthorityStop < dateNow)) {
+                        return false;
+                    }
                     // Check law tags
-                    tagIndex = item.lawTags.indexOf(searchString);
+                    tagIndex = deputy.lawTags.indexOf(searchString);
                     if (tagIndex > -1) {
-                        item.searchRate = item.lawTagsInfo[item.lawTags[tagIndex]].rate;
+                        deputy.searchRate = deputy.lawTagsInfo[deputy.lawTags[tagIndex]].rate;
                         return true;
                     }
                     // Check party
-                    if (item.party.toLowerCase().indexOf(searchString) > -1) return true;
+                    if (deputy.party.toLowerCase().indexOf(searchString) > -1) return true;
                     // Check district
-                    if (item.district && item.district.text.toLowerCase().indexOf(searchString) > -1) return true;
+                    if (deputy.district && deputy.district.text.toLowerCase().indexOf(searchString) > -1) return true;
                     return false;
                 });
                 if (parties_lc.indexOf(searchString) > -1) {
@@ -416,16 +421,6 @@
                     stats.selectedLawTag = option.name;
                 }
             });
-            // Filter fired deputies if no search tag or searched by party
-            if ((searchTags.length === 0) || ((searchTags.length === 1) && (hasParty))) {
-                deputies = deputies.filter(function(deputy) {
-                    if (deputy.dateAuthorityStop && (deputy.dateAuthorityStop * 1000 < new Date().getTime())) {
-                        return false;
-                    } else {
-                        return true;
-                    }
-                });
-            }
             // Sort deputies
             deputies.sort(function(a, b) {
                 if (a.searchRate < b.searchRate) {
