@@ -137,7 +137,7 @@
 
         $scope.deputyPage = function(deputy) {
             var modalInstance = $modal.open({
-                templateUrl: 'template/deputy/page.html?vvkp-version-2.0.3',
+                templateUrl: 'template/deputy/page.html?vvkp-version-2.0.4',
                 scope: $scope,
                 animation: true
             });
