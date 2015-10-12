@@ -34536,6 +34536,7 @@ VVKP_DATA = {
                 stats = {parties: [], lawTags: [], selectedParty: '', selectedLawTag: ''},
                 dateNow = new Date().getTime() / 1000;
 
+            // Filter deputies by search tags
             searchTags.forEach(function(option) {
                 searchString = option.name.toLowerCase();
                 searchTags_lc.push(searchString);
@@ -34570,6 +34571,18 @@ VVKP_DATA = {
                     stats.selectedLawTag = option.name;
                 }
             });
+
+            // If no search tags, than filter fired deputies
+            if (searchTags.length === 0) {
+                deputies = deputies.filter(function(deputy) {
+                    if (deputy.dateAuthorityStop && (deputy.dateAuthorityStop < dateNow)) {
+                        return false;
+                    } else {
+                        return true;
+                    }
+                });
+            }
+
             // Sort deputies
             deputies.sort(function(a, b) {
                 if (a.searchRate < b.searchRate) {
