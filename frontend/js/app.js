@@ -1,10 +1,12 @@
 (function (angular) {
 
+    'use strict';
+
     // TODO: Make correct file structure.
-    angular.module('vvkp-app', ['ui.bootstrap', 'ngTagsInput', 'angular-progress-arc']);
+    angular.module('vvkp-app', ['ui.bootstrap', 'ngTagsInput', 'angular-progress-arc', 'vvkp-app.common']);
 
     angular.module('vvkp-app')
-      .controller('deputiesListCtrl', ['$scope', '$http', '$timeout', '$location', '$modal', function($scope, $http, $timeout, $location, $modal) {
+      .controller('deputiesListCtrl', ['$scope', '$rootScope', '$http', '$timeout', '$location', '$modal', function($scope, $rootScope, $http, $timeout, $location, $modal) {
         $scope.mainTabRadio;
         $scope.searchedDeputies = [];
         $scope.searchTags = [];

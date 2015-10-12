@@ -4,7 +4,15 @@ module.exports = function (grunt) {
     // define source files and their destinations
     concat: {
         dist: {
-            src: ['js/data.js', 'js/*.js', 'js/**/*.js', '!js/_/*.js'],
+            src: [
+                'js/data.js',
+                'js/common/common.js',
+                'js/common/features/features.js',
+                'js/common/**/*.js',
+                'js/*.js',
+                'js/**/*.js',
+                '!js/_/*.js'
+            ],
             dest: 'js/_/all.comb.js'
         }
     },

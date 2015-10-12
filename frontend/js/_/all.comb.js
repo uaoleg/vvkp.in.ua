@@ -33885,6 +33885,178 @@ VVKP_DATA = {
 
     'use strict';
 
+    angular.module('vvkp-app.common', [
+        'vvkp-app.common.features'
+    ]);
+
+})(window.angular);
+(function (angular) {
+
+    'use strict';
+
+    angular.module('vvkp-app.common.features', [
+        'vvkp-app.common.features.abstract-entity',
+        'vvkp-app.common.features.deputy'
+    ]);
+
+})(window.angular);
+
+(function (angular) {
+
+    'use strict';
+
+    angular.module('vvkp-app.common.features.abstract-entity', []).
+
+    factory('AbstractEntity', function () {
+
+        /**
+         * @class AbstractEntity
+         * @abstract
+         * @constructor
+         */
+        function AbstractEntity() {
+            this.initialize.apply(this, arguments);
+        }
+
+        AbstractEntity.prototype.initialize = function () {};
+
+        /**
+         * @method onExtend
+         * @static
+         * @description Called on class initialization
+         */
+        AbstractEntity.onExtend = function () {};
+
+        /**
+         * @method extend
+         * @static
+         * @description Extends class
+         * @param {Object} protoProperties (Optional)
+         * @param {Object} staticProperties (Optional)
+         * @return {Function}
+         */
+        AbstractEntity.extend = function (protoProperties, staticProperties) {
+            var Parent = this,
+                Child;
+
+            if (protoProperties && Object.prototype.hasOwnProperty.call(protoProperties, 'constructor')) {
+                Child = protoProperties.constructor;
+            } else {
+                Child = function () {
+                    return Parent.apply(this, arguments);
+                };
+            }
+
+            angular.extend(Child, Parent, staticProperties);
+
+            Child.prototype = Object.create(Parent.prototype, {
+                constructor: {
+                    value: Child,
+                    writable: true
+                }
+            });
+
+            angular.extend(Child.prototype, protoProperties);
+
+            Object.defineProperties(Child, {
+                super: {
+                    value: Parent.prototype
+                }
+            });
+
+            Child.onExtend(protoProperties, staticProperties);
+
+            return Child;
+        };
+
+        return AbstractEntity;
+    });
+
+})(window.angular);
+
+(function (angular) {
+
+    'use strict';
+
+    angular.module('vvkp-app.common.features.deputy', [])
+
+    .factory('DeputyModel', function (AbstractEntity) {
+
+        var DeputyModel = AbstractEntity.extend({
+            /**
+             * Initialize object
+             * @param {DeputyModel} data
+             */
+            initialize: function (data) {
+                if ((typeof data !== 'object') || (data === null)) {
+                    data = {};
+                }
+                this.id = data.id || '';
+                this.name = data.name || '';
+            }
+        });
+
+        return DeputyModel;
+    });
+
+})(window.angular);
+
+(function (angular) {
+
+    'use strict';
+
+    angular.module('vvkp-app.common.features.deputy').
+
+    factory('DeputyCollection', function (AbstractEntity, DeputyModel) {
+
+        var DeputyCollection = AbstractEntity.extend({
+
+            /**
+             * Initialize collection
+             */
+            initialize: function () {
+
+            }
+
+        });
+
+        return DeputyCollection;
+
+    });
+
+})(window.angular);
+
+(function (angular) {
+
+    'use strict';
+
+    angular.module('vvkp-app.common.features.deputy').
+
+    factory('DeputyModel2', ['AbstractEntity', function (AbstractEntity) {
+
+        var DeputyModel = AbstractEntity.extend({
+            /**
+             * Initialize object
+             * @param {DeputyModel} data
+             */
+            initialize: function (data) {
+                if ((typeof data !== 'object') || (data === null)) {
+                    data = {};
+                }
+                this.id = data.id || '';
+                this.name = data.name || '';
+            }
+        });
+
+        return DeputyModel;
+    }]);
+
+})(window.angular);
+
+(function (angular) {
+
+    'use strict';
+
     var app = angular.module('angular-progress-arc', []);
 
     app.provider('progressArcDefaults', function () {
@@ -33975,11 +34147,13 @@ VVKP_DATA = {
 })(window.angular);
 (function (angular) {
 
+    'use strict';
+
     // TODO: Make correct file structure.
-    angular.module('vvkp-app', ['ui.bootstrap', 'ngTagsInput', 'angular-progress-arc']);
+    angular.module('vvkp-app', ['ui.bootstrap', 'ngTagsInput', 'angular-progress-arc', 'vvkp-app.common']);
 
     angular.module('vvkp-app')
-      .controller('deputiesListCtrl', ['$scope', '$http', '$timeout', '$location', '$modal', function($scope, $http, $timeout, $location, $modal) {
+      .controller('deputiesListCtrl', ['$scope', '$rootScope', '$http', '$timeout', '$location', '$modal', function($scope, $rootScope, $http, $timeout, $location, $modal) {
         $scope.mainTabRadio;
         $scope.searchedDeputies = [];
         $scope.searchTags = [];
@@ -34732,49 +34906,3 @@ VVKP_DATA = {
     };
 
 }).call(this);
-'use strict';
-
-angular.module('vvkp-app.deputy', []);
-'use strict';
-
-angular.module('vvkp-app.deputy').
-
-factory('DeputyCollection', function ($http, $localStorage, AbstractEntity, DeputyModel) {
-
-    var DeputyCollection = AbstractEntity.extend({
-
-        /**
-         * Initialize collection
-         */
-        initialize: function () {
-
-        },
-
-    });
-
-    return DeputyCollection;
-
-});
-
-'use strict';
-
-angular.module('vvkp-app.deputy').
-
-factory('DeputyModel', function (AbstractEntity) {
-
-    var DeputyModel = AbstractEntity.extend({
-        /**
-         * Initialize object
-         * @param {DeputyModel} data
-         */
-        initialize: function (data) {
-            if ((typeof data !== 'object') || (data === null)) {
-                data = {};
-            }
-            this.id = data.id || '';
-            this.name = data.name || '';
-        }
-    });
-
-    return DeputyModel;
-});
