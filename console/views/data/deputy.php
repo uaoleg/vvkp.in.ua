@@ -26,7 +26,7 @@ use common\models\LawTag;
                                 <img ng-src="img/icon/party-16.png" tooltip="Партія" tooltip-placement="left" style="opacity: 0.4" src="/img/icon/party-16.png">
                             </td>
                             <td>
-                                <img ng-src="img/parties/100x35/Батьківщина.png" class="deputy-party" style="cursor: default; margin: 0;" src="/img/parties/100x35/<?= $deputy->partyName ?>.png">
+                                <img class="deputy-party" style="cursor: default; margin: 0;" src="/img/parties/100x35/<?= $deputy->partyName ?>.png">
                             </td>
                         </tr>
                         <?php endif; ?>
@@ -107,9 +107,36 @@ use common\models\LawTag;
                             <?php endif; ?>
                         </td>
                         <td style="width: 200px;">
+                            <?php
+                                if ($lawTagName === 'працює') {
+                                    $progress = $deputy->registrationRate;
+                                } elseif ($lawTagName === 'прогулює') {
+                                    $progress = 100 - $deputy->registrationRate;
+                                } elseif ($lawTag->type === LawTag::TYPE_SUCCESS) {
+                                    $progress = $deputy->lawTagsInfo[$lawTagName]['rate'];
+                                } elseif ($lawTag->type === LawTag::TYPE_DANGER) {
+                                    $progress = 100 - $deputy->lawTagsInfo[$lawTagName]['rate'];
+                                } else {
+                                    $progress = 0;
+                                }
+                            ?>
                             <div class="progress ng-isolate-scope" ng-transclude="">
-                                <div class="progress-bar ng-isolate-scope progress-bar-success" ng-class="type &amp;&amp; &#39;progress-bar-&#39; + type" role="progressbar" aria-valuenow="83" aria-valuemin="0" aria-valuemax="100" ng-style="{width: (percent &lt; 100 ? percent : 100) + &#39;%&#39;}" aria-valuetext="83%" ng-transclude="" value="lawTag.type == &#39;success&#39; ? deputy.lawTagsInfo[lawTag.name].rate : 100-deputy.lawTagsInfo[lawTag.name].rate" type="success" style="width: 83%;"></div>
-                                <div class="progress-bar ng-isolate-scope progress-bar-danger" ng-class="type &amp;&amp; &#39;progress-bar-&#39; + type" role="progressbar" aria-valuenow="17" aria-valuemin="0" aria-valuemax="100" ng-style="{width: (percent &lt; 100 ? percent : 100) + &#39;%&#39;}" aria-valuetext="17%" ng-transclude="" value="lawTag.type == &#39;danger&#39; ? deputy.lawTagsInfo[lawTag.name].rate : 100-deputy.lawTagsInfo[lawTag.name].rate" type="danger" style="width: 17%;"></div>
+                                <div class="progress-bar progress-bar-success"
+                                     role="progressbar"
+                                     aria-valuenow="<?= $progress ?>"
+                                     aria-valuemin="0"
+                                     aria-valuemax="100"
+                                     aria-valuetext="<?= $progress ?>%"
+                                     type="success"
+                                     style="width: <?= $progress ?>%;"></div>
+                                <div class="progress-bar progress-bar-danger"
+                                     role="progressbar"
+                                     aria-valuenow="<?= 100 - $progress ?>"
+                                     aria-valuemin="0"
+                                     aria-valuemax="100"
+                                     aria-valuetext="<?= 100 - $progress ?>%"
+                                     type="danger"
+                                     style="width: <?= 100 - $progress ?>%;"></div>
                             </div>
                             <div class="progress-title ng-binding"><?= $lawTagName ?></div>
                         </td>
