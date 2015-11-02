@@ -42,12 +42,17 @@ class Deputy extends BaseActiveRecord
      */
     public function getRegistrationRate()
     {
-        $isPresentCount = (int)Deputy\Registration::find()->where([
-            'deputyId'  => $this->id,
-            'isPresent' => 1,
-        ])->count();
         $totalCount = (int)Deputy\Registration::find()->where(['deputyId'  => $this->id])->count();
-        return round($isPresentCount / $totalCount * 100);
+        if (!$totalCount) {
+            $rate = 0;
+        } else {
+            $isPresentCount = (int)Deputy\Registration::find()->where([
+                'deputyId'  => $this->id,
+                'isPresent' => 1,
+            ])->count();
+            $rate = round($isPresentCount / $totalCount * 100);
+        }
+        return $rate;
     }
 
     /**
