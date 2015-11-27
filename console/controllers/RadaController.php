@@ -152,7 +152,12 @@ class RadaController extends BaseController
 
             // Get link to registrations
             $url = "http://itd.rada.gov.ua/mps/info/page/{$deputy->id}";
-            $content = file_get_contents($url);
+            do {
+                $content = @file_get_contents($url);
+                if ($content === false) {
+                    echo '.';
+                }
+            } while ($content === false);
             $html = $this->parser->str_get_html($content);
             $link = $html->find('.topTitle a', 1); // Реєстрація депутата за допомогою електронної системи
             $url = parse_url($link->href);
